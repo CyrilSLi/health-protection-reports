@@ -8,14 +8,10 @@ from dateparser import parse as date_parse
 import pdfplumber
 import requests as r
 
-# Try to load LXML or fallback to cET or ET
 try:
-    import lxml.etree as etree
+    import xml.etree.cElementTree as etree
 except ImportError:
-    try:
-        import xml.etree.cElementTree as etree
-    except ImportError:
-        import xml.etree.ElementTree as etree
+    import xml.etree.ElementTree as etree
 
 def pdf_rows (file):
     rows, output = [], []
@@ -123,14 +119,17 @@ def default_ts (timestamp, kind):
         raise ValueError (f"Unknown timestamp kind {kind}")
 
 def main ():
+    def save ():
+        with open ("data.json", "w") as f: # ("data.json", "w") as f:
+            json.dump (data, f, indent = 4, ensure_ascii = False)
     with open ("data.json") as f:
         data = json.load (f)
     rss = r.get ("https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/hpr.rss")
     rss.raise_for_status ()
     rss = etree.fromstring (rss.text)
 
-    for i in rss.iter ("item"):
-        title = i.find ("title").text.lower ()
+    for item in rss.iter ("item"):
+        title = item.find ("title").text.lower ()
         for j in ("closures", "convictions"):
             if j in title:
                 title = j
@@ -138,38 +137,40 @@ def main ():
         else:
             raise ValueError (f"Unknown item {title}")
 
-        timestamp = round (date_parse (i.find ("pubDate").text).replace (tzinfo = tz.utc).timestamp ())
-        if timestamp <= data [title].get ("timestamp", 0):
-            continue
-        pdf_url = i.find ("link").text
-        # items = pdf_rows (pdf_url)
+        timestamp = round (date_parse (item.find ("pubDate").text).replace (tzinfo = tz.utc).timestamp ())
+        items = data [title].get ("items")
+        if timestamp > data [title].get ("timestamp", 0) or not items:
+            pdf_url = item.find ("link").text
+            items = pdf_rows (pdf_url)
+            data [title] = {
+                "timestamp": timestamp,
+                "url": pdf_url
+            }
 
-        if title == "closures":
-            items = pdf_rows (io.BytesIO (open ("/tmp/closures.pdf", "rb").read ()))
-        else:
-            items = pdf_rows (io.BytesIO (open ("/tmp/convictions.pdf", "rb").read ()))
+            prev_items = set (json.dumps (i, sort_keys = True) for i in data [title].setdefault ("items", []))
+            new_count = 0
+            for i in (i for i in items if json.dumps (i, sort_keys = True) not in prev_items):
+                data [title] ["items"].append (i)
+                new_count += 1
+            
+            print (f"Added {new_count} new items to {title} ({len (data [title] ['items'])} total)")
+            save ()
 
         url_cache = {}
-        for i in items [ : 5]:
+        for i in items:
+            if "maps" in i or "mobile food unit" in i ["addr"].lower ():
+                continue
             cache_key = i ["name"] + " " + i ["addr"]
             if cache_key in url_cache:
                 i.update (url_cache [cache_key])
                 continue
             url_data = maps_url (i ["name"], i ["addr"])
-            if url is None:
+            if url_data is None:
                 continue
-            i.update (url_data)
+            i ["maps"] = url_data
             url_cache [cache_key] = url_data
+            save ()
             print (f"Added URL {url_data ['url']}")
-
-        data [title] = {
-            "timestamp": timestamp,
-            "url": pdf_url,
-            "items": items
-        }
-
-    with open ("data1.json", "w") as f: # ("data.json", "w") as f:
-        json.dump (data, f, indent = 4, ensure_ascii = False)
 
 if __name__ == "__main__":
     main ()
