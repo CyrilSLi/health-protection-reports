@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MB Health Protection Reports Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/split.js@1/dist/split.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.min.js"></script>
+    <style>
+        * {
+            touch-action: manipulation;
+            margin: 0px;
+            padding: 0px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            font-weight: normal;
+            border: none;
+        }
+        body {
+            height: 100dvh;
+            display: flex;
+        }
+        #map {
+            flex: 1;
+        }
+    </style>
+</head>
+<body onload="brython(0)">
+    <noscript>
+        <p style = "margin: 20px; font-size: 20px; color: black;">JavaScript is required to use this website.</p>
+    </noscript>
+    <script type="text/python">
+        from browser import ajax, document, window
+        map = window.L.map ("map", {
+            "center": [49.90, -97.14],
+            "zoom": 11
+        })
+        window.L.tileLayer ("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+            "maxZoom": 19
+        }).addTo (map)
+    </script>
+    <div id="map"></div>
+    <div id="sidebar">
+    </div>
+</body>
+</html>

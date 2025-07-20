@@ -1,5 +1,5 @@
 # Built-in modules
-import io, json
+import io, json, sys
 from datetime import datetime as dt, timezone as tz
 from urllib.parse import quote_plus
 
@@ -12,6 +12,8 @@ try:
     import xml.etree.cElementTree as etree
 except ImportError:
     import xml.etree.ElementTree as etree
+
+url_cache = {}
 
 def pdf_rows (file):
     rows, output = [], []
@@ -76,22 +78,30 @@ def pdf_rows (file):
         output.append (row)
     return output
 
-def maps_url (name, addr):
+def maps_url (item, name = True):
+    global url_cache
+    if "maps" in item or "mobile food unit" in item ["addr"].lower ():
+        return
+    cache_key = item ["name"] + " " + item ["addr"]
+    if cache_key in url_cache:
+        item ["maps"] = url_cache [cache_key]
+        return
+
     headers = {
         "Connection": "keep-alive",
-        "Host": "www.google.com",
         "Referer": "https://www.google.com/maps/search/?api=1&query=",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     }
-    maps = r.get ("https://www.google.com/maps/search/?api=1&query=" + quote_plus (name + " " + addr), headers = headers)
+    maps = r.get ("https://www.google.com/maps/search/?api=1&query=" + quote_plus ((item ["name"] + " " if name else "") + item ["addr"]), headers = headers)
     maps.raise_for_status ()
     maps = maps.text
     url_start = maps.find (r'\"https://www.google.com/maps/preview/place/')
     if url_start == -1:
-        if name == "":
-            print (f"Warning: Address {addr} not found.")
-            return
-        return maps_url ("", addr) # Search by address only
+        if not name:
+            print (f"Warning: Address {item ['addr']} not found.")
+        else:
+            maps_url (item, False) # Search by address only
+        return
     else:
         url_start += 2 # Skip leading quote
     url_end = url_start + maps [url_start : ].find (r'\"')
@@ -99,11 +109,13 @@ def maps_url (name, addr):
     coord_start = url.find ("/@") + 2
     lat_end = coord_start + url [coord_start : ].find (",")
     lon_end = lat_end + 1 + url [lat_end + 1 : ].find (",")
-    return {
+    item ["maps"] = {
         "url": url,
         "lat": float (url [coord_start : lat_end]),
         "lon": float (url [lat_end + 1 : lon_end])
     }
+    url_cache [cache_key] = item ["maps"]
+    return True
 
 def default_ts (timestamp, kind):
     parsed = date_parse (timestamp)
@@ -120,16 +132,26 @@ def default_ts (timestamp, kind):
 
 def main ():
     def save ():
-        with open ("data.json", "w") as f: # ("data.json", "w") as f:
-            json.dump (data, f, indent = 4, ensure_ascii = False)
-    with open ("data.json") as f:
-        data = json.load (f)
+        with open ("data.json", "w") as f:
+            json.dump (data, f, indent = 1, ensure_ascii = False)
+    try:
+        with open ("data.json") as f:
+            data = json.load (f)
+    except FileNotFoundError:
+        data = {
+            "closures": {
+                "timestamp": 0
+            },
+            "convictions": {
+                "timestamp": 0
+            }
+        }
     rss = r.get ("https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/hpr.rss")
     rss.raise_for_status ()
     rss = etree.fromstring (rss.text)
 
-    for item in rss.iter ("item"):
-        title = item.find ("title").text.lower ()
+    for file in rss.iter ("item"):
+        title = file.find ("title").text.lower ()
         for j in ("closures", "convictions"):
             if j in title:
                 title = j
@@ -137,40 +159,51 @@ def main ():
         else:
             raise ValueError (f"Unknown item {title}")
 
-        timestamp = round (date_parse (item.find ("pubDate").text).replace (tzinfo = tz.utc).timestamp ())
-        items = data [title].get ("items")
-        if timestamp > data [title].get ("timestamp", 0) or not items:
-            pdf_url = item.find ("link").text
-            items = pdf_rows (pdf_url)
-            data [title] = {
+        timestamp = round (date_parse (file.find ("pubDate").text).replace (tzinfo = tz.utc).timestamp ())
+        prev_items = data [title].get ("items")
+        if timestamp > data [title].get ("timestamp", 0) or not prev_items or sys.argv [1 : ] in (["--force"], ["-f"]):
+            pdf_url = file.find ("link").text
+            data [title].update ({
                 "timestamp": timestamp,
                 "url": pdf_url
-            }
+            })
 
-            prev_items = set (json.dumps (i, sort_keys = True) for i in data [title].setdefault ("items", []))
+            prev_hash = set ()
+            for i in data [title].setdefault ("items", []):
+                item = i.copy ()
+                item.pop ("maps", None)
+                prev_hash.add (json.dumps (item, sort_keys = True))
+            new_items = pdf_rows (pdf_url)
+
             new_count = 0
-            for i in (i for i in items if json.dumps (i, sort_keys = True) not in prev_items):
-                data [title] ["items"].append (i)
-                new_count += 1
-            
+            def overwrite (keys, item, items):
+                nonlocal new_count
+                dups = tuple (i for i in items if all (i.get (k) == item [k] for k in keys))
+                if len (dups) > 1:
+                    print (f"Warning: Multiple items with keys {({i: item [i] for i in keys})} found, stopping overwrite")
+                elif len (dups) == 1:
+                    print (f"Overwriting item with keys {({i: item [i] for i in keys})}")
+                    items.remove (dups [0])
+                    items.insert (0, item)
+                    new_count += 1
+                else:
+                    return True
+
+            for i in new_items:
+                if json.dumps (i, sort_keys = True) in prev_hash: # Identical
+                    continue
+                if overwrite (("name", "addr", "type", "start"), i, prev_items):
+                    maps_url (i)
+                    if overwrite (("maps", "start"), i, prev_items): # New item
+                        prev_items.insert (0, i)
+                        new_count += 1
             print (f"Added {new_count} new items to {title} ({len (data [title] ['items'])} total)")
             save ()
 
-        url_cache = {}
-        for i in items:
-            if "maps" in i or "mobile food unit" in i ["addr"].lower ():
-                continue
-            cache_key = i ["name"] + " " + i ["addr"]
-            if cache_key in url_cache:
-                i.update (url_cache [cache_key])
-                continue
-            url_data = maps_url (i ["name"], i ["addr"])
-            if url_data is None:
-                continue
-            i ["maps"] = url_data
-            url_cache [cache_key] = url_data
-            save ()
-            print (f"Added URL {url_data ['url']}")
+        for i in data [title] ["items"]:
+            if maps_url (i):
+                save ()
+                print (f"Added URL {i ['maps'] ['url']}")
 
 if __name__ == "__main__":
     main ()
