@@ -15,6 +15,31 @@ except ImportError:
 
 url_cache = {}
 
+def open_data ():
+    prefix = "window.healthData = "
+    try:
+        with open ("data.js") as f:
+            f.read (len (prefix))
+            return json.loads (f.read ())
+    except FileNotFoundError:
+        try:
+            with open ("data.json") as f:
+                return json.load (f)
+        except FileNotFoundError:
+            return {
+                "closures": {
+                    "timestamp": 0
+                },
+                "convictions": {
+                    "timestamp": 0
+                }
+            }
+
+def save_data (data):
+    with open ("data.js", "w") as f:
+        f.write ("window.healthData = ")
+        f.write (json.dumps (data, indent = 1, ensure_ascii = False))
+
 def pdf_rows (file):
     rows, output = [], []
     if isinstance (file, str):
@@ -131,9 +156,6 @@ def default_ts (timestamp, kind):
         raise ValueError (f"Unknown timestamp kind {kind}")
 
 def main ():
-    def save ():
-        with open ("data.json", "w") as f:
-            json.dump (data, f, indent = 1, ensure_ascii = False)
     try:
         with open ("data.json") as f:
             data = json.load (f)
@@ -198,11 +220,11 @@ def main ():
                         prev_items.insert (0, i)
                         new_count += 1
             print (f"Added {new_count} new items to {title} ({len (data [title] ['items'])} total)")
-            save ()
+            save_data (data)
 
         for i in data [title] ["items"]:
             if maps_url (i):
-                save ()
+                save_data (data)
                 print (f"Added URL {i ['maps'] ['url']}")
 
 if __name__ == "__main__":
