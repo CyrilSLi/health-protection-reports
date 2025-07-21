@@ -156,18 +156,7 @@ def default_ts (timestamp, kind):
         raise ValueError (f"Unknown timestamp kind {kind}")
 
 def main ():
-    try:
-        with open ("data.json") as f:
-            data = json.load (f)
-    except FileNotFoundError:
-        data = {
-            "closures": {
-                "timestamp": 0
-            },
-            "convictions": {
-                "timestamp": 0
-            }
-        }
+    data = open_data ()
     rss = r.get ("https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/hpr.rss")
     rss.raise_for_status ()
     rss = etree.fromstring (rss.text)
