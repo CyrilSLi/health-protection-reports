@@ -29,6 +29,34 @@
         #map {
             flex: 1;
         }
+        .health-icon {
+            width: 48px !important;
+            height: 48px !important;
+            margin-left: -16px !important;
+            margin-top: -16px !important;
+            text-align: center;
+            border: 3px solid black;
+            border-radius: 12px;
+        }
+        .health-icon > i {
+            font-size: 32px;
+            color: white;
+            margin: auto;
+        }
+        .close-icon {
+            background-color: #f0b000;
+        }
+        .convict-icon {
+            background-color: #e00000;
+        }
+        .pastclose-icon {
+            background-color: #705000;
+        }
+        .pastconvict-icon {
+            background-color: #800000;
+        }
+        
+        
     </style>
 </head>
 <body onload="brython(0)">
@@ -37,10 +65,61 @@
     </noscript>
     <script type="text/python">
         from browser import ajax, document, window
+
+        icon_divs, icons = (
+            ('<i class="bi bi-fork-knife"></i>', "food"),
+            ('<i class="bi bi-life-preserver"></i>', "pool"),
+            ('<i class="bi bi-pin-angle-fill"></i>', "other")
+        ), {}
+        for (html, name) in icon_divs:
+            for status in ("close", "convict", "pastclose", "pastconvict"):
+                icons [f"{name}_{status}"] = window.L.divIcon({
+                    "html": html,
+                    "className": f"health-icon {status}-icon",
+                })
+
         map = window.L.map ("map", {
             "center": [49.90, -97.14],
             "zoom": 11
         })
+
+        window.L.marker ([49.80, -96.99], {
+            "icon": icons ["food_close"]
+        }).addTo (map)
+        window.L.marker ([49.80, -97.09], {
+            "icon": icons ["food_convict"]
+        }).addTo (map)
+        window.L.marker ([49.80, -97.19], {
+            "icon": icons ["pool_pastclose"]
+        }).addTo (map)
+        window.L.marker ([49.80, -97.29], {
+            "icon": icons ["pool_pastconvict"]
+        }).addTo (map)
+        window.L.marker ([49.90, -96.99], {
+            "icon": icons ["pool_close"]
+        }).addTo (map)
+        window.L.marker ([49.90, -97.09], {
+            "icon": icons ["pool_convict"]
+        }).addTo (map)
+        window.L.marker ([49.90, -97.19], {
+            "icon": icons ["other_pastclose"]
+        }).addTo (map)
+        window.L.marker ([49.90, -97.29], {
+            "icon": icons ["other_pastconvict"]
+        }).addTo (map)
+        window.L.marker ([50.00, -96.99], {
+            "icon": icons ["other_close"]
+        }).addTo (map)
+        window.L.marker ([50.00, -97.09], {
+            "icon": icons ["other_convict"]
+        }).addTo (map)
+        window.L.marker ([50.00, -97.19], {
+            "icon": icons ["other_pastclose"]
+        }).addTo (map)
+        window.L.marker ([50.00, -97.29], {
+            "icon": icons ["other_pastconvict"]
+        }).addTo (map)
+
         window.L.tileLayer ("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
             "maxZoom": 19
