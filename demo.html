@@ -81,25 +81,42 @@
             "zoom": 11
         })
 
-        timestamp = round ((window.Date.now () / 1000) - window.Date.new ().getTimezoneOffset () * 60)
-        print (timestamp)
-        for i in window.healthData:
-            for j in window.healthData [i] ["items"]:
-                if "maps" not in j:
-                    continue
-                if "end" in j and j ["end"] < timestamp:
-                    status = "past"
-                else:
-                    status = ""
-                if "food service establishment" in j ["type"].lower ():
-                    icon = icons [f"food_{status}{i}"]
-                elif "pool" in j ["type"].lower ():
-                    icon = icons [f"pool_{status}{i}"]
-                else:
-                    icon = icons [f"other_{status}{i}"]
-                window.L.marker ([j ["maps"] ["lat"], j ["maps"] ["lon"]], {
-                    "icon": icon
-                }).addTo (map).bindPopup (j ["name"])
+        window.L.marker ([49.80, -96.99], {
+            "icon": icons ["food_closures"]
+        }).addTo (map)
+        window.L.marker ([49.80, -97.09], {
+            "icon": icons ["food_convictions"]
+        }).addTo (map)
+        window.L.marker ([49.80, -97.19], {
+            "icon": icons ["pool_pastclosures"]
+        }).addTo (map)
+        window.L.marker ([49.80, -97.29], {
+            "icon": icons ["pool_pastconvictions"]
+        }).addTo (map)
+        window.L.marker ([49.90, -96.99], {
+            "icon": icons ["pool_closures"]
+        }).addTo (map)
+        window.L.marker ([49.90, -97.09], {
+            "icon": icons ["pool_convictions"]
+        }).addTo (map)
+        window.L.marker ([49.90, -97.19], {
+            "icon": icons ["other_pastclosures"]
+        }).addTo (map)
+        window.L.marker ([49.90, -97.29], {
+            "icon": icons ["other_pastconvictions"]
+        }).addTo (map)
+        window.L.marker ([50.00, -96.99], {
+            "icon": icons ["other_closures"]
+        }).addTo (map)
+        window.L.marker ([50.00, -97.09], {
+            "icon": icons ["other_convictions"]
+        }).addTo (map)
+        window.L.marker ([50.00, -97.19], {
+            "icon": icons ["other_pastclosures"]
+        }).addTo (map)
+        window.L.marker ([50.00, -97.29], {
+            "icon": icons ["other_pastconvictions"]
+        }).addTo (map)
 
         window.L.tileLayer ("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
