@@ -1,6 +1,7 @@
 # Built-in modules
-import io, json, sys
-from datetime import datetime as dt, timezone as tz
+import io, json, os, sys
+from datetime import timezone as tz
+from hashlib import sha256
 from urllib.parse import quote_plus
 
 # Third-party modules
@@ -13,7 +14,7 @@ try:
 except ImportError:
     import xml.etree.ElementTree as etree
 
-url_cache = {}
+url_cache, hash = {}, None
 
 def open_data ():
     prefix = "window.healthData = "
@@ -37,10 +38,15 @@ def open_data ():
                 }
             }
 
-def save_data (data):
-    with open ("data.js", "w") as f:
-        f.write ("window.healthData = ")
-        f.write (json.dumps (data, indent = 1, ensure_ascii = False))
+def save_data (data, write = True):
+    global hash
+    dump = json.dumps (data, indent = 1, ensure_ascii = False)
+    if write:
+        with open ("data.js", "w") as f:
+            f.write ("window.healthData = ")
+            f.write (dump)
+    else:
+        hash = sha256 (dump.encode ("utf-8")).hexdigest ()
 
 def pdf_rows (file):
     rows, output = [], []
@@ -217,6 +223,17 @@ def main ():
             if maps_url (i):
                 save_data (data)
                 print (f"Added URL {i ['maps'] ['url']}")
+
+    script_tag = '<script src="data.js?v='
+    save_data (data, False) # get hash
+    with open (os.path.join (os.path.dirname (os.path.abspath (__file__)), "index.html"), "r+") as f:
+        line = ""
+        while script_tag not in line:
+            pointer = f.tell ()
+            line = f.readline ()
+        index = line.find (script_tag) + len (script_tag)
+        f.seek (pointer)
+        f.write (line.replace (line [index : index + 64], hash))
 
 if __name__ == "__main__":
     main ()
