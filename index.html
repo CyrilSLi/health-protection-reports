@@ -74,6 +74,7 @@
         }
         h1 {
             font-size: 28px;
+            overflow: hidden;
         }
         h2 {
             font-size: 24px;
@@ -110,23 +111,6 @@
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-        }
-        #header i {
-            font-size: 24px;
-            margin: 0px;
-        }
-        #header button {
-            background-color: #e0e0e0;
-            border-radius: 5px;
-            width: 34px;
-            height: 34px;
-            line-height: 34px;
-            margin: 0px 5px;
-            border: 2px solid black;
-        }
-        #progress {
-            background-color: black;
-            height: 100%;
         }
         #settings {
             overflow: auto;
@@ -169,6 +153,8 @@
                 "gutterAlign": "center",
                 "direction": config [1]
             })
+            # Shorten title if it overflows
+            document ["heading"].innerHTML = "MB&nbsp;Health&nbsp;Protection&nbsp;Reports&nbsp;Map" if window.innerWidth > 500 else "MB&nbsp;HPR&nbsp;Map"
         document ["split"].bind ("click", lambda *args: orientation (switch = True))
         window.addEventListener ("resize", orientation)
         orientation ()
@@ -177,7 +163,7 @@
             date = date or window.Date.now ()
             return round (date / 1000 - window.Date.new ().getTimezoneOffset () * 60)
         def date_to_utc (date):
-            return round (window.Date.new (date).getTime () / 1000 - window.Date.new ().getTimezoneOffset () * 60)
+            return round (window.Date.new (date).getTime () / 1000)
         def utc_to_date (utc):
             return window.Date.new (utc * 1000 + window.Date.new ().getTimezoneOffset () * 60).toISOString ().split ("T") [0]
         current_ymd = utc_to_date (date_utc ())
@@ -223,7 +209,7 @@
                     except ValueError:
                         return
             layer.clearLayers ()
-            timestamp = date_utc ()
+            timestamp = date_utc () if document ["all-dates"].checked else date_to_utc (document ["end-date"].value)
             for i in window.healthData:
                 for j in window.healthData [i] ["items"]:
                     item = dict (j)
@@ -287,19 +273,13 @@
         render_map ()
     </script>
     <div id="header">
-        <h1>MB HPR Map</h1>
-        <div style="flex: 1; margin: 5px; height: 18px;">
-            <div id="progress" style="width: 100%;"></div>
-        </div>
-        <button id="play">
-            <i class="bi bi-play-fill"></i>
-        </button>
+        <h1 id="heading">MB&nbsp;Health&nbsp;Protection&nbsp;Reports&nbsp;Map</h1>
     </div>
     <div id="app">
         <div id="map"></div>
         <div id="settings">
             <div>
-                <p>Disclaimer: This map is unofficial and for informational purposes only. Data (sourced <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">here</a>) may be inaccurate or incomplete.</p>
+                <p>This map is unofficial and for informational purposes only. Data may be inaccurate and/or incomplete. View the official site <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">here</a>.
             </div>
             <div>
                 <i class="bi bi-gear-fill" style="font-size: 24px; margin: 5px;"></i>
