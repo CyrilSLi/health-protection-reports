@@ -937,7 +937,7 @@ window.healthData = {
     "end": 4294967295,
     "info": {
      "Closure date": "Mar 5/25",
-     "Reason for closure": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
+     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
@@ -1327,7 +1327,7 @@ window.healthData = {
     "end": 4294967295,
     "info": {
      "Closure date": "Dec 4/24",
-     "Reason for closure": "City of Brandon Body Art Bylaw 6685 and The Public Health Act requires tattoo operators/Body Art business to meet minimum public health standards and obtain approval prior to operating. No approval has been issued."
+     "Reason(s)": "City of Brandon Body Art Bylaw 6685 and The Public Health Act requires tattoo operators/Body Art business to meet minimum public health standards and obtain approval prior to operating. No approval has been issued."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/147+3rd+St,+Brandon,+MB+R7A+0N5/@49.847419,-99.9415615,2573a,13.1y/data=!4m2!3m1!1s0x52e79737d814300d:0x2fcd8d1008f53c88",
@@ -1853,7 +1853,7 @@ window.healthData = {
     "end": 4294967295,
     "info": {
      "Closure date": "Oct 2/24",
-     "Reason for closure": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/LOLLYPEX+FOODS+AND+FASHIONS,+86+Larry+Vickar+Dr+E,+Winnipeg,+MB+R3W+0J9/@49.9009976,-97.0435448,2570a,13.1y/data=!4m2!3m1!1s0x52ea7b0eb853cb15:0x30773e3def1246ec",
@@ -2379,7 +2379,7 @@ window.healthData = {
     "end": 4294967295,
     "info": {
      "Closure date": "Feb 6/16",
-     "Reason for closure": "Operate a food handling establishment without a valid permit, sell uninspected meat."
+     "Reason(s)": "Operate a food handling establishment without a valid permit, sell uninspected meat."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/51073+Rd+8+E,+Oak+Bluff,+MB+R4G+0B2/@49.7593205,-97.2754218,2577a,13.1y/data=!4m2!3m1!1s0x52c1e1ae23dc9339:0xca44475389e60b0e",

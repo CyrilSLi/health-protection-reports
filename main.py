@@ -81,7 +81,7 @@ def pdf_rows (file):
                 "end": 2 ** 32 - 1,
                 "info": {
                     "Closure date": i [2],
-                    "Reason for closure": i [3]
+                    "Reason(s)": i [3]
                 }
             })
         elif len (i) == 5: # Closures, with re-open date
