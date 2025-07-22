@@ -36,17 +36,21 @@
             color: white;
             margin: auto;
         }
-        div.closures-icon, #closures:checked + label {
-            background-color: #f0b000 !important;
-        }
         div.convictions-icon, #convictions:checked + label {
             background-color: #e00000;
-        }
-        div.pastclosures-icon, #pastclosures:checked + label {
-            background-color: #705000;
+            z-index: 4 !important;
         }
         div.pastconvictions-icon, #pastconvictions:checked + label {
             background-color: #800000;
+            z-index: 3 !important;
+        }
+        div.closures-icon, #closures:checked + label {
+            background-color: #f0b000;
+            z-index: 2 !important;
+        }
+        div.pastclosures-icon, #pastclosures:checked + label {
+            background-color: #705000;
+            z-index: 1 !important;
         }
         body {
             display: flex;
