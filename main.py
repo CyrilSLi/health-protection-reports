@@ -28,9 +28,11 @@ def open_data ():
         except FileNotFoundError:
             return {
                 "closures": {
+                    "name": "Closure",
                     "timestamp": 0
                 },
                 "convictions": {
+                    "name": "Conviction",
                     "timestamp": 0
                 }
             }

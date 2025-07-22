@@ -22,13 +22,6 @@
             font-weight: normal;
             border: none;
         }
-        body {
-            height: 100dvh;
-            display: flex;
-        }
-        #map {
-            flex: 1;
-        }
         .health-icon {
             width: 48px !important;
             height: 48px !important;
@@ -43,17 +36,110 @@
             color: white;
             margin: auto;
         }
-        .closures-icon {
-            background-color: #f0b000;
+        div.closures-icon, #closures:checked + label {
+            background-color: #f0b000 !important;
         }
-        .convictions-icon {
+        div.convictions-icon, #convictions:checked + label {
             background-color: #e00000;
         }
-        .pastclosures-icon {
+        div.pastclosures-icon, #pastclosures:checked + label {
             background-color: #705000;
         }
-        .pastconvictions-icon {
+        div.pastconvictions-icon, #pastconvictions:checked + label {
             background-color: #800000;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            height: 100dvh;
+            width: 100vw;
+            width: 100dvw;
+            overflow: hidden;
+            background-color: white;
+        }
+        #app {
+            flex: 1;
+            display: flex;
+            min-height: 0;
+            min-width: 0;
+        }
+        p, h1, h2, h3, h4, h5, h6, i, .settings-button {
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 5px;
+        }
+        b, h1, h2 {
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        p, .settings-button, .leaflet-popup-content > b {
+            font-size: 20px;
+        }
+        .leaflet-popup-content {
+            font-size: 14px;
+        }
+        .leaflet-popup-content > * {
+            margin: 0px !important;
+        }
+        input[type="checkbox"], input[type="radio"] {
+            position: fixed;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .settings-button, #items > p {
+            user-select: none;
+            border: 2px solid black;
+            padding: 5px 7px;
+            border-radius: 5px;
+            background-color: #e0e0e0;
+            cursor: pointer;
+        }
+        input.settings-button:checked+label {
+            font-weight: bold;
+            color: white;
+            background-color: black;
+        }
+        #header, #settings > div {
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #header i {
+            font-size: 24px;
+            margin: 0px;
+        }
+        #header button {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            width: 34px;
+            height: 34px;
+            line-height: 34px;
+            margin: 0px 5px;
+            border: 2px solid black;
+        }
+        #progress {
+            background-color: black;
+            height: 100%;
+        }
+        #settings {
+            overflow: auto;
+            max-height: 100%;
+        }
+        .gutter {
+            background-color: gray;
+        }
+        .gutter-vertical {
+            cursor: ns-resize;
+        }
+        .gutter-horizontal {
+            cursor: ew-resize;
         }
     </style>
 </head>
@@ -62,53 +148,196 @@
         <p style = "margin: 20px; font-size: 20px; color: black;">JavaScript is required to use this website.</p>
     </noscript>
     <script type="text/python">
-        from browser import ajax, document, window
+        from browser import document, html, window
+        def orientation (*args, switch = False):
+            directions = (("column", "vertical"), ("row", "horizontal"))
+            if switch:
+                config = directions [0 if document ["app"].style.flexDirection == "row" else 1]
+            else:
+                config = directions [0 if window.innerWidth < window.innerHeight else 1]
+            document ["app"].style.flexDirection = config [0]
+            for i in ("map", "settings"):
+                for j in ("width", "height"):
+                    document [i].style [j] = ""
+            for i in document.querySelectorAll (".gutter"):
+                i.remove ()
+            window.Split (("#map", "#settings"), {
+                "sizes": (60, 40),
+                "minSize": (0, 0),
+                "snapOffset": 50,
+                "gutterSize": 28,
+                "gutterAlign": "center",
+                "direction": config [1]
+            })
+        document ["split"].bind ("click", lambda *args: orientation (switch = True))
+        window.addEventListener ("resize", orientation)
+        orientation ()
 
+        def date_utc (date = None):
+            date = date or window.Date.now ()
+            return round (date / 1000 - window.Date.new ().getTimezoneOffset () * 60)
+        def date_to_utc (date):
+            return round (window.Date.new (date).getTime () / 1000 - window.Date.new ().getTimezoneOffset () * 60)
+        def utc_to_date (utc):
+            return window.Date.new (utc * 1000 + window.Date.new ().getTimezoneOffset () * 60).toISOString ().split ("T") [0]
+        document ["start-date"].value = utc_to_date (date_utc (window.Date.now () - (14 * 24 * 60 * 60 * 1000))) # Default to 14 days ago
+        document ["end-date"].value = utc_to_date (date_utc ())
+
+        statuses = ("convictions", "closures", "pastconvictions", "pastclosures") # In order of importance
         icon_divs, icons = (
             ('<i class="bi bi-fork-knife"></i>', "food"),
             ('<i class="bi bi-life-preserver"></i>', "pool"),
             ('<i class="bi bi-pin-angle-fill"></i>', "other")
         ), {}
-        for (html, name) in icon_divs:
-            for status in ("closures", "convictions", "pastclosures", "pastconvictions"):
+        for (Html, name) in icon_divs:
+            for status in statuses:
                 icons [f"{name}_{status}"] = window.L.divIcon({
-                    "html": html,
+                    "html": Html,
                     "className": f"health-icon {status}-icon",
                 })
 
-        map = window.L.map ("map", {
+        Map = window.L.map ("map", {
             "center": [49.90, -97.14],
             "zoom": 11
         })
-
-        timestamp = round ((window.Date.now () / 1000) - window.Date.new ().getTimezoneOffset () * 60)
-        print (timestamp)
-        for i in window.healthData:
-            for j in window.healthData [i] ["items"]:
-                if "maps" not in j:
-                    continue
-                if "end" in j and j ["end"] < timestamp:
-                    status = "past"
-                else:
-                    status = ""
-                if "food service establishment" in j ["type"].lower ():
-                    icon = icons [f"food_{status}{i}"]
-                elif "pool" in j ["type"].lower ():
-                    icon = icons [f"pool_{status}{i}"]
-                else:
-                    icon = icons [f"other_{status}{i}"]
-                window.L.marker ([j ["maps"] ["lat"], j ["maps"] ["lon"]], {
-                    "icon": icon
-                }).addTo (map).bindPopup (j ["name"])
-
         window.L.tileLayer ("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
             "maxZoom": 19
-        }).addTo (map)
-        window.console.log (window.healthData)
+        }).addTo (Map)
+        window.ResizeObserver.new (lambda *args: Map.invalidateSize ()).observe (document ["map"])
+        layer = window.L.layerGroup ().addTo (Map)
+
+        def render_map (*args, start_date = None, end_date = None):
+            global icons, layer, Map
+            markers, visible, no_maps = {}, [], []
+            if start_date is None and end_date is None:
+                if document ["all-dates"].checked:
+                    start_date, end_date = 0, 2 ** 32 - 1
+                else:
+                    try:
+                        start_date = date_to_utc (document ["start-date"].value)
+                        end_date = date_to_utc (document ["end-date"].value)
+                    except ValueError:
+                        return
+            layer.clearLayers ()
+            timestamp = date_utc ()
+            for i in window.healthData:
+                for j in window.healthData [i] ["items"]:
+                    item = dict (j)
+                    if "maps" not in j:
+                        no_maps.append ((item, window.healthData [i] ["name"]))
+                        continue
+                    if item.get ("start", 0) > end_date or item.get ("end", 2 ** 32 - 1) < start_date:
+                        continue
+                    if item.get ("end", 2 ** 32 - 1) < timestamp:
+                        status = "past"
+                    else:
+                        status = ""
+                    if not document [status + i].checked:
+                        continue
+                    visible.append ((item, window.healthData [i] ["name"]))
+
+                    if "food service establishment" in item ["type"].lower ():
+                        icon = icons [f"food_{status}{i}"]
+                    elif "pool" in item ["type"].lower ():
+                        icon = icons [f"pool_{status}{i}"]
+                    else:
+                        icon = icons [f"other_{status}{i}"]
+                    latlon = f"{item ['maps'] ['lat']},{item ['maps'] ['lon']}"
+
+                    if latlon not in markers:
+                        # [marker, status, types, popup content]
+                        markers [latlon] = [
+                            window.L.marker ([item ["maps"] ["lat"], item ["maps"] ["lon"]], {
+                                "icon": icon,
+                                "title": item ["name"]
+                            }).addTo (layer),
+                            status + i,
+                            set ([item ["type"]]),
+                            f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>'
+                        ]
+                    else:
+                        if statuses.index (status + i) < statuses.index (markers [latlon] [1]):
+                            markers [latlon] [0].setIcon (icon)
+                            markers [latlon] [1] = status + i
+                        markers [latlon] [2].add (item ["type"])
+                    markers [latlon] [3] += f'<br><br><b>{window.healthData [i] ["name"]}</b>' + "".join (f'<br>{k}: {item ["info"] [k]}' for k in item ["info"])
+
+            for i in markers.values ():
+                i [0].bindPopup (i [3].format (types = ", ".join (i [2])))
+            document ["items"].clear ()
+            for (i, name) in {
+                "all-items": ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"]),
+                "visible-items": visible,
+                "no-maps-items": no_maps
+            } [document.querySelector ("input[name='items']:checked").value]:
+                item = html.P ()
+                item.innerHTML = (f'(<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>) ' if "maps" in i else "") + "".join ((
+                    f'{name} - {i ["type"]}<br>',
+                    f'{i ["name"]} {i ["addr"]}<br>',
+                    ", ".join (f'{k}: {i ["info"] [k]}' for k in i ["info"])
+                ))
+                if "maps" in i:
+                    item.bind ("click", lambda _, point = (i ["maps"] ["lat"], i ["maps"] ["lon"]): Map.setView (point, 16)) # Catch value of i
+                document ["items"] <= item
+        document ["settings"].bind ("input", render_map)
+        render_map ()
     </script>
-    <div id="map"></div>
-    <div id="sidebar">
+    <div id="header">
+        <h1>MB HPR Map</h1>
+        <div style="flex: 1; margin: 5px; height: 18px;">
+            <div id="progress" style="width: 100%;"></div>
+        </div>
+        <button id="play">
+            <i class="bi bi-play-fill"></i>
+        </button>
+    </div>
+    <div id="app">
+        <div id="map"></div>
+        <div id="settings">
+            <div>
+                <p>Disclaimer: This map is unofficial and for informational purposes only. Data (sourced <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">here</a>) may be inaccurate or incomplete.</p>
+            </div>
+            <div>
+                <i class="bi bi-gear-fill" style="font-size: 24px; margin: 5px;"></i>
+                <h2>Settings</h2>
+                <button class="settings-button" id="split">Change&nbsp;Split</button>
+            </div>
+            <div>
+                <p>Show</p>
+                <input type="checkbox" class="settings-button" id="closures" type-selected="true" checked>
+                <label for="closures" class="settings-button closures-icon">Closures</label>
+                <input type="checkbox" class="settings-button" id="convictions" type-selected="true" checked>
+                <label for="convictions" class="settings-button convictions-icon">Convictions</label>
+                <input type="checkbox" class="settings-button" id="pastclosures" type-selected="true" checked>
+                <label for="pastclosures" class="settings-button pastclosures-icon">Past&nbsp;Closures</label>
+                <input type="checkbox" class="settings-button" id="pastconvictions" type-selected="true" checked>
+                <label for="pastconvictions" class="settings-button pastconvictions-icon">Past&nbsp;Convictions</label>
+            </div>
+            <div>
+                <p>Show</p>
+                <input type="checkbox" class="settings-button" id="all-dates" type-selected="true" checked>
+                <label for="all-dates" class="settings-button">All&nbsp;Dates</label>
+                <p>or from</p>
+                <input type="date" class="settings-button" id="start-date">
+                <p>to</p>
+                <input type="date" class="settings-button" id="end-date">
+            </div>
+            <div>
+                <i class="bi bi-pin-angle-fill" style="font-size: 24px; margin: 5px;"></i>
+                <h2>Reported&nbsp;Items</h2>
+            </div>
+            <div>
+                <p>List</p>
+                <input type="radio" class="settings-button" name="items" value="all-items" id="all-items">
+                <label for="all-items" class="settings-button">All&nbsp;items</label>
+                <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" checked>
+                <label for="visible-items" class="settings-button">Visible&nbsp;items</label>
+                <input type="radio" class="settings-button" name="items" value="no-maps-items" id="no-maps-items">
+                <label for="no-maps-items" class="settings-button">Places&nbsp;without&nbsp;address</label>
+            </div>
+            <div id="items"></div>
+        </div>
     </div>
 </body>
 </html>
