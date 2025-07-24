@@ -283,7 +283,7 @@
             for i in markers.values ():
                 popup = window.L.popup ({
                     "autoPanPadding": (10, 10),
-                    "content": i [3].format (types = ", ".join (i [2])),
+                    "content": i [3].format (types = ", ".join (i [2]))
                 })
                 popups.append (popup)
                 i [0].bindPopup (popup)
