@@ -207,15 +207,11 @@
             "manitoba": ((49.00, -102.01), (60.00, -88.99))
         }
         def zoom_to (place):
-            if not isinstance (place, str):
-                return
             Map.fitBounds (bounds.get (place, bounds ["winnipeg"]))
             window.location.replace ("#" + place)
         zoom_to (window.location.hash.lstrip ("#") or "winnipeg")
         for i in bounds:
             document [f"zoom-{i}"].bind ("click", lambda ev: zoom_to (ev.target.id.split ("-") [-1]))
-        Map.on ("moveend", zoom_to)
-        Map.on ("zoomend", zoom_to)
 
         def render_map (*_, start_date = None, end_date = None):
             global icons, layer, Map
