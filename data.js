@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1753090200,
+  "timestamp": 1753349400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SANTA LUCIA PIZZA",
+    "addr": "2029 Portage Ave Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1753142400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 22/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Santa+Lucia+Pizza+Portage,+2029+Portage+Ave,+Winnipeg,+MB+R3J+0K6/@49.8778343,-97.2296906,2571a,13.1y/data=!4m2!3m1!1s0x52ea7358eff66321:0x255a1b051fee0373",
+     "lat": 49.8778343,
+     "lon": -97.2296906
+    }
+   },
+   {
+    "name": "DAWAT TAKEOUT AND CATERING",
+    "addr": "12 Keewatin St. Winnipeg MB",
+    "type": "Food Service Establishment",
+    "start": 1753228800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 23/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to provide adequate ventilation in the establishment. Failed to ensure dishes and utensils are sanitized when dishwashing."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Dawat+Take+out+%26+Catering,+14+Keewatin+St,+Winnipeg,+MB+R3E+3B9/@49.917469,-97.1954619,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
+     "lat": 49.917469,
+     "lon": -97.1954619
+    }
+   },
    {
     "name": "CREATIVE PIZZA",
     "addr": "3513 Main Street West St. Paul, MB",

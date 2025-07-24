@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MB Health Protection Reports Map</title>
-    <script src="data.js?v=254fcac07ff3f87f4cfc66e4d1958eea24a07206ab01fab134980022ebd07ae5"></script>
+    <script src="data.js?v=505339cdc3c45c0c0a8786523fa1687f89696819936a21a11544b044a382fec8"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.css">
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.js"></script>
@@ -179,6 +179,7 @@
         document ["start-date"].value = utc_to_date (date_utc (window.Date.now () - (14 * 24 * 60 * 60 * 1000))) # Default to 14 days ago
         document ["end-date"].attrs ["max"] = current_ymd
         document ["end-date"].value = current_ymd
+        document ["updated"].textContent = utc_to_date (max (window.healthData [i] ["timestamp"] for i in window.healthData))
 
         statuses = ("convictions", "pastconvictions", "closures", "pastclosures") # In order of importance
         icon_divs, icons = (
@@ -314,7 +315,7 @@
         <div id="map"></div>
         <div id="settings">
             <div>
-                <p>This unofficial map is for informational purposes only. Data may be inaccurate and/or incomplete.
+                <p>This unofficial map is for informational purposes only. Data may be inaccurate and/or incomplete. Last updated <b id="updated">N/A</b>.
                    <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">Official site</a>&nbsp;
                    <a href="https://github.com/CyrilSLi/health-protection-reports" target="_blank">View source</a>
                 </p>
