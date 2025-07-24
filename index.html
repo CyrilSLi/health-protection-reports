@@ -198,7 +198,7 @@
             "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
             "maxZoom": 19
         }).addTo (Map)
-        window.ResizeObserver.new (lambda *_: Map.invalidateSize ()).observe (document ["map"])
+        window.ResizeObserver.new (lambda *_: (Map.invalidateSize (), resize_popups ())).observe (document ["map"])
         layer = window.L.layerGroup ().addTo (Map)
 
         bounds = {
@@ -213,8 +213,18 @@
         for i in bounds:
             document [f"zoom-{i}"].bind ("click", lambda ev: zoom_to (ev.target.id.split ("-") [-1]))
 
+        popups = []
+        def resize_popups (*_):
+            global popups
+            for i in popups:
+                if "options" in i:
+                    i ["options"] ["maxWidth"] = round (document ["map"].clientWidth * 0.5)
+                    i ["options"] ["maxHeight"] = round (document ["map"].clientHeight * 0.5)
+                    if i.isOpen ():
+                        i.update ()
+
         def render_map (*_, start_date = None, end_date = None):
-            global icons, layer, Map
+            global icons, layer, Map, popups
             markers, visible, no_maps = {}, [], []
             if start_date is None and end_date is None:
                 if document ["all-dates"].checked:
@@ -260,7 +270,8 @@
                             }).addTo (layer),
                             status + i,
                             set ([item ["type"]]),
-                            f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>'
+                            f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>&nbsp; '
+                            f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{item ["name"]}&labels=popup" target="_blank">Report an issue</a><br>'
                         ]
                     else:
                         if statuses.index (status + i) < statuses.index (markers [latlon] [1]):
@@ -270,7 +281,14 @@
                     markers [latlon] [3] += f'<br><br><b>{window.healthData [i] ["name"]}</b>' + "".join (f'<br>{k}: {item ["info"] [k]}' for k in item ["info"])
 
             for i in markers.values ():
-                i [0].bindPopup (i [3].format (types = ", ".join (i [2])))
+                popup = window.L.popup ({
+                    "autoPanPadding": (10, 10),
+                    "content": i [3].format (types = ", ".join (i [2])),
+                })
+                popups.append (popup)
+                i [0].bindPopup (popup)
+            resize_popups ()
+
             document ["items"].clear ()
             for (i, name) in {
                 "all-items": ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"]),
@@ -296,7 +314,10 @@
         <div id="map"></div>
         <div id="settings">
             <div>
-                <p>This map is unofficial and for informational purposes only. Data may be inaccurate and/or incomplete. View the official site <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">here</a>.
+                <p>This unofficial map is for informational purposes only. Data may be inaccurate and/or incomplete.
+                   <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">Official site</a>&nbsp;
+                   <a href="https://github.com/CyrilSLi/health-protection-reports" target="_blank">View source</a>
+                </p>
             </div>
             <div>
                 <i class="bi bi-gear-fill"></i>
