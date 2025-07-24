@@ -271,7 +271,7 @@
                             status + i,
                             set ([item ["type"]]),
                             f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>&nbsp; '
-                            f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{item ["name"]}&labels=popup" target="_blank">Report an issue</a>'
+                            f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{window.encodeURIComponent (item ["name"])}&labels=popup" target="_blank">Report an issue</a>'
                         ]
                     else:
                         if statuses.index (status + i) < statuses.index (markers [latlon] [1]):
