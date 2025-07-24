@@ -37,7 +37,7 @@
             margin: auto;
         }
         div.convictions-icon, #convictions:checked + label {
-            background-color: #e00000;
+            background-color: #d00000;
             z-index: 4 !important;
         }
         div.pastconvictions-icon, #pastconvictions:checked + label {
@@ -45,7 +45,7 @@
             z-index: 3 !important;
         }
         div.closures-icon, #closures:checked + label {
-            background-color: #f0b000;
+            background-color: #e0a000;
             z-index: 2 !important;
         }
         div.pastclosures-icon, #pastclosures:checked + label {
@@ -116,6 +116,10 @@
             align-items: center;
             flex-wrap: wrap;
         }
+        #settings > div > i {
+            font-size: 24px;
+            margin: 5px;
+        }
         #settings {
             overflow: auto;
             max-height: 100%;
@@ -137,7 +141,7 @@
     </noscript>
     <script type="text/python">
         from browser import document, html, window
-        def orientation (*args, switch = False):
+        def orientation (*_, switch = False):
             directions = (("column", "vertical"), ("row", "horizontal"))
             if switch:
                 config = directions [0 if document ["app"].style.flexDirection == "row" else 1]
@@ -159,7 +163,7 @@
             })
             # Shorten title if it overflows
             document ["heading"].innerHTML = "MB&nbsp;Health&nbsp;Protection&nbsp;Reports&nbsp;Map" if window.innerWidth > 500 else "MB&nbsp;HPR&nbsp;Map"
-        document ["split"].bind ("click", lambda *args: orientation (switch = True))
+        document ["split"].bind ("click", lambda *_: orientation (switch = True))
         window.addEventListener ("resize", orientation)
         orientation ()
 
@@ -189,18 +193,31 @@
                     "className": f"health-icon {status}-icon",
                 })
 
-        Map = window.L.map ("map", {
-            "center": [49.90, -97.14],
-            "zoom": 11
-        })
+        Map = window.L.map ("map")
         window.L.tileLayer ("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
             "maxZoom": 19
         }).addTo (Map)
-        window.ResizeObserver.new (lambda *args: Map.invalidateSize ()).observe (document ["map"])
+        window.ResizeObserver.new (lambda *_: Map.invalidateSize ()).observe (document ["map"])
         layer = window.L.layerGroup ().addTo (Map)
 
-        def render_map (*args, start_date = None, end_date = None):
+        bounds = {
+            "winnipeg": ((49.71, -97.35), (50.00, -96.95)),
+            "brandon": ((49.81, -100.01), (49.92, -99.80)),
+            "manitoba": ((49.00, -102.01), (60.00, -88.99))
+        }
+        def zoom_to (place):
+            if not isinstance (place, str):
+                return
+            Map.fitBounds (bounds.get (place, bounds ["winnipeg"]))
+            window.location.replace ("#" + place)
+        zoom_to (window.location.hash.lstrip ("#") or "winnipeg")
+        for i in bounds:
+            document [f"zoom-{i}"].bind ("click", lambda ev: zoom_to (ev.target.id.split ("-") [-1]))
+        Map.on ("moveend", zoom_to)
+        Map.on ("zoomend", zoom_to)
+
+        def render_map (*_, start_date = None, end_date = None):
             global icons, layer, Map
             markers, visible, no_maps = {}, [], []
             if start_date is None and end_date is None:
@@ -271,7 +288,7 @@
                     ", ".join (f'{k}: {i ["info"] [k]}' for k in i ["info"])
                 ))
                 if "maps" in i:
-                    item.bind ("click", lambda _, point = (i ["maps"] ["lat"], i ["maps"] ["lon"]): Map.setView (point, 16)) # Catch value of i
+                    item.bind ("click", lambda *_, point = (i ["maps"] ["lat"], i ["maps"] ["lon"]): Map.setView (point, 16)) # Catch value of i
                 document ["items"] <= item
         document ["settings"].bind ("input", render_map)
         render_map ()
@@ -286,7 +303,7 @@
                 <p>This map is unofficial and for informational purposes only. Data may be inaccurate and/or incomplete. View the official site <a href="https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/report.html" target="_blank">here</a>.
             </div>
             <div>
-                <i class="bi bi-gear-fill" style="font-size: 24px; margin: 5px;"></i>
+                <i class="bi bi-gear-fill"></i>
                 <h2>Settings</h2>
                 <button class="settings-button" id="split">Change&nbsp;Split</button>
             </div>
@@ -311,11 +328,15 @@
                 <input type="date" class="settings-button" id="end-date">
             </div>
             <div>
-                <i class="bi bi-pin-angle-fill" style="font-size: 24px; margin: 5px;"></i>
-                <h2>Reported&nbsp;Items</h2>
+                <i class="bi bi-geo-alt-fill"></i>
+                <h2>Zoom&nbsp;to</h2>
+                <button class="settings-button" id="zoom-winnipeg">Winnipeg</button>
+                <button class="settings-button" id="zoom-brandon">Brandon</button>
+                <button class="settings-button" id="zoom-manitoba">Manitoba</button>
             </div>
             <div>
-                <p>List</p>
+                <i class="bi bi-pin-angle-fill"></i>
+                <h2>List</h2>
                 <input type="radio" class="settings-button" name="items" value="all-items" id="all-items">
                 <label for="all-items" class="settings-button">All&nbsp;items</label>
                 <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" checked>
