@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1753349400,
+  "timestamp": 1753459200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "2029 Portage Ave Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1753142400,
-    "end": 4294967295,
+    "end": 1753315200,
     "info": {
      "Closure date": "Jul 22/25",
+     "Re-open date": "Jul 24/25",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
@@ -25,15 +26,32 @@ window.healthData = {
     "addr": "12 Keewatin St. Winnipeg MB",
     "type": "Food Service Establishment",
     "start": 1753228800,
-    "end": 4294967295,
+    "end": 1753401600,
     "info": {
      "Closure date": "Jul 23/25",
+     "Re-open date": "Jul 25/25",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to provide adequate ventilation in the establishment. Failed to ensure dishes and utensils are sanitized when dishwashing."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/Dawat+Take+out+%26+Catering,+14+Keewatin+St,+Winnipeg,+MB+R3E+3B9/@49.917469,-97.1954619,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
      "lat": 49.917469,
      "lon": -97.1954619
+    }
+   },
+   {
+    "name": "FRESHII (001134)",
+    "addr": "B – 1857 Grant Ave. Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1753401600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 25/25",
+     "Reason(s)": "Refrigeration equipment is in disrepair & not able to maintain a safe internal temperature of potentially hazardous food. As an operator, did fail to ensure that potentially hazardous foods are kept <5C."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Freshii,+1857+Grant+Ave+B,+Winnipeg,+MB+R3N+1Z2/@49.8576966,-97.2035568,2572a,13.1y/data=!4m2!3m1!1s0x52ea7492a39e5d03:0xc6291dccd793a79f",
+     "lat": 49.8576966,
+     "lon": -97.2035568
     }
    },
    {
