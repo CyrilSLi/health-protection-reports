@@ -127,6 +127,15 @@
             overflow: auto;
             max-height: 100%;
         }
+        #search-items {
+            flex: 1;
+            min-width: 0;
+            cursor: text;
+            background-color: white;
+        }
+        input::placeholder {
+            color: gray;
+        }
         .gutter {
             background-color: gray;
         }
@@ -239,91 +248,93 @@
             for i in document.querySelectorAll ("#items > p.highlighted"):
                 i.classList.remove ("highlighted")
 
-        def render_map (ev = None, start_date = None, end_date = None):
-            global icons, layer, Map, popups
+        markers = {} # latlon: [marker, status, types set, popup content, item_count set]
+        no_maps, visible = [], [] # [(item_count, category name), ...]
+        def render (ev = None, start_date = None, end_date = None, list_only = False):
+            global icons, layer, Map, markers, no_maps, popups, visible
             if ev and "norerender" in ev.target.dataset:
                 return
-            markers, visible, no_maps, item_count = {}, [], [], -1
+            if not ((ev and "listrender" in ev.target.dataset) or list_only):
+                markers, visible, no_maps, item_count = {}, [], [], -1
 
-            if start_date is None and end_date is None:
-                if document ["all-dates"].checked:
-                    start_date, end_date = 0, 2 ** 32 - 1
-                else:
-                    try:
-                        start_date = date_to_utc (document ["start-date"].value)
-                        end_date = date_to_utc (document ["end-date"].value)
-                    except ValueError:
-                        return
-            layer.clearLayers ()
-            timestamp = date_utc () if document ["all-dates"].checked else date_to_utc (document ["end-date"].value)
-
-            for i in window.healthData:
-                for j in window.healthData [i] ["items"]:
-                    item = dict (j)
-                    item_count += 1
-                    if "maps" not in j:
-                        no_maps.append ((item_count, window.healthData [i] ["name"]))
-                        continue
-                    if item.get ("start", 0) > end_date or item.get ("end", 2 ** 32 - 1) < start_date:
-                        continue
-                    if item.get ("end", 2 ** 32 - 1) < timestamp:
-                        status = "past"
+                if start_date is None and end_date is None:
+                    if document ["all-dates"].checked:
+                        start_date, end_date = 0, 2 ** 32 - 1
                     else:
-                        status = ""
-                    if not document [status + i].checked:
-                        continue
-                    visible.append ((item_count, window.healthData [i] ["name"]))
-
-                    if "food service establishment" in item ["type"].lower ():
-                        icon = icons [f"food_{status}{i}"]
-                    elif "pool" in item ["type"].lower ():
-                        icon = icons [f"pool_{status}{i}"]
-                    else:
-                        icon = icons [f"other_{status}{i}"]
-                    latlon = f"{item ['maps'] ['lat']},{item ['maps'] ['lon']}"
-
-                    if latlon not in markers:
-                        # [marker, status, types, popup content]
-                        markers [latlon] = [
-                            window.L.marker ([item ["maps"] ["lat"], item ["maps"] ["lon"]], {
-                                "icon": icon,
-                                "title": item ["name"]
-                            }).addTo (layer),
-                            status + i,
-                            set ([item ["type"]]),
-                            f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>&nbsp; '
-                            f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{window.encodeURIComponent (item ["name"])}&labels=popup" target="_blank">Report an issue</a>',
-                            {item_count}
-                        ]
-                    else:
-                        if statuses.index (status + i) < statuses.index (markers [latlon] [1]):
-                            markers [latlon] [0].setIcon (icon)
-                            markers [latlon] [1] = status + i
-                        markers [latlon] [2].add (item ["type"])
-                        markers [latlon] [4].add (item_count)
-                    markers [latlon] [3] += f'<br><br><b>{window.healthData [i] ["name"]}</b>' + "".join (f'<br>{k}: {item ["info"] [k]}' for k in item ["info"])
-
-            for i in markers.values ():
-                popup = window.L.popup ({
-                    "autoPanPadding": (10, 10),
-                    "content": i [3].format (types = ", ".join (i [2]))
-                })
-                def scroll_list (*_, marker = i):
-                    global scroll_pos
-                    el = document.getElementById (f"item{next (iter (marker [4]))}")
-                    if el:
-                        el.classList.add ("highlighted")
-                        if not document ["scroll-list"].checked:
+                        try:
+                            start_date = date_to_utc (document ["start-date"].value)
+                            end_date = date_to_utc (document ["end-date"].value)
+                        except ValueError:
                             return
-                        elif scroll_pos [0] is None:
-                            scroll_pos [0] = document ["settings"].scrollTop
-                        el.scrollIntoView ({"block": "center", "inline": "center", "behavior": "instant"})
-                        scroll_pos [1] = document ["settings"].scrollTop
-                popups.append (popup)
-                i [0].bind ("popupopen", scroll_list)
-                i [0].bind ("popupclose", reset_scroll)
-                i [0].bindPopup (popup)
-            resize_popups ()
+                layer.clearLayers ()
+                timestamp = date_utc () if document ["all-dates"].checked else date_to_utc (document ["end-date"].value)
+
+                for i in window.healthData:
+                    for j in window.healthData [i] ["items"]:
+                        item = dict (j)
+                        item_count += 1
+                        if "maps" not in j:
+                            no_maps.append ((item_count, window.healthData [i] ["name"]))
+                            continue
+                        if item.get ("start", 0) > end_date or item.get ("end", 2 ** 32 - 1) < start_date:
+                            continue
+                        if item.get ("end", 2 ** 32 - 1) < timestamp:
+                            status = "past"
+                        else:
+                            status = ""
+                        if not document [status + i].checked:
+                            continue
+                        visible.append ((item_count, window.healthData [i] ["name"]))
+
+                        if "food service establishment" in item ["type"].lower ():
+                            icon = icons [f"food_{status}{i}"]
+                        elif "pool" in item ["type"].lower ():
+                            icon = icons [f"pool_{status}{i}"]
+                        else:
+                            icon = icons [f"other_{status}{i}"]
+                        latlon = f"{item ['maps'] ['lat']},{item ['maps'] ['lon']}"
+
+                        if latlon not in markers:
+                            markers [latlon] = [
+                                window.L.marker ([item ["maps"] ["lat"], item ["maps"] ["lon"]], {
+                                    "icon": icon,
+                                    "title": item ["name"]
+                                }).addTo (layer),
+                                status + i,
+                                set ([item ["type"]]),
+                                f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>&nbsp; '
+                                f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{window.encodeURIComponent (item ["name"])}&labels=popup" target="_blank">Report an issue</a>',
+                                {item_count}
+                            ]
+                        else:
+                            if statuses.index (status + i) < statuses.index (markers [latlon] [1]):
+                                markers [latlon] [0].setIcon (icon)
+                                markers [latlon] [1] = status + i
+                            markers [latlon] [2].add (item ["type"])
+                            markers [latlon] [4].add (item_count)
+                        markers [latlon] [3] += f'<br><br><b>{window.healthData [i] ["name"]}</b>' + "".join (f'<br>{k}: {item ["info"] [k]}' for k in item ["info"])
+
+                for i in markers.values ():
+                    popup = window.L.popup ({
+                        "autoPanPadding": (10, 10),
+                        "content": i [3].format (types = ", ".join (i [2]))
+                    })
+                    def scroll_list (*_, marker = i):
+                        global scroll_pos
+                        el = document.getElementById (f"item{next (iter (marker [4]))}")
+                        if el:
+                            el.classList.add ("highlighted")
+                            if not document ["scroll-list"].checked:
+                                return
+                            elif scroll_pos [0] is None:
+                                scroll_pos [0] = document ["settings"].scrollTop
+                            el.scrollIntoView ({"block": "center", "inline": "center", "behavior": "instant"})
+                            scroll_pos [1] = document ["settings"].scrollTop
+                    popups.append (popup)
+                    i [0].bind ("popupopen", scroll_list)
+                    i [0].bind ("popupclose", reset_scroll)
+                    i [0].bindPopup (popup)
+                resize_popups ()
 
             document ["items"].clear ()
             all_items = tuple ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"])
@@ -338,6 +349,8 @@
                     f'{i ["name"]} {i ["addr"]}<br>',
                     ", ".join (f'{k}: {i ["info"] [k]}' for k in i ["info"])
                 ))
+                if document ["search-items"].value and document ["search-items"].value.lower () not in item.textContent.lower ():
+                    continue
                 if "maps" in i:
                     def scroll_list (*_, el_id = j, point = (i ["maps"] ["lat"], i ["maps"] ["lon"])): # Catch variables
                         Map.setView (point, 16)
@@ -349,8 +362,10 @@
                 else:
                     item.style.cursor = "default"
                 document ["items"] <= item
-        document ["settings"].bind ("input", render_map)
-        render_map ()
+
+        document ["search-items"].bind ("input", lambda *_: window.setTimeout (lambda: render (list_only = True), 0))
+        document ["settings"].bind ("input", render)
+        render ()
     </script>
     <div id="header">
         <h1 id="heading">MB&nbsp;Health&nbsp;Protection&nbsp;Reports&nbsp;Map</h1>
@@ -401,12 +416,15 @@
             <div>
                 <i class="bi bi-pin-angle-fill"></i>
                 <h2>List</h2>
-                <input type="radio" class="settings-button" name="items" value="all-items" id="all-items">
+                <input type="radio" class="settings-button" name="items" value="all-items" id="all-items" data-listrender>
                 <label for="all-items" class="settings-button">All&nbsp;Items</label>
-                <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" checked>
+                <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" data-listrender checked>
                 <label for="visible-items" class="settings-button">Visible&nbsp;items</label>
-                <input type="radio" class="settings-button" name="items" value="no-maps-items" id="no-maps-items">
-                <label for="no-maps-items" class="settings-button">Places&nbsp;without&nbsp;address</label>
+                <input type="radio" class="settings-button" name="items" value="no-maps-items" id="no-maps-items" data-listrender>
+                <label for="no-maps-items" class="settings-button">Items&nbsp;without&nbsp;address</label>
+            </div>
+            <div>
+                <input type="text" class="settings-button" id="search-items" placeholder="Search in list..." data-norerender>
             </div>
             <div id="items"></div>
         </div>
