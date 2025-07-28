@@ -14,7 +14,7 @@ try:
 except ImportError:
     import xml.etree.ElementTree as etree
 
-url_cache, hash = {}, None
+url_cache, data, hash = {}, None, None
 
 def open_data ():
     prefix = "window.healthData = "
@@ -38,8 +38,8 @@ def open_data ():
                 }
             }
 
-def save_data (data, write = True):
-    global hash
+def save_data (write = True):
+    global data, hash
     dump = json.dumps (data, indent = 1, ensure_ascii = False)
     if write:
         with open ("data.js", "w") as f:
@@ -66,9 +66,16 @@ def pdf_rows (file):
         name, addr = [], i [0].split ("\n")
         while addr [0] == addr [0].upper (): # Names are in all caps
             name.append (addr.pop (0))
-        name, addr = " ".join (name).strip (), " ".join (addr).strip ()
         if not name or not addr:
-            raise ValueError (f"Invalid name and address {i [0]}")
+            name, addr = [], i [0].split ()
+            while addr [0] [0] not in "0123456789":
+                name.append (addr.pop (0))
+            if not name or not addr:
+                print (f"Warning: Invalid name and address {i [0]}, using both for both fields")
+                name, addr = i [0].split (), i [0].split ()
+            else:
+                print (f"Warning: Invalid name and address {i [0]}, dividing by first number")
+        name, addr = " ".join (name).strip (), " ".join (addr).strip ()
         row = {
             "name": name,
             "addr": addr,
@@ -148,7 +155,8 @@ def maps_url (item, name = True):
         "lon": float (url [lat_end + 1 : lon_end])
     }
     url_cache [cache_key] = item ["maps"]
-    return True
+    save_data ()
+    print (f"Added URL {item ['maps'] ['url']}")
 
 def default_ts (timestamp, kind):
     parsed = date_parse (timestamp)
@@ -164,68 +172,97 @@ def default_ts (timestamp, kind):
         raise ValueError (f"Unknown timestamp kind {kind}")
 
 def main ():
+    global data
     data = open_data ()
-    rss = r.get ("https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/hpr.rss")
-    rss.raise_for_status ()
-    rss = etree.fromstring (rss.text)
 
-    for file in rss.iter ("item"):
-        title = file.find ("title").text.lower ()
-        for j in ("closures", "convictions"):
-            if j in title:
-                title = j
-                break
-        else:
-            raise ValueError (f"Unknown item {title}")
+    def open_file (file, title, append = False):
+        global data
+        prev_hash = set ()
+        for i in data [title].setdefault ("items", []):
+            item = i.copy ()
+            item.pop ("maps", None)
+            prev_hash.add (json.dumps (item, sort_keys = True))
+        new_items = pdf_rows (file)
+        new_count = 0
 
-        timestamp = round (date_parse (file.find ("pubDate").text).replace (tzinfo = tz.utc).timestamp ())
+        def add_item (lst, item):
+            nonlocal append
+            if append:
+                lst.append (item)
+            else:
+                lst.insert (0, item)
+
+        def overwrite (keys, item, items): # Return truthy if no overwrite
+            nonlocal new_count
+            dups, only_manual = [], False
+            for i in items:
+                if all (i.get (k) == item [k] for k in keys):
+                    if i.get ("manual_entry", False):
+                        only_manual = True
+                        print (f"Skipping manual entry {item ['name']}")
+                        continue
+                    only_manual = False
+                    dups.append (i)
+
+            if len (dups) > 1:
+                print (f"Warning: Multiple items with keys {({i: item [i] for i in keys})} found, stopping overwrite")
+            elif len (dups) == 1:
+                print (f"Overwriting item with keys {({i: item [i] for i in keys})}")
+                items.remove (dups [0])
+                add_item (items, item)
+                new_count += 1
+            else:
+                return (True, 2) [only_manual] # Special case if only manual entries found
+
         prev_items = data [title].get ("items")
-        if timestamp > data [title].get ("timestamp", 0) or not prev_items or sys.argv [1 : ] in (["--force"], ["-f"]):
+        for i in new_items:
+            if json.dumps (i, sort_keys = True) in prev_hash: # Identical
+                continue
+            overwrite_res = overwrite (("name", "addr", "type", "start"), i, prev_items)
+            if overwrite_res and overwrite_res != 2: # Not only manual entries
+                maps_url (i)
+                if overwrite (("name", "type", "maps", "start"), i, prev_items):
+                    add_item (prev_items, i) # New item
+                    new_count += 1
+        print (f"Added {new_count} new items to {title} ({len (data [title] ['items'])} total)")
+        save_data ()
+
+    if sys.argv [1 : 2] in (["--file"], ["-f"]): # Allow empty sys.argv
+        if sys.argv [2] not in data:
+            raise ValueError (f"Unknown item {sys.argv [2]}")
+        with open (sys.argv [3], "rb") as f:
+            open_file (f, sys.argv [2], True)
+    else:
+        rss = r.get ("https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/hpr.rss")
+        rss.raise_for_status ()
+        rss = etree.fromstring (rss.text)
+
+        for file in rss.iter ("item"):
+            title = file.find ("title").text.lower ()
+            for j in ("closures", "convictions"):
+                if j in title:
+                    title = j
+                    break
+            else:
+                raise ValueError (f"Unknown item {title}")
+
+            timestamp = round (date_parse (file.find ("pubDate").text).replace (tzinfo = tz.utc).timestamp ())
+            if not (timestamp > data [title].get ("timestamp", 0) or not data [title].get ("items") or sys.argv [1 : 2] in (["--refresh"], ["-r"])):
+                continue
             pdf_url = file.find ("link").text
             data [title].update ({
                 "timestamp": timestamp,
                 "url": pdf_url
             })
+            open_file (pdf_url, title)
 
-            prev_hash = set ()
-            for i in data [title].setdefault ("items", []):
-                item = i.copy ()
-                item.pop ("maps", None)
-                prev_hash.add (json.dumps (item, sort_keys = True))
-            new_items = pdf_rows (pdf_url)
-
-            new_count = 0
-            def overwrite (keys, item, items):
-                nonlocal new_count
-                dups = tuple (i for i in items if all (i.get (k) == item [k] for k in keys))
-                if len (dups) > 1:
-                    print (f"Warning: Multiple items with keys {({i: item [i] for i in keys})} found, stopping overwrite")
-                elif len (dups) == 1:
-                    print (f"Overwriting item with keys {({i: item [i] for i in keys})}")
-                    items.remove (dups [0])
-                    items.insert (0, item)
-                    new_count += 1
-                else:
-                    return True
-
-            for i in new_items:
-                if json.dumps (i, sort_keys = True) in prev_hash: # Identical
-                    continue
-                if overwrite (("name", "addr", "type", "start"), i, prev_items):
-                    maps_url (i)
-                    if overwrite (("maps", "start"), i, prev_items): # New item
-                        prev_items.insert (0, i)
-                        new_count += 1
-            print (f"Added {new_count} new items to {title} ({len (data [title] ['items'])} total)")
-            save_data (data)
-
-        for i in data [title] ["items"]:
-            if maps_url (i):
-                save_data (data)
-                print (f"Added URL {i ['maps'] ['url']}")
+    for i in data.values ():
+        for j in i ["items"]:
+            maps_url (j) # Try finding missing URLs
+            save_data ()
 
     script_tag = '<script src="data.js?v='
-    save_data (data, False) # get hash
+    save_data (False) # get hash
     with open (os.path.join (os.path.dirname (os.path.abspath (__file__)), "index.html"), "r+") as f:
         line = ""
         while script_tag not in line:
