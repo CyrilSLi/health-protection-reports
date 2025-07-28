@@ -105,6 +105,9 @@
             background-color: #e0e0e0;
             cursor: pointer;
         }
+        #items > p > * {
+            margin: 0px;
+        }
         #items > p.highlighted {
             background-color: #f0f090;
         }
@@ -337,21 +340,28 @@
                 resize_popups ()
 
             document ["items"].clear ()
-            all_items = tuple ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"])
-            for j, (i, name) in { # category name, e.g. "Closure"
-                "all-items": enumerate (all_items),
-                "visible-items": ((i [0], all_items [i [0]]) for i in visible),
-                "no-maps-items": ((i [0], all_items [i [0]]) for i in no_maps)
-            } [document.querySelector ("input[name='items']:checked").value]:
+            items = tuple ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"])
+            visible_ids = set (i [0] for i in visible)
+            list_type = document.querySelector ("input[name='items']:checked").value
+            if list_type == "all-items":
+                items = enumerate (items)
+            elif list_type == "visible-items":
+                items = tuple ((i [0], items [i [0]]) for i in visible)
+            elif list_type == "no-maps-items":
+                items = tuple ((i [0], items [i [0]]) for i in no_maps)
+            else:
+                raise ValueError ("Invalid list type " + list_type)
+
+            for j, (i, name) in items: # category name, e.g. "Closure"
                 item = html.P (Id = f"item{j}")
-                item.innerHTML = (f'(<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>) ' if "maps" in i else "") + "".join ((
+                item.innerHTML = (f'<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>&nbsp; ' if "maps" in i else "") + "".join ((
                     f'{name} - {i ["type"]}<br>',
                     f'{i ["name"]} {i ["addr"]}<br>',
                     ", ".join (f'{k}: {i ["info"] [k]}' for k in i ["info"])
                 ))
                 if document ["search-items"].value and document ["search-items"].value.lower () not in item.textContent.lower ():
                     continue
-                if "maps" in i:
+                if j in visible_ids:
                     def scroll_list (*_, el_id = j, point = (i ["maps"] ["lat"], i ["maps"] ["lon"])): # Catch variables
                         Map.setView (point, 16)
                         for k in markers.values ():
@@ -359,6 +369,7 @@
                                 k [0].openPopup ()
                                 break
                     item.bind ("click", scroll_list)
+                    item.innerHTML = '<i class="bi bi-geo-alt-fill"></i> ' + item.innerHTML
                 else:
                     item.style.cursor = "default"
                 document ["items"] <= item
