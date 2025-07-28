@@ -324,12 +324,12 @@
                     })
                     def scroll_list (*_, marker = i):
                         global scroll_pos
-                        el = document.getElementById (f"item{next (iter (marker [4]))}")
-                        if el:
-                            el.classList.add ("highlighted")
-                            if not document ["scroll-list"].checked:
-                                return
-                            elif scroll_pos [0] is None:
+                        for i in marker [4]:
+                            el = document.getElementById (f"item{i}")
+                            if el:
+                                el.classList.add ("highlighted")
+                        if el and document ["scroll-list"].checked:
+                            if scroll_pos [0] is None:
                                 scroll_pos [0] = document ["settings"].scrollTop
                             el.scrollIntoView ({"block": "center", "inline": "center", "behavior": "instant"})
                             scroll_pos [1] = document ["settings"].scrollTop
