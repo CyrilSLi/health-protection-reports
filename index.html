@@ -105,6 +105,9 @@
             background-color: #e0e0e0;
             cursor: pointer;
         }
+        #items > p.highlighted {
+            background-color: #f0f090;
+        }
         input.settings-button:checked+label {
             font-weight: bold;
             color: white;
@@ -164,7 +167,7 @@
             # Shorten title if it overflows
             document ["heading"].innerHTML = "MB&nbsp;Health&nbsp;Protection&nbsp;Reports&nbsp;Map" if window.innerWidth > 500 else "MB&nbsp;HPR&nbsp;Map"
         document ["split"].bind ("click", lambda *_: orientation (switch = True))
-        window.addEventListener ("resize", orientation)
+        window.bind ("resize", orientation)
         orientation ()
 
         def date_utc (date = None):
@@ -224,9 +227,24 @@
                     if i.isOpen ():
                         i.update ()
 
-        def render_map (*_, start_date = None, end_date = None):
+        scroll_pos = [None, None] # [original position, list item position]
+        def reset_scroll (*_):
+            global scroll_pos
+            if not document ["scroll-list"].checked:
+                scroll_pos = [None, None]
+            elif scroll_pos [0] is not None:
+                if document ["settings"].scrollTop == scroll_pos [1]: # User has not scrolled since opening the popup
+                    document ["settings"].scrollTo ({"top": scroll_pos [0], "behavior": "instant"})
+                scroll_pos = [None, None]
+            for i in document.querySelectorAll ("#items > p.highlighted"):
+                i.classList.remove ("highlighted")
+
+        def render_map (ev = None, start_date = None, end_date = None):
             global icons, layer, Map, popups
-            markers, visible, no_maps = {}, [], []
+            if ev and "norerender" in ev.target.dataset:
+                return
+            markers, visible, no_maps, item_count = {}, [], [], -1
+
             if start_date is None and end_date is None:
                 if document ["all-dates"].checked:
                     start_date, end_date = 0, 2 ** 32 - 1
@@ -238,11 +256,13 @@
                         return
             layer.clearLayers ()
             timestamp = date_utc () if document ["all-dates"].checked else date_to_utc (document ["end-date"].value)
+
             for i in window.healthData:
                 for j in window.healthData [i] ["items"]:
                     item = dict (j)
+                    item_count += 1
                     if "maps" not in j:
-                        no_maps.append ((item, window.healthData [i] ["name"]))
+                        no_maps.append ((item_count, window.healthData [i] ["name"]))
                         continue
                     if item.get ("start", 0) > end_date or item.get ("end", 2 ** 32 - 1) < start_date:
                         continue
@@ -252,7 +272,7 @@
                         status = ""
                     if not document [status + i].checked:
                         continue
-                    visible.append ((item, window.healthData [i] ["name"]))
+                    visible.append ((item_count, window.healthData [i] ["name"]))
 
                     if "food service establishment" in item ["type"].lower ():
                         icon = icons [f"food_{status}{i}"]
@@ -272,13 +292,15 @@
                             status + i,
                             set ([item ["type"]]),
                             f'<b>{item ["name"]}</b><br>{item ["addr"]}<br>Type(s): {{types}}<br><a href="{item ["maps"] ["url"]}" target="_blank">Open in Google Maps</a>&nbsp; '
-                            f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{window.encodeURIComponent (item ["name"])}&labels=popup" target="_blank">Report an issue</a>'
+                            f'<a href="https://github.com/CyrilSLi/health-protection-reports/issues/new?title=Issue%20with%20item%20{window.encodeURIComponent (item ["name"])}&labels=popup" target="_blank">Report an issue</a>',
+                            {item_count}
                         ]
                     else:
                         if statuses.index (status + i) < statuses.index (markers [latlon] [1]):
                             markers [latlon] [0].setIcon (icon)
                             markers [latlon] [1] = status + i
                         markers [latlon] [2].add (item ["type"])
+                        markers [latlon] [4].add (item_count)
                     markers [latlon] [3] += f'<br><br><b>{window.healthData [i] ["name"]}</b>' + "".join (f'<br>{k}: {item ["info"] [k]}' for k in item ["info"])
 
             for i in markers.values ():
@@ -286,24 +308,46 @@
                     "autoPanPadding": (10, 10),
                     "content": i [3].format (types = ", ".join (i [2]))
                 })
+                def scroll_list (*_, marker = i):
+                    global scroll_pos
+                    el = document.getElementById (f"item{next (iter (marker [4]))}")
+                    if el:
+                        el.classList.add ("highlighted")
+                        if not document ["scroll-list"].checked:
+                            return
+                        elif scroll_pos [0] is None:
+                            scroll_pos [0] = document ["settings"].scrollTop
+                        el.scrollIntoView ({"block": "center", "inline": "center", "behavior": "instant"})
+                        scroll_pos [1] = document ["settings"].scrollTop
                 popups.append (popup)
+                i [0].bind ("popupopen", scroll_list)
+                i [0].bind ("popupclose", reset_scroll)
                 i [0].bindPopup (popup)
             resize_popups ()
 
             document ["items"].clear ()
-            for (i, name) in {
-                "all-items": ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"]),
-                "visible-items": visible,
-                "no-maps-items": no_maps
+            all_items = tuple ((dict (j), window.healthData [i] ["name"]) for i in window.healthData for j in window.healthData [i] ["items"])
+            for j, (i, name) in { # category name, e.g. "Closure"
+                "all-items": enumerate (all_items),
+                "visible-items": ((i [0], all_items [i [0]]) for i in visible),
+                "no-maps-items": ((i [0], all_items [i [0]]) for i in no_maps)
             } [document.querySelector ("input[name='items']:checked").value]:
-                item = html.P ()
+                item = html.P (Id = f"item{j}")
                 item.innerHTML = (f'(<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>) ' if "maps" in i else "") + "".join ((
                     f'{name} - {i ["type"]}<br>',
                     f'{i ["name"]} {i ["addr"]}<br>',
                     ", ".join (f'{k}: {i ["info"] [k]}' for k in i ["info"])
                 ))
                 if "maps" in i:
-                    item.bind ("click", lambda *_, point = (i ["maps"] ["lat"], i ["maps"] ["lon"]): Map.setView (point, 16)) # Catch value of i
+                    def scroll_list (*_, el_id = j, point = (i ["maps"] ["lat"], i ["maps"] ["lon"])): # Catch variables
+                        Map.setView (point, 16)
+                        for k in markers.values ():
+                            if el_id in k [4]:
+                                k [0].openPopup ()
+                                break
+                    item.bind ("click", scroll_list)
+                else:
+                    item.style.cursor = "default"
                 document ["items"] <= item
         document ["settings"].bind ("input", render_map)
         render_map ()
@@ -323,22 +367,24 @@
             <div>
                 <i class="bi bi-gear-fill"></i>
                 <h2>Settings</h2>
-                <button class="settings-button" id="split">Change&nbsp;Split</button>
+                <button class="settings-button" id="split" data-norerender>Change&nbsp;Split</button>
+                <input type="checkbox" class="settings-button" id="scroll-list" data-norerender>
+                <label for="scroll-list" class="settings-button">Scroll&nbsp;to&nbsp;items</label>
             </div>
             <div>
                 <p>Show</p>
-                <input type="checkbox" class="settings-button" id="closures" type-selected="true" checked>
+                <input type="checkbox" class="settings-button" id="closures" checked>
                 <label for="closures" class="settings-button closures-icon">Closures</label>
-                <input type="checkbox" class="settings-button" id="convictions" type-selected="true" checked>
+                <input type="checkbox" class="settings-button" id="convictions" checked>
                 <label for="convictions" class="settings-button convictions-icon">Convictions</label>
-                <input type="checkbox" class="settings-button" id="pastclosures" type-selected="true" checked>
+                <input type="checkbox" class="settings-button" id="pastclosures" checked>
                 <label for="pastclosures" class="settings-button pastclosures-icon">Past&nbsp;Closures</label>
-                <input type="checkbox" class="settings-button" id="pastconvictions" type-selected="true" checked>
+                <input type="checkbox" class="settings-button" id="pastconvictions" checked>
                 <label for="pastconvictions" class="settings-button pastconvictions-icon">Past&nbsp;Convictions</label>
             </div>
             <div>
                 <p>Show</p>
-                <input type="checkbox" class="settings-button" id="all-dates" type-selected="true" checked>
+                <input type="checkbox" class="settings-button" id="all-dates" checked>
                 <label for="all-dates" class="settings-button">All&nbsp;Dates</label>
                 <p>or from</p>
                 <input type="date" class="settings-button" id="start-date">
@@ -348,15 +394,15 @@
             <div>
                 <i class="bi bi-geo-alt-fill"></i>
                 <h2>Zoom&nbsp;to</h2>
-                <button class="settings-button" id="zoom-winnipeg">Winnipeg</button>
-                <button class="settings-button" id="zoom-brandon">Brandon</button>
-                <button class="settings-button" id="zoom-manitoba">Manitoba</button>
+                <button class="settings-button" id="zoom-winnipeg" data-norerender>Winnipeg</button>
+                <button class="settings-button" id="zoom-brandon" data-norerender>Brandon</button>
+                <button class="settings-button" id="zoom-manitoba" data-norerender>Manitoba</button>
             </div>
             <div>
                 <i class="bi bi-pin-angle-fill"></i>
                 <h2>List</h2>
                 <input type="radio" class="settings-button" name="items" value="all-items" id="all-items">
-                <label for="all-items" class="settings-button">All&nbsp;items</label>
+                <label for="all-items" class="settings-button">All&nbsp;Items</label>
                 <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" checked>
                 <label for="visible-items" class="settings-button">Visible&nbsp;items</label>
                 <input type="radio" class="settings-button" name="items" value="no-maps-items" id="no-maps-items">
