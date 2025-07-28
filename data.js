@@ -3714,9 +3714,45 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1749052800,
+  "timestamp": 1753709400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
+   {
+    "name": "SMILE PINOY FOODS",
+    "addr": "77 Dennis Street Gladstone, MB",
+    "type": "Food Service Establishment",
+    "start": 1720656000,
+    "end": 1721779200,
+    "info": {
+     "Offense date": "Jul 11/24",
+     "Conviction date": "Jul 24/24",
+     "Reason(s)": "Operate food handling establishment with poor general sanitation namely inadequate cleaning of equipment.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Smile+Pinoy+Foods,+77+Dennis+St,+Gladstone,+MB+R0J+0T0/@50.2259713,-98.9545935,2553a,13.1y/data=!4m2!3m1!1s0x52e85d45eb55fc47:0xadc1b1fab393ddae",
+     "lat": 50.2259713,
+     "lon": -98.9545935
+    }
+   },
+   {
+    "name": "GUNN’S BAKERY",
+    "addr": "247 Selkirk Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1738627200,
+    "end": 1749168000,
+    "info": {
+     "Offense date": "Feb 4/25",
+     "Conviction date": "Jun 6/25",
+     "Reason(s)": "As an operator fail to take effective measures against the entry of pests.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Gunn's+Bakery,+247+Selkirk+Ave,+Winnipeg,+MB+R2W+2L5/@49.9125,-97.1347222,2569a,13.1y/data=!4m2!3m1!1s0x52ea716e1d640285:0x2818180c4fa86e39",
+     "lat": 49.9125,
+     "lon": -97.1347222
+    }
+   },
    {
     "name": "PEMBINA CONSUMERS COOP",
     "addr": "110 First Street South Souris, MB",
