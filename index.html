@@ -239,9 +239,16 @@
                     if i.isOpen ():
                         i.update ()
 
+        highlight_set = set ()
+        def highlight_items ():
+            global highlight_set
+            for el in (document.getElementById (i) for i in highlight_set):
+                if el:
+                    el.classList.add ("highlighted")
+
         scroll_pos = [None, None] # [original position, list item position]
         def reset_scroll (*_):
-            global scroll_pos
+            global highlight_set, scroll_pos
             if not document ["scroll-list"].checked:
                 scroll_pos = [None, None]
             elif scroll_pos [0] is not None:
@@ -250,6 +257,7 @@
                 scroll_pos = [None, None]
             for i in document.querySelectorAll ("#items > p.highlighted"):
                 i.classList.remove ("highlighted")
+                highlight_set.discard (i.id)
 
         markers = {} # latlon: [marker, status, types set, popup content, item_count set]
         no_maps, visible = [], [] # [(item_count, category name), ...]
@@ -323,11 +331,10 @@
                         "content": i [3].format (types = ", ".join (i [2]))
                     })
                     def scroll_list (*_, marker = i):
-                        global scroll_pos
-                        for i in marker [4]:
-                            el = document.getElementById (f"item{i}")
-                            if el:
-                                el.classList.add ("highlighted")
+                        global highlight_set, scroll_pos
+                        highlight_set.update ((f"item{i}" for i in marker [4]))
+                        highlight_items ()
+                        el = document.getElementById (f"item{next (iter (marker [4]))}")
                         if el and document ["scroll-list"].checked:
                             if scroll_pos [0] is None:
                                 scroll_pos [0] = document ["settings"].scrollTop
@@ -373,6 +380,7 @@
                 else:
                     item.style.cursor = "default"
                 document ["items"] <= item
+            highlight_items ()
 
         document ["search-items"].bind ("input", lambda *_: window.setTimeout (lambda: render (list_only = True), 0))
         document ["settings"].bind ("input", render)
