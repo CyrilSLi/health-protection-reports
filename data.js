@@ -1,12 +1,46 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1753459200,
+  "timestamp": 1753718400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
+    "name": "HIDDEN POCKET BILLIARDS, BAR & BISTRO",
+    "addr": "121 Scurfield Boulevard Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1751846400,
+    "end": 1752451200,
+    "info": {
+     "Closure date": "Jul 7/25",
+     "Re-open date": "Jul 14/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to provide approved sinks for use in manual washing and sanitizing. Fail to maintain mechanical washer in a satisfactory condition."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/121+Scurfield+Blvd.,+Winnipeg,+MB+R3Y+1G4/@49.8174612,-97.1940417,2574a,13.1y/data=!4m2!3m1!1s0x52ea7512be2e2a4b:0xef89d207f5d7eafa",
+     "lat": 49.8174612,
+     "lon": -97.1940417
+    }
+   },
+   {
+    "name": "CHARLESWOOD PIZZA DEPOT",
+    "addr": "3617 Roblin Boulevard Winnipeg MB",
+    "type": "Food Service Establishment",
+    "start": 1752537600,
+    "end": 1752796800,
+    "info": {
+     "Closure date": "Jul 15/25",
+     "Re-open date": "Jul 18/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food. Did prepare food under insanitary conditions."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Charleswood+Pizza+Depot,+3617+Roblin+Blvd,+Winnipeg,+MB+R3R+0C6/@49.8688496,-97.2602588,2572a,13.1y/data=!4m2!3m1!1s0x52ea0be741c80917:0xa4ca03a739c22ae8",
+     "lat": 49.8688496,
+     "lon": -97.2602588
+    }
+   },
+   {
     "name": "SANTA LUCIA PIZZA",
-    "addr": "2029 Portage Ave Winnipeg, MB",
+    "addr": "2029 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1753142400,
     "end": 1753315200,
@@ -22,8 +56,8 @@ window.healthData = {
     }
    },
    {
-    "name": "DAWAT TAKEOUT AND CATERING",
-    "addr": "12 Keewatin St. Winnipeg MB",
+    "name": "DAWAT TAKEOUT & CATERING",
+    "addr": "12 Keewatin Street Winnipeg MB",
     "type": "Food Service Establishment",
     "start": 1753228800,
     "end": 1753401600,
@@ -39,14 +73,15 @@ window.healthData = {
     }
    },
    {
-    "name": "FRESHII (001134)",
-    "addr": "B – 1857 Grant Ave. Winnipeg, MB",
+    "name": "FRESHII",
+    "addr": "B-1857 Grant Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1753401600,
-    "end": 4294967295,
+    "end": 1753660800,
     "info": {
      "Closure date": "Jul 25/25",
-     "Reason(s)": "Refrigeration equipment is in disrepair & not able to maintain a safe internal temperature of potentially hazardous food. As an operator, did fail to ensure that potentially hazardous foods are kept <5C."
+     "Re-open date": "Jul 28/25",
+     "Reason(s)": "Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food. As an operator, fail to ensure that potentially hazardous foods are kept at less than 5°C."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/Freshii,+1857+Grant+Ave+B,+Winnipeg,+MB+R3N+1Z2/@49.8576966,-97.2035568,2572a,13.1y/data=!4m2!3m1!1s0x52ea7492a39e5d03:0xc6291dccd793a79f",
@@ -72,23 +107,6 @@ window.healthData = {
     }
    },
    {
-    "name": "HIDDEN POCKETS BILLIARDS, BAR & BISTRO",
-    "addr": "121 Scurfield Boulevard Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1751846400,
-    "end": 1752451200,
-    "info": {
-     "Closure date": "Jul 7/25",
-     "Re-open date": "Jul 14/25",
-     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to provide approved sinks for use in manual washing and sanitizing. Fail to maintain mechanical washer in a satisfactory condition."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hidden+Pocket+Billiards,+Bar+%26+Bistro,+121+Scurfield+Blvd.,+Winnipeg,+MB+R3Y+1G4/@49.8173398,-97.1940144,2574a,13.1y/data=!4m2!3m1!1s0x52ea752b3c1efb7d:0x5ff573381c301f33",
-     "lat": 49.8173398,
-     "lon": -97.1940144
-    }
-   },
-   {
     "name": "A+ SUSHI JAPANESE RESTAURANT",
     "addr": "631 Corydon Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
@@ -103,23 +121,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/A%2B+Sushi+Buffet,+631+Corydon+Ave,+Winnipeg,+MB+R3M+0W3/@49.872434,-97.1490707,2571a,13.1y/data=!4m2!3m1!1s0x52c1d8b2c0802267:0xc92c92e279ca28e3",
      "lat": 49.872434,
      "lon": -97.1490707
-    }
-   },
-   {
-    "name": "CHARLESWOOD PIZZA DEPOT",
-    "addr": "3617 Roblin Blvd Winnipeg MB",
-    "type": "Food Service Establishment",
-    "start": 1752537600,
-    "end": 1752796800,
-    "info": {
-     "Closure date": "Jul 15/25",
-     "Re-open date": "Jul 18/25",
-     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Cooling equipment is in disrepair & not able to maintain a safe internal temperature of potentially hazardous food. As an operator, did prepare food under insanitary conditions."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Charleswood+Pizza+Depot,+3617+Roblin+Blvd,+Winnipeg,+MB+R3R+0C6/@49.8688496,-97.2602588,2572a,13.1y/data=!4m2!3m1!1s0x52ea0be741c80917:0xa4ca03a739c22ae8",
-     "lat": 49.8688496,
-     "lon": -97.2602588
     }
    },
    {
