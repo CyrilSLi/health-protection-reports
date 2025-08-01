@@ -1,9 +1,58 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1753718400,
+  "timestamp": 1754038800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "EIFFEL TOWER A",
+    "addr": "291 Goulet Street Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1753660800,
+    "end": 1753747200,
+    "info": {
+     "Closure date": "Jul 28/25",
+     "Re-open date": "Jul 29/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/291+Goulet+St,+Winnipeg,+MB+R2H+0S4/@49.8827858,-97.1149359,2571a,13.1y/data=!4m2!3m1!1s0x52ea7134b4d8616b:0xc306c58bd4fb2bc9",
+     "lat": 49.8827858,
+     "lon": -97.1149359
+    }
+   },
+   {
+    "name": "GILL’S SUPERMARKET",
+    "addr": "Butcher Shop 22-2855 Pembina Highway Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1753747200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 29/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to take effective measures against the entry and presence of pests. Fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Gill's+Supermarket,+22-2855+Pembina+Hwy,+Winnipeg,+MB+R3T+6B4/@49.7883434,-97.1584766,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6ff7fe5705:0x245335413e15f0b4",
+     "lat": 49.7883434,
+     "lon": -97.1584766
+    }
+   },
+   {
+    "name": "GOODLIFE FITNESS - THE REFINERY",
+    "addr": "300 Newmarket Blvd Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1753920000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 31/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/GoodLife+Fitness+Winnipeg+Refinery+District,+300+Newmarket+Blvd,+Winnipeg,+MB+R3T+6G7/@49.8198376,-97.1699223,2574a,13.1y/data=!4m2!3m1!1s0x52ea753abbb3dd01:0x73c3f341fac6f273",
+     "lat": 49.8198376,
+     "lon": -97.1699223
+    }
+   },
    {
     "name": "HIDDEN POCKET BILLIARDS, BAR & BISTRO",
     "addr": "121 Scurfield Boulevard Winnipeg, MB",
