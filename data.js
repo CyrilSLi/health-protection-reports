@@ -1,9 +1,60 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1754038800,
+  "timestamp": 1754409600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "DAYS INN",
+    "addr": "695 Berry Street Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1741132800,
+    "end": 1754352000,
+    "info": {
+     "Closure date": "Mar 5/25",
+     "Re-open date": "Aug 5/25",
+     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
+     "lat": 49.8976188,
+     "lon": -97.2091577
+    }
+   },
+   {
+    "name": "GILL’S SUPERMARKET",
+    "addr": "Butcher Shop 22-2855 Pembina Highway Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1753747200,
+    "end": 1753920000,
+    "info": {
+     "Closure date": "Jul 29/25",
+     "Re-open date": "Jul 31/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to take effective measures against the entry and presence of pests. Fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Gill's+Supermarket,+22-2855+Pembina+Hwy,+Winnipeg,+MB+R3T+6B4/@49.7883434,-97.1584766,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6ff7fe5705:0x245335413e15f0b4",
+     "lat": 49.7883434,
+     "lon": -97.1584766
+    }
+   },
+   {
+    "name": "GOODLIFE FITNESS - THE REFINERY",
+    "addr": "300 Newmarket Blvd Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1753920000,
+    "end": 1754006400,
+    "info": {
+     "Closure date": "Jul 31/25",
+     "Re-open date": "Aug 1/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/GoodLife+Fitness+Winnipeg+Refinery+District,+300+Newmarket+Blvd,+Winnipeg,+MB+R3T+6G7/@49.8191826,-97.1697066,2574a,13.1y/data=!4m2!3m1!1s0x52ea753abbb3dd01:0x73c3f341fac6f273",
+     "lat": 49.8191826,
+     "lon": -97.1697066
+    }
+   },
    {
     "name": "EIFFEL TOWER A",
     "addr": "291 Goulet Street Winnipeg, MB",
@@ -19,38 +70,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/291+Goulet+St,+Winnipeg,+MB+R2H+0S4/@49.8827858,-97.1149359,2571a,13.1y/data=!4m2!3m1!1s0x52ea7134b4d8616b:0xc306c58bd4fb2bc9",
      "lat": 49.8827858,
      "lon": -97.1149359
-    }
-   },
-   {
-    "name": "GILL’S SUPERMARKET",
-    "addr": "Butcher Shop 22-2855 Pembina Highway Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1753747200,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Jul 29/25",
-     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to take effective measures against the entry and presence of pests. Fail to take effective measures against the entry and presence of rodents."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Gill's+Supermarket,+22-2855+Pembina+Hwy,+Winnipeg,+MB+R3T+6B4/@49.7883434,-97.1584766,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6ff7fe5705:0x245335413e15f0b4",
-     "lat": 49.7883434,
-     "lon": -97.1584766
-    }
-   },
-   {
-    "name": "GOODLIFE FITNESS - THE REFINERY",
-    "addr": "300 Newmarket Blvd Winnipeg, MB",
-    "type": "Swimming Pool",
-    "start": 1753920000,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Jul 31/25",
-     "Reason(s)": "Operate a pool with inadequate water quality."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/GoodLife+Fitness+Winnipeg+Refinery+District,+300+Newmarket+Blvd,+Winnipeg,+MB+R3T+6G7/@49.8198376,-97.1699223,2574a,13.1y/data=!4m2!3m1!1s0x52ea753abbb3dd01:0x73c3f341fac6f273",
-     "lat": 49.8198376,
-     "lon": -97.1699223
     }
    },
    {
@@ -1022,22 +1041,6 @@ window.healthData = {
      "Closure date": "Mar 5/25",
      "Re-open date": "Mar 6/25",
      "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
-     "lat": 49.8976188,
-     "lon": -97.2091577
-    }
-   },
-   {
-    "name": "DAYS INN",
-    "addr": "695 Berry Street Winnipeg, MB",
-    "type": "Whirlpool",
-    "start": 1741132800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Mar 5/25",
-     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
