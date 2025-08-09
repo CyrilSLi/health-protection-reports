@@ -1,9 +1,57 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1754409600,
+  "timestamp": 1754668800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ANJELICA’S FOOD HOUSE & CATERING",
+    "addr": "989 McPhillips Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1754524800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 7/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Operated a food handling establishment with poor general sanitation, namely, failed to provide an adequate supply of hot and cold potable water."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/989+McPhillips+St,+Winnipeg,+MB+R2X+2K3,+Canada/@49.9307193,-97.167069,2568a,13.1y/data=!4m2!3m1!1s0x52ea722f78e033f3:0xa09bcce39784479",
+     "lat": 49.9307193,
+     "lon": -97.167069
+    }
+   },
+   {
+    "name": "V & C CUEVAS BAKERY",
+    "addr": "989 McPhillips Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1754524800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 7/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Operated a food handling establishment with poor general sanitation, namely, failed to provide an adequate supply of hot and cold potable water."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/VC+Cuevas+bakery,+989+McPhillips+St,+Winnipeg,+MB+R2X+2K3,+Canada/@49.9307436,-97.1670572,2568a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
+     "lat": 49.9307436,
+     "lon": -97.1670572
+    }
+   },
+   {
+    "name": "WAANGE COFFEE & RESTAURANT",
+    "addr": "869 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1754524800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 7/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Waange+Coffee+%26+Restaurant,+869+Portage+Ave,+Winnipeg,+MB+R3G+0N8,+Canada/@49.8859941,-97.1687454,2571a,13.1y/data=!4m2!3m1!1s0x52ea73005f2c9209:0x9dd2952a2bb957d0",
+     "lat": 49.8859941,
+     "lon": -97.1687454
+    }
+   },
    {
     "name": "DAYS INN",
     "addr": "695 Berry Street Winnipeg, MB",
