@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1754668800,
+  "timestamp": 1755077400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,13 +9,14 @@ window.healthData = {
     "addr": "989 McPhillips Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1754524800,
-    "end": 4294967295,
+    "end": 1754870400,
     "info": {
      "Closure date": "Aug 7/25",
+     "Re-open date": "Aug 11/25",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Operated a food handling establishment with poor general sanitation, namely, failed to provide an adequate supply of hot and cold potable water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/989+McPhillips+St,+Winnipeg,+MB+R2X+2K3,+Canada/@49.9307193,-97.167069,2568a,13.1y/data=!4m2!3m1!1s0x52ea722f78e033f3:0xa09bcce39784479",
+     "url": "https://www.google.com/maps/preview/place/989+McPhillips+St,+Winnipeg,+MB+R2X+2K3/@49.9307193,-97.167069,2568a,13.1y/data=!4m2!3m1!1s0x52ea722f78e033f3:0xa09bcce39784479",
      "lat": 49.9307193,
      "lon": -97.167069
     }
@@ -25,15 +26,64 @@ window.healthData = {
     "addr": "989 McPhillips Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1754524800,
-    "end": 4294967295,
+    "end": 1754870400,
     "info": {
      "Closure date": "Aug 7/25",
+     "Re-open date": "Aug 11/25",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Operated a food handling establishment with poor general sanitation, namely, failed to provide an adequate supply of hot and cold potable water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/VC+Cuevas+bakery,+989+McPhillips+St,+Winnipeg,+MB+R2X+2K3,+Canada/@49.9307436,-97.1670572,2568a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
+     "url": "https://www.google.com/maps/preview/place/VC+Cuevas+bakery,+989+McPhillips+St,+Winnipeg,+MB+R2X+2K3/@49.9307436,-97.1670572,2568a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
      "lat": 49.9307436,
      "lon": -97.1670572
+    }
+   },
+   {
+    "name": "SUPER 8 MOTEL",
+    "addr": "3010 Thornhill Street Morden, MB",
+    "type": "Whirlpool",
+    "start": 1754611200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 8/25",
+     "Reason(s)": "As an operator of a whirlpool, failed to maintain facility in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Morden,+3010+Thornhill+St,+Morden,+MB+R6M+1B3/@49.191082,-98.1416931,2607a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
+     "lat": 49.191082,
+     "lon": -98.1416931
+    }
+   },
+   {
+    "name": "SUPER 8 MOTEL",
+    "addr": "3010 Thornhill Street Morden, MB",
+    "type": "Swimming Pool",
+    "start": 1754611200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 8/25",
+     "Reason(s)": "As an operator of a pool, failed to maintain facility in good repair and kept clean. Failed to ensure drains and recirculation facilities are operated in such a manner as to prevent entrapment of bathers."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Morden,+3010+Thornhill+St,+Morden,+MB+R6M+1B3/@49.191082,-98.1416931,2607a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
+     "lat": 49.191082,
+     "lon": -98.1416931
+    }
+   },
+   {
+    "name": "BENGAL BITES",
+    "addr": "H-230 Dalhousie Drive Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1754956800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 12/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Bengal+Bites+Bistro,+230+Dalhousie+Dr+unit+h,+Winnipeg,+MB+R3T+2Z1/@49.7964648,-97.1479144,2575a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
+     "lat": 49.7964648,
+     "lon": -97.1479144
     }
    },
    {
