@@ -1,9 +1,59 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1755077400,
+  "timestamp": 1755705600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "BENGAL BITES",
+    "addr": "H-230 Dalhousie Drive Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1754956800,
+    "end": 1755475200,
+    "info": {
+     "Closure date": "Aug 12/25",
+     "Re-open date": "Aug 18/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Bengal+Bites+Bistro,+230+Dalhousie+Dr+unit+h,+Winnipeg,+MB+R3T+2Z1/@49.7964648,-97.1479144,2575a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
+     "lat": 49.7964648,
+     "lon": -97.1479144
+    }
+   },
+   {
+    "name": "SALISBURY HOUSE",
+    "addr": "1 Bannister Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1755475200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 18/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1+Bannister+Rd,+Winnipeg,+MB+R2R+0P2/@49.9232649,-97.2073908,2569a,13.1y/data=!4m2!3m1!1s0x52ea72f8aa28cf71:0x2495591aef3098cc",
+     "lat": 49.9232649,
+     "lon": -97.2073908
+    }
+   },
+   {
+    "name": "BURGER KING",
+    "addr": "1430 McPhillips Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1755475200,
+    "end": 1755561600,
+    "info": {
+     "Closure date": "Aug 18/25",
+     "Re-open date": "Aug 19/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. As the owner, fail to keep roof watertight and in good repair."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Burger+King,+1430+McPhillips+St,+Winnipeg,+MB+R2V+3C5/@49.9428989,-97.1575067,2568a,13.1y/data=!4m2!3m1!1s0x52ea71f4dbada50f:0xa98bff9c99bdb338",
+     "lat": 49.9428989,
+     "lon": -97.1575067
+    }
+   },
    {
     "name": "ANJELICA’S FOOD HOUSE & CATERING",
     "addr": "989 McPhillips Street Winnipeg, MB",
@@ -68,22 +118,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Morden,+3010+Thornhill+St,+Morden,+MB+R6M+1B3/@49.191082,-98.1416931,2607a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
      "lat": 49.191082,
      "lon": -98.1416931
-    }
-   },
-   {
-    "name": "BENGAL BITES",
-    "addr": "H-230 Dalhousie Drive Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1754956800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Aug 12/25",
-     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Bengal+Bites+Bistro,+230+Dalhousie+Dr+unit+h,+Winnipeg,+MB+R3T+2Z1/@49.7964648,-97.1479144,2575a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
-     "lat": 49.7964648,
-     "lon": -97.1479144
     }
    },
    {
@@ -3865,9 +3899,45 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1753709400,
+  "timestamp": 1755705600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
+   {
+    "name": "LITTLE CHIEF’S PLACE",
+    "addr": "2025 Lyndale Avenue Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1747958400,
+    "end": 1751932800,
+    "info": {
+     "Offense date": "May 23/25",
+     "Conviction date": "Jul 8/25",
+     "Reason(s)": "As an operator, fail to ensure that food contact surface is thoroughly washed and sanitized.",
+     "Penalty": "$203.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/TEMPO,+Little+Chief's+Place,+2025+Lyndale+Dr,+Brandon,+MB+R7A+7K9/@49.8176312,-99.9610585,2574a,13.1y/data=!4m2!3m1!1s0x52e79a0b20b340c1:0xe61ce0e11a865b88",
+     "lat": 49.8176312,
+     "lon": -99.9610585
+    }
+   },
+   {
+    "name": "SIZZLING WOK",
+    "addr": "83-1570 18th Street Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1749600000,
+    "end": 1753920000,
+    "info": {
+     "Offense date": "Jun 11/25",
+     "Conviction date": "Jul 31/25",
+     "Reason(s)": "As the operator of a food service or processing establishment, fail to provide required sanitary facilities, namely obstruct handwashing sink.",
+     "Penalty": "$672.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Sizzling+Wok,+1570+18th+St+%2383,+Brandon,+MB+R7A+5C5/@49.8237068,-99.9645914,2574a,13.1y/data=!4m2!3m1!1s0x52e79a09bc4ce0ad:0x71dd60d24e0b4fcd",
+     "lat": 49.8237068,
+     "lon": -99.9645914
+    }
+   },
    {
     "name": "SMILE PINOY FOODS",
     "addr": "77 Dennis Street Gladstone, MB",
