@@ -257,7 +257,7 @@
                 scroll_pos = [None, None]
             for i in document.querySelectorAll ("#items > p.highlighted"):
                 i.classList.remove ("highlighted")
-                highlight_set.discard (i.id)
+            highlight_set.clear () # Bugfix, remove before implementing new lists which add items to highlight_set
 
         markers = {} # latlon: [marker, status, types set, popup content, item_count set]
         no_maps, visible = [], [] # [(item_count, category name), ...]
