@@ -1,9 +1,76 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1755705600,
+  "timestamp": 1755878400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SALISBURY HOUSE",
+    "addr": "1 Bannister Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1755475200,
+    "end": 1755734400,
+    "info": {
+     "Closure date": "Aug 18/25",
+     "Re-open date": "Aug 21/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1+Bannister+Rd,+Winnipeg,+MB+R2R+0P2/@49.9232649,-97.2073908,2569a,13.1y/data=!4m2!3m1!1s0x52ea72f8aa28cf71:0x2495591aef3098cc",
+     "lat": 49.9232649,
+     "lon": -97.2073908
+    }
+   },
+   {
+    "name": "WILD OAKS CAMPGROUND 45136 PR 302",
+    "addr": "Richer, MB",
+    "type": "Whirlpool",
+    "start": 1755648000,
+    "end": 1755820800,
+    "info": {
+     "Closure date": "Aug 20/25",
+     "Re-open date": "Aug 22/25",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Wild+Oaks+Campground,+Wild+Oaks+Campground+45136,+MB-302,+Richer,+MB+R0E+1S0/@49.6751056,-96.4574164,2582a,13.1y/data=!4m2!3m1!1s0x52c03cc08bcf1123:0xaa37c25c4419efcb",
+     "lat": 49.6751056,
+     "lon": -96.4574164
+    }
+   },
+   {
+    "name": "WILD OAKS CAMPGROUND 45136 PR 302",
+    "addr": "Richer, MB",
+    "type": "Swimming Pool",
+    "start": 1755648000,
+    "end": 1755820800,
+    "info": {
+     "Closure date": "Aug 20/25",
+     "Re-open date": "Aug 22/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Wild+Oaks+Campground,+Wild+Oaks+Campground+45136,+MB-302,+Richer,+MB+R0E+1S0/@49.6751056,-96.4574164,2582a,13.1y/data=!4m2!3m1!1s0x52c03cc08bcf1123:0xaa37c25c4419efcb",
+     "lat": 49.6751056,
+     "lon": -96.4574164
+    }
+   },
+   {
+    "name": "SOUTHRIDGE ESTATES POOL",
+    "addr": "22 Aldrin Way Brandon, MB",
+    "type": "Swimming Pool",
+    "start": 1755648000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 20/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Southridge+Community+Centre,+22+Aldrin+Way,+Brandon,+MB+R7A+2V1/@49.8176093,-99.947237,2574a,13.1y/data=!4m2!3m1!1s0x52e79126a9a051ad:0xaef8a6ad7614980e",
+     "lat": 49.8176093,
+     "lon": -99.947237
+    }
+   },
    {
     "name": "BENGAL BITES",
     "addr": "H-230 Dalhousie Drive Winnipeg, MB",
@@ -19,22 +86,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Bengal+Bites+Bistro,+230+Dalhousie+Dr+unit+h,+Winnipeg,+MB+R3T+2Z1/@49.7964648,-97.1479144,2575a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
      "lat": 49.7964648,
      "lon": -97.1479144
-    }
-   },
-   {
-    "name": "SALISBURY HOUSE",
-    "addr": "1 Bannister Road Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1755475200,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Aug 18/25",
-     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/1+Bannister+Rd,+Winnipeg,+MB+R2R+0P2/@49.9232649,-97.2073908,2569a,13.1y/data=!4m2!3m1!1s0x52ea72f8aa28cf71:0x2495591aef3098cc",
-     "lat": 49.9232649,
-     "lon": -97.2073908
     }
    },
    {
