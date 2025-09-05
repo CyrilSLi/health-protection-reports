@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1755878400,
+  "timestamp": 1757075400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "WAANGE COFFEE & RESTAURANT",
+    "addr": "869 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1754524800,
+    "end": 1756857600,
+    "info": {
+     "Closure date": "Aug 7/25",
+     "Re-open date": "Sep 3/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Waange+Coffee+%26+Restaurant,+869+Portage+Ave,+Winnipeg,+MB+R3G+0N8/@49.8859941,-97.1687454,2571a,13.1y/data=!4m2!3m1!1s0x52ea73005f2c9209:0x9dd2952a2bb957d0",
+     "lat": 49.8859941,
+     "lon": -97.1687454
+    }
+   },
    {
     "name": "SALISBURY HOUSE",
     "addr": "1 Bannister Road Winnipeg, MB",
@@ -169,22 +186,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Morden,+3010+Thornhill+St,+Morden,+MB+R6M+1B3/@49.191082,-98.1416931,2607a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
      "lat": 49.191082,
      "lon": -98.1416931
-    }
-   },
-   {
-    "name": "WAANGE COFFEE & RESTAURANT",
-    "addr": "869 Portage Avenue Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1754524800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Aug 7/25",
-     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Waange+Coffee+%26+Restaurant,+869+Portage+Ave,+Winnipeg,+MB+R3G+0N8,+Canada/@49.8859941,-97.1687454,2571a,13.1y/data=!4m2!3m1!1s0x52ea73005f2c9209:0x9dd2952a2bb957d0",
-     "lat": 49.8859941,
-     "lon": -97.1687454
     }
    },
    {
