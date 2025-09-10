@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1757075400,
+  "timestamp": 1757494800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SPICE CIRCLE EAST INDIAN RESTAURANT",
+    "addr": "1 & 2-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757376000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 9/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Spice+Circle+East+Indian+Restaurant,+2015+Portage+Ave+%231,+Winnipeg,+MB+R3J+0K3/@49.8781133,-97.2291832,2571a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    },
+    "manual_entry": true
+   },
    {
     "name": "WAANGE COFFEE & RESTAURANT",
     "addr": "869 Portage Avenue Winnipeg, MB",

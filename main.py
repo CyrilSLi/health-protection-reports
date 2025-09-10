@@ -196,7 +196,7 @@ def main ():
             nonlocal new_count
             dups, only_manual = [], False
             for i in items:
-                if all (i.get (k) == item [k] for k in keys):
+                if all (i.get (k, object ()) == item.get (k, object ()) for k in keys):
                     if i.get ("manual_entry", False):
                         only_manual = True
                         print (f"Skipping manual entry {item ['name']}")
