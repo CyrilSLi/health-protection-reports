@@ -1,9 +1,58 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1757494800,
+  "timestamp": 1757694600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "MONA LISA RESTAURANT",
+    "addr": "1697 Corydon Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757548800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 11/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Mona+Lisa+Ristorante+Italiano+and+Catering,+1697+Corydon+Ave,+Winnipeg,+MB+R3N+0J9/@49.863959,-97.196826,2572a,13.1y/data=!4m2!3m1!1s0x52ea74893c1aa6e7:0xa32db991b70d82d6",
+     "lat": 49.863959,
+     "lon": -97.196826
+    }
+   },
+   {
+    "name": "KEEWATIN PIZZA & CONVENIENCE STORE",
+    "addr": "115 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757635200,
+    "end": 1757635200,
+    "info": {
+     "Closure date": "Sep 12/25",
+     "Re-open date": "Sep 12/25",
+     "Reason(s)": "As an operator, fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes. Fail to ensure that an adequate supply of hot potable water is provided for hand washing and dish washing purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Keewatin+Pizza,+115+Keewatin+St,+Winnipeg,+MB+R3E+3E1/@49.9209055,-97.1948198,2569a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
+     "lat": 49.9209055,
+     "lon": -97.1948198
+    }
+   },
+   {
+    "name": "CHACHA WOW EAST INDIAN CUISINE",
+    "addr": "3119 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757635200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 12/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Chacha+Wow+East+Indian+Cuisine,+3123+Portage+Ave,+Winnipeg,+MB+R3K+0W4/@49.8809284,-97.285385,2571a,13.1y/data=!4m2!3m1!1s0x52ea0d3fbe1d9891:0x85ac1b52b6d9d61",
+     "lat": 49.8809284,
+     "lon": -97.285385
+    }
+   },
    {
     "name": "SPICE CIRCLE EAST INDIAN RESTAURANT",
     "addr": "1 & 2-2015 Portage Avenue Winnipeg, MB",
@@ -558,7 +607,7 @@ window.healthData = {
     }
    },
    {
-    "name": "ELMWOOD COMMUNITY RESOURCE CENTRE KITCHEN",
+    "name": "ELMWOOD COMMUNITY RESOURCE CENTRE",
     "addr": "545 Watt Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1749081600,
@@ -927,7 +976,7 @@ window.healthData = {
     }
    },
    {
-    "name": "FORT GARRY PLACE SWIMMING POOL",
+    "name": "FORT GARRY PLACE",
     "addr": "401-83 Garry Street Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1745366400,
@@ -961,7 +1010,7 @@ window.healthData = {
     }
    },
    {
-    "name": "CANAD INNS FORT GARRY SWIMMING POOL",
+    "name": "CANAD INNS FORT GARRY",
     "addr": "1824 Pembina Highway Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1743984000,
@@ -978,7 +1027,7 @@ window.healthData = {
     }
    },
    {
-    "name": "CANAD INNS FORT GARRY WADING POOL",
+    "name": "CANAD INNS FORT GARRY",
     "addr": "1824 Pembina Highway Winnipeg, MB",
     "type": "Wading Pool",
     "start": 1743984000,
