@@ -9,15 +9,97 @@ window.healthData = {
     "addr": "1697 Corydon Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1757548800,
-    "end": 4294967295,
+    "end": 1757894400,
     "info": {
      "Closure date": "Sep 11/25",
+     "Re-open date": "Sep 15/25",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/Mona+Lisa+Ristorante+Italiano+and+Catering,+1697+Corydon+Ave,+Winnipeg,+MB+R3N+0J9/@49.863959,-97.196826,2572a,13.1y/data=!4m2!3m1!1s0x52ea74893c1aa6e7:0xa32db991b70d82d6",
      "lat": 49.863959,
      "lon": -97.196826
+    }
+   },
+   {
+    "name": "PILOT MOUND ESSO HWY 3 & PTH 258",
+    "addr": "Pilot Mound, MB",
+    "type": "Food Service Establishment",
+    "start": 1757894400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 15/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Esso,+Hwy+3+%26+Pth+258,+Pilot+Mound,+MB+R0G+1P0/@49.207276,-98.886625,2607a,13.1y/data=!4m2!3m1!1s0x52c2c53822812eef:0x3e00227525dfe234",
+     "lat": 49.207276,
+     "lon": -98.886625
+    }
+   },
+   {
+    "name": "UMI SUSHI KENASTON",
+    "addr": "3-1659 Kenaston Blvd. Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757894400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 15/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous foods."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Umi+Sushi,+3-1659+Kenaston+Blvd,+Winnipeg,+MB+R3P+2M4/@49.823397,-97.201441,2574a,13.1y/data=!4m2!3m1!1s0x52ea75177468cdb5:0x48d06bed6c478822",
+     "lat": 49.823397,
+     "lon": -97.201441
+    }
+   },
+   {
+    "name": "ALTEA ACTIVE WOMEN’S WHIRLPOOL",
+    "addr": "100 South Town Road Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1757980800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 16/25",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance. Operate a whirlpool and fail to ensure it is equipped with an emergency shut-off switch as required."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "lat": 49.7905867,
+     "lon": -97.1971307
+    }
+   },
+   {
+    "name": "ALTEA ACTIVE WOMEN’S POOL",
+    "addr": "100 South Town Road Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1757980800,
+    "end": 1758067200,
+    "info": {
+     "Closure date": "Sep 16/25",
+     "Re-open date": "Sep 17/25",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "lat": 49.7905867,
+     "lon": -97.1971307
+    }
+   },
+   {
+    "name": "FRICKIN CHICKEN & PIZZA",
+    "addr": "1438 Logan Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1758067200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 17/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/FRICK'N+CHICKEN+PIZZA(logan+Ave),+1438+Logan+Ave,+Winnipeg,+MB+R3E+1S2/@49.9178867,-97.1839075,2569a,13.1y/data=!4m2!3m1!1s0x52ea7300241695a1:0x434b16b54d9b63e7",
+     "lat": 49.9178867,
+     "lon": -97.1839075
     }
    },
    {
