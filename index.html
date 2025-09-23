@@ -331,7 +331,9 @@
                         "autoPanPadding": (10, 10),
                         "content": i [3].format (types = ", ".join (i [2]), names = "<br>".join (i [5])),
                     })
-                    i [0].bindTooltip ("<br>".join (i [5]))
+                    i [0].bindTooltip ("<br>".join (i [5]), {
+                        "opacity": 1
+                    })
                     def scroll_list (*_, marker = i):
                         global highlight_set, scroll_pos
                         highlight_set.update ((f"item{i}" for i in marker [4]))
