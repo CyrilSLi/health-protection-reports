@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1757694600,
+  "timestamp": 1758556800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -26,9 +26,10 @@ window.healthData = {
     "addr": "Pilot Mound, MB",
     "type": "Food Service Establishment",
     "start": 1757894400,
-    "end": 4294967295,
+    "end": 1758240000,
     "info": {
      "Closure date": "Sep 15/25",
+     "Re-open date": "Sep 19/25",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions."
     },
     "maps": {
@@ -42,9 +43,10 @@ window.healthData = {
     "addr": "3-1659 Kenaston Blvd. Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1757894400,
-    "end": 4294967295,
+    "end": 1758240000,
     "info": {
      "Closure date": "Sep 15/25",
+     "Re-open date": "Sep 19/25",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous foods."
     },
     "maps": {
@@ -4099,9 +4101,101 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1755705600,
+  "timestamp": 1758556800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
+   {
+    "name": "QDOBA",
+    "addr": "2-1830 Park Avenue Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1750809600,
+    "end": 1754611200,
+    "info": {
+     "Offense date": "Jun 25/25",
+     "Conviction date": "Aug 8/25",
+     "Reason(s)": "As an operator, fail to avoid contamination, namely, fail to store cloths in sanitizer solution.",
+     "Penalty": "$203.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/QDOBA+Mexican+Eats,+1830+Park+Ave+%232,+Brandon,+MB+R7B+0R9/@49.8355865,-99.9630117,2573a,13.1y/data=!4m2!3m1!1s0x52e790aa95b48193:0xa2d810cebd833dd2",
+     "lat": 49.8355865,
+     "lon": -99.9630117
+    }
+   },
+   {
+    "name": "THE LITTLE CHALET RESTAURANT",
+    "addr": "1701 Middleton Avenue Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1753401600,
+    "end": 1755129600,
+    "info": {
+     "Offense date": "Jul 25/25",
+     "Conviction date": "Aug 14/25",
+     "Reason(s)": "Operate a food handling establishment with poor general sanitation, namely fail to maintain clean and in good repair.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/The+Little+Chalet+Restaurant,+1701+Middleton+Ave,+Brandon,+MB+R7C+1A7/@49.8874549,-99.9583663,2571a,13.1y/data=!4m2!3m1!1s0x52e7979a23e238d1:0x991a64304c7ec9db",
+     "lat": 49.8874549,
+     "lon": -99.9583663
+    }
+   },
+   {
+    "name": "SPRUCE WOODS INN REST- AURANT & BEVERAGE ROOM",
+    "addr": "426 Lyall Street Glenboro, MB",
+    "type": "Food Service Establishment",
+    "start": 1715904000,
+    "end": 1755648000,
+    "info": {
+     "Offense date": "May 17/24",
+     "Conviction date": "Aug 20/25",
+     "Reason(s)": "As an operator, handle food under insanitary conditions.",
+     "Penalty": "$400.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/426+Lyall+St,+Glenboro,+MB+R0K+0X0/@49.5612108,-99.2876133,2588a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
+     "lat": 49.5612108,
+     "lon": -99.2876133
+    },
+    "manual_entry": "true"
+   },
+   {
+    "name": "SPRUCE WOODS INN REST- AURANT & BEVERAGE ROOM",
+    "addr": "426 Lyall Street Glenboro, MB",
+    "type": "Food Service Establishment",
+    "start": 1715904000,
+    "end": 1755648000,
+    "info": {
+     "Offense date": "May 17/24",
+     "Conviction date": "Aug 20/25",
+     "Reason(s)": "As an operator of a food service establishment, fail to provide required sanitary facilities, namely obstructed hand washing sink.",
+     "Penalty": "$500.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/426+Lyall+St,+Glenboro,+MB+R0K+0X0/@49.5612108,-99.2876133,2588a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
+     "lat": 49.5612108,
+     "lon": -99.2876133
+    },
+    "manual_entry": "true"
+   },
+   {
+    "name": "BOURBON STREET GRILL",
+    "addr": "80-1570 18th Street Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1753228800,
+    "end": 1756339200,
+    "info": {
+     "Offense date": "Jul 23/25",
+     "Conviction date": "Aug 28/25",
+     "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous food.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Bourbon+St+Grill,+1570+18th+St+unit+%2380,+Brandon,+MB+R7A+5C5/@49.8235175,-99.9645633,2574a,13.1y/data=!4m2!3m1!1s0x52e79b0001911c4d:0x16c34e67db8233dc",
+     "lat": 49.8235175,
+     "lon": -99.9645633
+    }
+   },
    {
     "name": "LITTLE CHIEF’S PLACE",
     "addr": "2025 Lyndale Avenue Brandon, MB",
