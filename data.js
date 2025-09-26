@@ -1,9 +1,42 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1758556800,
+  "timestamp": 1758816000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SPICE CIRCLE EAST INDIAN RESTAURANT",
+    "addr": "1 & 2-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757376000,
+    "end": 1757894400,
+    "info": {
+     "Closure date": "Sep 9/25",
+     "Re-open date": "Sep 15/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Spice+Circle+East+Indian+Restaurant,+2015+Portage+Ave+%231,+Winnipeg,+MB+R3J+0K3/@49.8781133,-97.2291832,2571a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    }
+   },
+   {
+    "name": "JUGO JUICE",
+    "addr": "2305 McPhillips Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1758672000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 24/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. No sanitizer being used for ware washing or food contact surface sanitizing."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Jugo+Juice,+2305+McPhillips+St,+Winnipeg,+MB+R2V+3E1/@49.951011,-97.145007,2567a,13.1y/data=!4m2!3m1!1s0x52ea71ef270cabeb:0xffb8dbdf95dc3128",
+     "lat": 49.951011,
+     "lon": -97.145007
+    }
+   },
    {
     "name": "MONA LISA RESTAURANT",
     "addr": "1697 Corydon Avenue Winnipeg, MB",
@@ -136,23 +169,6 @@ window.healthData = {
      "lat": 49.8809284,
      "lon": -97.285385
     }
-   },
-   {
-    "name": "SPICE CIRCLE EAST INDIAN RESTAURANT",
-    "addr": "1 & 2-2015 Portage Avenue Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1757376000,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Sep 9/25",
-     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Spice+Circle+East+Indian+Restaurant,+2015+Portage+Ave+%231,+Winnipeg,+MB+R3J+0K3/@49.8781133,-97.2291832,2571a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
-     "lat": 49.8781133,
-     "lon": -97.2291832
-    },
-    "manual_entry": true
    },
    {
     "name": "WAANGE COFFEE & RESTAURANT",
@@ -4141,7 +4157,7 @@ window.healthData = {
     }
    },
    {
-    "name": "SPRUCE WOODS INN REST- AURANT & BEVERAGE ROOM",
+    "name": "SPRUCE WOODS INN RESTAURANT & BEVERAGE ROOM",
     "addr": "426 Lyall Street Glenboro, MB",
     "type": "Food Service Establishment",
     "start": 1715904000,
@@ -4157,7 +4173,7 @@ window.healthData = {
      "lat": 49.5612108,
      "lon": -99.2876133
     },
-    "manual_entry": "true"
+    "manual_entry": true
    },
    {
     "name": "SPRUCE WOODS INN REST- AURANT & BEVERAGE ROOM",
@@ -4176,7 +4192,7 @@ window.healthData = {
      "lat": 49.5612108,
      "lon": -99.2876133
     },
-    "manual_entry": "true"
+    "manual_entry": true
    },
    {
     "name": "BOURBON STREET GRILL",
