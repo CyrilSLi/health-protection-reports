@@ -1,9 +1,42 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1759402800,
+  "timestamp": 1759507200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "CORK & FLAME RESTAURANT",
+    "addr": "3106 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1759276800,
+    "end": 1759449600,
+    "info": {
+     "Closure date": "Oct 1/25",
+     "Re-open date": "Oct 3/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Cork+%26+Flame,+3106+Portage+Ave,+Winnipeg,+MB+R3K+0Y3/@49.8801139,-97.2847104,2571a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
+     "lat": 49.8801139,
+     "lon": -97.2847104
+    }
+   },
+   {
+    "name": "MELITA INN MOTOR HOTEL",
+    "addr": "Beverage Room 41 Front Street Melita, MB",
+    "type": "Food Service Establishment",
+    "start": 1759363200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 2/25",
+     "Reason(s)": "Fail to ensure that the establishment is maintained in good repair."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Melita+Inn+Motor+Hotel,+41+Front+St,+Melita,+MB+R7A+7W6/@49.2708562,-100.9879445,2603a,13.1y/data=!4m2!3m1!1s0x52de0ef4d7749e1f:0x61da4ef57ebbb5f3",
+     "lat": 49.2708562,
+     "lon": -100.9879445
+    }
+   },
    {
     "name": "ALTEA ACTIVE MEN’S WHIRLPOOL",
     "addr": "100 South Town Road Winnipeg, MB",
@@ -18,22 +51,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
      "lat": 49.7905867,
      "lon": -97.1971307
-    }
-   },
-   {
-    "name": "CORK & FLAME RESTAURANT",
-    "addr": "3106 Portage Avenue Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1759276800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Oct 1/25",
-     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Cork+%26+Flame,+3106+Portage+Ave,+Winnipeg,+MB+R3K+0Y3/@49.8801139,-97.2847104,2571a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
-     "lat": 49.8801139,
-     "lon": -97.2847104
     }
    },
    {
