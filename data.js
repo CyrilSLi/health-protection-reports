@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1759507200,
+  "timestamp": 1759939200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "BURITTO SPLENDIDO",
+    "addr": "1015 King Edward Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1759708800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 6/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Burrito+Splendido,+1015+King+Edward+St,+Winnipeg,+MB+R3H+0R1/@49.9080658,-97.2051621,2570a,13.1y/data=!4m2!3m1!1s0x52ea73071710e299:0x2936fe826ca4adea",
+     "lat": 49.9080658,
+     "lon": -97.2051621
+    }
+   },
    {
     "name": "CORK & FLAME RESTAURANT",
     "addr": "3106 Portage Avenue Winnipeg, MB",
