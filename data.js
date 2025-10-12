@@ -1,17 +1,35 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1759939200,
+  "timestamp": 1760112000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
-    "name": "BURITTO SPLENDIDO",
+    "name": "MELITA INN MOTOR HOTEL",
+    "addr": "Beverage Room 41 Front Street Melita, MB",
+    "type": "Food Service Establishment",
+    "start": 1759363200,
+    "end": 1760054400,
+    "info": {
+     "Closure date": "Oct 2/25",
+     "Re-open date": "Oct 10/25",
+     "Reason(s)": "Fail to ensure that the establishment is maintained in good repair."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Melita+Inn+Motor+Hotel,+41+Front+St,+Melita,+MB+R7A+7W6/@49.2708562,-100.9879445,2603a,13.1y/data=!4m2!3m1!1s0x52de0ef4d7749e1f:0x61da4ef57ebbb5f3",
+     "lat": 49.2708562,
+     "lon": -100.9879445
+    }
+   },
+   {
+    "name": "BURRITO SPLENDIDO",
     "addr": "1015 King Edward Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1759708800,
-    "end": 4294967295,
+    "end": 1760054400,
     "info": {
      "Closure date": "Oct 6/25",
+     "Re-open date": "Oct 10/25",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
@@ -35,22 +53,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Cork+%26+Flame,+3106+Portage+Ave,+Winnipeg,+MB+R3K+0Y3/@49.8801139,-97.2847104,2571a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
      "lat": 49.8801139,
      "lon": -97.2847104
-    }
-   },
-   {
-    "name": "MELITA INN MOTOR HOTEL",
-    "addr": "Beverage Room 41 Front Street Melita, MB",
-    "type": "Food Service Establishment",
-    "start": 1759363200,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Oct 2/25",
-     "Reason(s)": "Fail to ensure that the establishment is maintained in good repair."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Melita+Inn+Motor+Hotel,+41+Front+St,+Melita,+MB+R7A+7W6/@49.2708562,-100.9879445,2603a,13.1y/data=!4m2!3m1!1s0x52de0ef4d7749e1f:0x61da4ef57ebbb5f3",
-     "lat": 49.2708562,
-     "lon": -100.9879445
     }
    },
    {
