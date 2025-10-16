@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1760112000,
+  "timestamp": 1760545800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "AROMA LECHON MANOK & LIEMPO",
+    "addr": "2-1030 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1760486400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 15/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1030+Keewatin+St+Unit+2,+Winnipeg,+MB+R2R+2E2/@49.94373,-97.1962702,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
+     "lat": 49.94373,
+     "lon": -97.1962702
+    }
+   },
    {
     "name": "MELITA INN MOTOR HOTEL",
     "addr": "Beverage Room 41 Front Street Melita, MB",
