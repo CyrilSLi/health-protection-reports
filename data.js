@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1760545800,
+  "timestamp": 1760693400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "A & W RESTAURANT",
+    "addr": "F9-1225 St. Mary’s Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1760659200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 17/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1225+St+Mary's+Rd+f9,+Winnipeg,+MB+R2M+5L5/@49.8291931,-97.1100461,2574a,13.1y/data=!4m2!3m1!1s0x52ea7668fd74266f:0xf8d9e3c1477a935b",
+     "lat": 49.8291931,
+     "lon": -97.1100461
+    }
+   },
    {
     "name": "AROMA LECHON MANOK & LIEMPO",
     "addr": "2-1030 Keewatin Street Winnipeg, MB",
