@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1760693400,
+  "timestamp": 1761062400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,15 +9,32 @@ window.healthData = {
     "addr": "F9-1225 St. Mary’s Road Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1760659200,
-    "end": 4294967295,
+    "end": 1760918400,
     "info": {
      "Closure date": "Oct 17/25",
+     "Re-open date": "Oct 20/25",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/1225+St+Mary's+Rd+f9,+Winnipeg,+MB+R2M+5L5/@49.8291931,-97.1100461,2574a,13.1y/data=!4m2!3m1!1s0x52ea7668fd74266f:0xf8d9e3c1477a935b",
      "lat": 49.8291931,
      "lon": -97.1100461
+    }
+   },
+   {
+    "name": "HUNGRY BITE PIZZA",
+    "addr": "F-1771 Ness Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1760918400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 20/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. No sanitizer available for dishwashing or food contact surface sanitizing."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Hungry+Bite+Pizza,+1771+Ness+Ave,+Winnipeg,+MB+R3J+0Y2/@49.884197,-97.2119228,2571a,13.1y/data=!4m2!3m1!1s0x52ea733a9e097b0b:0x1e3800e0d6e951e1",
+     "lat": 49.884197,
+     "lon": -97.2119228
     }
    },
    {
@@ -4217,9 +4234,81 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1758556800,
+  "timestamp": 1761062400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
+   {
+    "name": "PEMBINA CO-OP SOURIS GAS BAR",
+    "addr": "21 1st Avenue East Souris, MB",
+    "type": "Food Service Establishment",
+    "start": 1755734400,
+    "end": 1757980800,
+    "info": {
+     "Offense date": "Aug 21/25",
+     "Conviction date": "Sep 16/25",
+     "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous food.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/21+1st+Ave+E,+Souris,+MB+R0K+2C0/@49.6210492,-100.2575882,2585a,13.1y/data=!4m2!3m1!1s0x52e77c5eba579a05:0x2f41696c9e2455c4",
+     "lat": 49.6210492,
+     "lon": -100.2575882
+    }
+   },
+   {
+    "name": "STYLES GOLDEN CONCEPTS",
+    "addr": "249 9th Street Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1752883200,
+    "end": 1760659200,
+    "info": {
+     "Offense date": "Jul 19/25",
+     "Conviction date": "Oct 17/25",
+     "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous food.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Soul,+118+10th+St,+Brandon,+MB+R7A+4E7/@49.847962,-99.951808,2573a,13.1y/data=!4m2!3m1!1s0x52e797199557d885:0x96f7f72e0edd8447",
+     "lat": 49.847962,
+     "lon": -99.951808
+    }
+   },
+   {
+    "name": "EAGLES NEST BAR & GRILL",
+    "addr": "3500 McDonald Avenue Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1755216000,
+    "end": 1760659200,
+    "info": {
+     "Offense date": "Aug 15/25",
+     "Conviction date": "Oct 17/25",
+     "Reason(s)": "Operate a food handling establishment with poor general sanitation, namely operate with heavy accumulation of grease, food debris, grime and dirt.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/The+Eagles+Nest+Bar+%26+Grill,+3500+McDonald+Ave,+Brandon,+MB+R7B+1R8/@49.851593,-99.9871063,2573a,13.1y/data=!4m2!3m1!1s0x52e799957f3726bd:0xce6be6426194dcee",
+     "lat": 49.851593,
+     "lon": -99.9871063
+    }
+   },
+   {
+    "name": "NEEPAWA GOLF & COUNTRY CLUB",
+    "addr": "369 Broadway Avenue Neepawa, MB",
+    "type": "Food Service Establishment",
+    "start": 1755475200,
+    "end": 1760659200,
+    "info": {
+     "Offense date": "Aug 18/25",
+     "Conviction date": "Oct 17/25",
+     "Reason(s)": "As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils by rinsing them with at least 50 ppm Chlorine solution.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Neepawa+Golf+%26+Country+Club,+369+Broadway+Ave,+Neepawa,+MB+R0J+1H0/@50.2337004,-99.4534799,2552a,13.1y/data=!4m2!3m1!1s0x52e7d5f5870784f3:0xa0b74fa845d61cb7",
+     "lat": 50.2337004,
+     "lon": -99.4534799
+    }
+   },
    {
     "name": "QDOBA",
     "addr": "2-1830 Park Avenue Brandon, MB",
