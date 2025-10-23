@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1761062400,
+  "timestamp": 1761148800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "AROMA LECHON MANOK & LIEMPO",
+    "addr": "2-1030 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1760486400,
+    "end": 1761091200,
+    "info": {
+     "Closure date": "Oct 15/25",
+     "Re-open date": "Oct 22/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1030+Keewatin+St+Unit+2,+Winnipeg,+MB+R2R+2E2/@49.94373,-97.1962702,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
+     "lat": 49.94373,
+     "lon": -97.1962702
+    }
+   },
    {
     "name": "A & W RESTAURANT",
     "addr": "F9-1225 St. Mary’s Road Winnipeg, MB",
@@ -35,22 +52,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Hungry+Bite+Pizza,+1771+Ness+Ave,+Winnipeg,+MB+R3J+0Y2/@49.884197,-97.2119228,2571a,13.1y/data=!4m2!3m1!1s0x52ea733a9e097b0b:0x1e3800e0d6e951e1",
      "lat": 49.884197,
      "lon": -97.2119228
-    }
-   },
-   {
-    "name": "AROMA LECHON MANOK & LIEMPO",
-    "addr": "2-1030 Keewatin Street Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1760486400,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Oct 15/25",
-     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/1030+Keewatin+St+Unit+2,+Winnipeg,+MB+R2R+2E2/@49.94373,-97.1962702,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
-     "lat": 49.94373,
-     "lon": -97.1962702
     }
    },
    {
@@ -4234,9 +4235,45 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1761062400,
+  "timestamp": 1761148800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
+   {
+    "name": "ALL NATURAL MEATS",
+    "addr": "192 Main Street Carman, MB",
+    "type": "Food Service Establishment",
+    "start": 1866672000,
+    "end": 1753315200,
+    "info": {
+     "Offense date": "Feb 29/25",
+     "Conviction date": "Jul 24/25",
+     "Reason(s)": "As an operator fail to take effective measures against the entry of pests.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/All+Natural+Meats,+192+Main+St+N,+Carman,+MB+R1N+1Y7/@49.5151396,-98.0022363,2590a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
+     "lat": 49.5151396,
+     "lon": -98.0022363
+    }
+   },
+   {
+    "name": "CUT RITE MEATS",
+    "addr": "Box 865 SE 15-12-15 Carberry, MB",
+    "type": "Food Service Establishment",
+    "start": 1756252800,
+    "end": 1760572800,
+    "info": {
+     "Offense date": "Aug 27/25",
+     "Conviction date": "Oct 16/25",
+     "Reason(s)": "Fail to ensure all potentially hazardous foods originate from an approved source.",
+     "Penalty": "$672.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Carberry,+MB+R0K+0H0/@49.8712248,-99.3608438,2571a,13.1y/data=!4m2!3m1!1s0x52e7e26cdd092aa7:0xb96ffe98ef4c1720",
+     "lat": 49.8712248,
+     "lon": -99.3608438
+    }
+   },
    {
     "name": "PEMBINA CO-OP SOURIS GAS BAR",
     "addr": "21 1st Avenue East Souris, MB",
