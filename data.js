@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1761148800,
+  "timestamp": 1761300000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "KKIKO’S GRILL",
+    "addr": "1060 Ellice Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1761177600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 23/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Kkiko'S+Grill,+Inside+Raffy%E2%80%99s+Cafe,+1060+Ellice+Ave,+Winnipeg,+MB+R3G+0C9/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
+     "lat": 49.8933968,
+     "lon": -97.1818916
+    }
+   },
    {
     "name": "AROMA LECHON MANOK & LIEMPO",
     "addr": "2-1030 Keewatin Street Winnipeg, MB",
