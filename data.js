@@ -1,9 +1,42 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1761300000,
+  "timestamp": 1761667200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ALTEA ACTIVE WOMEN’S WHIRLPOOL",
+    "addr": "100 South Town Road Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1757980800,
+    "end": 1761523200,
+    "info": {
+     "Closure date": "Sep 16/25",
+     "Re-open date": "Oct 27/25",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance. Operate a whirlpool and fail to ensure it is equipped with an emergency shut-off switch as required."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "lat": 49.7905867,
+     "lon": -97.1971307
+    }
+   },
+   {
+    "name": "BOMBAY SPICES GRAB N GO",
+    "addr": "2107 Pembina Highway Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1761523200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 27/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Bombay+Spices,+2107+Pembina+Hwy,+Winnipeg,+MB+R3T+5L1/@49.8137659,-97.1540822,2575a,13.1y/data=!4m2!3m1!1s0x52c1dfe42fbf3777:0x35bfe8c111e95481",
+     "lat": 49.8137659,
+     "lon": -97.1540822
+    }
+   },
    {
     "name": "KKIKO’S GRILL",
     "addr": "1060 Ellice Avenue Winnipeg, MB",
@@ -220,22 +253,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Umi+Sushi,+3-1659+Kenaston+Blvd,+Winnipeg,+MB+R3P+2M4/@49.823397,-97.201441,2574a,13.1y/data=!4m2!3m1!1s0x52ea75177468cdb5:0x48d06bed6c478822",
      "lat": 49.823397,
      "lon": -97.201441
-    }
-   },
-   {
-    "name": "ALTEA ACTIVE WOMEN’S WHIRLPOOL",
-    "addr": "100 South Town Road Winnipeg, MB",
-    "type": "Whirlpool",
-    "start": 1757980800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Sep 16/25",
-     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance. Operate a whirlpool and fail to ensure it is equipped with an emergency shut-off switch as required."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
-     "lat": 49.7905867,
-     "lon": -97.1971307
     }
    },
    {
