@@ -1,9 +1,43 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1761667200,
+  "timestamp": 1761730200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ALTEA ACTIVE MEN’S WHIRLPOOL",
+    "addr": "100 South Town Road Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1759276800,
+    "end": 1761696000,
+    "info": {
+     "Closure date": "Oct 1/25",
+     "Re-open date": "Oct 29/25",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "lat": 49.7905867,
+     "lon": -97.1971307
+    }
+   },
+   {
+    "name": "KKIKO’S GRILL",
+    "addr": "1060 Ellice Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1761177600,
+    "end": 1761696000,
+    "info": {
+     "Closure date": "Oct 23/25",
+     "Re-open date": "Oct 29/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Kkiko'S+Grill,+Inside+Raffy%E2%80%99s+Cafe,+1060+Ellice+Ave,+Winnipeg,+MB+R3G+0C9/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
+     "lat": 49.8933968,
+     "lon": -97.1818916
+    }
+   },
    {
     "name": "ALTEA ACTIVE WOMEN’S WHIRLPOOL",
     "addr": "100 South Town Road Winnipeg, MB",
@@ -35,22 +69,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Bombay+Spices,+2107+Pembina+Hwy,+Winnipeg,+MB+R3T+5L1/@49.8137659,-97.1540822,2575a,13.1y/data=!4m2!3m1!1s0x52c1dfe42fbf3777:0x35bfe8c111e95481",
      "lat": 49.8137659,
      "lon": -97.1540822
-    }
-   },
-   {
-    "name": "KKIKO’S GRILL",
-    "addr": "1060 Ellice Avenue Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1761177600,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Oct 23/25",
-     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Kkiko'S+Grill,+Inside+Raffy%E2%80%99s+Cafe,+1060+Ellice+Ave,+Winnipeg,+MB+R3G+0C9/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
-     "lat": 49.8933968,
-     "lon": -97.1818916
     }
    },
    {
@@ -152,22 +170,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/Cork+%26+Flame,+3106+Portage+Ave,+Winnipeg,+MB+R3K+0Y3/@49.8801139,-97.2847104,2571a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
      "lat": 49.8801139,
      "lon": -97.2847104
-    }
-   },
-   {
-    "name": "ALTEA ACTIVE MEN’S WHIRLPOOL",
-    "addr": "100 South Town Road Winnipeg, MB",
-    "type": "Whirlpool",
-    "start": 1759276800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Oct 1/25",
-     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
-     "lat": 49.7905867,
-     "lon": -97.1971307
     }
    },
    {
