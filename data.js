@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1761730200,
+  "timestamp": 1761903000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "HUNGRY BITE PIZZA",
+    "addr": "F-1771 Ness Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1760918400,
+    "end": 1761782400,
+    "info": {
+     "Closure date": "Oct 20/25",
+     "Re-open date": "Oct 30/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. No sanitizer available for dishwashing or food contact surface sanitizing."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Hungry+Bite+Pizza,+1771+Ness+Ave,+Winnipeg,+MB+R3J+0Y2/@49.884197,-97.2119228,2571a,13.1y/data=!4m2!3m1!1s0x52ea733a9e097b0b:0x1e3800e0d6e951e1",
+     "lat": 49.884197,
+     "lon": -97.2119228
+    }
+   },
    {
     "name": "ALTEA ACTIVE MEN’S WHIRLPOOL",
     "addr": "100 South Town Road Winnipeg, MB",
@@ -103,22 +120,6 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/1225+St+Mary's+Rd+f9,+Winnipeg,+MB+R2M+5L5/@49.8291931,-97.1100461,2574a,13.1y/data=!4m2!3m1!1s0x52ea7668fd74266f:0xf8d9e3c1477a935b",
      "lat": 49.8291931,
      "lon": -97.1100461
-    }
-   },
-   {
-    "name": "HUNGRY BITE PIZZA",
-    "addr": "F-1771 Ness Avenue Winnipeg, MB",
-    "type": "Food Service Establishment",
-    "start": 1760918400,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Oct 20/25",
-     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. No sanitizer available for dishwashing or food contact surface sanitizing."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hungry+Bite+Pizza,+1771+Ness+Ave,+Winnipeg,+MB+R3J+0Y2/@49.884197,-97.2119228,2571a,13.1y/data=!4m2!3m1!1s0x52ea733a9e097b0b:0x1e3800e0d6e951e1",
-     "lat": 49.884197,
-     "lon": -97.2119228
     }
    },
    {
