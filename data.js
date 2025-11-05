@@ -1,9 +1,57 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1761903000,
+  "timestamp": 1762273800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SANDMAN SIGNATURE HOTEL",
+    "addr": "1760 Sargent Avenue Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1762214400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 4/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1760+Sargent+Ave,+Winnipeg,+MB+R3H+0C7/@49.8976012,-97.2062282,2570a,13.1y/data=!4m2!3m1!1s0x52ea737354ce753f:0x90f6c81271c6f4a3",
+     "lat": 49.8976012,
+     "lon": -97.2062282
+    }
+   },
+   {
+    "name": "SANDMAN SIGNATURE HOTEL",
+    "addr": "1760 Sargent Avenue Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1762214400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 4/25",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/1760+Sargent+Ave,+Winnipeg,+MB+R3H+0C7/@49.8976012,-97.2062282,2570a,13.1y/data=!4m2!3m1!1s0x52ea737354ce753f:0x90f6c81271c6f4a3",
+     "lat": 49.8976012,
+     "lon": -97.2062282
+    }
+   },
+   {
+    "name": "HILTON SUITES WINNIPEG AIRPORT",
+    "addr": "1800 Wellington Avenue Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1762214400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 4/25",
+     "Reason(s)": "Fail to provide a functional emergency shut-off switch at the whirlpool."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Hilton+Winnipeg+Airport+Suites,+1800+Wellington+Ave,+Winnipeg,+MB+R3H+1B2/@49.9007265,-97.2089142,2570a,13.1y/data=!4m2!3m1!1s0x52ea730c6b163621:0x2bbe3f679a3b570f",
+     "lat": 49.9007265,
+     "lon": -97.2089142
+    }
+   },
    {
     "name": "HUNGRY BITE PIZZA",
     "addr": "F-1771 Ness Avenue Winnipeg, MB",
