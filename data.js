@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1762273800,
+  "timestamp": 1762358400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "PANDORA INN/JOE’S GARAGE",
+    "addr": "103 Bond Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1762214400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 4/25",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/Joe's+Pandora+Inn,+103+Bond+St,+Winnipeg,+MB+R2C+2L1/@49.8936572,-97.0057346,2570a,13.1y/data=!4m2!3m1!1s0x52ea7a28ea6eb8fd:0xfe6c96aaa631e2ea",
+     "lat": 49.8936572,
+     "lon": -97.0057346
+    }
+   },
    {
     "name": "SANDMAN SIGNATURE HOTEL",
     "addr": "1760 Sargent Avenue Winnipeg, MB",
