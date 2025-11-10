@@ -1,21 +1,39 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1762358400,
+  "timestamp": 1762527600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "HILTON SUITES WINNIPEG AIRPORT",
+    "addr": "1800 Wellington Avenue Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1762214400,
+    "end": 1762473600,
+    "info": {
+     "Closure date": "Nov 4/25",
+     "Re-open date": "Nov 7/25",
+     "Reason(s)": "Fail to provide a functional emergency shut-off switch at the whirlpool."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9007265,-97.2089142,2570a,13.1y/data=!4m2!3m1!1s0x52ea730c6b163621:0x2bbe3f679a3b570f",
+     "lat": 49.9007265,
+     "lon": -97.2089142
+    }
+   },
    {
     "name": "PANDORA INN/JOE’S GARAGE",
     "addr": "103 Bond Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1762214400,
-    "end": 4294967295,
+    "end": 1762300800,
     "info": {
      "Closure date": "Nov 4/25",
+     "Re-open date": "Nov 5/25",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Joe's+Pandora+Inn,+103+Bond+St,+Winnipeg,+MB+R2C+2L1/@49.8936572,-97.0057346,2570a,13.1y/data=!4m2!3m1!1s0x52ea7a28ea6eb8fd:0xfe6c96aaa631e2ea",
+     "url": "https://www.google.com/maps/preview/place/@49.8936572,-97.0057346,2570a,13.1y/data=!4m2!3m1!1s0x52ea7a28ea6eb8fd:0xfe6c96aaa631e2ea",
      "lat": 49.8936572,
      "lon": -97.0057346
     }
@@ -31,7 +49,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1760+Sargent+Ave,+Winnipeg,+MB+R3H+0C7/@49.8976012,-97.2062282,2570a,13.1y/data=!4m2!3m1!1s0x52ea737354ce753f:0x90f6c81271c6f4a3",
+     "url": "https://www.google.com/maps/preview/place/@49.8976012,-97.2062282,2570a,13.1y/data=!4m2!3m1!1s0x52ea737354ce753f:0x90f6c81271c6f4a3",
      "lat": 49.8976012,
      "lon": -97.2062282
     }
@@ -47,25 +65,9 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1760+Sargent+Ave,+Winnipeg,+MB+R3H+0C7/@49.8976012,-97.2062282,2570a,13.1y/data=!4m2!3m1!1s0x52ea737354ce753f:0x90f6c81271c6f4a3",
+     "url": "https://www.google.com/maps/preview/place/@49.8976012,-97.2062282,2570a,13.1y/data=!4m2!3m1!1s0x52ea737354ce753f:0x90f6c81271c6f4a3",
      "lat": 49.8976012,
      "lon": -97.2062282
-    }
-   },
-   {
-    "name": "HILTON SUITES WINNIPEG AIRPORT",
-    "addr": "1800 Wellington Avenue Winnipeg, MB",
-    "type": "Whirlpool",
-    "start": 1762214400,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Nov 4/25",
-     "Reason(s)": "Fail to provide a functional emergency shut-off switch at the whirlpool."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hilton+Winnipeg+Airport+Suites,+1800+Wellington+Ave,+Winnipeg,+MB+R3H+1B2/@49.9007265,-97.2089142,2570a,13.1y/data=!4m2!3m1!1s0x52ea730c6b163621:0x2bbe3f679a3b570f",
-     "lat": 49.9007265,
-     "lon": -97.2089142
     }
    },
    {
@@ -80,7 +82,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. No sanitizer available for dishwashing or food contact surface sanitizing."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hungry+Bite+Pizza,+1771+Ness+Ave,+Winnipeg,+MB+R3J+0Y2/@49.884197,-97.2119228,2571a,13.1y/data=!4m2!3m1!1s0x52ea733a9e097b0b:0x1e3800e0d6e951e1",
+     "url": "https://www.google.com/maps/preview/place/@49.884197,-97.2119228,2570a,13.1y/data=!4m2!3m1!1s0x52ea733a9e097b0b:0x1e3800e0d6e951e1",
      "lat": 49.884197,
      "lon": -97.2119228
     }
@@ -97,7 +99,7 @@ window.healthData = {
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "url": "https://www.google.com/maps/preview/place/@49.7905867,-97.1971307,2570a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
      "lat": 49.7905867,
      "lon": -97.1971307
     }
@@ -114,7 +116,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Kkiko'S+Grill,+Inside+Raffy%E2%80%99s+Cafe,+1060+Ellice+Ave,+Winnipeg,+MB+R3G+0C9/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
+     "url": "https://www.google.com/maps/preview/place/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
      "lat": 49.8933968,
      "lon": -97.1818916
     }
@@ -131,7 +133,7 @@ window.healthData = {
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance. Operate a whirlpool and fail to ensure it is equipped with an emergency shut-off switch as required."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "url": "https://www.google.com/maps/preview/place/@49.7905867,-97.1971307,2570a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
      "lat": 49.7905867,
      "lon": -97.1971307
     }
@@ -147,7 +149,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Bombay+Spices,+2107+Pembina+Hwy,+Winnipeg,+MB+R3T+5L1/@49.8137659,-97.1540822,2575a,13.1y/data=!4m2!3m1!1s0x52c1dfe42fbf3777:0x35bfe8c111e95481",
+     "url": "https://www.google.com/maps/preview/place/@49.8137659,-97.1540822,2570a,13.1y/data=!4m2!3m1!1s0x52c1dfe42fbf3777:0x35bfe8c111e95481",
      "lat": 49.8137659,
      "lon": -97.1540822
     }
@@ -164,7 +166,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1030+Keewatin+St+Unit+2,+Winnipeg,+MB+R2R+2E2/@49.94373,-97.1962702,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
+     "url": "https://www.google.com/maps/preview/place/@49.94373,-97.1962702,2570a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
      "lat": 49.94373,
      "lon": -97.1962702
     }
@@ -181,7 +183,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1225+St+Mary's+Rd+f9,+Winnipeg,+MB+R2M+5L5/@49.8291931,-97.1100461,2574a,13.1y/data=!4m2!3m1!1s0x52ea7668fd74266f:0xf8d9e3c1477a935b",
+     "url": "https://www.google.com/maps/preview/place/@49.8291931,-97.1100461,2570a,13.1y/data=!4m2!3m1!1s0x52ea7668fd74266f:0xf8d9e3c1477a935b",
      "lat": 49.8291931,
      "lon": -97.1100461
     }
@@ -198,7 +200,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Melita+Inn+Motor+Hotel,+41+Front+St,+Melita,+MB+R7A+7W6/@49.2708562,-100.9879445,2603a,13.1y/data=!4m2!3m1!1s0x52de0ef4d7749e1f:0x61da4ef57ebbb5f3",
+     "url": "https://www.google.com/maps/preview/place/@49.2708562,-100.9879445,2570a,13.1y/data=!4m2!3m1!1s0x52de0ef4d7749e1f:0x61da4ef57ebbb5f3",
      "lat": 49.2708562,
      "lon": -100.9879445
     }
@@ -215,7 +217,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Burrito+Splendido,+1015+King+Edward+St,+Winnipeg,+MB+R3H+0R1/@49.9080658,-97.2051621,2570a,13.1y/data=!4m2!3m1!1s0x52ea73071710e299:0x2936fe826ca4adea",
+     "url": "https://www.google.com/maps/preview/place/@49.9080658,-97.2051621,2570a,13.1y/data=!4m2!3m1!1s0x52ea73071710e299:0x2936fe826ca4adea",
      "lat": 49.9080658,
      "lon": -97.2051621
     }
@@ -232,7 +234,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Cork+%26+Flame,+3106+Portage+Ave,+Winnipeg,+MB+R3K+0Y3/@49.8801139,-97.2847104,2571a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
+     "url": "https://www.google.com/maps/preview/place/@49.8801139,-97.2847104,2570a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
      "lat": 49.8801139,
      "lon": -97.2847104
     }
@@ -249,7 +251,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. No sanitizer being used for ware washing or food contact surface sanitizing."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Jugo+Juice,+2305+McPhillips+St,+Winnipeg,+MB+R2V+3E1/@49.951011,-97.145007,2567a,13.1y/data=!4m2!3m1!1s0x52ea71ef270cabeb:0xffb8dbdf95dc3128",
+     "url": "https://www.google.com/maps/preview/place/@49.951011,-97.145007,2570a,13.1y/data=!4m2!3m1!1s0x52ea71ef270cabeb:0xffb8dbdf95dc3128",
      "lat": 49.951011,
      "lon": -97.145007
     }
@@ -266,7 +268,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Spice+Circle+East+Indian+Restaurant,+2015+Portage+Ave+%231,+Winnipeg,+MB+R3J+0K3/@49.8781133,-97.2291832,2571a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
      "lat": 49.8781133,
      "lon": -97.2291832
     }
@@ -283,7 +285,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Mona+Lisa+Ristorante+Italiano+and+Catering,+1697+Corydon+Ave,+Winnipeg,+MB+R3N+0J9/@49.863959,-97.196826,2572a,13.1y/data=!4m2!3m1!1s0x52ea74893c1aa6e7:0xa32db991b70d82d6",
+     "url": "https://www.google.com/maps/preview/place/@49.863959,-97.196826,2570a,13.1y/data=!4m2!3m1!1s0x52ea74893c1aa6e7:0xa32db991b70d82d6",
      "lat": 49.863959,
      "lon": -97.196826
     }
@@ -300,7 +302,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Esso,+Hwy+3+%26+Pth+258,+Pilot+Mound,+MB+R0G+1P0/@49.207276,-98.886625,2607a,13.1y/data=!4m2!3m1!1s0x52c2c53822812eef:0x3e00227525dfe234",
+     "url": "https://www.google.com/maps/preview/place/@49.207276,-98.886625,2570a,13.1y/data=!4m2!3m1!1s0x52c2c53822812eef:0x3e00227525dfe234",
      "lat": 49.207276,
      "lon": -98.886625
     }
@@ -317,7 +319,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous foods."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Umi+Sushi,+3-1659+Kenaston+Blvd,+Winnipeg,+MB+R3P+2M4/@49.823397,-97.201441,2574a,13.1y/data=!4m2!3m1!1s0x52ea75177468cdb5:0x48d06bed6c478822",
+     "url": "https://www.google.com/maps/preview/place/@49.823397,-97.201441,2570a,13.1y/data=!4m2!3m1!1s0x52ea75177468cdb5:0x48d06bed6c478822",
      "lat": 49.823397,
      "lon": -97.201441
     }
@@ -334,7 +336,7 @@ window.healthData = {
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "url": "https://www.google.com/maps/preview/place/@49.7905867,-97.1971307,2570a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
      "lat": 49.7905867,
      "lon": -97.1971307
     }
@@ -350,7 +352,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/FRICK'N+CHICKEN+PIZZA(logan+Ave),+1438+Logan+Ave,+Winnipeg,+MB+R3E+1S2/@49.9178867,-97.1839075,2569a,13.1y/data=!4m2!3m1!1s0x52ea7300241695a1:0x434b16b54d9b63e7",
+     "url": "https://www.google.com/maps/preview/place/@49.9178867,-97.1839075,2570a,13.1y/data=!4m2!3m1!1s0x52ea7300241695a1:0x434b16b54d9b63e7",
      "lat": 49.9178867,
      "lon": -97.1839075
     }
@@ -367,7 +369,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes. Fail to ensure that an adequate supply of hot potable water is provided for hand washing and dish washing purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Keewatin+Pizza,+115+Keewatin+St,+Winnipeg,+MB+R3E+3E1/@49.9209055,-97.1948198,2569a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
+     "url": "https://www.google.com/maps/preview/place/@49.9209055,-97.1948198,2570a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
      "lat": 49.9209055,
      "lon": -97.1948198
     }
@@ -383,7 +385,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chacha+Wow+East+Indian+Cuisine,+3123+Portage+Ave,+Winnipeg,+MB+R3K+0W4/@49.8809284,-97.285385,2571a,13.1y/data=!4m2!3m1!1s0x52ea0d3fbe1d9891:0x85ac1b52b6d9d61",
+     "url": "https://www.google.com/maps/preview/place/@49.8809284,-97.285385,2570a,13.1y/data=!4m2!3m1!1s0x52ea0d3fbe1d9891:0x85ac1b52b6d9d61",
      "lat": 49.8809284,
      "lon": -97.285385
     }
@@ -400,7 +402,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Waange+Coffee+%26+Restaurant,+869+Portage+Ave,+Winnipeg,+MB+R3G+0N8/@49.8859941,-97.1687454,2571a,13.1y/data=!4m2!3m1!1s0x52ea73005f2c9209:0x9dd2952a2bb957d0",
+     "url": "https://www.google.com/maps/preview/place/@49.8859941,-97.1687454,2570a,13.1y/data=!4m2!3m1!1s0x52ea73005f2c9209:0x9dd2952a2bb957d0",
      "lat": 49.8859941,
      "lon": -97.1687454
     }
@@ -417,7 +419,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1+Bannister+Rd,+Winnipeg,+MB+R2R+0P2/@49.9232649,-97.2073908,2569a,13.1y/data=!4m2!3m1!1s0x52ea72f8aa28cf71:0x2495591aef3098cc",
+     "url": "https://www.google.com/maps/preview/place/@49.9232649,-97.2073908,2570a,13.1y/data=!4m2!3m1!1s0x52ea72f8aa28cf71:0x2495591aef3098cc",
      "lat": 49.9232649,
      "lon": -97.2073908
     }
@@ -434,7 +436,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Wild+Oaks+Campground,+Wild+Oaks+Campground+45136,+MB-302,+Richer,+MB+R0E+1S0/@49.6751056,-96.4574164,2582a,13.1y/data=!4m2!3m1!1s0x52c03cc08bcf1123:0xaa37c25c4419efcb",
+     "url": "https://www.google.com/maps/preview/place/@49.6751056,-96.4574164,2570a,13.1y/data=!4m2!3m1!1s0x52c03cc08bcf1123:0xaa37c25c4419efcb",
      "lat": 49.6751056,
      "lon": -96.4574164
     }
@@ -451,7 +453,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Wild+Oaks+Campground,+Wild+Oaks+Campground+45136,+MB-302,+Richer,+MB+R0E+1S0/@49.6751056,-96.4574164,2582a,13.1y/data=!4m2!3m1!1s0x52c03cc08bcf1123:0xaa37c25c4419efcb",
+     "url": "https://www.google.com/maps/preview/place/@49.6751056,-96.4574164,2570a,13.1y/data=!4m2!3m1!1s0x52c03cc08bcf1123:0xaa37c25c4419efcb",
      "lat": 49.6751056,
      "lon": -96.4574164
     }
@@ -467,7 +469,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Southridge+Community+Centre,+22+Aldrin+Way,+Brandon,+MB+R7A+2V1/@49.8176093,-99.947237,2574a,13.1y/data=!4m2!3m1!1s0x52e79126a9a051ad:0xaef8a6ad7614980e",
+     "url": "https://www.google.com/maps/preview/place/@49.8176093,-99.947237,2570a,13.1y/data=!4m2!3m1!1s0x52e79126a9a051ad:0xaef8a6ad7614980e",
      "lat": 49.8176093,
      "lon": -99.947237
     }
@@ -484,7 +486,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Bengal+Bites+Bistro,+230+Dalhousie+Dr+unit+h,+Winnipeg,+MB+R3T+2Z1/@49.7964648,-97.1479144,2575a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
+     "url": "https://www.google.com/maps/preview/place/@49.7964648,-97.1479144,2570a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
      "lat": 49.7964648,
      "lon": -97.1479144
     }
@@ -501,7 +503,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. As the owner, fail to keep roof watertight and in good repair."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Burger+King,+1430+McPhillips+St,+Winnipeg,+MB+R2V+3C5/@49.9428989,-97.1575067,2568a,13.1y/data=!4m2!3m1!1s0x52ea71f4dbada50f:0xa98bff9c99bdb338",
+     "url": "https://www.google.com/maps/preview/place/@49.9428989,-97.1575067,2570a,13.1y/data=!4m2!3m1!1s0x52ea71f4dbada50f:0xa98bff9c99bdb338",
      "lat": 49.9428989,
      "lon": -97.1575067
     }
@@ -518,7 +520,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Operated a food handling establishment with poor general sanitation, namely, failed to provide an adequate supply of hot and cold potable water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/989+McPhillips+St,+Winnipeg,+MB+R2X+2K3/@49.9307193,-97.167069,2568a,13.1y/data=!4m2!3m1!1s0x52ea722f78e033f3:0xa09bcce39784479",
+     "url": "https://www.google.com/maps/preview/place/@49.9307193,-97.167069,2570a,13.1y/data=!4m2!3m1!1s0x52ea722f78e033f3:0xa09bcce39784479",
      "lat": 49.9307193,
      "lon": -97.167069
     }
@@ -535,7 +537,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Operated a food handling establishment with poor general sanitation, namely, failed to provide an adequate supply of hot and cold potable water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/VC+Cuevas+bakery,+989+McPhillips+St,+Winnipeg,+MB+R2X+2K3/@49.9307436,-97.1670572,2568a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
+     "url": "https://www.google.com/maps/preview/place/@49.9307436,-97.1670572,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
      "lat": 49.9307436,
      "lon": -97.1670572
     }
@@ -551,7 +553,7 @@ window.healthData = {
      "Reason(s)": "As an operator of a whirlpool, failed to maintain facility in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Morden,+3010+Thornhill+St,+Morden,+MB+R6M+1B3/@49.191082,-98.1416931,2607a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
+     "url": "https://www.google.com/maps/preview/place/@49.191082,-98.1416931,2570a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
      "lat": 49.191082,
      "lon": -98.1416931
     }
@@ -567,7 +569,7 @@ window.healthData = {
      "Reason(s)": "As an operator of a pool, failed to maintain facility in good repair and kept clean. Failed to ensure drains and recirculation facilities are operated in such a manner as to prevent entrapment of bathers."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Morden,+3010+Thornhill+St,+Morden,+MB+R6M+1B3/@49.191082,-98.1416931,2607a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
+     "url": "https://www.google.com/maps/preview/place/@49.191082,-98.1416931,2570a,13.1y/data=!4m2!3m1!1s0x52c251059ee0e9e7:0xa77bc41c9ef75666",
      "lat": 49.191082,
      "lon": -98.1416931
     }
@@ -584,7 +586,7 @@ window.healthData = {
      "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
+     "url": "https://www.google.com/maps/preview/place/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
      "lat": 49.8976188,
      "lon": -97.2091577
     }
@@ -601,7 +603,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to take effective measures against the entry and presence of pests. Fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Gill's+Supermarket,+22-2855+Pembina+Hwy,+Winnipeg,+MB+R3T+6B4/@49.7883434,-97.1584766,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6ff7fe5705:0x245335413e15f0b4",
+     "url": "https://www.google.com/maps/preview/place/@49.7883434,-97.1584766,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6ff7fe5705:0x245335413e15f0b4",
      "lat": 49.7883434,
      "lon": -97.1584766
     }
@@ -618,7 +620,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/GoodLife+Fitness+Winnipeg+Refinery+District,+300+Newmarket+Blvd,+Winnipeg,+MB+R3T+6G7/@49.8191826,-97.1697066,2574a,13.1y/data=!4m2!3m1!1s0x52ea753abbb3dd01:0x73c3f341fac6f273",
+     "url": "https://www.google.com/maps/preview/place/@49.8191826,-97.1697066,2570a,13.1y/data=!4m2!3m1!1s0x52ea753abbb3dd01:0x73c3f341fac6f273",
      "lat": 49.8191826,
      "lon": -97.1697066
     }
@@ -635,7 +637,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/291+Goulet+St,+Winnipeg,+MB+R2H+0S4/@49.8827858,-97.1149359,2571a,13.1y/data=!4m2!3m1!1s0x52ea7134b4d8616b:0xc306c58bd4fb2bc9",
+     "url": "https://www.google.com/maps/preview/place/@49.8827858,-97.1149359,2570a,13.1y/data=!4m2!3m1!1s0x52ea7134b4d8616b:0xc306c58bd4fb2bc9",
      "lat": 49.8827858,
      "lon": -97.1149359
     }
@@ -652,7 +654,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to provide approved sinks for use in manual washing and sanitizing. Fail to maintain mechanical washer in a satisfactory condition."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/121+Scurfield+Blvd.,+Winnipeg,+MB+R3Y+1G4/@49.8174612,-97.1940417,2574a,13.1y/data=!4m2!3m1!1s0x52ea7512be2e2a4b:0xef89d207f5d7eafa",
+     "url": "https://www.google.com/maps/preview/place/@49.8174612,-97.1940417,2570a,13.1y/data=!4m2!3m1!1s0x52ea7512be2e2a4b:0xef89d207f5d7eafa",
      "lat": 49.8174612,
      "lon": -97.1940417
     }
@@ -669,7 +671,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Charleswood+Pizza+Depot,+3617+Roblin+Blvd,+Winnipeg,+MB+R3R+0C6/@49.8688496,-97.2602588,2572a,13.1y/data=!4m2!3m1!1s0x52ea0be741c80917:0xa4ca03a739c22ae8",
+     "url": "https://www.google.com/maps/preview/place/@49.8688496,-97.2602588,2570a,13.1y/data=!4m2!3m1!1s0x52ea0be741c80917:0xa4ca03a739c22ae8",
      "lat": 49.8688496,
      "lon": -97.2602588
     }
@@ -686,7 +688,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Santa+Lucia+Pizza+Portage,+2029+Portage+Ave,+Winnipeg,+MB+R3J+0K6/@49.8778343,-97.2296906,2571a,13.1y/data=!4m2!3m1!1s0x52ea7358eff66321:0x255a1b051fee0373",
+     "url": "https://www.google.com/maps/preview/place/@49.8778343,-97.2296906,2570a,13.1y/data=!4m2!3m1!1s0x52ea7358eff66321:0x255a1b051fee0373",
      "lat": 49.8778343,
      "lon": -97.2296906
     }
@@ -703,7 +705,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to provide adequate ventilation in the establishment. Failed to ensure dishes and utensils are sanitized when dishwashing."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Dawat+Take+out+%26+Catering,+14+Keewatin+St,+Winnipeg,+MB+R3E+3B9/@49.917469,-97.1954619,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
+     "url": "https://www.google.com/maps/preview/place/@49.917469,-97.1954619,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
      "lat": 49.917469,
      "lon": -97.1954619
     }
@@ -720,7 +722,7 @@ window.healthData = {
      "Reason(s)": "Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food. As an operator, fail to ensure that potentially hazardous foods are kept at less than 5°C."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Freshii,+1857+Grant+Ave+B,+Winnipeg,+MB+R3N+1Z2/@49.8576966,-97.2035568,2572a,13.1y/data=!4m2!3m1!1s0x52ea7492a39e5d03:0xc6291dccd793a79f",
+     "url": "https://www.google.com/maps/preview/place/@49.8576966,-97.2035568,2570a,13.1y/data=!4m2!3m1!1s0x52ea7492a39e5d03:0xc6291dccd793a79f",
      "lat": 49.8576966,
      "lon": -97.2035568
     }
@@ -737,7 +739,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Creative+Pizza,+3513+Main+St,+West+Saint+Paul,+MB+R4A+1A1/@49.9785525,-97.0672756,2566a,13.1y/data=!4m2!3m1!1s0x52ea65b87f204d55:0x5e1551d72f406230",
+     "url": "https://www.google.com/maps/preview/place/@49.9785525,-97.0672756,2570a,13.1y/data=!4m2!3m1!1s0x52ea65b87f204d55:0x5e1551d72f406230",
      "lat": 49.9785525,
      "lon": -97.0672756
     }
@@ -754,7 +756,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. As an operator, did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/A%2B+Sushi+Buffet,+631+Corydon+Ave,+Winnipeg,+MB+R3M+0W3/@49.872434,-97.1490707,2571a,13.1y/data=!4m2!3m1!1s0x52c1d8b2c0802267:0xc92c92e279ca28e3",
+     "url": "https://www.google.com/maps/preview/place/@49.872434,-97.1490707,2570a,13.1y/data=!4m2!3m1!1s0x52c1d8b2c0802267:0xc92c92e279ca28e3",
      "lat": 49.872434,
      "lon": -97.1490707
     }
@@ -783,7 +785,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Tandoor+House,+998+Keewatin+St+Unit+1,+Winnipeg,+MB+R2R+2V1/@49.9430635,-97.1965183,2568a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0xacb133ec9a22098a",
+     "url": "https://www.google.com/maps/preview/place/@49.9430635,-97.1965183,2570a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0xacb133ec9a22098a",
      "lat": 49.9430635,
      "lon": -97.1965183
     }
@@ -800,7 +802,7 @@ window.healthData = {
      "Reason(s)": "Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous foods. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure that the dishwasher is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Rumor's+Restaurant+%26+Comedy+Club,+2025+Corydon+Ave,+Winnipeg,+MB+R3P+0N5/@49.867731,-97.213905,2572a,13.1y/data=!4m2!3m1!1s0x52ea7499ffb1c5cd:0x8ec96b8bfe2dba47",
+     "url": "https://www.google.com/maps/preview/place/@49.867731,-97.213905,2570a,13.1y/data=!4m2!3m1!1s0x52ea7499ffb1c5cd:0x8ec96b8bfe2dba47",
      "lat": 49.867731,
      "lon": -97.213905
     }
@@ -817,7 +819,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lindenholm+Place,+885+Wilkes+Ave,+Winnipeg,+MB+R3P+1J3/@49.847922,-97.1838976,2573a,13.1y/data=!4m2!3m1!1s0x52ea745743604fa9:0xd25bba26a334c829",
+     "url": "https://www.google.com/maps/preview/place/@49.847922,-97.1838976,2570a,13.1y/data=!4m2!3m1!1s0x52ea745743604fa9:0xd25bba26a334c829",
      "lat": 49.847922,
      "lon": -97.1838976
     }
@@ -834,7 +836,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Everyday+Grocery+%26+Halal+Meat,+2995+Pembina+Hwy,+Winnipeg,+MB+R3T+4G9/@49.7844256,-97.1577805,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6e3a76b1a7:0xc48aa8490969d23d",
+     "url": "https://www.google.com/maps/preview/place/@49.7844256,-97.1577805,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6e3a76b1a7:0xc48aa8490969d23d",
      "lat": 49.7844256,
      "lon": -97.1577805
     }
@@ -851,7 +853,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Refrigeration equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous foods."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Mangkok+International+Cuisine,+1075+Notre+Dame+Ave,+Winnipeg,+MB+R3E+0S3/@49.9068118,-97.1753428,2570a,13.1y/data=!4m2!3m1!1s0x52ea73c70d86b573:0xc9ce387518cbcb6c",
+     "url": "https://www.google.com/maps/preview/place/@49.9068118,-97.1753428,2570a,13.1y/data=!4m2!3m1!1s0x52ea73c70d86b573:0xc9ce387518cbcb6c",
      "lat": 49.9068118,
      "lon": -97.1753428
     }
@@ -868,7 +870,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure filtration system is in good repair. Fail to ensure that water in the pool is adequately filtered and circulated over the entire surface and depth of the pool. Fail to provide first aid kit. Operate a pool with inadequate water quality. Fail to ensure pool basin is kept clean and free of mould."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Airport+Motor+Inn,+1800+Ellice+Ave,+Winnipeg,+MB+R3H+0B7/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
+     "url": "https://www.google.com/maps/preview/place/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
      "lat": 49.8943178,
      "lon": -97.2105832
     }
@@ -885,7 +887,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure filtration system is in good repair. Fail to ensure that water in the whirlpool is adequately filtered and circulated over the entire surface and depth of the pool. Fail to provide first aid kit. Operate a pool with inadequate water quality. Fail to ensure pool basin is kept clean and free of mould."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Airport+Motor+Inn,+1800+Ellice+Ave,+Winnipeg,+MB+R3H+0B7/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
+     "url": "https://www.google.com/maps/preview/place/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
      "lat": 49.8943178,
      "lon": -97.2105832
     }
@@ -902,7 +904,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Gimli,+MB/@50.6320809,-96.9886746,2531a,13.1y/data=!4m2!3m1!1s0x52eb07d8e1c6a287:0x801a7d71b3985dc7",
+     "url": "https://www.google.com/maps/preview/place/@50.6320809,-96.9886746,2570a,13.1y/data=!4m2!3m1!1s0x52eb07d8e1c6a287:0x801a7d71b3985dc7",
      "lat": 50.6320809,
      "lon": -96.9886746
     }
@@ -919,7 +921,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool and fail to ensure it is equipped with a working emergency shut-off switch as required."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Blue+Crescent+Hotels+-+Arborg,+9+Vigfusson+Road,+Arborg,+MB+R0C+0A0/@50.9015565,-97.2236668,2516a,13.1y/data=!4m2!3m1!1s0x52eb9bb1c1c572df:0x777e7c25163c8f0e",
+     "url": "https://www.google.com/maps/preview/place/@50.9015565,-97.2236668,2570a,13.1y/data=!4m2!3m1!1s0x52eb9bb1c1c572df:0x777e7c25163c8f0e",
      "lat": 50.9015565,
      "lon": -97.2236668
     }
@@ -936,7 +938,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to provide approved sinks for use in manual washing and sanitizing."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Elmwood+Community+Resource+Centre,+545+Watt+St,+Winnipeg,+MB+R2K+2S2/@49.9181842,-97.0971254,2569a,13.1y/data=!4m2!3m1!1s0x52ea711c4567b7d5:0x4d0efafebb9406ee",
+     "url": "https://www.google.com/maps/preview/place/@49.9181842,-97.0971254,2570a,13.1y/data=!4m2!3m1!1s0x52ea711c4567b7d5:0x4d0efafebb9406ee",
      "lat": 49.9181842,
      "lon": -97.0971254
     }
@@ -953,7 +955,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality. Operate a pool or facility without a permit. Operate a pool or facility where insanitary conditions exist."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Super+8+by+Wyndham+Brandon+MB,+1570+Highland+Ave,+Brandon,+MB+R7C+1A5/@49.8858218,-99.9596766,2571a,13.1y/data=!4m2!3m1!1s0x52e79798f8933fb3:0x73eb3cdafb781139",
+     "url": "https://www.google.com/maps/preview/place/@49.8858218,-99.9596766,2570a,13.1y/data=!4m2!3m1!1s0x52e79798f8933fb3:0x73eb3cdafb781139",
      "lat": 49.8858218,
      "lon": -99.9596766
     }
@@ -970,7 +972,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sandman+Hotel+%26+Suites+Winnipeg+Airport,+1750+Sargent+Ave,+Winnipeg,+MB+R3H+0C7/@49.8973703,-97.2044518,2570a,13.1y/data=!4m2!3m1!1s0x52ea7374cae84803:0xcc33b8aed84fbf8d",
+     "url": "https://www.google.com/maps/preview/place/@49.8973703,-97.2044518,2570a,13.1y/data=!4m2!3m1!1s0x52ea7374cae84803:0xcc33b8aed84fbf8d",
      "lat": 49.8973703,
      "lon": -97.2044518
     }
@@ -987,7 +989,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sandman+Hotel+%26+Suites+Winnipeg+Airport,+1750+Sargent+Ave,+Winnipeg,+MB+R3H+0C7/@49.8973703,-97.2044518,2570a,13.1y/data=!4m2!3m1!1s0x52ea7374cae84803:0xcc33b8aed84fbf8d",
+     "url": "https://www.google.com/maps/preview/place/@49.8973703,-97.2044518,2570a,13.1y/data=!4m2!3m1!1s0x52ea7374cae84803:0xcc33b8aed84fbf8d",
      "lat": 49.8973703,
      "lon": -97.2044518
     }
@@ -1004,7 +1006,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Westminster+Court+Apartments,+2945+Pembina+Hwy,+Winnipeg,+MB+R3T+3R1/@49.7859586,-97.1580676,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6fbe176cbb:0xa95083d72975b1d5",
+     "url": "https://www.google.com/maps/preview/place/@49.7859586,-97.1580676,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6fbe176cbb:0xa95083d72975b1d5",
      "lat": 49.7859586,
      "lon": -97.1580676
     }
@@ -1021,7 +1023,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Dawat+Take+out+%26+Catering,+14+Keewatin+St,+Winnipeg,+MB+R3E+3B9/@49.917469,-97.1954619,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
+     "url": "https://www.google.com/maps/preview/place/@49.917469,-97.1954619,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
      "lat": 49.917469,
      "lon": -97.1954619
     }
@@ -1050,7 +1052,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hilton+Winnipeg+Airport+Suites,+1800+Wellington+Ave,+Winnipeg,+MB+R3H+1B2/@49.9007265,-97.2089142,2570a,13.1y/data=!4m2!3m1!1s0x52ea730c6b163621:0x2bbe3f679a3b570f",
+     "url": "https://www.google.com/maps/preview/place/@49.9007265,-97.2089142,2570a,13.1y/data=!4m2!3m1!1s0x52ea730c6b163621:0x2bbe3f679a3b570f",
      "lat": 49.9007265,
      "lon": -97.2089142
     }
@@ -1067,7 +1069,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Clay+Oven,+1600+Kenaston+Blvd+%23240,+Winnipeg,+MB+R3P+2M6/@49.8234484,-97.2079082,2574a,13.1y/data=!4m2!3m1!1s0x52ea753d78249b49:0x75b20cd7499acd58",
+     "url": "https://www.google.com/maps/preview/place/@49.8234484,-97.2079082,2570a,13.1y/data=!4m2!3m1!1s0x52ea753d78249b49:0x75b20cd7499acd58",
      "lat": 49.8234484,
      "lon": -97.2079082
     }
@@ -1084,7 +1086,7 @@ window.healthData = {
      "Reason(s)": "Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Jeepney+Winnipeg+(1833+Inkster),+1833+Inkster+Blvd,+Winnipeg,+MB+R2X+2W3/@49.9463367,-97.1932598,2567a,13.1y/data=!4m2!3m1!1s0x52ea73c4a2049e41:0xa59029fd6568d5b1",
+     "url": "https://www.google.com/maps/preview/place/@49.9463367,-97.1932598,2570a,13.1y/data=!4m2!3m1!1s0x52ea73c4a2049e41:0xa59029fd6568d5b1",
      "lat": 49.9463367,
      "lon": -97.1932598
     }
@@ -1101,7 +1103,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Holiday+Inn+Express+Winnipeg+Airport+-+Polo+Park,+1740+Ellice+Ave,+Winnipeg,+MB+R3H+0B3/@49.893953,-97.2053483,2570a,13.1y/data=!4m2!3m1!1s0x52ea73746a2551a3:0x33a76b6ee8721d6e",
+     "url": "https://www.google.com/maps/preview/place/@49.893953,-97.2053483,2570a,13.1y/data=!4m2!3m1!1s0x52ea73746a2551a3:0x33a76b6ee8721d6e",
      "lat": 49.893953,
      "lon": -97.2053483
     }
@@ -1118,7 +1120,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Holiday+Inn+Express+Winnipeg+Airport+-+Polo+Park,+1740+Ellice+Ave,+Winnipeg,+MB+R3H+0B3/@49.893953,-97.2053483,2570a,13.1y/data=!4m2!3m1!1s0x52ea73746a2551a3:0x33a76b6ee8721d6e",
+     "url": "https://www.google.com/maps/preview/place/@49.893953,-97.2053483,2570a,13.1y/data=!4m2!3m1!1s0x52ea73746a2551a3:0x33a76b6ee8721d6e",
      "lat": 49.893953,
      "lon": -97.2053483
     }
@@ -1135,7 +1137,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Canad+Inns+Destination+Centre+Polo+Park,+1405+St+Matthews+Ave,+Winnipeg,+MB+R3G+0K5/@49.8917541,-97.1946334,2570a,13.1y/data=!4m2!3m1!1s0x52ea739c5ff9826d:0x399c928436ac7483",
+     "url": "https://www.google.com/maps/preview/place/@49.8917541,-97.1946334,2570a,13.1y/data=!4m2!3m1!1s0x52ea739c5ff9826d:0x399c928436ac7483",
      "lat": 49.8917541,
      "lon": -97.1946334
     }
@@ -1152,7 +1154,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Le+Routier+Restaurant,+424+Rue+Sabourin,+St+Pierre-Jolys,+MB+R0A+1V0/@49.4423494,-96.985222,2594a,13.1y/data=!4m2!3m1!1s0x52c1b8ff9d7221d9:0xe45787a9c66a6c7c",
+     "url": "https://www.google.com/maps/preview/place/@49.4423494,-96.985222,2570a,13.1y/data=!4m2!3m1!1s0x52c1b8ff9d7221d9:0xe45787a9c66a6c7c",
      "lat": 49.4423494,
      "lon": -96.985222
     }
@@ -1169,7 +1171,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Best+Western+Plus+Winnipeg+Airport+Hotel,+1715+Wellington+Ave,+Winnipeg,+MB+R3H+0G1/@49.902137,-97.203487,2570a,13.1y/data=!4m2!3m1!1s0x52ea730a3ebffbf3:0x235683fdca065409",
+     "url": "https://www.google.com/maps/preview/place/@49.902137,-97.203487,2570a,13.1y/data=!4m2!3m1!1s0x52ea730a3ebffbf3:0x235683fdca065409",
      "lat": 49.902137,
      "lon": -97.203487
     }
@@ -1186,7 +1188,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Burger+King,+1525+Diamond+Dr,+Winkler,+MB+R6W+0L4/@49.1939748,-97.9565812,2607a,13.1y/data=!4m2!3m1!1s0x52c249dfec79315b:0x658a08f52ba40317",
+     "url": "https://www.google.com/maps/preview/place/@49.1939748,-97.9565812,2570a,13.1y/data=!4m2!3m1!1s0x52c249dfec79315b:0x658a08f52ba40317",
      "lat": 49.1939748,
      "lon": -97.9565812
     }
@@ -1203,7 +1205,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/219+Manitoba+Ave,+Selkirk,+MB+R1A+0Y4/@50.1444298,-96.8701944,2557a,13.1y/data=!4m2!3m1!1s0x52ea8accb9e89c0f:0xaf10732766e01dd0",
+     "url": "https://www.google.com/maps/preview/place/@50.1444298,-96.8701944,2570a,13.1y/data=!4m2!3m1!1s0x52ea8accb9e89c0f:0xaf10732766e01dd0",
      "lat": 50.1444298,
      "lon": -96.8701944
     }
@@ -1220,7 +1222,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food service establishment, failed to ensure dishes are sanitized when dishwashing. No approved manual or mechanical dishwashing equipment available."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hilton+Garden+Inn+Winnipeg+South,+495+Sterling+Lyon+Pkwy,+Winnipeg,+MB+R3P+2S8/@49.8456656,-97.2095363,2573a,13.1y/data=!4m2!3m1!1s0x52ea74dc3326c53f:0x7b18dba72a38a565",
+     "url": "https://www.google.com/maps/preview/place/@49.8456656,-97.2095363,2570a,13.1y/data=!4m2!3m1!1s0x52ea74dc3326c53f:0x7b18dba72a38a565",
      "lat": 49.8456656,
      "lon": -97.2095363
     }
@@ -1237,7 +1239,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool where hazardous conditions exist and present a risk of injury."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1254,7 +1256,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool where hazardous conditions exist and present a risk of injury."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1271,7 +1273,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool where hazardous conditions exist and present a risk of injury."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1288,7 +1290,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/East+Lake+Chinese+Food,+230+Tyndall+Ave,+Winnipeg,+MB+R2R+1S5/@49.9350106,-97.196504,2568a,13.1y/data=!4m2!3m1!1s0x52ea72434f983dfb:0xc920ee94c157d723",
+     "url": "https://www.google.com/maps/preview/place/@49.9350106,-97.196504,2570a,13.1y/data=!4m2!3m1!1s0x52ea72434f983dfb:0xc920ee94c157d723",
      "lat": 49.9350106,
      "lon": -97.196504
     }
@@ -1305,7 +1307,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool that does not meet clarity requirements and presents a risk of injury."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Fort+Garry+Place+III,+83+Garry+St+%23401,+Winnipeg,+MB+R3C+4J5/@49.8873196,-97.1369917,2571a,13.1y/data=!4m2!3m1!1s0x52ea71519d572295:0xf841fd05bd62fef6",
+     "url": "https://www.google.com/maps/preview/place/@49.8873196,-97.1369917,2570a,13.1y/data=!4m2!3m1!1s0x52ea71519d572295:0xf841fd05bd62fef6",
      "lat": 49.8873196,
      "lon": -97.1369917
     }
@@ -1322,7 +1324,7 @@ window.healthData = {
      "Reason(s)": "Unapproved dishwashing facilities. As an operator, failed to wash, rinse, and sanitize equipment/utensils after each use or as often as necessary."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Jade+Inn,+535+Osborne+St,+Winnipeg,+MB+R3L+2B2/@49.8653264,-97.1347759,2572a,13.1y/data=!4m2!3m1!1s0x52ea76a158c6b623:0x20e7f2f1e2ca5642",
+     "url": "https://www.google.com/maps/preview/place/@49.8653264,-97.1347759,2570a,13.1y/data=!4m2!3m1!1s0x52ea76a158c6b623:0x20e7f2f1e2ca5642",
      "lat": 49.8653264,
      "lon": -97.1347759
     }
@@ -1339,7 +1341,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Canad+Inns+Destination+Centre+Fort+Garry,+1824+Pembina+Hwy,+Winnipeg,+MB+R3T+2G7/@49.8241667,-97.1519444,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
+     "url": "https://www.google.com/maps/preview/place/@49.8241667,-97.1519444,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
      "lat": 49.8241667,
      "lon": -97.1519444
     }
@@ -1356,7 +1358,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Canad+Inns+Destination+Centre+Fort+Garry,+1824+Pembina+Hwy,+Winnipeg,+MB+R3T+2G7/@49.8241667,-97.1519444,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
+     "url": "https://www.google.com/maps/preview/place/@49.8241667,-97.1519444,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
      "lat": 49.8241667,
      "lon": -97.1519444
     }
@@ -1373,7 +1375,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the bacteriological quality of the pool water is such that Total Coliform is not detected in 100 mL of pool water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -1390,7 +1392,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Fortune+Cooking,+1045+St+James+St,+Winnipeg,+MB+R3G+0Z6/@49.8949155,-97.1988995,2570a,13.1y/data=!4m2!3m1!1s0x52ea73f4ec5033ad:0x34c0f1fcf6d29e40",
+     "url": "https://www.google.com/maps/preview/place/@49.8949155,-97.1988995,2570a,13.1y/data=!4m2!3m1!1s0x52ea73f4ec5033ad:0x34c0f1fcf6d29e40",
      "lat": 49.8949155,
      "lon": -97.1988995
     }
@@ -1407,7 +1409,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool and fail to ensure it is equipped with a working emergency shut-off switch as required."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -1424,7 +1426,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool and fail to ensure it is equipped with a working emergency shut-off switch as required."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -1441,7 +1443,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Booster+Juice,+1225+St+Mary's+Rd+86,+75B,+Winnipeg,+MB+R2M+5E5/@49.8283129,-97.1089754,2574a,13.1y/data=!4m2!3m1!1s0x52ea7669a01f2f7b:0xf21161c918529b83",
+     "url": "https://www.google.com/maps/preview/place/@49.8283129,-97.1089754,2570a,13.1y/data=!4m2!3m1!1s0x52ea7669a01f2f7b:0xf21161c918529b83",
      "lat": 49.8283129,
      "lon": -97.1089754
     }
@@ -1458,7 +1460,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food services establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sharptail+Motor+Inn,+14+MB-6,+Ashern,+MB+R0C+0E0/@51.1847,-98.349266,2501a,13.1y/data=!4m2!3m1!1s0x52f1bfdc408468d3:0x7eaa582512f113b5",
+     "url": "https://www.google.com/maps/preview/place/@51.1847,-98.349266,2570a,13.1y/data=!4m2!3m1!1s0x52f1bfdc408468d3:0x7eaa582512f113b5",
      "lat": 51.1847,
      "lon": -98.349266
     }
@@ -1475,7 +1477,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Clubhouse+Pizza+%26+Chicken,+535+Osborne+St,+Winnipeg,+MB+R3L+2B2/@49.8652854,-97.1347259,2572a,13.1y/data=!4m2!3m1!1s0x52ea76a158c6b623:0xdd18683df5d76e02",
+     "url": "https://www.google.com/maps/preview/place/@49.8652854,-97.1347259,2570a,13.1y/data=!4m2!3m1!1s0x52ea76a158c6b623:0xdd18683df5d76e02",
      "lat": 49.8652854,
      "lon": -97.1347259
     }
@@ -1492,7 +1494,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1751+Pembina+Hwy,+Winnipeg,+MB+R3T+2G6/@49.8262818,-97.1537669,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c700d86303:0xe148dc11c96175e6",
+     "url": "https://www.google.com/maps/preview/place/@49.8262818,-97.1537669,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c700d86303:0xe148dc11c96175e6",
      "lat": 49.8262818,
      "lon": -97.1537669
     }
@@ -1509,7 +1511,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. As the operator of a food services establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Westbrook+Inn,+64+Keewatin+St,+Winnipeg,+MB+R3E+3C4/@49.9196296,-97.1955666,2569a,13.1y/data=!4m2!3m1!1s0x4173465a8d450e97:0xe8daa5502056ffe1",
+     "url": "https://www.google.com/maps/preview/place/@49.9196296,-97.1955666,2570a,13.1y/data=!4m2!3m1!1s0x4173465a8d450e97:0xe8daa5502056ffe1",
      "lat": 49.9196296,
      "lon": -97.1955666
     }
@@ -1526,7 +1528,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Mings+Bakery,+1433+Logan+Ave,+Winnipeg,+MB+R3E+1R8/@49.9179993,-97.1834145,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b4e4b8dbdb:0x70005d28ca7a901b",
+     "url": "https://www.google.com/maps/preview/place/@49.9179993,-97.1834145,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b4e4b8dbdb:0x70005d28ca7a901b",
      "lat": 49.9179993,
      "lon": -97.1834145
     }
@@ -1543,7 +1545,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Wako+Sushi+Cafe,+875+Corydon+Ave,+Winnipeg,+MB+R3M,+Canada/@49.86938,-97.1580282,2572a,13.1y/data=!4m2!3m1!1s0x52ea7411d2ca4dcd:0x78d4ad5f2cc64daf",
+     "url": "https://www.google.com/maps/preview/place/@49.86938,-97.1580282,2570a,13.1y/data=!4m2!3m1!1s0x52ea7411d2ca4dcd:0x78d4ad5f2cc64daf",
      "lat": 49.86938,
      "lon": -97.1580282
     }
@@ -1560,7 +1562,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Did allow live animals to enter a food handling establishment."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Banh+Mi+King+St.+Pierre+-+Jolys,+601+Rue+Sabourin,+St+Pierre-Jolys,+MB+R0A+1V0/@49.4363756,-96.9850838,2595a,13.1y/data=!4m2!3m1!1s0x52c1b900089625fb:0xb049e2d0ed47f9fb",
+     "url": "https://www.google.com/maps/preview/place/@49.4363756,-96.9850838,2570a,13.1y/data=!4m2!3m1!1s0x52c1b900089625fb:0xb049e2d0ed47f9fb",
      "lat": 49.4363756,
      "lon": -96.9850838
     }
@@ -1577,7 +1579,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Banh+Mi+House,+1373+Pembina+Hwy+%232,+Winnipeg,+MB+R3T+2B7/@49.8391384,-97.1522769,2573a,13.1y/data=!4m2!3m1!1s0x52ea75a8a653ece7:0x5e46c76ccabd3a9",
+     "url": "https://www.google.com/maps/preview/place/@49.8391384,-97.1522769,2570a,13.1y/data=!4m2!3m1!1s0x52ea75a8a653ece7:0x5e46c76ccabd3a9",
      "lat": 49.8391384,
      "lon": -97.1522769
     }
@@ -1594,7 +1596,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. As the operator of a food services establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to maintain safe internal temperature of potentially hazardous food."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Riverview+Garden+Restaurant+%E7%B2%A4%E5%91%B3%E8%BD%A9,+3564+Pembina+Hwy,+Winnipeg,+MB+R3V+1A7/@49.7648001,-97.1526342,2577a,13.1y/data=!4m2!3m1!1s0x52c1df1b284f6163:0x12a30a7813334e62",
+     "url": "https://www.google.com/maps/preview/place/@49.7648001,-97.1526342,2570a,13.1y/data=!4m2!3m1!1s0x52c1df1b284f6163:0x12a30a7813334e62",
      "lat": 49.7648001,
      "lon": -97.1526342
     }
@@ -1611,7 +1613,7 @@ window.healthData = {
      "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
+     "url": "https://www.google.com/maps/preview/place/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
      "lat": 49.8976188,
      "lon": -97.2091577
     }
@@ -1628,7 +1630,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1645,7 +1647,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. As the operator of a food services establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1662,7 +1664,7 @@ window.healthData = {
      "Reason(s)": "Operator failed to operate pool facilities in a sanitary manner."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1679,7 +1681,7 @@ window.healthData = {
      "Reason(s)": "Operator failed to operate pool facilities in a sanitary manner."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1696,7 +1698,7 @@ window.healthData = {
      "Reason(s)": "Operator failed to operate pool facilities in a sanitary manner."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -1713,7 +1715,7 @@ window.healthData = {
      "Reason(s)": "As an operator, sell food under insanitary conditions. Operate a food handling establishment with poor general sanitation and fail to provide required sanitary facilities, namely toilets backed up and plumbing not working."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Winnipeg+Beach+Hotel,+22+Main+St,+Winnipeg+Beach,+MB+R0C+3G0/@50.4971946,-96.9663912,2538a,13.1y/data=!4m2!3m1!1s0x52eb006995991233:0x5e0f497e0f0eaf94",
+     "url": "https://www.google.com/maps/preview/place/@50.4971946,-96.9663912,2570a,13.1y/data=!4m2!3m1!1s0x52eb006995991233:0x5e0f497e0f0eaf94",
      "lat": 50.4971946,
      "lon": -96.9663912
     }
@@ -1730,7 +1732,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. As operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Mehak-E-Punjab,+2696+Pembina+Hwy,+Winnipeg,+MB+R3T+2H7/@49.7949176,-97.1565696,2576a,13.1y/data=!4m2!3m1!1s0x52c1df04cf2bc627:0x6356a3ca122dfbdf",
+     "url": "https://www.google.com/maps/preview/place/@49.7949176,-97.1565696,2570a,13.1y/data=!4m2!3m1!1s0x52c1df04cf2bc627:0x6356a3ca122dfbdf",
      "lat": 49.7949176,
      "lon": -97.1565696
     }
@@ -1747,7 +1749,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the bacteriological quality of the whirlpool water is such that Pseudomonas aeruginosa is not detected in 100 ml of whirlpool water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Canalta+Hotel+Selkirk,+1061+Manitoba+Ave,+Selkirk,+MB+R1A+3T7/@50.1601803,-96.9013609,2556a,13.1y/data=!4m2!3m1!1s0x52eaf5593a54b141:0xf11e3c31539082aa",
+     "url": "https://www.google.com/maps/preview/place/@50.1601803,-96.9013609,2570a,13.1y/data=!4m2!3m1!1s0x52eaf5593a54b141:0xf11e3c31539082aa",
      "lat": 50.1601803,
      "lon": -96.9013609
     }
@@ -1764,7 +1766,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food services establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sophie's+Restaurant+%26+Deli+and+Pahalwan+Dhaba+%E0%A8%AA%E0%A8%B9%E0%A8%BF%E0%A8%B2%E0%A8%B5%E0%A8%BE%E0%A8%A8+%E0%A8%A2%E0%A8%BE%E0%A8%AC%E0%A8%BE%E0%A5%A4+%E0%A8%AA%E0%A9%B0%E0%A8%9C%E0%A8%BE%E0%A8%AC%E0%A9%80+%E0%A8%AD%E0%A9%8B%E0%A8%9C%E0%A8%A8,+44098+MB-11,+Hadashville,+MB+R0E+0X0/@49.6592674,-95.9076538,2583a,13.1y/data=!4m2!3m1!1s0x52bff721a894eeb5:0xf6a313c8e386ac9a",
+     "url": "https://www.google.com/maps/preview/place/@49.6592674,-95.9076538,2570a,13.1y/data=!4m2!3m1!1s0x52bff721a894eeb5:0xf6a313c8e386ac9a",
      "lat": 49.6592674,
      "lon": -95.9076538
     }
@@ -1781,7 +1783,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Insufficient mechanical cold storage provided and not maintained to ensure that potentially hazardous foods are maintained at a safe internal temperature. Fail to ensure commercial cooking equipment and ventilation system is in place and conforms to Manitoba Building Code."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/2740+Pembina+Hwy,+Winnipeg,+MB+R3T+2H7/@49.7931464,-97.1568245,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6388cc9131:0x848204a92e6c48f5",
+     "url": "https://www.google.com/maps/preview/place/@49.7931464,-97.1568245,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6388cc9131:0x848204a92e6c48f5",
      "lat": 49.7931464,
      "lon": -97.1568245
     }
@@ -1798,7 +1800,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Dairi-Wip+Drive-In,+383+Marion+St,+Winnipeg,+MB+R2H+0V4/@49.8822376,-97.1095203,2571a,13.1y/data=!4m2!3m1!1s0x52ea76cd22cfab85:0x1c866956c2bd3221",
+     "url": "https://www.google.com/maps/preview/place/@49.8822376,-97.1095203,2570a,13.1y/data=!4m2!3m1!1s0x52ea76cd22cfab85:0x1c866956c2bd3221",
      "lat": 49.8822376,
      "lon": -97.1095203
     }
@@ -1815,7 +1817,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. As operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Cork+%26+Flame,+3106+Portage+Ave,+Winnipeg,+MB+R3K+0Y3/@49.8801139,-97.2847104,2571a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
+     "url": "https://www.google.com/maps/preview/place/@49.8801139,-97.2847104,2570a,13.1y/data=!4m2!3m1!1s0x52ea0dd6d2a128a5:0x8222eb267f1f9c7b",
      "lat": 49.8801139,
      "lon": -97.2847104
     }
@@ -1832,7 +1834,7 @@ window.healthData = {
      "Reason(s)": "As operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are protected from contamination. Did store and prepare food under insanitary conditions. Fail to maintain safe internal temperature of potentially hazardous food. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Buffet+Square,+8-2188+McPhillips+St,+Winnipeg,+MB+R2V+3C8/@49.9519191,-97.1516876,2567a,13.1y/data=!4m2!3m1!1s0x52ea71efe91da0e1:0x17b1c0e378a85c82",
+     "url": "https://www.google.com/maps/preview/place/@49.9519191,-97.1516876,2570a,13.1y/data=!4m2!3m1!1s0x52ea71efe91da0e1:0x17b1c0e378a85c82",
      "lat": 49.9519191,
      "lon": -97.1516876
     }
@@ -1849,7 +1851,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean, sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Asian+Hot+Pot,+740+Corydon+Ave,+Winnipeg,+MB+R3M+0W6/@49.8705632,-97.1529273,2572a,13.1y/data=!4m2!3m1!1s0x52ea74053181f9f5:0x85208a1c8e32d3da",
+     "url": "https://www.google.com/maps/preview/place/@49.8705632,-97.1529273,2570a,13.1y/data=!4m2!3m1!1s0x52ea74053181f9f5:0x85208a1c8e32d3da",
      "lat": 49.8705632,
      "lon": -97.1529273
     }
@@ -1866,7 +1868,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Punjab+Cultural+Centre,+1770+King+Edward+St,+Winnipeg,+MB+R2R+0M5/@49.9223907,-97.2073467,2569a,13.1y/data=!4m2!3m1!1s0x52ea72ff5d35b755:0x79e9eb873044c3fa",
+     "url": "https://www.google.com/maps/preview/place/@49.9223907,-97.2073467,2570a,13.1y/data=!4m2!3m1!1s0x52ea72ff5d35b755:0x79e9eb873044c3fa",
      "lat": 49.9223907,
      "lon": -97.2073467
     }
@@ -1883,7 +1885,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/King+of+India,+1770+King+Edward+St,+Winnipeg,+MB+R2R+0N1/@49.9223907,-97.2073467,2569a,13.1y/data=!4m2!3m1!1s0x52ea72ff5b0aabe7:0x200b3c6b99f0db8e",
+     "url": "https://www.google.com/maps/preview/place/@49.9223907,-97.2073467,2570a,13.1y/data=!4m2!3m1!1s0x52ea72ff5b0aabe7:0x200b3c6b99f0db8e",
      "lat": 49.9223907,
      "lon": -97.2073467
     }
@@ -1900,7 +1902,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure deck is kept clean, sanitary and in good condition. Fail to ensure pool water and the pool walls and floor are kept free of visible dirt, litter, algae, and other foreign material. Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -1917,7 +1919,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Joe+Black+Coffee+%26+Bar,+2037+Portage+Ave,+Winnipeg,+MB+R3J+0K6/@49.877534,-97.230551,2571a,13.1y/data=!4m2!3m1!1s0x52ea735858450907:0x694642035bd757e9",
+     "url": "https://www.google.com/maps/preview/place/@49.877534,-97.230551,2570a,13.1y/data=!4m2!3m1!1s0x52ea735858450907:0x694642035bd757e9",
      "lat": 49.877534,
      "lon": -97.230551
     }
@@ -1934,7 +1936,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Logan+Esso+,+Chester's,+Laundromat+%26+Car+Wash,+1539+Logan+Ave,+Winnipeg,+MB+R3E+3N6/@49.9195742,-97.1882655,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b34aab8491:0x8784ecf33692745",
+     "url": "https://www.google.com/maps/preview/place/@49.9195742,-97.1882655,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b34aab8491:0x8784ecf33692745",
      "lat": 49.9195742,
      "lon": -97.1882655
     }
@@ -1951,7 +1953,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Dairy+Queen+Grill+%26+Chill,+The+Uptown+Mall,+333+Edwards+Ave+Unit+B,+The+Pas,+MB+R9A+1L7/@53.8232109,-101.2499825,2355a,13.1y/data=!4m2!3m1!1s0x52f9eb591371bf35:0xbb733ff10bbe46ec",
+     "url": "https://www.google.com/maps/preview/place/@53.8232109,-101.2499825,2570a,13.1y/data=!4m2!3m1!1s0x52f9eb591371bf35:0xbb733ff10bbe46ec",
      "lat": 53.8232109,
      "lon": -101.2499825
     }
@@ -1968,7 +1970,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot and cold potable water is provided."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/2079+Pembina+Hwy,+Winnipeg,+MB+R3T+5J9/@49.8146126,-97.1524601,2574a,13.1y/data=!4m2!3m1!1s0x52ea75eb44015f11:0x6067adc529dd0c5d",
+     "url": "https://www.google.com/maps/preview/place/@49.8146126,-97.1524601,2570a,13.1y/data=!4m2!3m1!1s0x52ea75eb44015f11:0x6067adc529dd0c5d",
      "lat": 49.8146126,
      "lon": -97.1524601
     }
@@ -1985,7 +1987,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Keewatin+Pizza,+115+Keewatin+St,+Winnipeg,+MB+R3E+3E1/@49.9209055,-97.1948198,2569a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
+     "url": "https://www.google.com/maps/preview/place/@49.9209055,-97.1948198,2570a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
      "lat": 49.9209055,
      "lon": -97.1948198
     }
@@ -2001,7 +2003,7 @@ window.healthData = {
      "Reason(s)": "City of Brandon Body Art Bylaw 6685 and The Public Health Act requires tattoo operators/Body Art business to meet minimum public health standards and obtain approval prior to operating. No approval has been issued."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/147+3rd+St,+Brandon,+MB+R7A+0N5/@49.847419,-99.9415615,2573a,13.1y/data=!4m2!3m1!1s0x52e79737d814300d:0x2fcd8d1008f53c88",
+     "url": "https://www.google.com/maps/preview/place/@49.847419,-99.9415615,2570a,13.1y/data=!4m2!3m1!1s0x52e79737d814300d:0x2fcd8d1008f53c88",
      "lat": 49.847419,
      "lon": -99.9415615
     }
@@ -2018,7 +2020,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Red+Chilli's+East+Indian+Cuisine,+11-801+Regent+Ave+W,+Winnipeg,+MB+R2C+3A7/@49.8962605,-97.0266172,2570a,13.1y/data=!4m2!3m1!1s0x52ea7bdba61ad5fb:0x963437dadbd4e9d",
+     "url": "https://www.google.com/maps/preview/place/@49.8962605,-97.0266172,2570a,13.1y/data=!4m2!3m1!1s0x52ea7bdba61ad5fb:0x963437dadbd4e9d",
      "lat": 49.8962605,
      "lon": -97.0266172
     }
@@ -2035,7 +2037,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/87+Isabel+St,+Winnipeg,+MB+R3A+1E8/@49.90069,-97.1503358,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e003071f31:0x9f4ae1d3b513c1f1",
+     "url": "https://www.google.com/maps/preview/place/@49.90069,-97.1503358,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e003071f31:0x9f4ae1d3b513c1f1",
      "lat": 49.90069,
      "lon": -97.1503358
     }
@@ -2052,7 +2054,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Ye's+Buffet,+616+St+James+St,+Winnipeg,+MB+R3G+3J5/@49.8809112,-97.2020511,2571a,13.1y/data=!4m2!3m1!1s0x52ea737e9af9956d:0x1f8eaa7ccbf3afc6",
+     "url": "https://www.google.com/maps/preview/place/@49.8809112,-97.2020511,2570a,13.1y/data=!4m2!3m1!1s0x52ea737e9af9956d:0x1f8eaa7ccbf3afc6",
      "lat": 49.8809112,
      "lon": -97.2020511
     }
@@ -2069,7 +2071,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/North+End+Stop,+887+Notre+Dame+Ave,+Winnipeg,+MB+R3E+0M4/@49.904253,-97.167242,2570a,13.1y/data=!4m2!3m1!1s0x52ea73f7a383d855:0x7d9398567e857e27",
+     "url": "https://www.google.com/maps/preview/place/@49.904253,-97.167242,2570a,13.1y/data=!4m2!3m1!1s0x52ea73f7a383d855:0x7d9398567e857e27",
      "lat": 49.904253,
      "lon": -97.167242
     }
@@ -2086,7 +2088,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Gol's+Lanzhou+Noodle+Winnipeg,+2795+Pembina+Hwy+%231,+Winnipeg,+MB+R3T+2H5/@49.7908771,-97.1582228,2576a,13.1y/data=!4m2!3m1!1s0x52c1df82f4862391:0xc6c618da9256efbb",
+     "url": "https://www.google.com/maps/preview/place/@49.7908771,-97.1582228,2570a,13.1y/data=!4m2!3m1!1s0x52c1df82f4862391:0xc6c618da9256efbb",
      "lat": 49.7908771,
      "lon": -97.1582228
     }
@@ -2103,7 +2105,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Uptown+Alley,+1301+St+Matthews+Ave,+Winnipeg,+MB+R3G+1E3/@49.8917734,-97.1923063,2570a,13.1y/data=!4m2!3m1!1s0x52ea739b884dea43:0x9c673624c5efd526",
+     "url": "https://www.google.com/maps/preview/place/@49.8917734,-97.1923063,2570a,13.1y/data=!4m2!3m1!1s0x52ea739b884dea43:0x9c673624c5efd526",
      "lat": 49.8917734,
      "lon": -97.1923063
     }
@@ -2120,7 +2122,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Peasant+Cookery,+283+Bannatyne+Ave,+Winnipeg,+MB+R3B+1M3/@49.8984483,-97.1412749,2570a,13.1y/data=!4m2!3m1!1s0x52ea715c46b755e1:0x6279f1486deca5bb",
+     "url": "https://www.google.com/maps/preview/place/@49.8984483,-97.1412749,2570a,13.1y/data=!4m2!3m1!1s0x52ea715c46b755e1:0x6279f1486deca5bb",
      "lat": 49.8984483,
      "lon": -97.1412749
     }
@@ -2137,7 +2139,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Double+Greeting+Chinese+Snack+House,+355+McDermot+Ave,+Winnipeg,+MB+R3A+0A6/@49.8987297,-97.1452233,2570a,13.1y/data=!4m2!3m1!1s0x52ea715ef6b6edd9:0xb0c0a61fca5d2787",
+     "url": "https://www.google.com/maps/preview/place/@49.8987297,-97.1452233,2570a,13.1y/data=!4m2!3m1!1s0x52ea715ef6b6edd9:0xb0c0a61fca5d2787",
      "lat": 49.8987297,
      "lon": -97.1452233
     }
@@ -2154,7 +2156,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As the owner, allow meat that has not been inspected and approved in a food handling establishment."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/99+Fresh+Garden,+2795+Pembina+Hwy+UNIT+-+5,+Winnipeg,+MB+R3T+2H5/@49.7909411,-97.1582414,2576a,13.1y/data=!4m2!3m1!1s0x52ea753fc1ce574f:0xd7a37eba90c463c2",
+     "url": "https://www.google.com/maps/preview/place/@49.7909411,-97.1582414,2570a,13.1y/data=!4m2!3m1!1s0x52ea753fc1ce574f:0xd7a37eba90c463c2",
      "lat": 49.7909411,
      "lon": -97.1582414
     }
@@ -2171,7 +2173,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Cilantro's+Modern+Indian+Cuisine+-+Portage,+1132+Portage+Ave,+Winnipeg,+MB+R3G+0S7/@49.8836677,-97.1801861,2571a,13.1y/data=!4m2!3m1!1s0x52ea73cd88b525f3:0xc323b9ebcf262721",
+     "url": "https://www.google.com/maps/preview/place/@49.8836677,-97.1801861,2570a,13.1y/data=!4m2!3m1!1s0x52ea73cd88b525f3:0xc323b9ebcf262721",
      "lat": 49.8836677,
      "lon": -97.1801861
     }
@@ -2188,7 +2190,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Radhe+Supermarket+-+Winnipeg,+335+North+Town+Road+%234,+Winnipeg,+MB+R3Y+0S4/@49.7992078,-97.1953339,2575a,13.1y/data=!4m2!3m1!1s0x52ea7540f0c0b6db:0x706a18919fe3cb7b",
+     "url": "https://www.google.com/maps/preview/place/@49.7992078,-97.1953339,2570a,13.1y/data=!4m2!3m1!1s0x52ea7540f0c0b6db:0x706a18919fe3cb7b",
      "lat": 49.7992078,
      "lon": -97.1953339
     }
@@ -2205,7 +2207,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Aristocrat+Restaurant,+210+Tyndall+Ave+Unit+C,+Winnipeg,+MB+R2R+1S5/@49.9349875,-97.1960264,2568a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
+     "url": "https://www.google.com/maps/preview/place/@49.9349875,-97.1960264,2570a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
      "lat": 49.9349875,
      "lon": -97.1960264
     }
@@ -2222,7 +2224,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chrissea's+Restaurant+%26+Catering+at+The+Players+Course,+2695+Park+Royale+Wy,+Winnipeg,+MB+R3C+2E6/@49.947658,-97.243989,2567a,13.1y/data=!4m2!3m1!1s0x52ea733c58a6e1cb:0xaa3009749c0f6268",
+     "url": "https://www.google.com/maps/preview/place/@49.947658,-97.243989,2570a,13.1y/data=!4m2!3m1!1s0x52ea733c58a6e1cb:0xaa3009749c0f6268",
      "lat": 49.947658,
      "lon": -97.243989
     },
@@ -2240,7 +2242,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/MyIndigo,+355+North+Town+Road+%231,+Winnipeg,+MB+R3Y+1N3/@49.7992556,-97.1965224,2575a,13.1y/data=!4m2!3m1!1s0x52ea7500203b199b:0xec19bd7363e8a8a1",
+     "url": "https://www.google.com/maps/preview/place/@49.7992556,-97.1965224,2570a,13.1y/data=!4m2!3m1!1s0x52ea7500203b199b:0xec19bd7363e8a8a1",
      "lat": 49.7992556,
      "lon": -97.1965224
     }
@@ -2257,7 +2259,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Didar+Grocery+Mart,+110+Adamar+Rd+%231,+Winnipeg,+MB+R3T+3M3/@49.8245916,-97.1505199,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c6ce36979d:0x3ce3d33adfff3e17",
+     "url": "https://www.google.com/maps/preview/place/@49.8245916,-97.1505199,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6ce36979d:0x3ce3d33adfff3e17",
      "lat": 49.8245916,
      "lon": -97.1505199
     }
@@ -2274,7 +2276,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/YMCA-YWCA+of+Winnipeg+%E2%80%93+Portage+Branch,+3550+Portage+Ave,+Winnipeg,+MB+R3K+2C6/@49.8823568,-97.3079222,2571a,13.1y/data=!4m2!3m1!1s0x52ea0c64eba5de47:0xb6f135ea9e18adb9",
+     "url": "https://www.google.com/maps/preview/place/@49.8823568,-97.3079222,2570a,13.1y/data=!4m2!3m1!1s0x52ea0c64eba5de47:0xb6f135ea9e18adb9",
      "lat": 49.8823568,
      "lon": -97.3079222
     }
@@ -2291,7 +2293,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Best+Way+Food+Market+3,+553+William+Ave,+Winnipeg,+MB+R3A+0J7/@49.9030101,-97.1516291,2570a,13.1y/data=!4m2!3m1!1s0x52ea73df90ede94f:0x81a1f506f23b937c",
+     "url": "https://www.google.com/maps/preview/place/@49.9030101,-97.1516291,2570a,13.1y/data=!4m2!3m1!1s0x52ea73df90ede94f:0x81a1f506f23b937c",
      "lat": 49.9030101,
      "lon": -97.1516291
     }
@@ -2308,7 +2310,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sun+Valley+Restaurant,+433+Oak+Point+Hwy,+Winnipeg,+MB+R2R+1T9/@49.9383743,-97.2245036,2568a,13.1y/data=!4m2!3m1!1s0x52ea7292b0e09ea7:0x3d609f67643115e1",
+     "url": "https://www.google.com/maps/preview/place/@49.9383743,-97.2245036,2570a,13.1y/data=!4m2!3m1!1s0x52ea7292b0e09ea7:0x3d609f67643115e1",
      "lat": 49.9383743,
      "lon": -97.2245036
     }
@@ -2325,7 +2327,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Cornerstone+Food+Mart,+74+Isabel+St,+Winnipeg,+MB+R3A+1E6/@49.9003241,-97.1510553,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e0111971cb:0xb9ed1f5ac1fdf685",
+     "url": "https://www.google.com/maps/preview/place/@49.9003241,-97.1510553,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e0111971cb:0xb9ed1f5ac1fdf685",
      "lat": 49.9003241,
      "lon": -97.1510553
     }
@@ -2342,7 +2344,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/ROSS+CONVENIENCE,+Winnipeg,+MB+R3A+1G5/@49.9029715,-97.1489773,2570a,13.1y/data=!4m2!3m1!1s0x52ea71604755b749:0xb7d226f4a453d653",
+     "url": "https://www.google.com/maps/preview/place/@49.9029715,-97.1489773,2570a,13.1y/data=!4m2!3m1!1s0x52ea71604755b749:0xb7d226f4a453d653",
      "lat": 49.9029715,
      "lon": -97.1489773
     }
@@ -2359,7 +2361,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to take effective measures against the entry and presence of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/New+Lodge,+690+Notre+Dame+Ave,+Winnipeg,+MB+R3E+0L7/@49.9013774,-97.1598082,2570a,13.1y/data=!4m2!3m1!1s0x52ea73ddf459f361:0xc0e9db28bee60807",
+     "url": "https://www.google.com/maps/preview/place/@49.9013774,-97.1598082,2570a,13.1y/data=!4m2!3m1!1s0x52ea73ddf459f361:0xc0e9db28bee60807",
      "lat": 49.9013774,
      "lon": -97.1598082
     }
@@ -2376,7 +2378,7 @@ window.healthData = {
      "Reason(s)": "Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Na+Na+Foods+Supermarket,+1579+Notre+Dame+Ave,+Winnipeg,+MB+R3E+0R2/@49.913298,-97.1916387,2569a,13.1y/data=!4m2!3m1!1s0x52ea73ae1d65bcf3:0x7b5663c994cd8ab4",
+     "url": "https://www.google.com/maps/preview/place/@49.913298,-97.1916387,2570a,13.1y/data=!4m2!3m1!1s0x52ea73ae1d65bcf3:0x7b5663c994cd8ab4",
      "lat": 49.913298,
      "lon": -97.1916387
     }
@@ -2393,7 +2395,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sun+Valley+Restaurant,+433+Oak+Point+Hwy,+Winnipeg,+MB+R2R+1T9/@49.9383743,-97.2245036,2568a,13.1y/data=!4m2!3m1!1s0x52ea7292b0e09ea7:0x3d609f67643115e1",
+     "url": "https://www.google.com/maps/preview/place/@49.9383743,-97.2245036,2570a,13.1y/data=!4m2!3m1!1s0x52ea7292b0e09ea7:0x3d609f67643115e1",
      "lat": 49.9383743,
      "lon": -97.2245036
     }
@@ -2410,7 +2412,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Grand+Royal+Legacy,+44+McPhillips+St,+Winnipeg,+MB+R3E+2J6/@49.9068091,-97.1718417,2570a,13.1y/data=!4m2!3m1!1s0x52ea73c19cf8d4db:0x7d2922fe44c9e28e",
+     "url": "https://www.google.com/maps/preview/place/@49.9068091,-97.1718417,2570a,13.1y/data=!4m2!3m1!1s0x52ea73c19cf8d4db:0x7d2922fe44c9e28e",
      "lat": 49.9068091,
      "lon": -97.1718417
     }
@@ -2427,7 +2429,7 @@ window.healthData = {
      "Reason(s)": "Chemistry (pH) level of the pool is above the regulatory requirement."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/851+Main+St,+Plum+Coulee,+MB+R6W+0M7/@49.1916421,-97.9382913,2607a,13.1y/data=!4m2!3m1!1s0x52c24973aa649b09:0xe360ea680ec8aeb2",
+     "url": "https://www.google.com/maps/preview/place/@49.1916421,-97.9382913,2570a,13.1y/data=!4m2!3m1!1s0x52c24973aa649b09:0xe360ea680ec8aeb2",
      "lat": 49.1916421,
      "lon": -97.9382913
     }
@@ -2444,7 +2446,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As an operator, did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/My+Indigo+Indian+Street+Food+Waterford,+55+Waterford+Green+Common,+Winnipeg,+MB+R2R+1W4/@49.9562,-97.19628,2567a,13.1y/data=!4m2!3m1!1s0x52ea7395d70b3ccf:0x72652f3b36e35b40",
+     "url": "https://www.google.com/maps/preview/place/@49.9562,-97.19628,2570a,13.1y/data=!4m2!3m1!1s0x52ea7395d70b3ccf:0x72652f3b36e35b40",
      "lat": 49.9562,
      "lon": -97.19628
     }
@@ -2461,7 +2463,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Akindo+Sushi+Bistro,+121+Osborne+St+%23105,+Winnipeg,+MB+R3L+1Y4/@49.8782033,-97.1459867,2571a,13.1y/data=!4m2!3m1!1s0x52ea75559f8dade9:0x83a95dc343c7648b",
+     "url": "https://www.google.com/maps/preview/place/@49.8782033,-97.1459867,2570a,13.1y/data=!4m2!3m1!1s0x52ea75559f8dade9:0x83a95dc343c7648b",
      "lat": 49.8782033,
      "lon": -97.1459867
     }
@@ -2478,7 +2480,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Gong+cha,+203-121+Osborne+St,+Winnipeg,+MB+R3L+1Y4/@49.8782586,-97.1459083,2571a,13.1y/data=!4m2!3m1!1s0x52ea755c5b57f407:0xd7853023ace83e4b",
+     "url": "https://www.google.com/maps/preview/place/@49.8782586,-97.1459083,2570a,13.1y/data=!4m2!3m1!1s0x52ea755c5b57f407:0xd7853023ace83e4b",
      "lat": 49.8782586,
      "lon": -97.1459083
     }
@@ -2495,7 +2497,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Tindahan+Food+Mart,+906+Sargent+Ave,+Winnipeg,+MB+R3E+0C8/@49.896846,-97.173095,2570a,13.1y/data=!4m2!3m1!1s0x52ea73eb226f3031:0xfa09eb986081b75c",
+     "url": "https://www.google.com/maps/preview/place/@49.896846,-97.173095,2570a,13.1y/data=!4m2!3m1!1s0x52ea73eb226f3031:0xfa09eb986081b75c",
      "lat": 49.896846,
      "lon": -97.173095
     }
@@ -2512,7 +2514,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Kimchi+Sushi,+998+Keewatin+St,+Winnipeg,+MB+R2R+2V1/@49.9425589,-97.1964828,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268e517472d:0xe77129e1830c2b42",
+     "url": "https://www.google.com/maps/preview/place/@49.9425589,-97.1964828,2570a,13.1y/data=!4m2!3m1!1s0x52ea7268e517472d:0xe77129e1830c2b42",
      "lat": 49.9425589,
      "lon": -97.1964828
     }
@@ -2528,7 +2530,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/LOLLYPEX+FOODS+AND+FASHIONS,+86+Larry+Vickar+Dr+E,+Winnipeg,+MB+R3W+0J9/@49.9009976,-97.0435448,2570a,13.1y/data=!4m2!3m1!1s0x52ea7b0eb853cb15:0x30773e3def1246ec",
+     "url": "https://www.google.com/maps/preview/place/@49.9009976,-97.0435448,2570a,13.1y/data=!4m2!3m1!1s0x52ea7b0eb853cb15:0x30773e3def1246ec",
      "lat": 49.9009976,
      "lon": -97.0435448
     }
@@ -2545,7 +2547,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/MESOB+ETHIOPIAN+EATS,+121+Osborne+St+%23200,+Winnipeg,+MB+R3L+1Y4/@49.8782028,-97.1459793,2571a,13.1y/data=!4m2!3m1!1s0x52ea756dbd0ff0f1:0xde4c4553478a4e7b",
+     "url": "https://www.google.com/maps/preview/place/@49.8782028,-97.1459793,2570a,13.1y/data=!4m2!3m1!1s0x52ea756dbd0ff0f1:0xde4c4553478a4e7b",
      "lat": 49.8782028,
      "lon": -97.1459793
     }
@@ -2562,7 +2564,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/SPICY+GRILL+EAST+INDIAN+AND+HAKKA+RESTAURANT,+121+Osborne+St+C,+Winnipeg,+MB+R3L+1Y4/@49.8782028,-97.1459793,2571a,13.1y/data=!4m2!3m1!1s0x52ea75f0a3907981:0x1d10abffab79e754",
+     "url": "https://www.google.com/maps/preview/place/@49.8782028,-97.1459793,2570a,13.1y/data=!4m2!3m1!1s0x52ea75f0a3907981:0x1d10abffab79e754",
      "lat": 49.8782028,
      "lon": -97.1459793
     }
@@ -2579,7 +2581,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/DENCROSS+CORNERSTONE+CAFE,+42015+MB-317,+Brokenhead,+MB+R0E+0C0/@50.2678404,-96.486772,2550a,13.1y/data=!4m2!3m1!1s0x52eac239b3b86c3b:0x95c966adfd73b80b",
+     "url": "https://www.google.com/maps/preview/place/@50.2678404,-96.486772,2570a,13.1y/data=!4m2!3m1!1s0x52eac239b3b86c3b:0x95c966adfd73b80b",
      "lat": 50.2678404,
      "lon": -96.486772
     }
@@ -2596,7 +2598,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Fil-Mart+Corp+Quality+Fresh+Meats+%26+Vegetables,+Tyndall+Ave,+Winnipeg,+MB+R2R+0Z3/@49.9349532,-97.1961845,2568a,13.1y/data=!4m2!3m1!1s0x52ea72435a550581:0x4b4fc4fc1704b853",
+     "url": "https://www.google.com/maps/preview/place/@49.9349532,-97.1961845,2570a,13.1y/data=!4m2!3m1!1s0x52ea72435a550581:0x4b4fc4fc1704b853",
      "lat": 49.9349532,
      "lon": -97.1961845
     }
@@ -2613,7 +2615,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Robins+Donuts,+234+Donald+St,+Winnipeg,+MB+R3C+4M7/@49.8916155,-97.1427758,2570a,13.1y/data=!4m2!3m1!1s0x52ea715758915e21:0x7fdaf98f6d1d5cfc",
+     "url": "https://www.google.com/maps/preview/place/@49.8916155,-97.1427758,2570a,13.1y/data=!4m2!3m1!1s0x52ea715758915e21:0x7fdaf98f6d1d5cfc",
      "lat": 49.8916155,
      "lon": -97.1427758
     }
@@ -2630,7 +2632,7 @@ window.healthData = {
      "Reason(s)": "Operate a food handling establishment without a permit. Fail to register before commencing operation of a food handling establishment."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Pizza+Hotline,+674+Main+St,+Winkler,+MB+R6W+1A8/@49.1885052,-97.9399376,2608a,13.1y/data=!4m2!3m1!1s0x52c24971f0438d91:0x71dcf468316c6eaf",
+     "url": "https://www.google.com/maps/preview/place/@49.1885052,-97.9399376,2570a,13.1y/data=!4m2!3m1!1s0x52c24971f0438d91:0x71dcf468316c6eaf",
      "lat": 49.1885052,
      "lon": -97.9399376
     }
@@ -2647,7 +2649,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to maintain washer in satisfactory condition."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/2060+Dugald+Rd,+Winnipeg,+MB+R2C+3G7/@49.8853379,-97.0253854,2571a,13.1y/data=!4m2!3m1!1s0x52ea79f685b3e00b:0x5575cd3917e58bb2",
+     "url": "https://www.google.com/maps/preview/place/@49.8853379,-97.0253854,2570a,13.1y/data=!4m2!3m1!1s0x52ea79f685b3e00b:0x5575cd3917e58bb2",
      "lat": 49.8853379,
      "lon": -97.0253854
     }
@@ -2664,7 +2666,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food services establishment, fail when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Transcona+Country+Club,+2070+Dugald+Rd,+Winnipeg,+MB+R2C+3G7/@49.8851089,-97.0249339,2571a,13.1y/data=!4m2!3m1!1s0x52ea79f5d492173d:0xbb24b494c4dda3f6",
+     "url": "https://www.google.com/maps/preview/place/@49.8851089,-97.0249339,2570a,13.1y/data=!4m2!3m1!1s0x52ea79f5d492173d:0xbb24b494c4dda3f6",
      "lat": 49.8851089,
      "lon": -97.0249339
     }
@@ -2681,7 +2683,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Water+Plant+Too,+998+Keewatin+St,+Winnipeg,+MB+R2R+2V1/@49.9429145,-97.196678,2568a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0x391859f43cf24dc",
+     "url": "https://www.google.com/maps/preview/place/@49.9429145,-97.196678,2570a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0x391859f43cf24dc",
      "lat": 49.9429145,
      "lon": -97.196678
     }
@@ -2698,7 +2700,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Burger+King,+2208+Saskatchewan+Ave+W,+Portage+la+Prairie,+MB+R1N+0X1/@49.9714649,-98.3195767,2566a,13.1y/data=!4m2!3m1!1s0x52e9c8ac4049c5c3:0x6dc617038306117c",
+     "url": "https://www.google.com/maps/preview/place/@49.9714649,-98.3195767,2570a,13.1y/data=!4m2!3m1!1s0x52e9c8ac4049c5c3:0x6dc617038306117c",
      "lat": 49.9714649,
      "lon": -98.3195767
     }
@@ -2715,7 +2717,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to provide an adequate supply of hot water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Keewatin+Pizza,+115+Keewatin+St,+Winnipeg,+MB+R3E+3E1/@49.9209055,-97.1948198,2569a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
+     "url": "https://www.google.com/maps/preview/place/@49.9209055,-97.1948198,2570a,13.1y/data=!4m2!3m1!1s0x52ea738e3488b58f:0x4b7b2f95a6727282",
      "lat": 49.9209055,
      "lon": -97.1948198
     }
@@ -2732,7 +2734,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. Fail to ensure foods are stored protected from contamination. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sean%E2%80%99s+Burger+Barn,+%236,+Saint+Martin+Junction,+MB+R0C+2Y0/@51.7129017,-98.7366853,2472a,13.1y/data=!4m2!3m1!1s0x52ee59e6af189ce7:0x71658ff21b81a181",
+     "url": "https://www.google.com/maps/preview/place/@51.7129017,-98.7366853,2570a,13.1y/data=!4m2!3m1!1s0x52ee59e6af189ce7:0x71658ff21b81a181",
      "lat": 51.7129017,
      "lon": -98.7366853
     }
@@ -2749,7 +2751,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food services establishment, fail when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to ensure dishes are sanitized when dishwashing. No approved manual dishwashing equipment available. Fail to maintain safe internal temperature of potentially hazardous foods."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Elie+Hotel+(1986),+1+Payment+St,+Elie,+MB+R0H+0H0/@49.9009981,-97.7561529,2570a,13.1y/data=!4m2!3m1!1s0x52e9f98d7a34784b:0xe0cf1a3e22115edc",
+     "url": "https://www.google.com/maps/preview/place/@49.9009981,-97.7561529,2570a,13.1y/data=!4m2!3m1!1s0x52e9f98d7a34784b:0xe0cf1a3e22115edc",
      "lat": 49.9009981,
      "lon": -97.7561529
     }
@@ -2766,7 +2768,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chaise+Caf%C3%A9+%26+Lounge,+271+Provencher+Blvd,+Winnipeg,+MB+R2H+0G6/@49.8934964,-97.1178339,2570a,13.1y/data=!4m2!3m1!1s0x52ea7139e762e4bb:0x7c04f5564c0f84fe",
+     "url": "https://www.google.com/maps/preview/place/@49.8934964,-97.1178339,2570a,13.1y/data=!4m2!3m1!1s0x52ea7139e762e4bb:0x7c04f5564c0f84fe",
      "lat": 49.8934964,
      "lon": -97.1178339
     }
@@ -2783,7 +2785,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Tandoor+House,+998+Keewatin+St+Unit+1,+Winnipeg,+MB+R2R+2V1/@49.9430635,-97.1965183,2568a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0xacb133ec9a22098a",
+     "url": "https://www.google.com/maps/preview/place/@49.9430635,-97.1965183,2570a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0xacb133ec9a22098a",
      "lat": 49.9430635,
      "lon": -97.1965183
     }
@@ -2800,7 +2802,7 @@ window.healthData = {
      "Reason(s)": "Did prepare foods under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Luso+Canadian+Club,+913+Sargent+Ave,+Winnipeg,+MB+R3E+0C9/@49.8971221,-97.1747234,2570a,13.1y/data=!4m2!3m1!1s0x52ea7394d54e830f:0x2ac9fad09dec4e81",
+     "url": "https://www.google.com/maps/preview/place/@49.8971221,-97.1747234,2570a,13.1y/data=!4m2!3m1!1s0x52ea7394d54e830f:0x2ac9fad09dec4e81",
      "lat": 49.8971221,
      "lon": -97.1747234
     }
@@ -2817,7 +2819,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water recirculation or quality. Fail to have adequate chlorine disinfectant concentration within the wading pool."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Howard+Johnson+by+Wyndham+Portage+La+Prairie,+Hwy+1+and,+Yellowquill+Trail,+Portage+la+Prairie,+MB+R1N+3C3/@49.9518276,-98.3242168,2567a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
      "lat": 49.9518276,
      "lon": -98.3242168
     }
@@ -2834,7 +2836,7 @@ window.healthData = {
      "Reason(s)": "Operator a pool with inadequate water recirculation or quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Travelodge+by+Wyndham+Brandon,+210+18th+St+N,+Brandon,+MB+R7A+6P3/@49.8544137,-99.9627331,2572a,13.1y/data=!4m2!3m1!1s0x52e7975c5b5aafc9:0x543d89b6121d7a68",
+     "url": "https://www.google.com/maps/preview/place/@49.8544137,-99.9627331,2570a,13.1y/data=!4m2!3m1!1s0x52e7975c5b5aafc9:0x543d89b6121d7a68",
      "lat": 49.8544137,
      "lon": -99.9627331
     }
@@ -2851,7 +2853,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare, store, and sell, food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/643+Portage+Ave,+Winnipeg,+MB+R3B+2G4/@49.8886894,-97.15873,2571a,13.1y/data=!4m2!3m1!1s0x52ea73fa9100f795:0x9bf209ae4f63403",
+     "url": "https://www.google.com/maps/preview/place/@49.8886894,-97.15873,2570a,13.1y/data=!4m2!3m1!1s0x52ea73fa9100f795:0x9bf209ae4f63403",
      "lat": 49.8886894,
      "lon": -97.15873
     }
@@ -2868,7 +2870,7 @@ window.healthData = {
      "Reason(s)": "Did prepare foods under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/North+Garden+Restaurant,+33+University+Crescent,+Winnipeg,+MB+R3T+2N5/@49.8174176,-97.1505842,2574a,13.1y/data=!4m2!3m1!1s0x52ea75ea66d323cb:0x2d1470fb23b62d95",
+     "url": "https://www.google.com/maps/preview/place/@49.8174176,-97.1505842,2570a,13.1y/data=!4m2!3m1!1s0x52ea75ea66d323cb:0x2d1470fb23b62d95",
      "lat": 49.8174176,
      "lon": -97.1505842
     }
@@ -2885,7 +2887,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/VC+Cuevas+bakery,+989+McPhillips+St,+Winnipeg,+MB+R2X+2K3/@49.9307436,-97.1670572,2568a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
+     "url": "https://www.google.com/maps/preview/place/@49.9307436,-97.1670572,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e059bb374b:0x19d12b9992e0041",
      "lat": 49.9307436,
      "lon": -97.1670572
     }
@@ -2902,7 +2904,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Hilton+Garden+Inn+Winnipeg+South,+495+Sterling+Lyon+Pkwy,+Winnipeg,+MB+R3P+2S8/@49.8456656,-97.2095363,2573a,13.1y/data=!4m2!3m1!1s0x52ea74dc3326c53f:0x7b18dba72a38a565",
+     "url": "https://www.google.com/maps/preview/place/@49.8456656,-97.2095363,2570a,13.1y/data=!4m2!3m1!1s0x52ea74dc3326c53f:0x7b18dba72a38a565",
      "lat": 49.8456656,
      "lon": -97.2095363
     }
@@ -2919,7 +2921,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Good+Earth+Restaurant,+1849+Portage+Ave,+Winnipeg,+MB+R3J+0G8/@49.8788997,-97.2165951,2571a,13.1y/data=!4m2!3m1!1s0x52ea7361a19f02cf:0x1403b718f43fa715",
+     "url": "https://www.google.com/maps/preview/place/@49.8788997,-97.2165951,2570a,13.1y/data=!4m2!3m1!1s0x52ea7361a19f02cf:0x1403b718f43fa715",
      "lat": 49.8788997,
      "lon": -97.2165951
     }
@@ -2936,7 +2938,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Deer+Ridge+Golf+Course,+8+Deer+Ridge+Rd,+Brandon,+MB+R7C+0B9/@49.8921808,-99.9582052,2570a,13.1y/data=!4m2!3m1!1s0x52e7d5f961c72c9f:0x42f4313ad9aa23ed",
+     "url": "https://www.google.com/maps/preview/place/@49.8921808,-99.9582052,2570a,13.1y/data=!4m2!3m1!1s0x52e7d5f961c72c9f:0x42f4313ad9aa23ed",
      "lat": 49.8921808,
      "lon": -99.9582052
     }
@@ -2953,7 +2955,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Applebee's+Grill+%2B+Bar,+1598+Regent+Ave+W,+Winnipeg,+MB+R2C+3B4/@49.8975915,-97.0684717,2570a,13.1y/data=!4m2!3m1!1s0x52ea70b9be99cb0f:0xbf7156f67c930779",
+     "url": "https://www.google.com/maps/preview/place/@49.8975915,-97.0684717,2570a,13.1y/data=!4m2!3m1!1s0x52ea70b9be99cb0f:0xbf7156f67c930779",
      "lat": 49.8975915,
      "lon": -97.0684717
     }
@@ -2970,7 +2972,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/ICHKABEN+DONER+KABAB+RESTAURANT,+282+Loren+Dr,+Morden,+MB+R6M+0G2/@49.1936912,-98.0774154,2607a,13.1y/data=!4m2!3m1!1s0x52c24fe75f97a0e7:0x497b32b207728795",
+     "url": "https://www.google.com/maps/preview/place/@49.1936912,-98.0774154,2570a,13.1y/data=!4m2!3m1!1s0x52c24fe75f97a0e7:0x497b32b207728795",
      "lat": 49.1936912,
      "lon": -98.0774154
     }
@@ -2987,7 +2989,7 @@ window.healthData = {
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Motel+6+Headingley,+MB+-+Winnipeg+West,+4400+Portage+Ave,+Headingley,+MB+R4H+1C6/@49.8763074,-97.3527198,2571a,13.1y/data=!4m2!3m1!1s0x52ea0ea86696e099:0xef5f1ad69df2e16a",
+     "url": "https://www.google.com/maps/preview/place/@49.8763074,-97.3527198,2570a,13.1y/data=!4m2!3m1!1s0x52ea0ea86696e099:0xef5f1ad69df2e16a",
      "lat": 49.8763074,
      "lon": -97.3527198
     }
@@ -3004,7 +3006,7 @@ window.healthData = {
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Motel+6+Headingley,+MB+-+Winnipeg+West,+4400+Portage+Ave,+Headingley,+MB+R4H+1C6/@49.8763074,-97.3527198,2571a,13.1y/data=!4m2!3m1!1s0x52ea0ea86696e099:0xef5f1ad69df2e16a",
+     "url": "https://www.google.com/maps/preview/place/@49.8763074,-97.3527198,2570a,13.1y/data=!4m2!3m1!1s0x52ea0ea86696e099:0xef5f1ad69df2e16a",
      "lat": 49.8763074,
      "lon": -97.3527198
     }
@@ -3021,7 +3023,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Travelodge+by+Wyndham+Winnipeg,+1400+Notre+Dame+Ave,+Winnipeg,+MB+R3E+3G5/@49.910195,-97.1885943,2569a,13.1y/data=!4m2!3m1!1s0x52ea7312305fd6c3:0x6e488fc886671e85",
+     "url": "https://www.google.com/maps/preview/place/@49.910195,-97.1885943,2570a,13.1y/data=!4m2!3m1!1s0x52ea7312305fd6c3:0x6e488fc886671e85",
      "lat": 49.910195,
      "lon": -97.1885943
     }
@@ -3038,7 +3040,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chilli+Chutney+Street+Kitchen,+1663+Kenaston+Blvd,+Winnipeg,+MB+R3P+2M4/@49.8228658,-97.2010944,2574a,13.1y/data=!4m2!3m1!1s0x52ea75776871a125:0x11dfcdf620036ea8",
+     "url": "https://www.google.com/maps/preview/place/@49.8228658,-97.2010944,2570a,13.1y/data=!4m2!3m1!1s0x52ea75776871a125:0x11dfcdf620036ea8",
      "lat": 49.8228658,
      "lon": -97.2010944
     }
@@ -3054,7 +3056,7 @@ window.healthData = {
      "Reason(s)": "Operate a food handling establishment without a valid permit, sell uninspected meat."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/51073+Rd+8+E,+Oak+Bluff,+MB+R4G+0B2/@49.7593205,-97.2754218,2577a,13.1y/data=!4m2!3m1!1s0x52c1e1ae23dc9339:0xca44475389e60b0e",
+     "url": "https://www.google.com/maps/preview/place/@49.7593205,-97.2754218,2570a,13.1y/data=!4m2!3m1!1s0x52c1e1ae23dc9339:0xca44475389e60b0e",
      "lat": 49.7593205,
      "lon": -97.2754218
     }
@@ -3071,7 +3073,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Armadale+Hollows,+1750+Pembina+Hwy,+Winnipeg,+MB+R3T+4J5/@49.8264942,-97.150717,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
+     "url": "https://www.google.com/maps/preview/place/@49.8264942,-97.150717,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
      "lat": 49.8264942,
      "lon": -97.150717
     }
@@ -3088,7 +3090,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Armadale+Hollows,+1750+Pembina+Hwy,+Winnipeg,+MB+R3T+4J5/@49.8264942,-97.150717,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
+     "url": "https://www.google.com/maps/preview/place/@49.8264942,-97.150717,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
      "lat": 49.8264942,
      "lon": -97.150717
     }
@@ -3105,7 +3107,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/YMCA-YWCA+of+Winnipeg+%E2%80%93+Portage+Branch,+3550+Portage+Ave,+Winnipeg,+MB+R3K+2C6/@49.8823568,-97.3079222,2571a,13.1y/data=!4m2!3m1!1s0x52ea0c64eba5de47:0xb6f135ea9e18adb9",
+     "url": "https://www.google.com/maps/preview/place/@49.8823568,-97.3079222,2570a,13.1y/data=!4m2!3m1!1s0x52ea0c64eba5de47:0xb6f135ea9e18adb9",
      "lat": 49.8823568,
      "lon": -97.3079222
     }
@@ -3122,7 +3124,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that an adequate supply of hot and cold potable water is provided. Fail to ensure the manual dishwashing procedure is correctly used."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/One+Stop+African+Restaurant,+598A+Ebby+Avenue+Pembina+Highway+@Ebby+Intersection,+Winnipeg,+MB+R3M+2M6/@49.8609436,-97.1492817,2572a,13.1y/data=!4m2!3m1!1s0x52ea75741c445de3:0x87dc2cfd64d7d792",
+     "url": "https://www.google.com/maps/preview/place/@49.8609436,-97.1492817,2570a,13.1y/data=!4m2!3m1!1s0x52ea75741c445de3:0x87dc2cfd64d7d792",
      "lat": 49.8609436,
      "lon": -97.1492817
     }
@@ -3139,7 +3141,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Mongo's+Grill,+1721+Kenaston+Blvd,+Winnipeg,+MB+R3Y+1V5/@49.8197967,-97.198042,2574a,13.1y/data=!4m2!3m1!1s0x52ea751408c452b7:0xd5c6fc22d1a5a373",
+     "url": "https://www.google.com/maps/preview/place/@49.8197967,-97.198042,2570a,13.1y/data=!4m2!3m1!1s0x52ea751408c452b7:0xd5c6fc22d1a5a373",
      "lat": 49.8197967,
      "lon": -97.198042
     }
@@ -3156,7 +3158,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water recirculation or quality. Operate a whirlpool without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakehouse+Restaurant,+128+Wasagaming+Dr,+Wasagaming,+MB+R0J+1N0/@50.6569387,-99.9715247,2529a,13.1y/data=!4m2!3m1!1s0x52e615b1974b049d:0xba80be04788fc809",
+     "url": "https://www.google.com/maps/preview/place/@50.6569387,-99.9715247,2570a,13.1y/data=!4m2!3m1!1s0x52e615b1974b049d:0xba80be04788fc809",
      "lat": 50.6569387,
      "lon": -99.9715247
     }
@@ -3173,7 +3175,7 @@ window.healthData = {
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Summerland,+77+University+Crescent,+Winnipeg,+MB+R3T+3N8/@49.8164859,-97.1494522,2574a,13.1y/data=!4m2!3m1!1s0x52ea75ebb2ffffff:0x1466ab7d243aab6",
+     "url": "https://www.google.com/maps/preview/place/@49.8164859,-97.1494522,2570a,13.1y/data=!4m2!3m1!1s0x52ea75ebb2ffffff:0x1466ab7d243aab6",
      "lat": 49.8164859,
      "lon": -97.1494522
     }
@@ -3190,7 +3192,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Za+Pizza+Bistro+Express,+234+Donald+St+Unit+102A,+Winnipeg,+MB+R3C+1M8/@49.891261,-97.1423374,2570a,13.1y/data=!4m2!3m1!1s0x52ea715769d02233:0x2d6f88ebbcea191e",
+     "url": "https://www.google.com/maps/preview/place/@49.891261,-97.1423374,2570a,13.1y/data=!4m2!3m1!1s0x52ea715769d02233:0x2d6f88ebbcea191e",
      "lat": 49.891261,
      "lon": -97.1423374
     }
@@ -3207,7 +3209,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "url": "https://www.google.com/maps/preview/place/@49.7905867,-97.1971307,2570a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
      "lat": 49.7905867,
      "lon": -97.1971307
     }
@@ -3224,7 +3226,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Airport+Motor+Inn,+1800+Ellice+Ave,+Winnipeg,+MB+R3H+0B7/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
+     "url": "https://www.google.com/maps/preview/place/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
      "lat": 49.8943178,
      "lon": -97.2105832
     }
@@ -3241,7 +3243,7 @@ window.healthData = {
      "Reason(s)": "Did prepare food under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chosabi+King,+100+King+St+A,+Winnipeg,+MB+R3B+0P6/@49.8980418,-97.1413807,2570a,13.1y/data=!4m2!3m1!1s0x52ea715c3ff95783:0x5d9025a07c3a3744",
+     "url": "https://www.google.com/maps/preview/place/@49.8980418,-97.1413807,2570a,13.1y/data=!4m2!3m1!1s0x52ea715c3ff95783:0x5d9025a07c3a3744",
      "lat": 49.8980418,
      "lon": -97.1413807
     }
@@ -3258,7 +3260,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Punjab+Food+Corner,+1121+St+Mary's+Rd,+Winnipeg,+MB+R2M+3T7/@49.833993,-97.1134983,2573a,13.1y/data=!4m2!3m1!1s0x52ea776c2b07a271:0x45feced54249b337",
+     "url": "https://www.google.com/maps/preview/place/@49.833993,-97.1134983,2570a,13.1y/data=!4m2!3m1!1s0x52ea776c2b07a271:0x45feced54249b337",
      "lat": 49.833993,
      "lon": -97.1134983
     }
@@ -3275,7 +3277,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Uquutaq+Medical+Boarding+Home,+1445+Portage+Ave,+Winnipeg,+MB+R3G+3P4/@49.8819247,-97.1959888,2571a,13.1y/data=!4m2!3m1!1s0x52ea7381e7cf9c6d:0x95f65dafca26e11e",
+     "url": "https://www.google.com/maps/preview/place/@49.8819247,-97.1959888,2570a,13.1y/data=!4m2!3m1!1s0x52ea7381e7cf9c6d:0x95f65dafca26e11e",
      "lat": 49.8819247,
      "lon": -97.1959888
     }
@@ -3292,7 +3294,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare and store food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that food contact surfaces of equipment and utensils are thoroughly cleaned and sanitized."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Aristocrat+Restaurant,+210+Tyndall+Ave+Unit+C,+Winnipeg,+MB+R2R+1S5/@49.9349875,-97.1960264,2568a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
+     "url": "https://www.google.com/maps/preview/place/@49.9349875,-97.1960264,2570a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
      "lat": 49.9349875,
      "lon": -97.1960264
     }
@@ -3309,7 +3311,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare and store food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that food contact surfaces of equipment and utensils are thoroughly cleaned and sanitized."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/East+Lake+Chinese+Food,+230+Tyndall+Ave,+Winnipeg,+MB+R2R+1S5/@49.9350106,-97.196504,2568a,13.1y/data=!4m2!3m1!1s0x52ea72434f983dfb:0xc920ee94c157d723",
+     "url": "https://www.google.com/maps/preview/place/@49.9350106,-97.196504,2570a,13.1y/data=!4m2!3m1!1s0x52ea72434f983dfb:0xc920ee94c157d723",
      "lat": 49.9350106,
      "lon": -97.196504
     }
@@ -3326,7 +3328,7 @@ window.healthData = {
      "Reason(s)": "Did prepare foods under insanitary conditions. Fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Safeway+Tuxedo,+2025+Corydon+Ave,+Winnipeg,+MB+R3P+0N5/@49.8670336,-97.2119845,2572a,13.1y/data=!4m2!3m1!1s0x52ea74a654165339:0x64a0e441b67baedf",
+     "url": "https://www.google.com/maps/preview/place/@49.8670336,-97.2119845,2570a,13.1y/data=!4m2!3m1!1s0x52ea74a654165339:0x64a0e441b67baedf",
      "lat": 49.8670336,
      "lon": -97.2119845
     }
@@ -3342,7 +3344,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality. As an operator, fail to ensure drains and recirculation facilities are operated in such a manner as to prevent entrapment of bathers. As an operator, fail to conduct a test as required by an inspector."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Colonial+Inn,+1944+Queens+Ave,+Brandon,+MB+R7B+0T1/@49.8290771,-99.9640362,2574a,13.1y/data=!4m2!3m1!1s0x52e79a070aa1c30f:0xbb79e2783ef99a71",
+     "url": "https://www.google.com/maps/preview/place/@49.8290771,-99.9640362,2570a,13.1y/data=!4m2!3m1!1s0x52e79a070aa1c30f:0xbb79e2783ef99a71",
      "lat": 49.8290771,
      "lon": -99.9640362
     }
@@ -3359,7 +3361,7 @@ window.healthData = {
      "Reason(s)": "Did prepare foods under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sushi+Ya,+659+Corydon+Ave,+Winnipeg,+MB+R3M+0W3/@49.87205,-97.1502277,2571a,13.1y/data=!4m2!3m1!1s0x52ea740491347c61:0x37ef5c201a5bba51",
+     "url": "https://www.google.com/maps/preview/place/@49.87205,-97.1502277,2570a,13.1y/data=!4m2!3m1!1s0x52ea740491347c61:0x37ef5c201a5bba51",
      "lat": 49.87205,
      "lon": -97.1502277
     }
@@ -3376,7 +3378,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of insects. Did store and prepare food under insanitary conditions. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Kimchi+Sushi,+998+Keewatin+St,+Winnipeg,+MB+R2R+2V1/@49.9425589,-97.1964828,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268e517472d:0xe77129e1830c2b42",
+     "url": "https://www.google.com/maps/preview/place/@49.9425589,-97.1964828,2570a,13.1y/data=!4m2!3m1!1s0x52ea7268e517472d:0xe77129e1830c2b42",
      "lat": 49.9425589,
      "lon": -97.1964828
     }
@@ -3393,7 +3395,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool where hazardous conditions exist and present a risk of injury."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Le+Chateau+York,+134+Smith+St,+Winnipeg,+MB+R3C+3W2/@49.889346,-97.14009,2571a,13.1y/data=!4m2!3m1!1s0x52ea71874dc8adfd:0x25ebf8a34fe429b9",
+     "url": "https://www.google.com/maps/preview/place/@49.889346,-97.14009,2570a,13.1y/data=!4m2!3m1!1s0x52ea71874dc8adfd:0x25ebf8a34fe429b9",
      "lat": 49.889346,
      "lon": -97.14009
     }
@@ -3410,7 +3412,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Delicious+Pizza+N+Wings,+2140+McPhillips+St,+Winnipeg,+MB+R2V+3C8/@49.949065,-97.152628,2567a,13.1y/data=!4m2!3m1!1s0x52ea71f1bc1c2f83:0x6ecdbfb557005e62",
+     "url": "https://www.google.com/maps/preview/place/@49.949065,-97.152628,2570a,13.1y/data=!4m2!3m1!1s0x52ea71f1bc1c2f83:0x6ecdbfb557005e62",
      "lat": 49.949065,
      "lon": -97.152628
     }
@@ -3427,7 +3429,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50 degrees Celsius is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Subway,+660+Osborne+St+Unit+1,+Winnipeg,+MB+R3L+2B6/@49.8631987,-97.1324555,2572a,13.1y/data=!4m2!3m1!1s0x52ea76a2479facd3:0x8da39d1c42165f94",
+     "url": "https://www.google.com/maps/preview/place/@49.8631987,-97.1324555,2570a,13.1y/data=!4m2!3m1!1s0x52ea76a2479facd3:0x8da39d1c42165f94",
      "lat": 49.8631987,
      "lon": -97.1324555
     }
@@ -3444,7 +3446,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Did operate a food handling establishment and hotel with no running water."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Newdale+Hotel,+110+Main+St,+Newdale,+MB+R0J+1J0/@50.3513561,-100.2054441,2546a,13.1y/data=!4m2!3m1!1s0x52e6517248b7c87f:0xdcaa4c1debadf8a",
+     "url": "https://www.google.com/maps/preview/place/@50.3513561,-100.2054441,2570a,13.1y/data=!4m2!3m1!1s0x52e6517248b7c87f:0xdcaa4c1debadf8a",
      "lat": 50.3513561,
      "lon": -100.2054441
     }
@@ -3461,7 +3463,7 @@ window.healthData = {
      "Reason(s)": "Did prepare foods under sanitary conditions. Fail to ensure dishes are sanitized. Failure to ensure food contact surfaces are clean and sanitized and foods are protected from contamination. Unsafe internal temperature and unapproved food source. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lee's+Buffet,+201+18th+St+N,+Brandon,+MB+R7A+2V8/@49.854164,-99.961394,2572a,13.1y/data=!4m2!3m1!1s0x52e7975c5d584f55:0xf1e09f8148969acb",
+     "url": "https://www.google.com/maps/preview/place/@49.854164,-99.961394,2570a,13.1y/data=!4m2!3m1!1s0x52e7975c5d584f55:0xf1e09f8148969acb",
      "lat": 49.854164,
      "lon": -99.961394
     }
@@ -3478,7 +3480,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
+     "url": "https://www.google.com/maps/preview/place/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
      "lat": 49.8976188,
      "lon": -97.2091577
     }
@@ -3495,7 +3497,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Days+Inn+%26+Suites+by+Wyndham+Winnipeg+Airport+Manitoba,+695+Berry+St,+Winnipeg,+MB+R3H+0S4/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
+     "url": "https://www.google.com/maps/preview/place/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
      "lat": 49.8976188,
      "lon": -97.2091577
     }
@@ -3512,7 +3514,7 @@ window.healthData = {
      "Reason(s)": "Did prepare foods under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Tandoor+House,+998+Keewatin+St+Unit+1,+Winnipeg,+MB+R2R+2V1/@49.9430635,-97.1965183,2568a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0xacb133ec9a22098a",
+     "url": "https://www.google.com/maps/preview/place/@49.9430635,-97.1965183,2570a,13.1y/data=!4m2!3m1!1s0x52ea726ec74d179f:0xacb133ec9a22098a",
      "lat": 49.9430635,
      "lon": -97.1965183
     }
@@ -3529,7 +3531,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Canco+Gas+%2B+One+Stop+Convenience,+228+Isabel+St,+Winnipeg,+MB+R3A+1G9/@49.9050429,-97.1479708,2570a,13.1y/data=!4m2!3m1!1s0x52ea71610c774021:0x56fcb0106c118cd7",
+     "url": "https://www.google.com/maps/preview/place/@49.9050429,-97.1479708,2570a,13.1y/data=!4m2!3m1!1s0x52ea71610c774021:0x56fcb0106c118cd7",
      "lat": 49.9050429,
      "lon": -97.1479708
     },
@@ -3547,7 +3549,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that food contact surfaces of equipment and utensils are thoroughly cleaned and sanitized after each usage or at suitable intervals. As an operator, fail to maintain safe internal temperature of potentially hazardous foods."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/644+McPhillips+St,+Winnipeg,+MB+R2X+2H3/@49.9233314,-97.1698582,2569a,13.1y/data=!4m2!3m1!1s0x52ea723261957379:0x27b50fb39d50f0c3",
+     "url": "https://www.google.com/maps/preview/place/@49.9233314,-97.1698582,2570a,13.1y/data=!4m2!3m1!1s0x52ea723261957379:0x27b50fb39d50f0c3",
      "lat": 49.9233314,
      "lon": -97.1698582
     }
@@ -3564,7 +3566,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality. Pool main drain covers are damaged."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altona+Hotel,+61+Centre+Ave+E,+Altona,+MB+R0G+0B0/@49.1038888,-97.5562398,2612a,13.1y/data=!4m2!3m1!1s0x52c3d358d1e01a01:0x172fde6fc635e118",
+     "url": "https://www.google.com/maps/preview/place/@49.1038888,-97.5562398,2570a,13.1y/data=!4m2!3m1!1s0x52c3d358d1e01a01:0x172fde6fc635e118",
      "lat": 49.1038888,
      "lon": -97.5562398
     }
@@ -3581,7 +3583,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altona+Hotel,+61+Centre+Ave+E,+Altona,+MB+R0G+0B0/@49.1038888,-97.5562398,2612a,13.1y/data=!4m2!3m1!1s0x52c3d358d1e01a01:0x172fde6fc635e118",
+     "url": "https://www.google.com/maps/preview/place/@49.1038888,-97.5562398,2570a,13.1y/data=!4m2!3m1!1s0x52c3d358d1e01a01:0x172fde6fc635e118",
      "lat": 49.1038888,
      "lon": -97.5562398
     }
@@ -3598,7 +3600,7 @@ window.healthData = {
      "Reason(s)": "As the operator of a food service establishment, failed to ensure dishes are sanitized when dishwashing. No approved manual dishwashing equipment available."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Kkiko'S+Grill,+Inside+Raffy%E2%80%99s+Cafe,+1060+Ellice+Ave,+Winnipeg,+MB+R3G+0C9/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
+     "url": "https://www.google.com/maps/preview/place/@49.8933968,-97.1818916,2570a,13.1y/data=!4m2!3m1!1s0x52ea739072601163:0xdc4035181d068b0e",
      "lat": 49.8933968,
      "lon": -97.1818916
     }
@@ -3615,7 +3617,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare and store food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that food contact surfaces of equipment and utensils are thoroughly cleaned and sanitized."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Ming+Court+Restaurant+%26+Bar,+236+Edmonton+St,+Winnipeg,+MB+R3C+1R7/@49.8907369,-97.1465102,2570a,13.1y/data=!4m2!3m1!1s0x52ea7157f0fd99a3:0xd5a41fb0a9753bc2",
+     "url": "https://www.google.com/maps/preview/place/@49.8907369,-97.1465102,2570a,13.1y/data=!4m2!3m1!1s0x52ea7157f0fd99a3:0xd5a41fb0a9753bc2",
      "lat": 49.8907369,
      "lon": -97.1465102
     }
@@ -3632,7 +3634,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that food contact surfaces of equipment and utensils are thoroughly cleaned and sanitized."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sardar+Super+Market,+55+Waterford+Green+Common+E1,+Winnipeg,+MB+R2E+0Z9/@49.9554941,-97.1972175,2567a,13.1y/data=!4m2!3m1!1s0x52ea73425a6512c9:0x613cbaa931c4bf61",
+     "url": "https://www.google.com/maps/preview/place/@49.9554941,-97.1972175,2570a,13.1y/data=!4m2!3m1!1s0x52ea73425a6512c9:0x613cbaa931c4bf61",
      "lat": 49.9554941,
      "lon": -97.1972175
     }
@@ -3649,7 +3651,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that foods are protected from contamination. Fail to ensure that an adequate supply of hot water at a temperature of 50C is provided for cleaning purposes."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Punjab+Food+Corner,+1121+St+Mary's+Rd,+Winnipeg,+MB+R2M+3T7/@49.833993,-97.1134983,2573a,13.1y/data=!4m2!3m1!1s0x52ea776c2b07a271:0x45feced54249b337",
+     "url": "https://www.google.com/maps/preview/place/@49.833993,-97.1134983,2570a,13.1y/data=!4m2!3m1!1s0x52ea776c2b07a271:0x45feced54249b337",
      "lat": 49.833993,
      "lon": -97.1134983
     }
@@ -3666,7 +3668,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that food contact surfaces of equipment and utensils are thoroughly cleaned and sanitized."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lucita's+Restuarant,+55+Waterford+Green+Common,+Winnipeg,+MB+R2R+2Z9/@49.9555292,-97.1971755,2567a,13.1y/data=!4m2!3m1!1s0x52ea7328d75be41f:0x921158efec44cf2c",
+     "url": "https://www.google.com/maps/preview/place/@49.9555292,-97.1971755,2570a,13.1y/data=!4m2!3m1!1s0x52ea7328d75be41f:0x921158efec44cf2c",
      "lat": 49.9555292,
      "lon": -97.1971755
     }
@@ -3683,7 +3685,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As an operator, did prepare foods under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lucky+Bamboo,+2770+Pembina+Hwy,+Winnipeg,+MB+R3T+2H8/@49.7920123,-97.156791,2576a,13.1y/data=!4m2!3m1!1s0x52c1df6812c46721:0xe2827583333fea37",
+     "url": "https://www.google.com/maps/preview/place/@49.7920123,-97.156791,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6812c46721:0xe2827583333fea37",
      "lat": 49.7920123,
      "lon": -97.156791
     }
@@ -3699,7 +3701,7 @@ window.healthData = {
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As the operator of a food service establishment, failed to ensure dishes, equipment and utensils are sanitized when dishwashing. No approved manual dishwashing equipment available."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/191+Broadway+4th+Floor,+Winnipeg,+MB+R3C+3P1/@49.888931,-97.1361073,2571a,13.1y/data=!4m2!3m1!1s0x52ea7151b42279c1:0xaeb0c700563c635f",
+     "url": "https://www.google.com/maps/preview/place/@49.888931,-97.1361073,2570a,13.1y/data=!4m2!3m1!1s0x52ea7151b42279c1:0xaeb0c700563c635f",
      "lat": 49.888931,
      "lon": -97.1361073
     }
@@ -3716,7 +3718,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/North+Garden+Restaurant,+33+University+Crescent,+Winnipeg,+MB+R3T+2N5/@49.8174176,-97.1505842,2574a,13.1y/data=!4m2!3m1!1s0x52ea75ea66d323cb:0x2d1470fb23b62d95",
+     "url": "https://www.google.com/maps/preview/place/@49.8174176,-97.1505842,2570a,13.1y/data=!4m2!3m1!1s0x52ea75ea66d323cb:0x2d1470fb23b62d95",
      "lat": 49.8174176,
      "lon": -97.1505842
     }
@@ -3733,7 +3735,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Canadiana+Motor+Inn,+1400+Notre+Dame+Ave,+Winnipeg,+MB+R3E+3G5/@49.910195,-97.1885943,2569a,13.1y/data=!4m2!3m1!1s0x52ea73b090b73df3:0x4e8eb8f73f1d8075",
+     "url": "https://www.google.com/maps/preview/place/@49.910195,-97.1885943,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b090b73df3:0x4e8eb8f73f1d8075",
      "lat": 49.910195,
      "lon": -97.1885943
     }
@@ -3750,7 +3752,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. As an operator, fail to maintain safe internal temperature of potentially hazardous foods. As an operator, manufacture, process, prepare, preserve, package, transport, store, sell, offer for sale, deposit for sale, or prepare for sale any food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/King+of+India,+1770+King+Edward+St,+Winnipeg,+MB+R2R+0N1/@49.9223907,-97.2073467,2569a,13.1y/data=!4m2!3m1!1s0x52ea72ff5b0aabe7:0x200b3c6b99f0db8e",
+     "url": "https://www.google.com/maps/preview/place/@49.9223907,-97.2073467,2570a,13.1y/data=!4m2!3m1!1s0x52ea72ff5b0aabe7:0x200b3c6b99f0db8e",
      "lat": 49.9223907,
      "lon": -97.2073467
     }
@@ -3767,7 +3769,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare foods under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of pests. As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Bimi+Korean%2FJapanese+Restaurant,+1893+Grant+Ave,+Winnipeg,+MB+R3N+1Z2/@49.8579406,-97.2051938,2572a,13.1y/data=!4m2!3m1!1s0x52ea7492dab098bb:0x9f0c46f9ec6d6ee4",
+     "url": "https://www.google.com/maps/preview/place/@49.8579406,-97.2051938,2570a,13.1y/data=!4m2!3m1!1s0x52ea7492dab098bb:0x9f0c46f9ec6d6ee4",
      "lat": 49.8579406,
      "lon": -97.2051938
     }
@@ -3784,7 +3786,7 @@ window.healthData = {
      "Reason(s)": "Failure to comply with maximum bather load. Failure to comply with conditions on the operating permit. Failure to clearly mark the maximum water depth."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Gimli+Resort,+10+Centre+St,+Gimli,+MB+R0C+1B1/@50.6321885,-96.9852579,2531a,13.1y/data=!4m2!3m1!1s0x52eb07d759465719:0x2b731de21f2af5e9",
+     "url": "https://www.google.com/maps/preview/place/@50.6321885,-96.9852579,2570a,13.1y/data=!4m2!3m1!1s0x52eb07d759465719:0x2b731de21f2af5e9",
      "lat": 50.6321885,
      "lon": -96.9852579
     }
@@ -3801,7 +3803,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare foods under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are protected from contamination. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Clay+Oven,+1+Portage+Ave+E+%233,+Winnipeg,+MB+R3B+3N3/@49.892999,-97.1330191,2570a,13.1y/data=!4m2!3m1!1s0x52ea71456c2568e7:0xfab3561c6141b3c7",
+     "url": "https://www.google.com/maps/preview/place/@49.892999,-97.1330191,2570a,13.1y/data=!4m2!3m1!1s0x52ea71456c2568e7:0xfab3561c6141b3c7",
      "lat": 49.892999,
      "lon": -97.1330191
     }
@@ -3818,7 +3820,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality. Failed to ensure the quantity of disinfectant in the water in the pool was maintained within the range of 1.0 mg/l to 5.0 mg/l of free available chlorine."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Airport+Motor+Inn,+1800+Ellice+Ave,+Winnipeg,+MB+R3H+0B7/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
+     "url": "https://www.google.com/maps/preview/place/@49.8943178,-97.2105832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73725b0b57c3:0x550e3fde4c84e640",
      "lat": 49.8943178,
      "lon": -97.2105832
     }
@@ -3835,7 +3837,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. As an operator, manufacture, process, prepare, preserve, package, transport, store, sell, offer for sale, deposit for sale, or prepare for sale any food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1030+Keewatin+St+Unit+2,+Winnipeg,+MB+R2R+2E2/@49.94373,-97.1962702,2568a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
+     "url": "https://www.google.com/maps/preview/place/@49.94373,-97.1962702,2570a,13.1y/data=!4m2!3m1!1s0x52ea7268df5c345d:0x5c9ad1c8fbbdf50",
      "lat": 49.94373,
      "lon": -97.1962702
     }
@@ -3852,7 +3854,7 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality. Fail to provide a readily accessible telephone for the pool, or such other means of contacting emergency assistance."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Fairmont+Winnipeg,+2+Lombard+Place,+Winnipeg,+MB+R3B+0Y3/@49.8958415,-97.1369873,2570a,13.1y/data=!4m2!3m1!1s0x52ea715b3f436f63:0xc21197da2ad3a0a",
+     "url": "https://www.google.com/maps/preview/place/@49.8958415,-97.1369873,2570a,13.1y/data=!4m2!3m1!1s0x52ea715b3f436f63:0xc21197da2ad3a0a",
      "lat": 49.8958415,
      "lon": -97.1369873
     }
@@ -3869,7 +3871,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot potable water is provided."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Foodtrip+Restaurant+%26+Banquet,+1045+St+James+St+Unit+A-B,+Winnipeg,+MB+R3G+0Z6/@49.8949752,-97.1989937,2570a,13.1y/data=!4m2!3m1!1s0x52ea71c7bd94ed4d:0xcfedc1190bfde40d",
+     "url": "https://www.google.com/maps/preview/place/@49.8949752,-97.1989937,2570a,13.1y/data=!4m2!3m1!1s0x52ea71c7bd94ed4d:0xcfedc1190bfde40d",
      "lat": 49.8949752,
      "lon": -97.1989937
     }
@@ -3886,7 +3888,7 @@ window.healthData = {
      "Reason(s)": "As an operator, manufacture, process, prepare, preserve, package, transport, store, sell, offer for sale, deposit for sale, or prepare for sale any food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/FU+LIN+Chinese+Restaurant,+956+St+Mary's+Rd,+Winnipeg,+MB+R2M+3R8/@49.8422021,-97.1127264,2573a,13.1y/data=!4m2!3m1!1s0x52ea768a87445103:0xb633d2d3fb51cb88",
+     "url": "https://www.google.com/maps/preview/place/@49.8422021,-97.1127264,2570a,13.1y/data=!4m2!3m1!1s0x52ea768a87445103:0xb633d2d3fb51cb88",
      "lat": 49.8422021,
      "lon": -97.1127264
     }
@@ -3903,7 +3905,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean. As an operator, manufacture, process, prepare, preserve, package, transport, store, sell, offer for sale, deposit for sale, or prepare for sale any food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/1855+Pembina+Hwy+%23102,+Winnipeg,+MB+R3T+2G6/@49.8225182,-97.15505,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c0a27e2bbb:0x7777a7a269c25cf4",
+     "url": "https://www.google.com/maps/preview/place/@49.8225182,-97.15505,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c0a27e2bbb:0x7777a7a269c25cf4",
      "lat": 49.8225182,
      "lon": -97.15505
     }
@@ -3920,7 +3922,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Ocean+Palace,+383+Main+St,+Selkirk,+MB+R1A+1T7/@50.1444857,-96.874309,2557a,13.1y/data=!4m2!3m1!1s0x52ea8acb25fa37b9:0x451fd42d874ccd74",
+     "url": "https://www.google.com/maps/preview/place/@50.1444857,-96.874309,2570a,13.1y/data=!4m2!3m1!1s0x52ea8acb25fa37b9:0x451fd42d874ccd74",
      "lat": 50.1444857,
      "lon": -96.874309
     }
@@ -3937,7 +3939,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Club+Happenings,+114b+Osborne+St,+Winnipeg,+MB+R3L+1Y5/@49.878514,-97.145605,2571a,13.1y/data=!4m2!3m1!1s0x52ea75ba932972f1:0x9f616541d373eeb3",
+     "url": "https://www.google.com/maps/preview/place/@49.878514,-97.145605,2570a,13.1y/data=!4m2!3m1!1s0x52ea75ba932972f1:0x9f616541d373eeb3",
      "lat": 49.878514,
      "lon": -97.145605
     }
@@ -3954,7 +3956,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Dim+Sum+Garden,+245+King+St,+Winnipeg,+MB+R3B+1J6/@49.9021726,-97.137308,2570a,13.1y/data=!4m2!3m1!1s0x52ea716809edab11:0x9ce3ab03fc304759",
+     "url": "https://www.google.com/maps/preview/place/@49.9021726,-97.137308,2570a,13.1y/data=!4m2!3m1!1s0x52ea716809edab11:0x9ce3ab03fc304759",
      "lat": 49.9021726,
      "lon": -97.137308
     }
@@ -3971,7 +3973,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare foods under insanitary conditions. Fail to ensure food contact surfaces were clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Wako+Sushi+Cafe,+875+Corydon+Ave,+Winnipeg,+MB+R3M,+Canada/@49.86938,-97.1580282,2572a,13.1y/data=!4m2!3m1!1s0x52ea7411d2ca4dcd:0x78d4ad5f2cc64daf",
+     "url": "https://www.google.com/maps/preview/place/@49.86938,-97.1580282,2570a,13.1y/data=!4m2!3m1!1s0x52ea7411d2ca4dcd:0x78d4ad5f2cc64daf",
      "lat": 49.86938,
      "lon": -97.1580282
     }
@@ -3988,7 +3990,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/The+Osborne+Taphouse,+112+Osborne+St,+Winnipeg,+MB+R3L+1Y5/@49.8786142,-97.1458011,2571a,13.1y/data=!4m2!3m1!1s0x52ea75316a8d11ef:0x625763b37d7c6f3a",
+     "url": "https://www.google.com/maps/preview/place/@49.8786142,-97.1458011,2570a,13.1y/data=!4m2!3m1!1s0x52ea75316a8d11ef:0x625763b37d7c6f3a",
      "lat": 49.8786142,
      "lon": -97.1458011
     }
@@ -4005,7 +4007,7 @@ window.healthData = {
      "Reason(s)": "Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods were protected from contamination. Did prepare foods under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Ding+Ho+Restaurant,+497+William+Ave,+Winnipeg,+MB+R3A+0J7/@49.9023173,-97.1494584,2570a,13.1y/data=!4m2!3m1!1s0x52ea71601731e8a7:0xe7ce82e80a31acc1",
+     "url": "https://www.google.com/maps/preview/place/@49.9023173,-97.1494584,2570a,13.1y/data=!4m2!3m1!1s0x52ea71601731e8a7:0xe7ce82e80a31acc1",
      "lat": 49.9023173,
      "lon": -97.1494584
     }
@@ -4022,7 +4024,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods were protected from contamination. As an operator, did prepare food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Curry+King,+4-2790+Pembina+Hwy,+Winnipeg,+MB+R3T+2H8/@49.791534,-97.156819,2576a,13.1y/data=!4m2!3m1!1s0x52c1df75d63cae6d:0x61e4220d15272a94",
+     "url": "https://www.google.com/maps/preview/place/@49.791534,-97.156819,2570a,13.1y/data=!4m2!3m1!1s0x52c1df75d63cae6d:0x61e4220d15272a94",
      "lat": 49.791534,
      "lon": -97.156819
     }
@@ -4038,7 +4040,7 @@ window.healthData = {
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of pests. Inoperable and inaccessible dishwashing equipment."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Jumbo+Pizza,+555+Balmoral+St,+Winnipeg,+MB+R3B+2R2/@49.8966622,-97.1518568,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e19df94f35:0xae47b6251949f397",
+     "url": "https://www.google.com/maps/preview/place/@49.8966622,-97.1518568,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e19df94f35:0xae47b6251949f397",
      "lat": 49.8966622,
      "lon": -97.1518568
     }
@@ -4055,7 +4057,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Burrito+Del+Rio,+8-433+River+Ave,+Winnipeg,+MB+R3L+2V1/@49.8796944,-97.1456694,2571a,13.1y/data=!4m2!3m1!1s0x52ea7400162a94c9:0x1caedb560558f9b9",
+     "url": "https://www.google.com/maps/preview/place/@49.8796944,-97.1456694,2570a,13.1y/data=!4m2!3m1!1s0x52ea7400162a94c9:0x1caedb560558f9b9",
      "lat": 49.8796944,
      "lon": -97.1456694
     }
@@ -4072,7 +4074,7 @@ window.healthData = {
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Altea+Active+Winnipeg,+100+S+Town+Rd,+Winnipeg,+MB+R3Y+2C7/@49.7905867,-97.1971307,2576a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
+     "url": "https://www.google.com/maps/preview/place/@49.7905867,-97.1971307,2570a,13.1y/data=!4m2!3m1!1s0x52c1dfa5dbf71511:0x46dfdaa613c643d1",
      "lat": 49.7905867,
      "lon": -97.1971307
     }
@@ -4089,7 +4091,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry of pests. Operate a food handling establishment without a permit."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Donair+Guys,+554+Main+St,+Winnipeg,+MB+R3B+3L1/@49.9007307,-97.137668,2570a,13.1y/data=!4m2!3m1!1s0x52ea71c6413c4c0f:0xf0028659ebe643c0",
+     "url": "https://www.google.com/maps/preview/place/@49.9007307,-97.137668,2570a,13.1y/data=!4m2!3m1!1s0x52ea71c6413c4c0f:0xf0028659ebe643c0",
      "lat": 49.9007307,
      "lon": -97.137668
     }
@@ -4106,7 +4108,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Southern+Spices,+754+St+Mary's+Rd,+Winnipeg,+MB+R2M+3N7/@49.853915,-97.11229,2572a,13.1y/data=!4m2!3m1!1s0x52ea76ed324b58b7:0xaa9189f2fbe1a670",
+     "url": "https://www.google.com/maps/preview/place/@49.853915,-97.11229,2570a,13.1y/data=!4m2!3m1!1s0x52ea76ed324b58b7:0xaa9189f2fbe1a670",
      "lat": 49.853915,
      "lon": -97.11229
     }
@@ -4123,7 +4125,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry of pests. Fail to ensure that the dishwasher is capable of physically cleaning all utensils and tableware properly."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Dim+Sum+Garden,+245+King+St,+Winnipeg,+MB+R3B+1J6/@49.9021726,-97.137308,2570a,13.1y/data=!4m2!3m1!1s0x52ea716809edab11:0x9ce3ab03fc304759",
+     "url": "https://www.google.com/maps/preview/place/@49.9021726,-97.137308,2570a,13.1y/data=!4m2!3m1!1s0x52ea716809edab11:0x9ce3ab03fc304759",
      "lat": 49.9021726,
      "lon": -97.137308
     }
@@ -4139,7 +4141,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chicken+Delight+%7C+Selkirk,+476+Main+St,+Selkirk,+MB+R1A+1W2/@50.1476272,-96.8674561,2557a,13.1y/data=!4m2!3m1!1s0x52eaf532f5276a9d:0x357678b91cb1e73a",
+     "url": "https://www.google.com/maps/preview/place/@50.1476272,-96.8674561,2570a,13.1y/data=!4m2!3m1!1s0x52eaf532f5276a9d:0x357678b91cb1e73a",
      "lat": 50.1476272,
      "lon": -96.8674561
     }
@@ -4156,7 +4158,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry of rodents. Fail to ensure that the establishment is maintained in good repair and kept clean. Did prepare food under insanitary conditions. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Asia+Palace,+1941+Pembina+Hwy,+Winnipeg,+MB+R3T+2G7/@49.8206179,-97.1535285,2574a,13.1y/data=!4m2!3m1!1s0x52ea75c05afc350d:0x3513f789587e8231",
+     "url": "https://www.google.com/maps/preview/place/@49.8206179,-97.1535285,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c05afc350d:0x3513f789587e8231",
      "lat": 49.8206179,
      "lon": -97.1535285
     }
@@ -4173,7 +4175,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Fail to ensure that the establishment is maintained in good repair and kept clean. As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Southland+Restaurant+%E6%96%B0%E6%97%BA%E8%A7%92%E9%85%92%E6%A8%93,+2855+Pembina+Hwy,+Winnipeg,+MB+R3T+6B4/@49.7884444,-97.1584194,2576a,13.1y/data=!4m2!3m1!1s0x52c1df650d8b5bc1:0xc6bbf3cd00087a63",
+     "url": "https://www.google.com/maps/preview/place/@49.7884444,-97.1584194,2570a,13.1y/data=!4m2!3m1!1s0x52c1df650d8b5bc1:0xc6bbf3cd00087a63",
      "lat": 49.7884444,
      "lon": -97.1584194
     }
@@ -4190,7 +4192,7 @@ window.healthData = {
      "Reason(s)": "Fail to ensure that an adequate supply of hot potable water is provided."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Montana%E2%80%99s+BBQ+%26+Bar,+665+Empress+St,+Winnipeg,+MB+R3G+3P7/@49.8865051,-97.1946374,2571a,13.1y/data=!4m2!3m1!1s0x52ea7382e3bc1547:0x660f307c158dee9c",
+     "url": "https://www.google.com/maps/preview/place/@49.8865051,-97.1946374,2570a,13.1y/data=!4m2!3m1!1s0x52ea7382e3bc1547:0x660f307c158dee9c",
      "lat": 49.8865051,
      "lon": -97.1946374
     }
@@ -4207,7 +4209,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did store food under insanitary conditions. Fail to ensure foods were protected from contamination."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Pizza+Riches,+1111+Logan+Ave,+Winnipeg,+MB+R3E+1P9/@49.9143281,-97.1718953,2569a,13.1y/data=!4m2!3m1!1s0x52ea734f54e40b4b:0xcbea828ae9dfe853",
+     "url": "https://www.google.com/maps/preview/place/@49.9143281,-97.1718953,2570a,13.1y/data=!4m2!3m1!1s0x52ea734f54e40b4b:0xcbea828ae9dfe853",
      "lat": 49.9143281,
      "lon": -97.1718953
     }
@@ -4224,7 +4226,7 @@ window.healthData = {
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare and store food under insanitary conditions."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Cfg,+1111+Logan+Ave,+Winnipeg,+MB+R3E+1P9/@49.9143281,-97.1718953,2569a,13.1y/data=!4m2!3m1!1s0x52ea73ceb8743e6d:0xba5c40652f24c0f3",
+     "url": "https://www.google.com/maps/preview/place/@49.9143281,-97.1718953,2570a,13.1y/data=!4m2!3m1!1s0x52ea73ceb8743e6d:0xba5c40652f24c0f3",
      "lat": 49.9143281,
      "lon": -97.1718953
     }
@@ -4241,7 +4243,7 @@ window.healthData = {
      "Reason(s)": "Inadequate ventilation to prevent the extensive growth of mould within the facility."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -4258,7 +4260,7 @@ window.healthData = {
      "Reason(s)": "Inadequate ventilation to prevent the extensive growth of mould within the facility."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -4275,7 +4277,7 @@ window.healthData = {
      "Reason(s)": "Inadequate ventilation to prevent the extensive growth of mould within the facility."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -4292,7 +4294,7 @@ window.healthData = {
      "Reason(s)": "Inadequate ventilation to prevent the extensive growth of mould within the facility."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -4309,7 +4311,7 @@ window.healthData = {
      "Reason(s)": "Inadequate ventilation to prevent the extensive growth of mould within the facility."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -4326,7 +4328,7 @@ window.healthData = {
      "Reason(s)": "Inadequate ventilation to prevent the extensive growth of mould within the facility."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lakeview+Hecla+Resort,+MB-8,+Gull+Harbour,+MB+R0E+2E0/@51.1862258,-96.6210708,2501a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
      "lat": 51.1862258,
      "lon": -96.6210708
     }
@@ -4351,7 +4353,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/All+Natural+Meats,+192+Main+St+N,+Carman,+MB+R1N+1Y7/@49.5151396,-98.0022363,2590a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
+     "url": "https://www.google.com/maps/preview/place/@49.5151396,-98.0022363,2570a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
      "lat": 49.5151396,
      "lon": -98.0022363
     }
@@ -4369,7 +4371,7 @@ window.healthData = {
      "Penalty": "$672.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Carberry,+MB+R0K+0H0/@49.8712248,-99.3608438,2571a,13.1y/data=!4m2!3m1!1s0x52e7e26cdd092aa7:0xb96ffe98ef4c1720",
+     "url": "https://www.google.com/maps/preview/place/@49.8712248,-99.3608438,2570a,13.1y/data=!4m2!3m1!1s0x52e7e26cdd092aa7:0xb96ffe98ef4c1720",
      "lat": 49.8712248,
      "lon": -99.3608438
     }
@@ -4387,7 +4389,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/21+1st+Ave+E,+Souris,+MB+R0K+2C0/@49.6210492,-100.2575882,2585a,13.1y/data=!4m2!3m1!1s0x52e77c5eba579a05:0x2f41696c9e2455c4",
+     "url": "https://www.google.com/maps/preview/place/@49.6210492,-100.2575882,2570a,13.1y/data=!4m2!3m1!1s0x52e77c5eba579a05:0x2f41696c9e2455c4",
      "lat": 49.6210492,
      "lon": -100.2575882
     }
@@ -4405,7 +4407,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Soul,+118+10th+St,+Brandon,+MB+R7A+4E7/@49.847962,-99.951808,2573a,13.1y/data=!4m2!3m1!1s0x52e797199557d885:0x96f7f72e0edd8447",
+     "url": "https://www.google.com/maps/preview/place/@49.847962,-99.951808,2570a,13.1y/data=!4m2!3m1!1s0x52e797199557d885:0x96f7f72e0edd8447",
      "lat": 49.847962,
      "lon": -99.951808
     }
@@ -4423,7 +4425,7 @@ window.healthData = {
      "Penalty": "$298.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/The+Eagles+Nest+Bar+%26+Grill,+3500+McDonald+Ave,+Brandon,+MB+R7B+1R8/@49.851593,-99.9871063,2573a,13.1y/data=!4m2!3m1!1s0x52e799957f3726bd:0xce6be6426194dcee",
+     "url": "https://www.google.com/maps/preview/place/@49.851593,-99.9871063,2570a,13.1y/data=!4m2!3m1!1s0x52e799957f3726bd:0xce6be6426194dcee",
      "lat": 49.851593,
      "lon": -99.9871063
     }
@@ -4441,7 +4443,7 @@ window.healthData = {
      "Penalty": "$298.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Neepawa+Golf+%26+Country+Club,+369+Broadway+Ave,+Neepawa,+MB+R0J+1H0/@50.2337004,-99.4534799,2552a,13.1y/data=!4m2!3m1!1s0x52e7d5f5870784f3:0xa0b74fa845d61cb7",
+     "url": "https://www.google.com/maps/preview/place/@50.2337004,-99.4534799,2570a,13.1y/data=!4m2!3m1!1s0x52e7d5f5870784f3:0xa0b74fa845d61cb7",
      "lat": 50.2337004,
      "lon": -99.4534799
     }
@@ -4459,7 +4461,7 @@ window.healthData = {
      "Penalty": "$203.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/QDOBA+Mexican+Eats,+1830+Park+Ave+%232,+Brandon,+MB+R7B+0R9/@49.8355865,-99.9630117,2573a,13.1y/data=!4m2!3m1!1s0x52e790aa95b48193:0xa2d810cebd833dd2",
+     "url": "https://www.google.com/maps/preview/place/@49.8355865,-99.9630117,2570a,13.1y/data=!4m2!3m1!1s0x52e790aa95b48193:0xa2d810cebd833dd2",
      "lat": 49.8355865,
      "lon": -99.9630117
     }
@@ -4477,7 +4479,7 @@ window.healthData = {
      "Penalty": "$298.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/The+Little+Chalet+Restaurant,+1701+Middleton+Ave,+Brandon,+MB+R7C+1A7/@49.8874549,-99.9583663,2571a,13.1y/data=!4m2!3m1!1s0x52e7979a23e238d1:0x991a64304c7ec9db",
+     "url": "https://www.google.com/maps/preview/place/@49.8874549,-99.9583663,2570a,13.1y/data=!4m2!3m1!1s0x52e7979a23e238d1:0x991a64304c7ec9db",
      "lat": 49.8874549,
      "lon": -99.9583663
     }
@@ -4495,7 +4497,7 @@ window.healthData = {
      "Penalty": "$400.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/426+Lyall+St,+Glenboro,+MB+R0K+0X0/@49.5612108,-99.2876133,2588a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
+     "url": "https://www.google.com/maps/preview/place/@49.5612108,-99.2876133,2570a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
      "lat": 49.5612108,
      "lon": -99.2876133
     },
@@ -4514,7 +4516,7 @@ window.healthData = {
      "Penalty": "$500.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/426+Lyall+St,+Glenboro,+MB+R0K+0X0/@49.5612108,-99.2876133,2588a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
+     "url": "https://www.google.com/maps/preview/place/@49.5612108,-99.2876133,2570a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
      "lat": 49.5612108,
      "lon": -99.2876133
     },
@@ -4533,7 +4535,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Bourbon+St+Grill,+1570+18th+St+unit+%2380,+Brandon,+MB+R7A+5C5/@49.8235175,-99.9645633,2574a,13.1y/data=!4m2!3m1!1s0x52e79b0001911c4d:0x16c34e67db8233dc",
+     "url": "https://www.google.com/maps/preview/place/@49.8235175,-99.9645633,2570a,13.1y/data=!4m2!3m1!1s0x52e79b0001911c4d:0x16c34e67db8233dc",
      "lat": 49.8235175,
      "lon": -99.9645633
     }
@@ -4551,7 +4553,7 @@ window.healthData = {
      "Penalty": "$203.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/TEMPO,+Little+Chief's+Place,+2025+Lyndale+Dr,+Brandon,+MB+R7A+7K9/@49.8176312,-99.9610585,2574a,13.1y/data=!4m2!3m1!1s0x52e79a0b20b340c1:0xe61ce0e11a865b88",
+     "url": "https://www.google.com/maps/preview/place/@49.8176312,-99.9610585,2570a,13.1y/data=!4m2!3m1!1s0x52e79a0b20b340c1:0xe61ce0e11a865b88",
      "lat": 49.8176312,
      "lon": -99.9610585
     }
@@ -4569,7 +4571,7 @@ window.healthData = {
      "Penalty": "$672.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Sizzling+Wok,+1570+18th+St+%2383,+Brandon,+MB+R7A+5C5/@49.8237068,-99.9645914,2574a,13.1y/data=!4m2!3m1!1s0x52e79a09bc4ce0ad:0x71dd60d24e0b4fcd",
+     "url": "https://www.google.com/maps/preview/place/@49.8237068,-99.9645914,2570a,13.1y/data=!4m2!3m1!1s0x52e79a09bc4ce0ad:0x71dd60d24e0b4fcd",
      "lat": 49.8237068,
      "lon": -99.9645914
     }
@@ -4587,7 +4589,7 @@ window.healthData = {
      "Penalty": "$298.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Smile+Pinoy+Foods,+77+Dennis+St,+Gladstone,+MB+R0J+0T0/@50.2259713,-98.9545935,2553a,13.1y/data=!4m2!3m1!1s0x52e85d45eb55fc47:0xadc1b1fab393ddae",
+     "url": "https://www.google.com/maps/preview/place/@50.2259713,-98.9545935,2570a,13.1y/data=!4m2!3m1!1s0x52e85d45eb55fc47:0xadc1b1fab393ddae",
      "lat": 50.2259713,
      "lon": -98.9545935
     }
@@ -4605,7 +4607,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Gunn's+Bakery,+247+Selkirk+Ave,+Winnipeg,+MB+R2W+2L5/@49.9125,-97.1347222,2569a,13.1y/data=!4m2!3m1!1s0x52ea716e1d640285:0x2818180c4fa86e39",
+     "url": "https://www.google.com/maps/preview/place/@49.9125,-97.1347222,2570a,13.1y/data=!4m2!3m1!1s0x52ea716e1d640285:0x2818180c4fa86e39",
      "lat": 49.9125,
      "lon": -97.1347222
     }
@@ -4623,7 +4625,7 @@ window.healthData = {
      "Penalty": "$586.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/110+First+St+S,+Souris,+MB+R0K+2C0/@49.6171472,-100.2584248,2585a,13.1y/data=!4m2!3m1!1s0x52e77c59acd61fd9:0xae4b46ff15d361a4",
+     "url": "https://www.google.com/maps/preview/place/@49.6171472,-100.2584248,2570a,13.1y/data=!4m2!3m1!1s0x52e77c59acd61fd9:0xae4b46ff15d361a4",
      "lat": 49.6171472,
      "lon": -100.2584248
     }
@@ -4641,7 +4643,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Harlan%E2%80%99s,+1680+Notre+Dame+Ave+unit+14,+Winnipeg,+MB+R3H+1H6/@49.9160519,-97.1983155,2569a,13.1y/data=!4m2!3m1!1s0x52ea725acd84c721:0x3932de46c985e3c3",
+     "url": "https://www.google.com/maps/preview/place/@49.9160519,-97.1983155,2570a,13.1y/data=!4m2!3m1!1s0x52ea725acd84c721:0x3932de46c985e3c3",
      "lat": 49.9160519,
      "lon": -97.1983155
     }
@@ -4659,7 +4661,7 @@ window.healthData = {
      "Penalty": "$298.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Pelican+Lake+Campground+and+Lounge,+Front+St+E,+Prairie+Lakes,+MB+R0K+1R0/@49.4028883,-99.6198957,2596a,13.1y/data=!4m2!3m1!1s0x52dd696a931304c9:0x1843bcbc0ce7db23",
+     "url": "https://www.google.com/maps/preview/place/@49.4028883,-99.6198957,2570a,13.1y/data=!4m2!3m1!1s0x52dd696a931304c9:0x1843bcbc0ce7db23",
      "lat": 49.4028883,
      "lon": -99.6198957
     },
@@ -4678,7 +4680,7 @@ window.healthData = {
      "Penalty": "$486.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/The+Corner+Pocket+Restaurant,+650+Broadway+St,+Cartwright,+MB+R0K+0L0/@49.0956069,-99.3408811,2613a,13.1y/data=!4m2!3m1!1s0x52dd25b2cfb024c9:0xf1bed22a430c9ed7",
+     "url": "https://www.google.com/maps/preview/place/@49.0956069,-99.3408811,2570a,13.1y/data=!4m2!3m1!1s0x52dd25b2cfb024c9:0xf1bed22a430c9ed7",
      "lat": 49.0956069,
      "lon": -99.3408811
     }
@@ -4696,7 +4698,7 @@ window.healthData = {
      "Penalty": "$100.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Chicken+Chef,+104+MAIN+ST.+AND+JCT.+HWY+%236,+Lundar,+MB+R0C+1Y0/@50.6951297,-98.0406751,2527a,13.1y/data=!4m2!3m1!1s0x52e967025b6f081f:0xc7085b9e2524c58b",
+     "url": "https://www.google.com/maps/preview/place/@50.6951297,-98.0406751,2570a,13.1y/data=!4m2!3m1!1s0x52e967025b6f081f:0xc7085b9e2524c58b",
      "lat": 50.6951297,
      "lon": -98.0406751
     }
@@ -4714,7 +4716,7 @@ window.healthData = {
      "Penalty": "$303.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Benny's+Astoria+Pizzaria,+402+Station+Rd,+Shoal+Lake,+MB+R0J+1Z0/@50.4366689,-100.5910857,2541a,13.1y/data=!4m2!3m1!1s0x52e6f193070942ab:0x2f1e953e29e0b77d",
+     "url": "https://www.google.com/maps/preview/place/@50.4366689,-100.5910857,2570a,13.1y/data=!4m2!3m1!1s0x52e6f193070942ab:0x2f1e953e29e0b77d",
      "lat": 50.4366689,
      "lon": -100.5910857
     }
@@ -4732,7 +4734,7 @@ window.healthData = {
      "Penalty": "$25,000.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/51073+Rd+8+E,+Oak+Bluff,+MB+R4G+0B2/@49.7593205,-97.2754218,2577a,13.1y/data=!4m2!3m1!1s0x52c1e1ae23dc9339:0xca44475389e60b0e",
+     "url": "https://www.google.com/maps/preview/place/@49.7593205,-97.2754218,2570a,13.1y/data=!4m2!3m1!1s0x52c1e1ae23dc9339:0xca44475389e60b0e",
      "lat": 49.7593205,
      "lon": -97.2754218
     }
@@ -4750,7 +4752,7 @@ window.healthData = {
      "Penalty": "$398.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/All+Natural+Meats,+192+Main+St+N,+Carman,+MB+R1N+1Y7/@49.5151396,-98.0022363,2590a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
+     "url": "https://www.google.com/maps/preview/place/@49.5151396,-98.0022363,2570a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
      "lat": 49.5151396,
      "lon": -98.0022363
     }
@@ -4768,7 +4770,7 @@ window.healthData = {
      "Penalty": "$586.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Lee's+Buffet,+201+18th+St+N,+Brandon,+MB+R7A+2V8/@49.854164,-99.961394,2572a,13.1y/data=!4m2!3m1!1s0x52e7975c5d584f55:0xf1e09f8148969acb",
+     "url": "https://www.google.com/maps/preview/place/@49.854164,-99.961394,2570a,13.1y/data=!4m2!3m1!1s0x52e7975c5d584f55:0xf1e09f8148969acb",
      "lat": 49.854164,
      "lon": -99.961394
     }
@@ -4786,7 +4788,7 @@ window.healthData = {
      "Penalty": "$250.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/Panda+Chinese+Restaurant,+3512+Roblin+Blvd,+Winnipeg,+MB+R3R+0C9/@49.868072,-97.259516,2572a,13.1y/data=!4m2!3m1!1s0x52ea0b5a2ef06b83:0xb7e1808bc79520af",
+     "url": "https://www.google.com/maps/preview/place/@49.868072,-97.259516,2570a,13.1y/data=!4m2!3m1!1s0x52ea0b5a2ef06b83:0xb7e1808bc79520af",
      "lat": 49.868072,
      "lon": -97.259516
     },
@@ -4805,7 +4807,7 @@ window.healthData = {
      "Penalty": "$701.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/75+Church+St,+Flin+Flon,+MB+R8A+1L9/@54.766655,-101.8776289,2302a,13.1y/data=!4m2!3m1!1s0x52f87051f2a0d373:0xebcb60e67a97528a",
+     "url": "https://www.google.com/maps/preview/place/@54.766655,-101.8776289,2570a,13.1y/data=!4m2!3m1!1s0x52f87051f2a0d373:0xebcb60e67a97528a",
      "lat": 54.766655,
      "lon": -101.8776289
     },

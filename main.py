@@ -1,5 +1,5 @@
 # Built-in modules
-import io, json, os, sys
+import io, json, os, sys, time
 from datetime import timezone as tz
 from hashlib import sha256
 from urllib.parse import quote_plus
@@ -14,7 +14,7 @@ try:
 except ImportError:
     import xml.etree.ElementTree as etree
 
-url_cache, data, hash = {}, None, None
+url_cache, data, driver, hash = {}, None, None, None
 
 def open_data ():
     prefix = "window.healthData = "
@@ -119,7 +119,7 @@ def pdf_rows (file):
     return output
 
 def maps_url (item, name = True):
-    global url_cache
+    global driver, url_cache
     if "maps" in item or "mobile food unit" in item ["addr"].lower ():
         return
     cache_key = item ["name"] + " " + item ["addr"]
@@ -127,32 +127,31 @@ def maps_url (item, name = True):
         item ["maps"] = url_cache [cache_key]
         return
 
-    headers = {
-        "Connection": "keep-alive",
-        "Referer": "https://www.google.com/maps/search/?api=1&query=",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
-    }
-    maps = r.get ("https://www.google.com/maps/search/?api=1&query=" + quote_plus ((item ["name"] + " " if name else "") + item ["addr"]), headers = headers)
-    maps.raise_for_status ()
-    maps = maps.text
-    url_start = maps.find (r'\"https://www.google.com/maps/preview/place/')
-    if url_start == -1:
-        if not name:
-            print (f"Warning: Address {item ['addr']} not found.")
-        else:
-            maps_url (item, False) # Search by address only
-        return
-    else:
-        url_start += 2 # Skip leading quote
-    url_end = url_start + maps [url_start : ].find (r'\"')
-    url = maps [url_start : url_end].replace ("\\\\", "\\").encode ().decode ("unicode_escape")
-    coord_start = url.find ("/@") + 2
-    lat_end = coord_start + url [coord_start : ].find (",")
-    lon_end = lat_end + 1 + url [lat_end + 1 : ].find (",")
+    if driver is None:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        chrome_options = Options ()
+        chrome_options.page_load_strategy = "none"
+        driver = webdriver.Chrome (options = chrome_options)
+    
+    driver.get ("https://www.google.com/maps/search/?api=1&query=" + quote_plus ((item ["name"] + " " if name else "") + item ["addr"]))
+    lat, lon = driver.page_source.split ("/staticmap?center=", 1) [1].split ("&amp;", 1) [0].split ("%2C", 1)
+    while "/maps/place/" not in driver.current_url:
+        if "/maps/search/?api=1" not in driver.current_url and "/maps/search/" in driver.current_url:
+            driver.get ("about:blank")
+            if not name:
+                print (f"Warning: Address {item ['addr']} not found.")
+            else:
+                maps_url (item, False) # Search by address only
+            return
+        time.sleep (0.1)
+    place_id = driver.current_url.split ("!1s", 1) [1].split ("!", 1) [0]
+    driver.get ("about:blank")
+
     item ["maps"] = {
-        "url": url,
-        "lat": float (url [coord_start : lat_end]),
-        "lon": float (url [lat_end + 1 : lon_end])
+        "url": f"https://www.google.com/maps/preview/place/@{lat},{lon},2570a,13.1y/data=!4m2!3m1!1s{place_id}",
+        "lat": float (lat),
+        "lon": float (lon)
     }
     url_cache [cache_key] = item ["maps"]
     save_data ()
