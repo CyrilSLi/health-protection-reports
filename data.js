@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1762527600,
+  "timestamp": 1762963200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "FOUR POINTS BY SHERA- TON WINNIPEG SOUTH",
+    "addr": "2935 Pembina Highway Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1762732800,
+    "end": 1762905600,
+    "info": {
+     "Closure date": "Nov 10/25",
+     "Re-open date": "Nov 12/25",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.7866734,-97.158209,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6f925b7509:0xb2df7c1e837634ff",
+     "lat": 49.7866734,
+     "lon": -97.158209
+    }
+   },
    {
     "name": "HILTON SUITES WINNIPEG AIRPORT",
     "addr": "1800 Wellington Avenue Winnipeg, MB",
