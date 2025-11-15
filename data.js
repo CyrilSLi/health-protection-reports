@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1762963200,
+  "timestamp": 1763110800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "LINDENHOLM PLACE",
+    "addr": "885 Wilkes Avenue Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1762905600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 12/25",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.847922,-97.1838976,2570a,13.1y/data=!4m2!3m1!1s0x52ea745743604fa9:0xd25bba26a334c829",
+     "lat": 49.847922,
+     "lon": -97.1838976
+    }
+   },
+   {
+    "name": "LINDENHOLM PLACE",
+    "addr": "885 Wilkes Avenue Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1762905600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 12/25",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.847922,-97.1838976,2570a,13.1y/data=!4m2!3m1!1s0x52ea745743604fa9:0xd25bba26a334c829",
+     "lat": 49.847922,
+     "lon": -97.1838976
+    }
+   },
    {
     "name": "FOUR POINTS BY SHERA- TON WINNIPEG SOUTH",
     "addr": "2935 Pembina Highway Winnipeg, MB",
