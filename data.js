@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1763110800,
+  "timestamp": 1763740800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "MAKKAR SUPERMARKET",
+    "addr": "Butcher Shop 10/11-998 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1763596800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 20/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9425572,-97.196442,2570a,13.1y/data=!4m2!3m1!1s0x52ea7302fc525e5f:0x1e50ba2aa348502",
+     "lat": 49.9425572,
+     "lon": -97.196442
+    }
+   },
    {
     "name": "LINDENHOLM PLACE",
     "addr": "885 Wilkes Avenue Winnipeg, MB",
