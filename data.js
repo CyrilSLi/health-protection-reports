@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1763740800,
+  "timestamp": 1764172800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SUMMERLAND",
+    "addr": "77 University Crescent Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1764028800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 25/25",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8164859,-97.1494522,2570a,13.1y/data=!4m2!3m1!1s0x52ea75ebb2ffffff:0x1466ab7d243aab6",
+     "lat": 49.8164859,
+     "lon": -97.1494522
+    }
+   },
    {
     "name": "MAKKAR SUPERMARKET",
     "addr": "Butcher Shop 10/11-998 Keewatin Street Winnipeg, MB",
