@@ -1,11 +1,11 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1764259200,
+  "timestamp": 1764322200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
-    "name": "ST JAMES CENNTENIAL POOL",
+    "name": "ST JAMES CENTENNIAL POOL",
     "addr": "644 Parkdale Street Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1764028800,
