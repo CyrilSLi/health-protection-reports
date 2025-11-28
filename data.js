@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1764172800,
+  "timestamp": 1764259200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ST JAMES CENNTENIAL POOL",
+    "addr": "644 Parkdale Street Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1764028800,
+    "end": 1764115200,
+    "info": {
+     "Closure date": "Nov 25/25",
+     "Re-open date": "Nov 26/25",
+     "Reason(s)": "Fail to provide a functional emergency shut-off switch at the whirlpool."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8847236,-97.2956924,2570a,13.1y/data=!4m2!3m1!1s0x52ea0c88fd3d8c79:0x68b04d6b610adb48",
+     "lat": 49.8847236,
+     "lon": -97.2956924
+    }
+   },
    {
     "name": "SUMMERLAND",
     "addr": "77 University Crescent Winnipeg, MB",

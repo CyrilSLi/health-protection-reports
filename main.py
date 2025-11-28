@@ -223,7 +223,7 @@ def main ():
                 if overwrite (("name", "type", "maps", "start"), i, prev_items):
                     add_item (prev_items, i) # New item
                     new_count += 1
-        print (f"Added {new_count} new items to {title} ({len (data [title] ['items'])} total)")
+        print (f"Added {new_count} new item(s) to {title} ({len (data [title] ['items'])} total)")
         save_data ()
 
     if sys.argv [1 : 2] in (["--file"], ["-f"]): # Allow empty sys.argv
