@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1764322200,
+  "timestamp": 1764345600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "LUSO CANADIAN CLUB",
+    "addr": "913 Sargent Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1764288000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Nov 28/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8971221,-97.1747234,2570a,13.1y/data=!4m2!3m1!1s0x52ea7394d54e830f:0x2ac9fad09dec4e81",
+     "lat": 49.8971221,
+     "lon": -97.1747234
+    }
+   },
    {
     "name": "ST JAMES CENTENNIAL POOL",
     "addr": "644 Parkdale Street Winnipeg, MB",
