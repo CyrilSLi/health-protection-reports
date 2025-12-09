@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1762185600,
+  "timestamp": 1765209600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "FALAFEL PLACE",
+    "addr": "1101 Corydon Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1764892800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 5/25",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to provide approved sinks for use in manual washing and sanitizing."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8661875,-97.1675792,2570a,13.1y/data=!4m2!3m1!1s0x52ea746cd0771bb9:0xd5f0e8090b80945e",
+     "lat": 49.8661875,
+     "lon": -97.1675792
+    }
+   },
    {
     "name": "LUSO CANADIAN CLUB",
     "addr": "913 Sargent Avenue Winnipeg, MB",
