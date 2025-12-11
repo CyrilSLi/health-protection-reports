@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1765209600,
+  "timestamp": 1765382400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "COLONIAL INN",
+    "addr": "Semi-Public Whirlpool 1944 Queens Avenue Brandon, MB",
+    "type": "Whirlpool",
+    "start": 1765238400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 9/25",
+     "Reason(s)": "Operate a whirlpool with inadequate water recirculation or quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8290771,-99.9640362,2570a,13.1y/data=!4m2!3m1!1s0x52e79a070aa1c30f:0xbb79e2783ef99a71",
+     "lat": 49.8290771,
+     "lon": -99.9640362
+    }
+   },
    {
     "name": "FALAFEL PLACE",
     "addr": "1101 Corydon Avenue Winnipeg, MB",
