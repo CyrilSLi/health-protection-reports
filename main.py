@@ -40,6 +40,8 @@ def open_data ():
 
 def save_data (write = True):
     global data, hash
+    for i in data.values ():
+        i ["items"].sort (key = lambda x: (0 - x ["start"], x ["name"], x ["type"], json.dumps (x ["info"], sort_keys = True)))
     dump = json.dumps (data, indent = 1, ensure_ascii = False)
     if write:
         with open ("data.js", "w") as f:
@@ -135,7 +137,7 @@ def maps_url (item, name = True):
         driver = webdriver.Chrome (options = chrome_options)
     
     driver.get ("https://www.google.com/maps/search/?api=1&query=" + quote_plus ((item ["name"] + " " if name else "") + item ["addr"]))
-    lat, lon = driver.page_source.split ("/staticmap?center=", 1) [1].split ("&amp;", 1) [0].split ("%2C", 1)
+    # lat, lon = driver.page_source.split ("/staticmap?center=", 1) [1].split ("&amp;", 1) [0].split ("%2C", 1)
     while "/maps/place/" not in driver.current_url:
         if "/maps/search/?api=1" not in driver.current_url and "/maps/search/" in driver.current_url:
             driver.get ("about:blank")
@@ -146,6 +148,8 @@ def maps_url (item, name = True):
             return
         time.sleep (0.1)
     place_id = driver.current_url.split ("!1s", 1) [1].split ("!", 1) [0]
+    lat = driver.current_url.split ("!3d", 1) [1].split ("!", 1) [0]
+    lon = driver.current_url.split ("!4d", 1) [1].split ("!", 1) [0]
     driver.get ("about:blank")
 
     item ["maps"] = {

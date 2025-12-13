@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1765382400,
+  "timestamp": 1765555200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "CHEF DONG’S ARISTOCRAT",
+    "addr": "D-210 Tyndall Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1765411200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 11/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9350372,-97.1958986,2570a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
+     "lat": 49.9350372,
+     "lon": -97.1958986
+    }
+   },
    {
     "name": "COLONIAL INN",
     "addr": "Semi-Public Whirlpool 1944 Queens Avenue Brandon, MB",
@@ -91,9 +107,10 @@ window.healthData = {
     "addr": "Butcher Shop 10/11-998 Keewatin Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1763596800,
-    "end": 4294967295,
+    "end": 1764201600,
     "info": {
      "Closure date": "Nov 20/25",
+     "Re-open date": "Nov 27/25",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
@@ -107,9 +124,10 @@ window.healthData = {
     "addr": "885 Wilkes Avenue Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1762905600,
-    "end": 4294967295,
+    "end": 1765324800,
     "info": {
      "Closure date": "Nov 12/25",
+     "Re-open date": "Dec 10/25",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -123,9 +141,10 @@ window.healthData = {
     "addr": "885 Wilkes Avenue Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1762905600,
-    "end": 4294967295,
+    "end": 1765324800,
     "info": {
      "Closure date": "Nov 12/25",
+     "Re-open date": "Dec 10/25",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
@@ -190,9 +209,10 @@ window.healthData = {
     "addr": "1760 Sargent Avenue Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1762214400,
-    "end": 4294967295,
+    "end": 1764028800,
     "info": {
      "Closure date": "Nov 4/25",
+     "Re-open date": "Nov 25/25",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -206,9 +226,10 @@ window.healthData = {
     "addr": "1760 Sargent Avenue Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1762214400,
-    "end": 4294967295,
+    "end": 1764028800,
     "info": {
      "Closure date": "Nov 4/25",
+     "Re-open date": "Nov 25/25",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
@@ -1359,23 +1380,6 @@ window.healthData = {
    },
    {
     "name": "HOWARD JOHNSON",
-    "addr": "Semi-Public Whirlpool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
-    "type": "Whirlpool",
-    "start": 1745798400,
-    "end": 1748822400,
-    "info": {
-     "Closure date": "Apr 28/25",
-     "Re-open date": "Jun 2/25",
-     "Reason(s)": "Operate a pool where hazardous conditions exist and present a risk of injury."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
-     "lat": 49.9518276,
-     "lon": -98.3242168
-    }
-   },
-   {
-    "name": "HOWARD JOHNSON",
     "addr": "Semi-Public Wading Pool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
     "type": "Swimming Pool",
     "start": 1745798400,
@@ -1395,6 +1399,23 @@ window.healthData = {
     "name": "HOWARD JOHNSON",
     "addr": "Semi-Public Swimming Pool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
     "type": "Swimming Pool",
+    "start": 1745798400,
+    "end": 1748822400,
+    "info": {
+     "Closure date": "Apr 28/25",
+     "Re-open date": "Jun 2/25",
+     "Reason(s)": "Operate a pool where hazardous conditions exist and present a risk of injury."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "lat": 49.9518276,
+     "lon": -98.3242168
+    }
+   },
+   {
+    "name": "HOWARD JOHNSON",
+    "addr": "Semi-Public Whirlpool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
+    "type": "Whirlpool",
     "start": 1745798400,
     "end": 1748822400,
     "info": {
@@ -1717,13 +1738,13 @@ window.healthData = {
    {
     "name": "DAYS INN",
     "addr": "695 Berry Street Winnipeg, MB",
-    "type": "Whirlpool",
+    "type": "Swimming Pool",
     "start": 1741132800,
-    "end": 1754352000,
+    "end": 1741219200,
     "info": {
      "Closure date": "Mar 5/25",
-     "Re-open date": "Aug 5/25",
-     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
+     "Re-open date": "Mar 6/25",
+     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
@@ -1734,13 +1755,13 @@ window.healthData = {
    {
     "name": "DAYS INN",
     "addr": "695 Berry Street Winnipeg, MB",
-    "type": "Swimming Pool",
+    "type": "Whirlpool",
     "start": 1741132800,
-    "end": 1741219200,
+    "end": 1754352000,
     "info": {
      "Closure date": "Mar 5/25",
-     "Re-open date": "Mar 6/25",
-     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance."
+     "Re-open date": "Aug 5/25",
+     "Reason(s)": "Failed to provide a readily accessible telephone in a working condition as means of contacting emergency assistance. Operate a whirlpool with inadequate water quality."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@49.8976188,-97.2091577,2570a,13.1y/data=!4m2!3m1!1s0x52ea73732c879d21:0xc3a096c72305bb7",
@@ -1801,23 +1822,6 @@ window.healthData = {
    },
    {
     "name": "HOWARD JOHNSON",
-    "addr": "Semi-Public Whirlpool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
-    "type": "Whirlpool",
-    "start": 1740960000,
-    "end": 1741305600,
-    "info": {
-     "Closure date": "Mar 3/25",
-     "Re-open date": "Mar 7/25",
-     "Reason(s)": "Operator failed to operate pool facilities in a sanitary manner."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
-     "lat": 49.9518276,
-     "lon": -98.3242168
-    }
-   },
-   {
-    "name": "HOWARD JOHNSON",
     "addr": "Semi-Public Wading Pool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
     "type": "Swimming Pool",
     "start": 1740960000,
@@ -1837,6 +1841,23 @@ window.healthData = {
     "name": "HOWARD JOHNSON",
     "addr": "Semi-Public Swimming Pool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
     "type": "Swimming Pool",
+    "start": 1740960000,
+    "end": 1741305600,
+    "info": {
+     "Closure date": "Mar 3/25",
+     "Re-open date": "Mar 7/25",
+     "Reason(s)": "Operator failed to operate pool facilities in a sanitary manner."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9518276,-98.3242168,2570a,13.1y/data=!4m2!3m1!1s0x52e9cf469236296f:0xe97c6b3df15836a3",
+     "lat": 49.9518276,
+     "lon": -98.3242168
+    }
+   },
+   {
+    "name": "HOWARD JOHNSON",
+    "addr": "Semi-Public Whirlpool 37138 Hwy 1 Yellowquill Tr. Portage la Prairie, MB",
+    "type": "Whirlpool",
     "start": 1740960000,
     "end": 1741305600,
     "info": {
@@ -4484,7 +4505,7 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1761148800,
+  "timestamp": 1765555200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
    {
@@ -4701,6 +4722,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.9125,-97.1347222,2570a,13.1y/data=!4m2!3m1!1s0x52ea716e1d640285:0x2818180c4fa86e39",
      "lat": 49.9125,
      "lon": -97.1347222
+    }
+   },
+   {
+    "name": "THE CHILI CHUTNEY",
+    "addr": "555 34th Street Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1734480000,
+    "end": 1763510400,
+    "info": {
+     "Offense date": "Dec 18/24",
+     "Conviction date": "Nov 19/25",
+     "Reason(s)": "As an operator, store food in an improper manner, namely failed to cover food to protect from contamination.",
+     "Penalty": "$200.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8408764,-99.9842507,2570a,13.1y/data=!4m2!3m1!1s0x52e7974589bf8619:0x8211df0dda0eb024",
+     "lat": 49.8408764,
+     "lon": -99.9842507
     }
    },
    {
