@@ -148,8 +148,8 @@ def maps_url (item, name = True):
             return
         time.sleep (0.1)
     place_id = driver.current_url.split ("!1s", 1) [1].split ("!", 1) [0]
-    lat = driver.current_url.split ("!3d", 1) [1].split ("!", 1) [0]
-    lon = driver.current_url.split ("!4d", 1) [1].split ("!", 1) [0]
+    lat = driver.current_url.split ("!3d", 1) [1].replace ("?", "!", 1).split ("!", 1) [0]
+    lon = driver.current_url.split ("!4d", 1) [1].replace ("?", "!", 1).split ("!", 1) [0]
     driver.get ("about:blank")
 
     item ["maps"] = {
