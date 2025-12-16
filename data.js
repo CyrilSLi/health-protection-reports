@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1765555200,
+  "timestamp": 1765814400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -664,9 +664,10 @@ window.healthData = {
     "addr": "3010 Thornhill Street Morden, MB",
     "type": "Swimming Pool",
     "start": 1754611200,
-    "end": 4294967295,
+    "end": 1765497600,
     "info": {
      "Closure date": "Aug 8/25",
+     "Re-open date": "Dec 12/25",
      "Reason(s)": "As an operator of a pool, failed to maintain facility in good repair and kept clean. Failed to ensure drains and recirculation facilities are operated in such a manner as to prevent entrapment of bathers."
     },
     "maps": {
@@ -680,9 +681,10 @@ window.healthData = {
     "addr": "3010 Thornhill Street Morden, MB",
     "type": "Whirlpool",
     "start": 1754611200,
-    "end": 4294967295,
+    "end": 1765497600,
     "info": {
      "Closure date": "Aug 8/25",
+     "Re-open date": "Dec 12/25",
      "Reason(s)": "As an operator of a whirlpool, failed to maintain facility in good repair and kept clean."
     },
     "maps": {
