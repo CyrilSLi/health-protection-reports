@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1765814400,
+  "timestamp": 1765900800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "D-210 Tyndall Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1765411200,
-    "end": 4294967295,
+    "end": 1765843200,
     "info": {
      "Closure date": "Dec 11/25",
+     "Re-open date": "Dec 16/25",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
