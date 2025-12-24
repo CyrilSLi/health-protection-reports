@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1765900800,
+  "timestamp": 1766575800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -42,9 +42,10 @@ window.healthData = {
     "addr": "1101 Corydon Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1764892800,
-    "end": 4294967295,
+    "end": 1766448000,
     "info": {
      "Closure date": "Dec 5/25",
+     "Re-open date": "Dec 23/25",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to provide approved sinks for use in manual washing and sanitizing."
     },
     "maps": {
