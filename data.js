@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1766575800,
+  "timestamp": 1767196800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "AMANTRAN",
+    "addr": "1811 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1767052800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 30/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8790895,-97.2134324,2570a,13.1y/data=!4m2!3m1!1s0x52ea73ae581ddfeb:0xecbafec9669f60ee",
+     "lat": 49.8790895,
+     "lon": -97.2134324
+    }
+   },
    {
     "name": "CHEF DONG’S ARISTOCRAT",
     "addr": "D-210 Tyndall Avenue Winnipeg, MB",
@@ -93,9 +109,10 @@ window.healthData = {
     "addr": "77 University Crescent Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1764028800,
-    "end": 4294967295,
+    "end": 1766448000,
     "info": {
      "Closure date": "Nov 25/25",
+     "Re-open date": "Dec 23/25",
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
