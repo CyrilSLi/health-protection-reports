@@ -7,7 +7,9 @@
     <script src="data.js?v=c23c8354dba161d662938b7bfa5b685b6ff99e7743869dbfefac6753995335df"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1/dist/MarkerCluster.min.css">
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1/dist/leaflet.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1/dist/leaflet.markercluster.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/split.js@1/dist/split.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/brython@3.13/brython.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/brython@3.13/brython_stdlib.min.js"></script>
@@ -22,7 +24,7 @@
             font-weight: normal;
             border: none;
         }
-        .health-icon {
+        .health-icon, .marker-cluster {
             width: 48px !important;
             height: 48px !important;
             margin-left: -27px !important;
@@ -30,6 +32,18 @@
             text-align: center;
             border: 3px solid black;
             border-radius: 12px;
+        }
+        .marker-cluster {
+            background-color: #707070;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .marker-cluster span {
+            font-size: 18px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
         }
         .health-icon > i {
             font-size: 32px;
@@ -216,7 +230,7 @@
             "maxZoom": 32
         }).addTo (Map)
         window.ResizeObserver.new (lambda *_: (Map.invalidateSize (), resize_popups ())).observe (document ["map"])
-        layer = window.L.layerGroup ().addTo (Map)
+        layer = window.L.markerClusterGroup ().addTo (Map)
 
         bounds = {
             "winnipeg": ((49.71, -97.35), (50.00, -96.95)),
@@ -376,9 +390,11 @@
                     continue
                 if j in visible_ids:
                     def scroll_list (*_, el_id = j, point = (i ["maps"] ["lat"], i ["maps"] ["lon"])): # Catch variables
-                        Map.setView (point, 16)
+                        # Map.setView (point, 16)
                         for k in markers.values ():
                             if el_id in k [4]:
+                                # Map.setZoom (1)
+                                layer.zoomToShowLayer (k [0])
                                 k [0].openPopup ()
                                 break
                     item.bind ("click", scroll_list)
