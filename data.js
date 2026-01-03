@@ -1,9 +1,57 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1767196800,
+  "timestamp": 1767369600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ARIRANG MEAT MARKET",
+    "addr": "1799 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1767139200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 31/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8790154,-97.2132274,2570a,13.1y/data=!4m2!3m1!1s0x52ea73624839ebd5:0x6df2ad441249320b",
+     "lat": 49.8790154,
+     "lon": -97.2132274
+    }
+   },
+   {
+    "name": "DDUCK SA RANG",
+    "addr": "1803 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1767139200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 31/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8789374,-97.2134265,2570a,13.1y/data=!4m2!3m1!1s0x52ea7362366f5845:0x60306d30323f806b",
+     "lat": 49.8789374,
+     "lon": -97.2134265
+    }
+   },
+   {
+    "name": "SUSHI EDOICHI",
+    "addr": "1799 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1767139200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 31/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8790519,-97.2131915,2570a,13.1y/data=!4m2!3m1!1s0x52ea736237a636af:0x51c134f71b1b23b7",
+     "lat": 49.8790519,
+     "lon": -97.2131915
+    }
+   },
    {
     "name": "AMANTRAN",
     "addr": "1811 Portage Avenue Winnipeg, MB",
@@ -18,6 +66,22 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8790895,-97.2134324,2570a,13.1y/data=!4m2!3m1!1s0x52ea73ae581ddfeb:0xecbafec9669f60ee",
      "lat": 49.8790895,
      "lon": -97.2134324
+    }
+   },
+   {
+    "name": "TIFFIN NATION",
+    "addr": "1811 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1767052800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Dec 30/25",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8790177,-97.2135102,2570a,13.1y/data=!4m2!3m1!1s0x52ea712822ef1457:0x80a795638eb19b62",
+     "lat": 49.8790177,
+     "lon": -97.2135102
     }
    },
    {
