@@ -393,9 +393,7 @@
                         # Map.setView (point, 16)
                         for k in markers.values ():
                             if el_id in k [4]:
-                                # Map.setZoom (1)
-                                layer.zoomToShowLayer (k [0])
-                                k [0].openPopup ()
+                                layer.zoomToShowLayer (k [0], lambda: k [0].openPopup ())
                                 break
                     item.bind ("click", scroll_list)
                     item.innerHTML = '<i class="bi bi-geo-alt-fill"></i> ' + item.innerHTML
