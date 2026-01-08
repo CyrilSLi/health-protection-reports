@@ -1,17 +1,50 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1767369600,
+  "timestamp": 1767778200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SUPER 8",
+    "addr": "2668 Saskatchewan Ave W Portage la Prairie, MB",
+    "type": "Swimming Pool",
+    "start": 1767744000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 7/26",
+     "Reason(s)": "Fail to ensure that the combined chlorine level in the pool is not more than 1.5 mg/L."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9735676,-98.343257,2570a,13.1y/data=!4m2!3m1!1s0x52e9c8aa3c18cbb9:0x725749b36f7c4bc2",
+     "lat": 49.9735676,
+     "lon": -98.343257
+    }
+   },
+   {
+    "name": "SUPER 8",
+    "addr": "2668 Saskatchewan Ave W Portage la Prairie, MB",
+    "type": "Whirlpool",
+    "start": 1767744000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 7/26",
+     "Reason(s)": "Fail to ensure that the combined chlorine residual level in the whirlpool is not more than 1.5 mg/L."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9735676,-98.343257,2570a,13.1y/data=!4m2!3m1!1s0x52e9c8aa3c18cbb9:0x725749b36f7c4bc2",
+     "lat": 49.9735676,
+     "lon": -98.343257
+    }
+   },
    {
     "name": "ARIRANG MEAT MARKET",
     "addr": "1799 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1767139200,
-    "end": 4294967295,
+    "end": 1767657600,
     "info": {
      "Closure date": "Dec 31/25",
+     "Re-open date": "Jan 6/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -106,9 +139,10 @@ window.healthData = {
     "addr": "Semi-Public Whirlpool 1944 Queens Avenue Brandon, MB",
     "type": "Whirlpool",
     "start": 1765238400,
-    "end": 4294967295,
+    "end": 1765324800,
     "info": {
      "Closure date": "Dec 9/25",
+     "Re-open date": "Dec 10/25",
      "Reason(s)": "Operate a whirlpool with inadequate water recirculation or quality."
     },
     "maps": {
