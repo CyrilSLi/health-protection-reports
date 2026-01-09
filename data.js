@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1767778200,
+  "timestamp": 1767951000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "LAKEVIEW HECLA RESORT SPA HOT TUB",
+    "addr": "Hecla/Grindstone Provincial Park Hecla, MB",
+    "type": "Whirlpool",
+    "start": 1767744000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 7/26",
+     "Reason(s)": "Operate a whirlpool and fail to ensure it is equipped with a working emergency shut-off switch as required."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
+     "lat": 51.1862258,
+     "lon": -96.6210708
+    }
+   },
    {
     "name": "SUPER 8",
     "addr": "2668 Saskatchewan Ave W Portage la Prairie, MB",
