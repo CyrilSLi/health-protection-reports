@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1767951000,
+  "timestamp": 1767974400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -90,9 +90,10 @@ window.healthData = {
     "addr": "1799 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1767139200,
-    "end": 4294967295,
+    "end": 1767657600,
     "info": {
      "Closure date": "Dec 31/25",
+     "Re-open date": "Jan 6/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -629,9 +630,10 @@ window.healthData = {
     "addr": "3119 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1757635200,
-    "end": 4294967295,
+    "end": 1767916800,
     "info": {
      "Closure date": "Sep 12/25",
+     "Re-open date": "Jan 9/26",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
