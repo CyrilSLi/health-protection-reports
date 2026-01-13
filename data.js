@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1767974400,
+  "timestamp": 1768233600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -41,9 +41,10 @@ window.healthData = {
     "addr": "2668 Saskatchewan Ave W Portage la Prairie, MB",
     "type": "Whirlpool",
     "start": 1767744000,
-    "end": 4294967295,
+    "end": 1768176000,
     "info": {
      "Closure date": "Jan 7/26",
+     "Re-open date": "Jan 12/26",
      "Reason(s)": "Fail to ensure that the combined chlorine residual level in the whirlpool is not more than 1.5 mg/L."
     },
     "maps": {
@@ -74,9 +75,10 @@ window.healthData = {
     "addr": "1803 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1767139200,
-    "end": 4294967295,
+    "end": 1768176000,
     "info": {
      "Closure date": "Dec 31/25",
+     "Re-open date": "Jan 12/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
