@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1768233600,
+  "timestamp": 1768320000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "PUNJABI TASTE",
+    "addr": "3-33 University Crescent Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1768176000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 12/26",
+     "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8173671,-97.1504122,2570a,13.1y/data=!4m2!3m1!1s0x52ea751c20f10b1f:0x6a5457d0dddd7f88",
+     "lat": 49.8173671,
+     "lon": -97.1504122
+    }
+   },
    {
     "name": "LAKEVIEW HECLA RESORT SPA HOT TUB",
     "addr": "Hecla/Grindstone Provincial Park Hecla, MB",
