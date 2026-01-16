@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1768320000,
+  "timestamp": 1768492800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "3-33 University Crescent Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1768176000,
-    "end": 4294967295,
+    "end": 1768435200,
     "info": {
      "Closure date": "Jan 12/26",
+     "Re-open date": "Jan 15/26",
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
     },
     "maps": {
@@ -41,9 +42,10 @@ window.healthData = {
     "addr": "2668 Saskatchewan Ave W Portage la Prairie, MB",
     "type": "Swimming Pool",
     "start": 1767744000,
-    "end": 4294967295,
+    "end": 1768348800,
     "info": {
      "Closure date": "Jan 7/26",
+     "Re-open date": "Jan 14/26",
      "Reason(s)": "Fail to ensure that the combined chlorine level in the pool is not more than 1.5 mg/L."
     },
     "maps": {
