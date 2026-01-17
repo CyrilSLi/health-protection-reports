@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1768492800,
+  "timestamp": 1768579200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "MCDONALD’S RESTAURANT",
+    "addr": "1425 Regent Avenue W Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1768435200,
+    "end": 1768435200,
+    "info": {
+     "Closure date": "Jan 15/26",
+     "Re-open date": "Jan 15/26",
+     "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8966699,-97.0451194,2570a,13.1y/data=!4m2!3m1!1s0x52ea7a07c57e3a95:0x2870351777a3c5f1",
+     "lat": 49.8966699,
+     "lon": -97.0451194
+    }
+   },
    {
     "name": "PUNJABI TASTE",
     "addr": "3-33 University Crescent Winnipeg, MB",
@@ -127,9 +144,10 @@ window.healthData = {
     "addr": "1811 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1767052800,
-    "end": 4294967295,
+    "end": 1768348800,
     "info": {
      "Closure date": "Dec 30/25",
+     "Re-open date": "Jan 14/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -143,9 +161,10 @@ window.healthData = {
     "addr": "1811 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1767052800,
-    "end": 4294967295,
+    "end": 1768348800,
     "info": {
      "Closure date": "Dec 30/25",
+     "Re-open date": "Jan 14/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
