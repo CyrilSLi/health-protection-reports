@@ -5,6 +5,23 @@ window.healthData = {
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
+    "name": "CHUCK’S ROADHOUSE BAR & GRILL 65 MB HWY 12 N",
+    "addr": "Steinbach, MB",
+    "type": "Food Service Establishment",
+    "start": 1769040000,
+    "end": 1769126400,
+    "info": {
+     "Closure date": "Jan 22/26",
+     "Re-open date": "Jan 23/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.5379534,-96.6871631,2570a,13.1y/data=!4m2!3m1!1s0x52c035066273aecb:0x30e6940ed3766a0e",
+     "lat": 49.5379534,
+     "lon": -96.6871631
+    }
+   },
+   {
     "name": "MCDONALD’S RESTAURANT",
     "addr": "1425 Regent Avenue W Winnipeg, MB",
     "type": "Food Service Establishment",
@@ -4703,6 +4720,63 @@ window.healthData = {
     }
    },
    {
+    "name": "SPICE CIRCLE",
+    "addr": "1-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757376000,
+    "end": 1762473600,
+    "info": {
+     "Offense date": "Sep 9/25",
+     "Conviction date": "Nov 7/25",
+     "Reason(s)": "As an operator, failed to maintain safe internal temperature of potentially hazardous foods.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    },
+    "manual_entry": true
+   },
+   {
+    "name": "SPICE CIRCLE",
+    "addr": "1-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757376000,
+    "end": 1762473600,
+    "info": {
+     "Offense date": "Sep 9/25",
+     "Conviction date": "Nov 7/25",
+     "Reason(s)": "As an operator, failed to take effective measure against the entry of pests.",
+     "Penalty": "$486.00"
+    },
+    "manual_entry": true,
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    }
+   },
+   {
+    "name": "SPICE CIRCLE",
+    "addr": "1-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757376000,
+    "end": 1762473600,
+    "info": {
+     "Offense date": "Sep 9/25",
+     "Conviction date": "Nov 7/25",
+     "Reason(s)": "As an operator of a food handling establishment, prepared and sold food under insanitary conditions.",
+     "Penalty": "$672.00"
+    },
+    "manual_entry": true,
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    }
+   },
+   {
     "name": "CUT RITE MEATS",
     "addr": "Box 865 SE 15-12-15 Carberry, MB",
     "type": "Food Service Establishment",
@@ -4916,6 +4990,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8408764,-99.9842507,2570a,13.1y/data=!4m2!3m1!1s0x52e7974589bf8619:0x8211df0dda0eb024",
      "lat": 49.8408764,
      "lon": -99.9842507
+    }
+   },
+   {
+    "name": "SUBWAY",
+    "addr": "41 Centre Street Gimli, MB",
+    "type": "Food Service Establishment",
+    "start": 1730419200,
+    "end": 1755734400,
+    "info": {
+     "Offense date": "Nov 1/24",
+     "Conviction date": "Aug 21/25",
+     "Reason(s)": "As an operator of a food service establishment, fail to maintain the establishment in good repair and keep clean.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.6317275,-96.9891103,2570a,13.1y/data=!4m2!3m1!1s0x52eb07d99ddb22bb:0xe7b8f6233d657cca",
+     "lat": 50.6317275,
+     "lon": -96.9891103
     }
    },
    {
