@@ -260,6 +260,13 @@
                 i.classList.remove ("highlighted")
             highlight_set.clear () # Bugfix, remove before implementing new lists which add items to highlight_set
 
+        def date_changed (ev):
+            ev.stopPropagation ()
+            document ["all-dates"].checked = False
+            render ()
+        document ["start-date"].bind ("change", date_changed)
+        document ["end-date"].bind ("change", date_changed)
+
         markers = {} # latlon: [marker, status, types set, popup content, item_count set]
         no_maps, visible = [], [] # [(item_count, category name), ...]
         def render (ev = None, start_date = None, end_date = None, list_only = False):
@@ -407,7 +414,7 @@
             <div>
                 <i class="bi bi-gear-fill"></i>
                 <h2>Settings</h2>
-                <button class="settings-button" id="split" data-norerender>Change&nbsp;Split</button>
+                <button class="settings-button" id="split" data-norerender>Change&nbsp;split</button>
                 <input type="checkbox" class="settings-button" id="scroll-list" data-norerender>
                 <label for="scroll-list" class="settings-button">Scroll&nbsp;to&nbsp;items</label>
             </div>
@@ -418,14 +425,14 @@
                 <input type="checkbox" class="settings-button" id="convictions" checked>
                 <label for="convictions" class="settings-button convictions-icon">Convictions</label>
                 <input type="checkbox" class="settings-button" id="pastclosures" checked>
-                <label for="pastclosures" class="settings-button pastclosures-icon">Past&nbsp;Closures</label>
+                <label for="pastclosures" class="settings-button pastclosures-icon">Past&nbsp;closures</label>
                 <input type="checkbox" class="settings-button" id="pastconvictions" checked>
-                <label for="pastconvictions" class="settings-button pastconvictions-icon">Past&nbsp;Convictions</label>
+                <label for="pastconvictions" class="settings-button pastconvictions-icon">Past&nbsp;convictions</label>
             </div>
             <div>
                 <p>Show</p>
                 <input type="checkbox" class="settings-button" id="all-dates" checked>
-                <label for="all-dates" class="settings-button">All&nbsp;Dates</label>
+                <label for="all-dates" class="settings-button">All&nbsp;dates</label>
                 <p>or from</p>
                 <input type="date" class="settings-button" id="start-date">
                 <p>to</p>
@@ -442,7 +449,7 @@
                 <i class="bi bi-pin-angle-fill"></i>
                 <h2>List</h2>
                 <input type="radio" class="settings-button" name="items" value="all-items" id="all-items" data-listrender>
-                <label for="all-items" class="settings-button">All&nbsp;Items</label>
+                <label for="all-items" class="settings-button">All&nbsp;items</label>
                 <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" data-listrender checked>
                 <label for="visible-items" class="settings-button">Visible&nbsp;items</label>
                 <input type="radio" class="settings-button" name="items" value="no-maps-items" id="no-maps-items" data-listrender>
