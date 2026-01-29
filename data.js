@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1768579200,
+  "timestamp": 1769592600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ASIA PALACE",
+    "addr": "1941 Pembina Highway Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1769385600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 26/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8206179,-97.1535285,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c05afc350d:0x3513f789587e8231",
+     "lat": 49.8206179,
+     "lon": -97.1535285
+    }
+   },
    {
     "name": "CHUCK’S ROADHOUSE BAR & GRILL 65 MB HWY 12 N",
     "addr": "Steinbach, MB",
