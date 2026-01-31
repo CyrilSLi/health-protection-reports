@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1769592600,
+  "timestamp": 1769790600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SUPER 8",
+    "addr": "1570 Highland Avenue Brandon, MB",
+    "type": "Swimming Pool",
+    "start": 1769644800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 29/26",
+     "Reason(s)": "Operate a pool with inadequate water quality. Fail to ensure that the combined chlorine level in the pool is not more than 1.5 mg/L."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8858218,-99.9596766,2570a,13.1y/data=!4m2!3m1!1s0x52e79798f8933fb3:0x73eb3cdafb781139",
+     "lat": 49.8858218,
+     "lon": -99.9596766
+    }
+   },
+   {
+    "name": "HAO HAO CHINESE RESTAURANT",
+    "addr": "1-1100 Waverley Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1769558400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jan 28/26",
+     "Reason(s)": "As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8363973,-97.1788395,2570a,13.1y/data=!4m2!3m1!1s0x52ea75ab69cb3fd7:0xb08c45ff3b5dd57",
+     "lat": 49.8363973,
+     "lon": -97.1788395
+    }
+   },
    {
     "name": "ASIA PALACE",
     "addr": "1941 Pembina Highway Winnipeg, MB",
@@ -35,6 +67,23 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.5379534,-96.6871631,2570a,13.1y/data=!4m2!3m1!1s0x52c035066273aecb:0x30e6940ed3766a0e",
      "lat": 49.5379534,
      "lon": -96.6871631
+    }
+   },
+   {
+    "name": "MCDONALD’S RESTAURANT",
+    "addr": "1475 Regent Avenue W Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1768435200,
+    "end": 1768435200,
+    "info": {
+     "Closure date": "Jan 15/26",
+     "Re-open date": "Jan 15/26",
+     "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8958177,-97.0489122,2570a,13.1y/data=!4m2!3m1!1s0x52ea70a85d3516f1:0x202396a6565d28e4",
+     "lat": 49.8958177,
+     "lon": -97.0489122
     }
    },
    {
@@ -76,9 +125,10 @@ window.healthData = {
     "addr": "Hecla/Grindstone Provincial Park Hecla, MB",
     "type": "Whirlpool",
     "start": 1767744000,
-    "end": 4294967295,
+    "end": 1769126400,
     "info": {
      "Closure date": "Jan 7/26",
+     "Re-open date": "Jan 23/26",
      "Reason(s)": "Operate a whirlpool and fail to ensure it is equipped with a working emergency shut-off switch as required."
     },
     "maps": {
@@ -4714,7 +4764,7 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1765555200,
+  "timestamp": 1769765400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
    {
@@ -4734,6 +4784,44 @@ window.healthData = {
      "lat": 49.5151396,
      "lon": -98.0022363
     }
+   },
+   {
+    "name": "SPICE CIRCLE",
+    "addr": "1-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757462400,
+    "end": 1762473600,
+    "info": {
+     "Offense date": "Sep 10/25",
+     "Conviction date": "Nov 7/25",
+     "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous food.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    },
+    "manual_entry": true
+   },
+   {
+    "name": "SPICE CIRCLE",
+    "addr": "1-2015 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1757462400,
+    "end": 1762473600,
+    "info": {
+     "Offense date": "Sep 10/25",
+     "Conviction date": "Nov 7/25",
+     "Reason(s)": "Operate a food handling establishment without a permit.",
+     "Penalty": "$672.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
+     "lat": 49.8781133,
+     "lon": -97.2291832
+    },
+    "manual_entry": true
    },
    {
     "name": "SPICE CIRCLE",
