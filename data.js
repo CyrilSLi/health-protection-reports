@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1769790600,
+  "timestamp": 1770048000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -41,9 +41,10 @@ window.healthData = {
     "addr": "1941 Pembina Highway Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1769385600,
-    "end": 4294967295,
+    "end": 1769644800,
     "info": {
      "Closure date": "Jan 26/26",
+     "Re-open date": "Jan 29/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
