@@ -4765,7 +4765,7 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1769765400,
+  "timestamp": 1770112800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
    {
@@ -4784,6 +4784,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.5151396,-98.0022363,2570a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
      "lat": 49.5151396,
      "lon": -98.0022363
+    }
+   },
+   {
+    "name": "COLONIAL INN",
+    "addr": "1944 Queens Avenue Brandon, MB",
+    "type": "Swimming Pool",
+    "start": 1765238400,
+    "end": 1766966400,
+    "info": {
+     "Offense date": "Dec 9/25",
+     "Conviction date": "Dec 29/25",
+     "Reason(s)": "Operate a pool with inadequate water recirculation or quality.",
+     "Penalty": "$672.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8290771,-99.9640362,2570a,13.1y/data=!4m2!3m1!1s0x52e79a070aa1c30f:0xbb79e2783ef99a71",
+     "lat": 49.8290771,
+     "lon": -99.9640362
     }
    },
    {
