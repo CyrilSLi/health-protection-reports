@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1770048000,
+  "timestamp": 1770285600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -25,9 +25,10 @@ window.healthData = {
     "addr": "1-1100 Waverley Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1769558400,
-    "end": 4294967295,
+    "end": 1770076800,
     "info": {
      "Closure date": "Jan 28/26",
+     "Re-open date": "Feb 3/26",
      "Reason(s)": "As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
