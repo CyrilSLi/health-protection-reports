@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1770285600,
+  "timestamp": 1770370200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "OCEAN KING RESTAURANT",
+    "addr": "1800 Main Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1770163200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Feb 4/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9376791,-97.1172221,2570a,13.1y/data=!4m2!3m1!1s0x52ea71b11a4a24a7:0x39106f19eb527fda",
+     "lat": 49.9376791,
+     "lon": -97.1172221
+    }
+   },
    {
     "name": "SUPER 8",
     "addr": "1570 Highland Avenue Brandon, MB",
