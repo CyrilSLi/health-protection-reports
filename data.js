@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1770370200,
+  "timestamp": 1770714000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "1800 Main Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1770163200,
-    "end": 4294967295,
+    "end": 1770595200,
     "info": {
      "Closure date": "Feb 4/26",
+     "Re-open date": "Feb 9/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
