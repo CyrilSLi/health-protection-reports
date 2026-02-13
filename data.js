@@ -4805,6 +4805,24 @@ window.healthData = {
     }
    },
    {
+    "name": "SHARPTAIL MOTOR INN 14 PTH 6N",
+    "addr": "Ashern, MB",
+    "type": "Food Service Establishment",
+    "start": 1766448000,
+    "end": 1769040000,
+    "info": {
+     "Offense date": "Dec 23/25",
+     "Conviction date": "Jan 22/26",
+     "Reason(s)": "As the operator of a food service or processing establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@51.1847,-98.349266,2570a,13.1y/data=!4m2!3m1!1s0x52f1bfdc408468d3:0x7eaa582512f113b5",
+     "lat": 51.1847,
+     "lon": -98.349266
+    }
+   },
+   {
     "name": "COLONIAL INN",
     "addr": "1944 Queens Avenue Brandon, MB",
     "type": "Swimming Pool",
@@ -5095,6 +5113,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8176312,-99.9610585,2570a,13.1y/data=!4m2!3m1!1s0x52e79a0b20b340c1:0xe61ce0e11a865b88",
      "lat": 49.8176312,
      "lon": -99.9610585
+    }
+   },
+   {
+    "name": "LUNDAR MOTOR HOTEL",
+    "addr": "101 Main Street Lundar, MB",
+    "type": "Food Service Establishment",
+    "start": 1747008000,
+    "end": 1768780800,
+    "info": {
+     "Offense date": "May 12/25",
+     "Conviction date": "Jan 19/26",
+     "Reason(s)": "As the operator of a food service or processing establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware.",
+     "Penalty": "$200.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.6957938,-98.0406371,2570a,13.1y/data=!4m2!3m1!1s0x52e967025b6f081f:0x80758d7bbcfb21ab",
+     "lat": 50.6957938,
+     "lon": -98.0406371
     }
    },
    {
