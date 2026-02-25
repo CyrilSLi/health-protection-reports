@@ -21,7 +21,7 @@ window.healthData = {
     }
    },
    {
-    "name": "LAKEVIEW HELCA RESORT – FAMILY HOT TUB",
+    "name": "LAKEVIEW HECLA RESORT – FAMILY HOT TUB",
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Whirlpool",
     "start": 1771286400,
@@ -37,7 +37,7 @@ window.healthData = {
     }
    },
    {
-    "name": "LAKEVIEW HELCA RESORT – MINERAL SPA POOL",
+    "name": "LAKEVIEW HECLA RESORT – MINERAL SPA POOL",
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Swimming Pool",
     "start": 1771286400,
@@ -53,7 +53,7 @@ window.healthData = {
     }
    },
    {
-    "name": "LAKEVIEW HELCA RESORT – SLIDE POOL",
+    "name": "LAKEVIEW HECLA RESORT – SLIDE POOL",
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Swimming Pool",
     "start": 1771286400,
@@ -69,7 +69,7 @@ window.healthData = {
     }
    },
    {
-    "name": "LAKEVIEW HELCA RESORT – SPA HOT TUB",
+    "name": "LAKEVIEW HECLA RESORT – SPA HOT TUB",
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Whirlpool",
     "start": 1771286400,
@@ -85,7 +85,7 @@ window.healthData = {
     }
    },
    {
-    "name": "LAKEVIEW HELCA RESORT – SPA POOL",
+    "name": "LAKEVIEW HECLA RESORT – SPA POOL",
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Swimming Pool",
     "start": 1771286400,
