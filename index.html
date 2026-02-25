@@ -73,7 +73,7 @@
             font-family: Arial, sans-serif;
             margin: 5px;
         }
-        b, h1, h2 {
+        b, h1, h2, h2 > * {
             font-weight: bold;
         }
         h1 {
@@ -372,6 +372,7 @@
             else:
                 raise ValueError ("Invalid list type " + list_type)
 
+            visible_count = 0 # Number of items visible in the list, may be smaller than len (visible) when a search filter is applied
             for j, (i, name) in items: # category name, e.g. "Closure"
                 item = html.P (Id = f"item{j}")
                 item.innerHTML = (f'<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>&nbsp; ' if "maps" in i else "") + "".join ((
@@ -392,8 +393,11 @@
                     item.innerHTML = '<i class="bi bi-geo-alt-fill"></i> ' + item.innerHTML
                 else:
                     item.style.cursor = "default"
+
                 document ["items"] <= item
+                visible_count += 1
             highlight_items ()
+            document ["visible-count"].textContent = str (visible_count)
 
         document ["search-items"].bind ("input", lambda *_: window.setTimeout (lambda: render (list_only = True), 0))
         document ["settings"].bind ("input", render)
@@ -447,7 +451,7 @@
             </div>
             <div>
                 <i class="bi bi-pin-angle-fill"></i>
-                <h2>List</h2>
+                <h2>List&nbsp;(<span id="visible-count">N/A</span>)</h2>
                 <input type="radio" class="settings-button" name="items" value="all-items" id="all-items" data-listrender>
                 <label for="all-items" class="settings-button">All&nbsp;items</label>
                 <input type="radio" class="settings-button" name="items" value="visible-items" id="visible-items" data-listrender checked>
