@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1771410600,
+  "timestamp": 1771925400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "GREAT WORLD RESTAURANT",
+    "addr": "1779 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1771286400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Feb 17/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8789843,-97.2118854,2570a,13.1y/data=!4m2!3m1!1s0x52ea7362565708df:0x5e484e9743a9e48e",
+     "lat": 49.8789843,
+     "lon": -97.2118854
+    }
+   },
    {
     "name": "LAKEVIEW HELCA RESORT – FAMILY HOT TUB",
     "addr": "MB-8 Gull Harbour, MB",
