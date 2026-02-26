@@ -1,9 +1,42 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1771925400,
+  "timestamp": 1772035200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "CLARION HOTEL & SUITES",
+    "addr": "3130 Victoria Avenue Brandon, MB",
+    "type": "Swimming Pool",
+    "start": 1771891200,
+    "end": 1771977600,
+    "info": {
+     "Closure date": "Feb 24/26",
+     "Re-open date": "Feb 25/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8412374,-99.9808026,2570a,13.1y/data=!4m2!3m1!1s0x52e799fa14e59fcb:0x686098af0608882e",
+     "lat": 49.8412374,
+     "lon": -99.9808026
+    }
+   },
+   {
+    "name": "CLARION HOTEL & SUITES",
+    "addr": "3130 Victoria Avenue Brandon, MB",
+    "type": "Whirlpool",
+    "start": 1771891200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Feb 24/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8412374,-99.9808026,2570a,13.1y/data=!4m2!3m1!1s0x52e799fa14e59fcb:0x686098af0608882e",
+     "lat": 49.8412374,
+     "lon": -99.9808026
+    }
+   },
    {
     "name": "GREAT WORLD RESTAURANT",
     "addr": "1779 Portage Avenue Winnipeg, MB",
