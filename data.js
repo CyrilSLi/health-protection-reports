@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1772035200,
+  "timestamp": 1772121600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -155,9 +155,10 @@ window.healthData = {
     "addr": "1570 Highland Avenue Brandon, MB",
     "type": "Swimming Pool",
     "start": 1769644800,
-    "end": 4294967295,
+    "end": 1771977600,
     "info": {
      "Closure date": "Jan 29/26",
+     "Re-open date": "Feb 25/26",
      "Reason(s)": "Operate a pool with inadequate water quality. Fail to ensure that the combined chlorine level in the pool is not more than 1.5 mg/L."
     },
     "maps": {
