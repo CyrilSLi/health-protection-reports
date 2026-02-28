@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1772121600,
+  "timestamp": 1772208000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -35,6 +35,22 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8412374,-99.9808026,2570a,13.1y/data=!4m2!3m1!1s0x52e799fa14e59fcb:0x686098af0608882e",
      "lat": 49.8412374,
      "lon": -99.9808026
+    }
+   },
+   {
+    "name": "RED CHILLI’S EAST INDIAN CUISINE",
+    "addr": "185 Main Street Selkirk, MB",
+    "type": "Food Service Establishment",
+    "start": 1771891200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Feb 24/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.134919,-96.8840914,2570a,13.1y/data=!4m2!3m1!1s0x52ea8b1c9f178e59:0x93feadc7a27eec15",
+     "lat": 50.134919,
+     "lon": -96.8840914
     }
    },
    {
