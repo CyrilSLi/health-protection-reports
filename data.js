@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1772208000,
+  "timestamp": 1772467200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -833,9 +833,10 @@ window.healthData = {
     "addr": "1438 Logan Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1758067200,
-    "end": 4294967295,
+    "end": 1772150400,
     "info": {
      "Closure date": "Sep 17/25",
+     "Re-open date": "Feb 27/26",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit. As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
