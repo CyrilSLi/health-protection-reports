@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1772467200,
+  "timestamp": 1772553600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -26,9 +26,10 @@ window.healthData = {
     "addr": "3130 Victoria Avenue Brandon, MB",
     "type": "Whirlpool",
     "start": 1771891200,
-    "end": 4294967295,
+    "end": 1772150400,
     "info": {
      "Closure date": "Feb 24/26",
+     "Re-open date": "Feb 27/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
