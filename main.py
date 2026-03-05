@@ -177,6 +177,10 @@ def default_ts (timestamp, kind):
 def main ():
     global data
     data = open_data ()
+    relpath = lambda path: os.path.join (os.path.dirname (os.path.abspath (__file__)), path)
+
+    with open (relpath ("replacements.json")) as f:
+        replacements = json.load (f)
 
     def open_file (file, title, append = False):
         global data
@@ -218,14 +222,27 @@ def main ():
                 return (True, 2) [only_manual] # Special case if only manual entries found
 
         prev_items = data [title].get ("items")
-        for i in new_items:
-            if json.dumps (i, sort_keys = True) in prev_hash: # Identical
+        for item in new_items:
+            for i in replacements:
+                key_list, last_key, nested_item = i ["key"], i ["key"] [-1], item
+                for nested_key in key_list [ : -1]:
+                    if nested_key in item and isinstance (item [nested_key], dict):
+                        nested_item = nested_item [nested_key]
+                    else:
+                        break
+                else:
+                    if isinstance (nested_item.get (last_key), str):
+                        for j in filter (lambda x: x ["old"] in nested_item [last_key], i ["replacements"]):
+                            nested_item [last_key] = nested_item [last_key].replace (j ["old"], j ["new"])
+                            print (f"Replaced {j ['old']} with {j ['new']} in {item ['name']}[\"{'"]["'.join (key_list)}\"]")
+
+            if json.dumps (item, sort_keys = True) in prev_hash: # Identical
                 continue
-            overwrite_res = overwrite (("name", "addr", "type", "start"), i, prev_items)
+            overwrite_res = overwrite (("name", "addr", "type", "start"), item, prev_items)
             if overwrite_res and overwrite_res != 2: # Not only manual entries
-                maps_url (i)
-                if overwrite (("name", "type", "maps", "start"), i, prev_items):
-                    add_item (prev_items, i) # New item
+                maps_url (item)
+                if overwrite (("name", "type", "maps", "start"), item, prev_items):
+                    add_item (prev_items, item) # New item
                     new_count += 1
         print (f"Added {new_count} new item(s) to {title} ({len (data [title] ['items'])} total)")
         save_data ()
@@ -266,7 +283,7 @@ def main ():
 
     script_tag = '<script src="data.js?v='
     save_data (False) # get hash
-    with open (os.path.join (os.path.dirname (os.path.abspath (__file__)), "index.html"), "r+") as f:
+    with open (relpath ("index.html"), "r+") as f:
         line = ""
         while script_tag not in line:
             pointer = f.tell ()

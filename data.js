@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1772553600,
+  "timestamp": 1772641800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -78,7 +78,7 @@ window.healthData = {
     "end": 4294967295,
     "info": {
      "Closure date": "Feb 17/26",
-     "Reason(s)": "Operate a pool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
+     "Reason(s)": "Operate a whirlpool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
@@ -91,9 +91,10 @@ window.healthData = {
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Swimming Pool",
     "start": 1771286400,
-    "end": 4294967295,
+    "end": 1772150400,
     "info": {
      "Closure date": "Feb 17/26",
+     "Re-open date": "Feb 27/26",
      "Reason(s)": "Operate a pool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
     },
     "maps": {
@@ -123,10 +124,11 @@ window.healthData = {
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Whirlpool",
     "start": 1771286400,
-    "end": 4294967295,
+    "end": 1772150400,
     "info": {
      "Closure date": "Feb 17/26",
-     "Reason(s)": "Operate a pool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
+     "Re-open date": "Feb 27/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@51.1862258,-96.6210708,2570a,13.1y/data=!4m2!3m1!1s0x52eca737554e7a77:0x91d3d89dc2802910",
@@ -139,9 +141,10 @@ window.healthData = {
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Swimming Pool",
     "start": 1771286400,
-    "end": 4294967295,
+    "end": 1772150400,
     "info": {
      "Closure date": "Feb 17/26",
+     "Re-open date": "Feb 27/26",
      "Reason(s)": "Operate a pool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
     },
     "maps": {

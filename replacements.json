@@ -1,0 +1,13 @@
+[
+    {
+        "key": [
+            "name"
+        ],
+        "replacements": [
+            {
+                "old": "LAKEVIEW HELCA",
+                "new": "LAKEVIEW HECLA"
+            }
+        ]
+    }
+]
