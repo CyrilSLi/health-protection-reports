@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1773244800,
+  "timestamp": 1773331200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -75,9 +75,10 @@ window.healthData = {
     "addr": "185 Main Street Selkirk, MB",
     "type": "Food Service Establishment",
     "start": 1771891200,
-    "end": 4294967295,
+    "end": 1772150400,
     "info": {
      "Closure date": "Feb 24/26",
+     "Re-open date": "Feb 27/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware."
     },
     "maps": {
@@ -107,9 +108,10 @@ window.healthData = {
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Whirlpool",
     "start": 1771286400,
-    "end": 4294967295,
+    "end": 1772755200,
     "info": {
      "Closure date": "Feb 17/26",
+     "Re-open date": "Mar 6/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality. As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
     },
     "maps": {
@@ -140,9 +142,10 @@ window.healthData = {
     "addr": "MB-8 Gull Harbour, MB",
     "type": "Swimming Pool",
     "start": 1771286400,
-    "end": 4294967295,
+    "end": 1772755200,
     "info": {
      "Closure date": "Feb 17/26",
+     "Re-open date": "Mar 6/26",
      "Reason(s)": "As an operator, fail to ensure disinfectant is added to the water in the pool automatically at all times the pool is in use"
     },
     "maps": {
