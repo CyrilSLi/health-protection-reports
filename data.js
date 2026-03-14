@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1773331200,
+  "timestamp": 1773408600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SEI SUSHI",
+    "addr": "2105 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1773273600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Mar 12/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8774987,-97.2341735,2570a,13.1y/data=!4m2!3m1!1s0x52ea73578f96382f:0xbf8ce1140d4af205",
+     "lat": 49.8774987,
+     "lon": -97.2341735
+    }
+   },
    {
     "name": "AMANTRAN",
     "addr": "1811 Portage Avenue Winnipeg, MB",
