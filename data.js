@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1773408600,
+  "timestamp": 1773669600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ROLLING RASOI",
+    "addr": "775 Panet Rd. Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1773360000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Mar 13/26",
+     "Reason(s)": "As an operator, operated a food handling establishment with poor general sanitation, namely, failing to provide an adequate supply of hot and cold potable water."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9060947,-97.0652919,2570a,13.1y/data=!4m2!3m1!1s0x52ea70bd825151c1:0x6309405845352911",
+     "lat": 49.9060947,
+     "lon": -97.0652919
+    }
+   },
    {
     "name": "SEI SUSHI",
     "addr": "2105 Portage Avenue Winnipeg, MB",
