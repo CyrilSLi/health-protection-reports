@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1773669600,
+  "timestamp": 1773844200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SUPA DILLIE-CIOUS MART",
+    "addr": "478 River Ave Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1773705600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Mar 17/26",
+     "Reason(s)": "Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8787263,-97.1468869,2570a,13.1y/data=!4m2!3m1!1s0x52ea753d4b83fe8d:0xc62ca2d40b25c26f",
+     "lat": 49.8787263,
+     "lon": -97.1468869
+    }
+   },
    {
     "name": "ROLLING RASOI",
     "addr": "775 Panet Rd. Winnipeg, MB",
