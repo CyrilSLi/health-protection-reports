@@ -41,9 +41,10 @@ window.healthData = {
     "addr": "2105 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773273600,
-    "end": 4294967295,
+    "end": 1773705600,
     "info": {
      "Closure date": "Mar 12/26",
+     "Re-open date": "Mar 17/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
