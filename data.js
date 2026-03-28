@@ -5,8 +5,24 @@ window.healthData = {
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
+    "name": "BARBEQUE HUT",
+    "addr": "435 Notre Dame Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1774569600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Mar 27/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8986857,-97.1498119,2570a,13.1y/data=!4m2!3m1!1s0x52ea73181f084567:0xcf667ab29c766048",
+     "lat": 49.8986857,
+     "lon": -97.1498119
+    }
+   },
+   {
     "name": "SUPA DILLIE-CIOUS MART",
-    "addr": "478 River Ave Winnipeg, MB",
+    "addr": "478 River Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773705600,
     "end": 4294967295,
@@ -22,12 +38,13 @@ window.healthData = {
    },
    {
     "name": "ROLLING RASOI",
-    "addr": "775 Panet Rd. Winnipeg, MB",
+    "addr": "775 Panet Road Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773360000,
-    "end": 4294967295,
+    "end": 1774310400,
     "info": {
      "Closure date": "Mar 13/26",
+     "Re-open date": "Mar 24/26",
      "Reason(s)": "As an operator, operated a food handling establishment with poor general sanitation, namely, failing to provide an adequate supply of hot and cold potable water."
     },
     "maps": {
