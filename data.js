@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1774972800,
+  "timestamp": 1775059200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "JULIA’S RESTAURANT & CATERING",
+    "addr": "30 Gimli Road Matlock, MB",
+    "type": "Food Service Establishment",
+    "start": 1775001600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Apr 1/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.4376271,-96.9551688,2570a,13.1y/data=!4m2!3m1!1s0x52eaffc04d94a229:0x864fc6a158548cb8",
+     "lat": 50.4376271,
+     "lon": -96.9551688
+    }
+   },
    {
     "name": "BARBEQUE HUT",
     "addr": "435 Notre Dame Avenue Winnipeg, MB",
