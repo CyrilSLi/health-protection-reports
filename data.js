@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1773844200,
+  "timestamp": 1774972800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "435 Notre Dame Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1774569600,
-    "end": 4294967295,
+    "end": 1774915200,
     "info": {
      "Closure date": "Mar 27/26",
+     "Re-open date": "Mar 31/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
