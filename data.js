@@ -5052,7 +5052,7 @@ window.healthData = {
  },
  "convictions": {
   "name": "Conviction",
-  "timestamp": 1770112800,
+  "timestamp": 1775730600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
    {
@@ -5074,6 +5074,24 @@ window.healthData = {
     }
    },
    {
+    "name": "STYLES KITCHEN AFRICAN RESTAURANT",
+    "addr": "403 13th Street Brandon, MB",
+    "type": "Temporary Food Service Establishment",
+    "start": 1770422400,
+    "end": 1772150400,
+    "info": {
+     "Offense date": "Feb 7/26",
+     "Conviction date": "Feb 27/26",
+     "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous food.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8476946,-99.9488855,2570a,13.1y/data=!4m2!3m1!1s0x52e797d21024158f:0x5d8f12a022a62e52",
+     "lat": 49.8476946,
+     "lon": -99.9488855
+    }
+   },
+   {
     "name": "SHARPTAIL MOTOR INN 14 PTH 6N",
     "addr": "Ashern, MB",
     "type": "Food Service Establishment",
@@ -5090,6 +5108,44 @@ window.healthData = {
      "lat": 51.1847,
      "lon": -98.349266
     }
+   },
+   {
+    "name": "CHEF DONG’S ARISTOCRAT",
+    "addr": "D-210 Tyndall Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1765411200,
+    "end": 1773878400,
+    "info": {
+     "Offense date": "Dec 11/25",
+     "Conviction date": "Mar 19/26",
+     "Reason(s)": "Failed to protect food in storage from exposure to contaminants or other substances, organism or matter that could render the food unfit for human consumption.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9349875,-97.1960264,2570a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
+     "lat": 49.9349875,
+     "lon": -97.1960264
+    },
+    "manual_entry": true
+   },
+   {
+    "name": "CHEF DONG’S ARISTOCRAT",
+    "addr": "D-210 Tyndall Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1765411200,
+    "end": 1773878400,
+    "info": {
+     "Offense date": "Dec 11/25",
+     "Conviction date": "Mar 19/26",
+     "Reason(s)": "Failed to take effective measures against the entry and presence of pests or rodents.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9349875,-97.1960264,2570a,13.1y/data=!4m2!3m1!1s0x52ea72435af00001:0xfaa9630794f4cd6c",
+     "lat": 49.9349875,
+     "lon": -97.1960264
+    },
+    "manual_entry": true
    },
    {
     "name": "COLONIAL INN",
@@ -5331,6 +5387,42 @@ window.healthData = {
     }
    },
    {
+    "name": "TIMO’S AFRICAN KITCHEN",
+    "addr": "818 Princess Street Brandon, MB",
+    "type": "Food Service Establishment",
+    "start": 1752883200,
+    "end": 1773619200,
+    "info": {
+     "Offense date": "Jul 19/25",
+     "Conviction date": "Mar 16/26",
+     "Reason(s)": "As the operator of a temporary food establishment, fail to maintain potentially hazardous food at a safe temperature.",
+     "Penalty": "$350.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.84655,-99.9493898,2570a,13.1y/data=!4m2!3m1!1s0x52e7974f2371a045:0xc7f69f4b296de981",
+     "lat": 49.84655,
+     "lon": -99.9493898
+    }
+   },
+   {
+    "name": "LOCKPORT INN",
+    "addr": "6970 Henderson Highway Lockport, MB",
+    "type": "Food Service Establishment",
+    "start": 1751846400,
+    "end": 1772064000,
+    "info": {
+     "Offense date": "Jul 7/25",
+     "Conviction date": "Feb 26/26",
+     "Reason(s)": "As the proprietor of a place, area or vehicle where smoking or e-cigarette is prohibited, fail to ensure that no person smokes or uses an e-cigarette in the place, area or vehicle.",
+     "Penalty": "$1,296.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.0845629,-96.9333431,2570a,13.1y/data=!4m2!3m1!1s0x52ea799009727e5f:0x9d899a4e4b1ecce",
+     "lat": 50.0845629,
+     "lon": -96.9333431
+    }
+   },
+   {
     "name": "QDOBA",
     "addr": "2-1830 Park Avenue Brandon, MB",
     "type": "Food Service Establishment",
@@ -5346,6 +5438,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8355865,-99.9630117,2570a,13.1y/data=!4m2!3m1!1s0x52e790aa95b48193:0xa2d810cebd833dd2",
      "lat": 49.8355865,
      "lon": -99.9630117
+    }
+   },
+   {
+    "name": "WOODFIRE DELI",
+    "addr": "39 Crescent Avenue W Souris, MB",
+    "type": "Food Service Establishment",
+    "start": 1750809600,
+    "end": 1771372800,
+    "info": {
+     "Offense date": "Jun 25/25",
+     "Conviction date": "Feb 18/26",
+     "Reason(s)": "Operate a food handling establishment with poor general sanitation, namely fail to maintain establishment in good repair and clean condition.",
+     "Penalty": "$298.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.6169292,-100.2602252,2570a,13.1y/data=!4m2!3m1!1s0x52e77c58446a0fb5:0x67f33fcf694908b6",
+     "lat": 49.6169292,
+     "lon": -100.2602252
     }
    },
    {
@@ -5365,6 +5475,44 @@ window.healthData = {
      "lat": 49.8237068,
      "lon": -99.9645914
     }
+   },
+   {
+    "name": "DAWAT TAKE OUT & CATERING",
+    "addr": "344 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1748476800,
+    "end": 1771286400,
+    "info": {
+     "Offense date": "May 29/25",
+     "Conviction date": "Feb 17/26",
+     "Reason(s)": "Failed to register before commencing operation of a food handling establishment.",
+     "Penalty": "$672.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.917469,-97.1954619,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
+     "lat": 49.917469,
+     "lon": -97.1954619
+    },
+    "manual_entry": true
+   },
+   {
+    "name": "DAWAT TAKE OUT & CATERING",
+    "addr": "344 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1748476800,
+    "end": 1771286400,
+    "info": {
+     "Offense date": "May 29/25",
+     "Conviction date": "Feb 17/26",
+     "Reason(s)": "Operated a food handling establishment without a permit.",
+     "Penalty": "$672.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.917469,-97.1954619,2570a,13.1y/data=!4m2!3m1!1s0x52ea73b28c3aa6eb:0x89733d701a7cb227",
+     "lat": 49.917469,
+     "lon": -97.1954619
+    },
+    "manual_entry": true
    },
    {
     "name": "LITTLE CHIEF’S PLACE",

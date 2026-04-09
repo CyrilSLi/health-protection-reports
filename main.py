@@ -218,8 +218,10 @@ def main ():
                 items.remove (dups [0])
                 add_item (items, item)
                 new_count += 1
+            elif only_manual: # Special case if only manual entries found
+                return 2
             else:
-                return (True, 2) [only_manual] # Special case if only manual entries found
+                return True
 
         prev_items = data [title].get ("items")
         for item in new_items:
