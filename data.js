@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1775059200,
+  "timestamp": 1775836800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "NEW CHINA KITCHEN RESTAURANT",
+    "addr": "446 St. Anne’s Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1775692800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Apr 9/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8451783,-97.0969856,2570a,13.1y/data=!4m2!3m1!1s0x52ea76f8320cc433:0x66c67e0f538d5689",
+     "lat": 49.8451783,
+     "lon": -97.0969856
+    }
+   },
    {
     "name": "JULIA’S RESTAURANT & CATERING",
     "addr": "30 Gimli Road Matlock, MB",
