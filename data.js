@@ -1,17 +1,34 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1775836800,
+  "timestamp": 1776348000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "INNK BLOTT TATTOO & PIERCING",
+    "addr": "B-1911 Richmond Avenue Brandon, MB",
+    "type": "Body Modification Establishment",
+    "start": 1775779200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Apr 10/26",
+     "Reason(s)": "As operator and person in charge of a body art establishment fail to comply with City of Brandon Body Art Bylaw and Manitoba Public Health Act for insanitary conditions, and evidence of health hazards."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8278165,-99.9643421,2570a,13.1y/data=!4m2!3m1!1s0x52e79a07c5afd287:0x20afad2aa278e594",
+     "lat": 49.8278165,
+     "lon": -99.9643421
+    }
+   },
    {
     "name": "NEW CHINA KITCHEN RESTAURANT",
     "addr": "446 St. Anne’s Road Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1775692800,
-    "end": 4294967295,
+    "end": 1776038400,
     "info": {
      "Closure date": "Apr 9/26",
+     "Re-open date": "Apr 13/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
