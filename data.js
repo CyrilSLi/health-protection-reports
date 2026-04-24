@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1776348000,
+  "timestamp": 1776960000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "EAT ON SAMOSA",
+    "addr": "460 St. Mary’s Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1776902400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Apr 23/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8693993,-97.1115101,2570a,13.1y/data=!4m2!3m1!1s0x52c1df64fe59bf37:0x30343a6182557646",
+     "lat": 49.8693993,
+     "lon": -97.1115101
+    }
+   },
+   {
+    "name": "EMERSON HOTEL RESTAURANT & BAR",
+    "addr": "133 Taylor Street Emerson, MB",
+    "type": "Food Service Establishment",
+    "start": 1776902400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Apr 23/26",
+     "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.0019989,-97.2152942,2570a,13.1y/data=!4m2!3m1!1s0x52c171005e45da53:0x34a8c7959dcd42f4",
+     "lat": 49.0019989,
+     "lon": -97.2152942
+    }
+   },
    {
     "name": "INNK BLOTT TATTOO & PIERCING",
     "addr": "B-1911 Richmond Avenue Brandon, MB",
