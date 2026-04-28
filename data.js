@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1776960000,
+  "timestamp": 1777305600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "460 St. Mary’s Road Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1776902400,
-    "end": 4294967295,
+    "end": 1777248000,
     "info": {
      "Closure date": "Apr 23/26",
+     "Re-open date": "Apr 27/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
