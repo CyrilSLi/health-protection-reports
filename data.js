@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1777305600,
+  "timestamp": 1777392000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "PURE FLOW H2O 240-5759 HWY 9",
+    "addr": "Lockport, MB",
+    "type": "Food Service Establishment",
+    "start": 1777334400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Apr 28/26",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.1070372,-96.9382949,2570a,13.1y/data=!4m2!3m1!1s0x52ea60512c4aac7f:0x1a342d8e997cfa8d",
+     "lat": 50.1070372,
+     "lon": -96.9382949
+    }
+   },
    {
     "name": "EAT ON SAMOSA",
     "addr": "460 St. Mary’s Road Winnipeg, MB",
