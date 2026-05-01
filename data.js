@@ -5956,7 +5956,7 @@ window.healthData = {
      "Penalty": "$25,000.00"
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.7593205,-97.2754218,2570a,13.1y/data=!4m2!3m1!1s0x52c1e1ae23dc9339:0xca44475389e60b0e",
+     "url": "https://www.google.com/maps/preview/place/@49.7593205,-97.2754218,2570a,13.1y/data=!4m2!3m1!1s0x52c1e10034e54def:0x474a793dc40349fb",
      "lat": 49.7593205,
      "lon": -97.2754218
     }
