@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1777392000,
+  "timestamp": 1777564800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -5340,6 +5340,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8781133,-97.2291832,2570a,13.1y/data=!4m2!3m1!1s0x52ea73575c818533:0x9ed12f170cdcb71",
      "lat": 49.8781133,
      "lon": -97.2291832
+    }
+   },
+   {
+    "name": "MARYMAR BAKERY INC.",
+    "addr": "1172 Sanford Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1756339200,
+    "end": 1775433600,
+    "info": {
+     "Offense date": "Aug 28/25",
+     "Conviction date": "Apr 6/26",
+     "Reason(s)": "As a worker in a food handling establishment, fail to maintain personal hygiene, namely store and consume personal food in production, packaging or storage areas.",
+     "Penalty": "$203.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9001961,-97.1937727,2570a,13.1y/data=!4m2!3m1!1s0x52ea7397f784559d:0x9bcc72888d9c2ada",
+     "lat": 49.9001961,
+     "lon": -97.1937727
     }
    },
    {
