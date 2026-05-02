@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1777564800,
+  "timestamp": 1777651200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "Lockport, MB",
     "type": "Food Service Establishment",
     "start": 1777334400,
-    "end": 4294967295,
+    "end": 1777507200,
     "info": {
      "Closure date": "Apr 28/26",
+     "Re-open date": "Apr 30/26",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment."
     },
     "maps": {
@@ -257,9 +258,10 @@ window.healthData = {
     "addr": "1779 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1771286400,
-    "end": 4294967295,
+    "end": 1777507200,
     "info": {
      "Closure date": "Feb 17/26",
+     "Re-open date": "Apr 30/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
