@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1777651200,
+  "timestamp": 1777996800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "DAN’S CAFÉ & LOUNGE",
+    "addr": "254 Edmonton Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1777939200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 5/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8913696,-97.1470836,2570a,13.1y/data=!4m2!3m1!1s0x52ea71624e5c56d7:0xe82a5707fe46ea91",
+     "lat": 49.8913696,
+     "lon": -97.1470836
+    }
+   },
    {
     "name": "PURE FLOW H2O 240-5759 HWY 9",
     "addr": "Lockport, MB",
