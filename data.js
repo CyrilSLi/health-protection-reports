@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1777996800,
+  "timestamp": 1778169600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -59,9 +59,10 @@ window.healthData = {
     "addr": "133 Taylor Street Emerson, MB",
     "type": "Food Service Establishment",
     "start": 1776902400,
-    "end": 4294967295,
+    "end": 1777334400,
     "info": {
      "Closure date": "Apr 23/26",
+     "Re-open date": "Apr 28/26",
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
     },
     "maps": {
