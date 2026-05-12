@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1778169600,
+  "timestamp": 1778515200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "HILTON SUITES WINNIPEG AIRPORT",
+    "addr": "1800 Wellington Avenue Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1778457600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 11/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9007265,-97.2089142,2570a,13.1y/data=!4m2!3m1!1s0x52ea730c6b163621:0x2bbe3f679a3b570f",
+     "lat": 49.9007265,
+     "lon": -97.2089142
+    }
+   },
+   {
+    "name": "HOLIDAY INN WINNIPEG AIRPORT POLO PARK",
+    "addr": "1740 Ellice Avenue Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1778457600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 11/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.893953,-97.2053483,2570a,13.1y/data=!4m2!3m1!1s0x52ea73746a2551a3:0x33a76b6ee8721d6e",
+     "lat": 49.893953,
+     "lon": -97.2053483
+    }
+   },
    {
     "name": "DAN’S CAFÉ & LOUNGE",
     "addr": "254 Edmonton Street Winnipeg, MB",
