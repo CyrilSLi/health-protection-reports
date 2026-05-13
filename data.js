@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1778515200,
+  "timestamp": 1778688000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "HAMPTON INN BY HILTON AIRPORT",
+    "addr": "730 Berry Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1778544000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 12/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8993135,-97.210608,2570a,13.1y/data=!4m2!3m1!1s0x52ea730ce874325b:0x28d0baba908355b1",
+     "lat": 49.8993135,
+     "lon": -97.210608
+    }
+   },
    {
     "name": "HILTON SUITES WINNIPEG AIRPORT",
     "addr": "1800 Wellington Avenue Winnipeg, MB",
@@ -25,15 +41,32 @@ window.healthData = {
     "addr": "1740 Ellice Avenue Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1778457600,
-    "end": 4294967295,
+    "end": 1778544000,
     "info": {
      "Closure date": "May 11/26",
+     "Re-open date": "May 12/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@49.893953,-97.2053483,2570a,13.1y/data=!4m2!3m1!1s0x52ea73746a2551a3:0x33a76b6ee8721d6e",
      "lat": 49.893953,
      "lon": -97.2053483
+    }
+   },
+   {
+    "name": "RAE & JERRY’S STEAKHOUSE",
+    "addr": "1405 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1778457600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 11/26",
+     "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to conduct proper remediation of establishment after backup of sewage system."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8829698,-97.1925483,2570a,13.1y/data=!4m2!3m1!1s0x52ea7381a2dc62ed:0xb88b2d71b85ac9d7",
+     "lat": 49.8829698,
+     "lon": -97.1925483
     }
    },
    {
