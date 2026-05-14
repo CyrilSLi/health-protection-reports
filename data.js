@@ -25,9 +25,10 @@ window.healthData = {
     "addr": "1800 Wellington Avenue Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1778457600,
-    "end": 4294967295,
+    "end": 1778630400,
     "info": {
      "Closure date": "May 11/26",
+     "Re-open date": "May 13/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
