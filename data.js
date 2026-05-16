@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1778688000,
+  "timestamp": 1778860800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -59,9 +59,10 @@ window.healthData = {
     "addr": "1405 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1778457600,
-    "end": 4294967295,
+    "end": 1778803200,
     "info": {
      "Closure date": "May 11/26",
+     "Re-open date": "May 15/26",
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to conduct proper remediation of establishment after backup of sewage system."
     },
     "maps": {
