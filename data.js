@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1778860800,
+  "timestamp": 1779206400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -176,9 +176,10 @@ window.healthData = {
     "addr": "30 Gimli Road Matlock, MB",
     "type": "Food Service Establishment",
     "start": 1775001600,
-    "end": 4294967295,
+    "end": 1776729600,
     "info": {
      "Closure date": "Apr 1/26",
+     "Re-open date": "Apr 21/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
