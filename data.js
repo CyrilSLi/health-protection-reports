@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779206400,
+  "timestamp": 1779292800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "730 Berry Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1778544000,
-    "end": 4294967295,
+    "end": 1779235200,
     "info": {
      "Closure date": "May 12/26",
+     "Re-open date": "May 20/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
@@ -76,9 +77,10 @@ window.healthData = {
     "addr": "254 Edmonton Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1777939200,
-    "end": 4294967295,
+    "end": 1779235200,
     "info": {
      "Closure date": "May 5/26",
+     "Re-open date": "May 20/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
