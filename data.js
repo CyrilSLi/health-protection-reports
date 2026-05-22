@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779292800,
+  "timestamp": 1779379200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "HILTON GARDEN INN",
+    "addr": "495 Sterling Lyon Parkway Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1779235200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 20/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8456656,-97.2095363,2570a,13.1y/data=!4m2!3m1!1s0x52ea74dc3326c53f:0x7b18dba72a38a565",
+     "lat": 49.8456656,
+     "lon": -97.2095363
+    }
+   },
    {
     "name": "HAMPTON INN BY HILTON AIRPORT",
     "addr": "730 Berry Street Winnipeg, MB",
