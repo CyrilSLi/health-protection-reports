@@ -1,17 +1,66 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779379200,
+  "timestamp": 1779465600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
-    "name": "HILTON GARDEN INN",
-    "addr": "495 Sterling Lyon Parkway Winnipeg, MB",
+    "name": "CANAD INNS DESTINATION CENTRE FORT GARRY",
+    "addr": "1824 Pembina Highway Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1779235200,
     "end": 4294967295,
     "info": {
      "Closure date": "May 20/26",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8241667,-97.1519444,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
+     "lat": 49.8241667,
+     "lon": -97.1519444
+    }
+   },
+   {
+    "name": "CANAD INNS DESTINATION CENTRE FORT GARRY",
+    "addr": "1824 Pembina Highway Winnipeg, MB",
+    "type": "Wading Pool",
+    "start": 1779235200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 20/26",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8241667,-97.1519444,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
+     "lat": 49.8241667,
+     "lon": -97.1519444
+    }
+   },
+   {
+    "name": "CANAD INNS DESTINATION CENTRE FORT GARRY",
+    "addr": "1824 Pembina Highway Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1779235200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 20/26",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8241667,-97.1519444,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6d15a500d:0x5d7ee73887c9bd50",
+     "lat": 49.8241667,
+     "lon": -97.1519444
+    }
+   },
+   {
+    "name": "HILTON GARDEN INN",
+    "addr": "495 Sterling Lyon Parkway Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1779235200,
+    "end": 1779408000,
+    "info": {
+     "Closure date": "May 20/26",
+     "Re-open date": "May 22/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
