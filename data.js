@@ -1,9 +1,26 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779465600,
+  "timestamp": 1779724800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "CHURCHILL PARK UNITED CHURCH",
+    "addr": "525 Beresford Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1779408000,
+    "end": 1779667200,
+    "info": {
+     "Closure date": "May 22/26",
+     "Re-open date": "May 25/26",
+     "Reason(s)": "As the operator of a food service establishment, fail, when using a mechanical washer, to ensure that the machine is capable of sanitizing all utensils and tableware. 3-compartment sink was not equipped for manual dishwashing."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8605258,-97.1346994,2570a,13.1y/data=!4m2!3m1!1s0x52ea769f4333693d:0xa1fe074b7d42209",
+     "lat": 49.8605258,
+     "lon": -97.1346994
+    }
+   },
    {
     "name": "CANAD INNS DESTINATION CENTRE FORT GARRY",
     "addr": "1824 Pembina Highway Winnipeg, MB",
