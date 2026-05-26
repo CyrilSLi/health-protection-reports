@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779724800,
+  "timestamp": 1779811200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "TUXEDO TOWERS",
+    "addr": "2C-1975 Corydon Avenue Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1779753600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 26/26",
+     "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8664358,-97.2092825,2570a,13.1y/data=!4m2!3m1!1s0x52ea7490aa267267:0x1222a290a589f50d",
+     "lat": 49.8664358,
+     "lon": -97.2092825
+    }
+   },
    {
     "name": "CHURCHILL PARK UNITED CHURCH",
     "addr": "525 Beresford Avenue Winnipeg, MB",
@@ -26,9 +42,10 @@ window.healthData = {
     "addr": "1824 Pembina Highway Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1779235200,
-    "end": 4294967295,
+    "end": 1779408000,
     "info": {
      "Closure date": "May 20/26",
+     "Re-open date": "May 22/26",
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
@@ -42,9 +59,10 @@ window.healthData = {
     "addr": "1824 Pembina Highway Winnipeg, MB",
     "type": "Wading Pool",
     "start": 1779235200,
-    "end": 4294967295,
+    "end": 1779408000,
     "info": {
      "Closure date": "May 20/26",
+     "Re-open date": "May 22/26",
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
@@ -58,9 +76,10 @@ window.healthData = {
     "addr": "1824 Pembina Highway Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1779235200,
-    "end": 4294967295,
+    "end": 1779408000,
     "info": {
      "Closure date": "May 20/26",
+     "Re-open date": "May 22/26",
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
