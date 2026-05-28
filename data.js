@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779811200,
+  "timestamp": 1779897600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "HAMPTON INN BY HILTON AIRPORT",
+    "addr": "730 Berry Street Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1779840000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 27/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8993135,-97.210608,2570a,13.1y/data=!4m2!3m1!1s0x52ea730ce874325b:0x28d0baba908355b1",
+     "lat": 49.8993135,
+     "lon": -97.210608
+    }
+   },
+   {
+    "name": "HAMPTON INN BY HILTON AIRPORT",
+    "addr": "730 Berry Street Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1779840000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 27/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8993135,-97.210608,2570a,13.1y/data=!4m2!3m1!1s0x52ea730ce874325b:0x28d0baba908355b1",
+     "lat": 49.8993135,
+     "lon": -97.210608
+    }
+   },
    {
     "name": "TUXEDO TOWERS",
     "addr": "2C-1975 Corydon Avenue Winnipeg, MB",
