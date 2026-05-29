@@ -1,5 +1,5 @@
 # Built-in modules
-import io, json, os, sys, time
+import io, json, os, re, sys, time
 from datetime import timezone as tz
 from hashlib import sha256
 from urllib.parse import quote_plus
@@ -234,9 +234,11 @@ def main ():
                         break
                 else:
                     if isinstance (nested_item.get (last_key), str):
-                        for j in filter (lambda x: x ["old"] in nested_item [last_key], i ["replacements"]):
-                            nested_item [last_key] = nested_item [last_key].replace (j ["old"], j ["new"])
-                            print (f"Replaced {j ['old']} with {j ['new']} in {item ['name']}[\"{'"]["'.join (key_list)}\"]")
+                        for j in i ["replacements"]:
+                            replaced = re.sub (j ["old"], j ["new"], nested_item [last_key])
+                            if replaced != nested_item [last_key]:
+                                nested_item [last_key] = replaced
+                                print (f"Replaced {j ['old']} with {j ['new']} in {item ['name']}[\"{'"]["'.join (key_list)}\"]")
 
             if json.dumps (item, sort_keys = True) in prev_hash: # Identical
                 continue
