@@ -1001,7 +1001,7 @@ window.healthData = {
     }
    },
    {
-    "name": "FOUR POINTS BY SHERA- TON WINNIPEG SOUTH",
+    "name": "FOUR POINTS BY SHERATON WINNIPEG SOUTH",
     "addr": "2935 Pembina Highway Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1762732800,
@@ -2077,7 +2077,7 @@ window.healthData = {
     }
    },
    {
-    "name": "CANAD INNS DESTINAT- ION CENTRE POLO PARK",
+    "name": "CANAD INNS DESTINATION CENTRE POLO PARK",
     "addr": "Wading Pool 1405 St. Mattews Avenue Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1747094400,
@@ -4031,7 +4031,7 @@ window.healthData = {
     }
    },
    {
-    "name": "METRO GRILL AT TRAVE- LODGE BY WYNDHAM",
+    "name": "METRO GRILL AT TRAVELODGE BY WYNDHAM",
     "addr": "1400 Notre Dame Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1720137600,
@@ -6018,7 +6018,7 @@ window.healthData = {
     }
    },
    {
-    "name": "SPRUCE WOODS INN REST- AURANT & BEVERAGE ROOM",
+    "name": "SPRUCE WOODS INN RESTAURANT & BEVERAGE ROOM",
     "addr": "426 Lyall Street Glenboro, MB",
     "type": "Food Service Establishment",
     "start": 1715904000,
