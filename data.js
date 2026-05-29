@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779897600,
+  "timestamp": 1779984000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "A & W CITY PLACE",
+    "addr": "54-333 St. Mary Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1779926400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 28/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.891171,-97.14303,2570a,13.1y/data=!4m2!3m1!1s0x52ea715760b586a3:0x2ef230079cac9a38",
+     "lat": 49.891171,
+     "lon": -97.14303
+    }
+   },
+   {
+    "name": "FOUR POINTS BY SHERATON WINNIPEG SOUTH",
+    "addr": "2935 Pembina Highway Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1779840000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 27/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.7866734,-97.158209,2570a,13.1y/data=!4m2!3m1!1s0x52c1df6f925b7509:0xb2df7c1e837634ff",
+     "lat": 49.7866734,
+     "lon": -97.158209
+    }
+   },
    {
     "name": "HAMPTON INN BY HILTON AIRPORT",
     "addr": "730 Berry Street Winnipeg, MB",
@@ -34,6 +66,23 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.8993135,-97.210608,2570a,13.1y/data=!4m2!3m1!1s0x52ea730ce874325b:0x28d0baba908355b1",
      "lat": 49.8993135,
      "lon": -97.210608
+    }
+   },
+   {
+    "name": "SUPER 8 WINNIPEG WEST",
+    "addr": "3760 Portage Avenue Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1779840000,
+    "end": 1779926400,
+    "info": {
+     "Closure date": "May 27/26",
+     "Re-open date": "May 28/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8810805,-97.3187602,2570a,13.1y/data=!4m2!3m1!1s0x52ea0c6dee7073b1:0x356f80d6cf3c2cd1",
+     "lat": 49.8810805,
+     "lon": -97.3187602
     }
    },
    {
@@ -6026,8 +6075,8 @@ window.healthData = {
     "info": {
      "Offense date": "May 17/24",
      "Conviction date": "Aug 20/25",
-     "Reason(s)": "As an operator of a food service establishment, fail to provide required sanitary facilities, namely obstructed hand washing sink.",
-     "Penalty": "$500.00"
+     "Reason(s)": "As an operator, handle food under insanitary conditions.",
+     "Penalty": "$400.00"
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@49.5612108,-99.2876133,2570a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
@@ -6045,8 +6094,8 @@ window.healthData = {
     "info": {
      "Offense date": "May 17/24",
      "Conviction date": "Aug 20/25",
-     "Reason(s)": "As an operator, handle food under insanitary conditions.",
-     "Penalty": "$400.00"
+     "Reason(s)": "As an operator of a food service establishment, fail to provide required sanitary facilities, namely obstructed hand washing sink.",
+     "Penalty": "$500.00"
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@49.5612108,-99.2876133,2570a,13.1y/data=!4m2!3m1!1s0x52dd5381004a58d1:0x3439fe1e0fe27a45",
