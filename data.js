@@ -1,17 +1,45 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1779984000,
+  "timestamp": 1780329600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "3MFISHBALL FOODTRUCK B",
+    "addr": "Mobile Food Unit Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1780099200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 30/26",
+     "Reason(s)": "As an operator, failed to provide a supply of running water under constant pressure at each plumbing fixture. No running water at all sinks and the hand-washing sink was obstructed. Fail to ensure food handler hand washing station is operational for hand washing."
+    }
+   },
+   {
+    "name": "VARIETY TASTE",
+    "addr": "613 Sargent Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1780012800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "May 29/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests and rodents. Did prepare food under insanitary conditions. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8966713,-97.1596121,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e66901ae21:0xbb56daa48ec7e0e5",
+     "lat": 49.8966713,
+     "lon": -97.1596121
+    }
+   },
    {
     "name": "A & W CITY PLACE",
     "addr": "54-333 St. Mary Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1779926400,
-    "end": 4294967295,
+    "end": 1780272000,
     "info": {
      "Closure date": "May 28/26",
+     "Re-open date": "Jun 1/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
@@ -41,9 +69,10 @@ window.healthData = {
     "addr": "730 Berry Street Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1779840000,
-    "end": 4294967295,
+    "end": 1780272000,
     "info": {
      "Closure date": "May 27/26",
+     "Re-open date": "Jun 1/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -57,9 +86,10 @@ window.healthData = {
     "addr": "730 Berry Street Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1779840000,
-    "end": 4294967295,
+    "end": 1780272000,
     "info": {
      "Closure date": "May 27/26",
+     "Re-open date": "Jun 1/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
