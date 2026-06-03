@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1780329600,
+  "timestamp": 1780480800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "Mobile Food Unit Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1780099200,
-    "end": 4294967295,
+    "end": 1780272000,
     "info": {
      "Closure date": "May 30/26",
+     "Re-open date": "Jun 1/26",
      "Reason(s)": "As an operator, failed to provide a supply of running water under constant pressure at each plumbing fixture. No running water at all sinks and the hand-washing sink was obstructed. Fail to ensure food handler hand washing station is operational for hand washing."
     }
    },
