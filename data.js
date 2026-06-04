@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1780480800,
+  "timestamp": 1780502400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "DAYS INN 75 PTH 12N",
+    "addr": "Steinbach, MB",
+    "type": "Swimming Pool",
+    "start": 1780358400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 2/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.5383091,-96.6872195,2570a,13.1y/data=!4m2!3m1!1s0x52c035a555a2feaf:0xafb47d1d4fe8f659",
+     "lat": 49.5383091,
+     "lon": -96.6872195
+    }
+   },
+   {
+    "name": "DAYS INN 75 PTH 12N",
+    "addr": "Steinbach, MB",
+    "type": "Whirlpool",
+    "start": 1780358400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 2/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.5383091,-96.6872195,2570a,13.1y/data=!4m2!3m1!1s0x52c035a555a2feaf:0xafb47d1d4fe8f659",
+     "lat": 49.5383091,
+     "lon": -96.6872195
+    }
+   },
    {
     "name": "3MFISHBALL FOODTRUCK B",
     "addr": "Mobile Food Unit Winnipeg, MB",
