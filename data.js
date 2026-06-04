@@ -1,17 +1,98 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1780502400,
+  "timestamp": 1780588800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ARMADALE HOLLOWS",
+    "addr": "1750 Pembina Highway Winnipeg, MB",
+    "type": "Semi-Public Whirlpool",
+    "start": 1780531200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 4/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8265043,-97.1512319,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
+     "lat": 49.8265043,
+     "lon": -97.1512319
+    }
+   },
+   {
+    "name": "KINGS RESTAURANT",
+    "addr": "455 Main Street St. Adolphe, MB",
+    "type": "Food Service Establishment",
+    "start": 1780531200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 4/26",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.6745172,-97.112428,2570a,13.1y/data=!4m2!3m1!1s0x52c1dc8bd6500d87:0xb59610dba5d26dfd",
+     "lat": 49.6745172,
+     "lon": -97.112428
+    }
+   },
+   {
+    "name": "HOLIDAY INN & SUITES DOWNTOWN",
+    "addr": "360 Colony Street Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1780444800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 3/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8912124,-97.1513822,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e32e95bd35:0x9da1b43d7634b190",
+     "lat": 49.8912124,
+     "lon": -97.1513822
+    }
+   },
+   {
+    "name": "HOLIDAY INN & SUITES DOWNTOWN",
+    "addr": "360 Colony Street Winnipeg, MB",
+    "type": "Whirlpool",
+    "start": 1780444800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 3/26",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8912124,-97.1513822,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e32e95bd35:0x9da1b43d7634b190",
+     "lat": 49.8912124,
+     "lon": -97.1513822
+    }
+   },
+   {
+    "name": "MR. CALZONE",
+    "addr": "1254 Pembina Highway Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1780444800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 3/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8431658,-97.1528704,2570a,13.1y/data=!4m2!3m1!1s0x52ea743395eaaaad:0x492dab4a413ace1c",
+     "lat": 49.8431658,
+     "lon": -97.1528704
+    }
+   },
    {
     "name": "DAYS INN 75 PTH 12N",
     "addr": "Steinbach, MB",
     "type": "Swimming Pool",
     "start": 1780358400,
-    "end": 4294967295,
+    "end": 1780531200,
     "info": {
      "Closure date": "Jun 2/26",
+     "Re-open date": "Jun 4/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -25,9 +106,10 @@ window.healthData = {
     "addr": "Steinbach, MB",
     "type": "Whirlpool",
     "start": 1780358400,
-    "end": 4294967295,
+    "end": 1780531200,
     "info": {
      "Closure date": "Jun 2/26",
+     "Re-open date": "Jun 4/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
@@ -86,9 +168,10 @@ window.healthData = {
     "addr": "2935 Pembina Highway Winnipeg, MB",
     "type": "Whirlpool",
     "start": 1779840000,
-    "end": 4294967295,
+    "end": 1780358400,
     "info": {
      "Closure date": "May 27/26",
+     "Re-open date": "Jun 2/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
@@ -978,8 +1061,8 @@ window.healthData = {
    },
    {
     "name": "COLONIAL INN",
-    "addr": "Semi-Public Whirlpool 1944 Queens Avenue Brandon, MB",
-    "type": "Whirlpool",
+    "addr": "1944 Queens Avenue Brandon, MB",
+    "type": "Semi-Public Whirlpool",
     "start": 1765238400,
     "end": 1765324800,
     "info": {
