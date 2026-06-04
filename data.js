@@ -4261,7 +4261,24 @@ window.healthData = {
    },
    {
     "name": "ARMADALE HOLLOWS",
-    "addr": "Semi-Public Seasonal 1750 Pembina Hwy Winnipeg, MB",
+    "addr": "1750 Pembina Hwy Winnipeg, MB",
+    "type": "Semi-Public Whirlpool",
+    "start": 1719446400,
+    "end": 1720051200,
+    "info": {
+     "Closure date": "Jun 27/24",
+     "Re-open date": "Jul 4/24",
+     "Reason(s)": "Operate a whirlpool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8265043,-97.1512319,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
+     "lat": 49.8265043,
+     "lon": -97.1512319
+    }
+   },
+   {
+    "name": "ARMADALE HOLLOWS",
+    "addr": "1750 Pembina Hwy Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1719446400,
     "end": 1720051200,
@@ -4271,26 +4288,9 @@ window.healthData = {
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.8264942,-97.150717,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
-     "lat": 49.8264942,
-     "lon": -97.150717
-    }
-   },
-   {
-    "name": "ARMADALE HOLLOWS",
-    "addr": "Semi-Public Whirlpool 1750 Pembina Hwy Winnipeg, MB",
-    "type": "Whirlpool",
-    "start": 1719446400,
-    "end": 1720051200,
-    "info": {
-     "Closure date": "Jun 27/24",
-     "Re-open date": "Jul 4/24",
-     "Reason(s)": "Operate a whirlpool with inadequate water quality."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.8264942,-97.150717,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
-     "lat": 49.8264942,
-     "lon": -97.150717
+     "url": "https://www.google.com/maps/preview/place/@49.8265043,-97.1512319,2570a,13.1y/data=!4m2!3m1!1s0x52ea75c6f5af3627:0x96f9e34614334919",
+     "lat": 49.8265043,
+     "lon": -97.1512319
     }
    },
    {
