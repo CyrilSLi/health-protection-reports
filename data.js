@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1780588800,
+  "timestamp": 1780675200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -21,13 +21,30 @@ window.healthData = {
     }
    },
    {
-    "name": "KINGS RESTAURANT",
-    "addr": "455 Main Street St. Adolphe, MB",
-    "type": "Food Service Establishment",
+    "name": "BEST WESTERN PLUS",
+    "addr": "50 Howden Avenue Neepawa, MB",
+    "type": "Swimming Pool",
     "start": 1780531200,
     "end": 4294967295,
     "info": {
      "Closure date": "Jun 4/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.2280332,-99.476904,2570a,13.1y/data=!4m2!3m1!1s0x52e7d5eb091f7db9:0x50501ef352f98c24",
+     "lat": 50.2280332,
+     "lon": -99.476904
+    }
+   },
+   {
+    "name": "KINGS RESTAURANT",
+    "addr": "455 Main Street St. Adolphe, MB",
+    "type": "Food Service Establishment",
+    "start": 1780531200,
+    "end": 1780617600,
+    "info": {
+     "Closure date": "Jun 4/26",
+     "Re-open date": "Jun 5/26",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
@@ -73,9 +90,10 @@ window.healthData = {
     "addr": "1254 Pembina Highway Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1780444800,
-    "end": 4294967295,
+    "end": 1780617600,
     "info": {
      "Closure date": "Jun 3/26",
+     "Re-open date": "Jun 5/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination."
     },
     "maps": {
@@ -135,9 +153,10 @@ window.healthData = {
     "addr": "613 Sargent Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1780012800,
-    "end": 4294967295,
+    "end": 1780531200,
     "info": {
      "Closure date": "May 29/26",
+     "Re-open date": "Jun 4/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of pests and rodents. Did prepare food under insanitary conditions. Cooling equipment is in disrepair and not able to maintain a safe internal temperature of potentially hazardous food."
     },
     "maps": {
