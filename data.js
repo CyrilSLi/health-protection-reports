@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1780675200,
+  "timestamp": 1780934400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -255,9 +255,10 @@ window.healthData = {
     "addr": "2C-1975 Corydon Avenue Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1779753600,
-    "end": 4294967295,
+    "end": 1780876800,
     "info": {
      "Closure date": "May 26/26",
+     "Re-open date": "Jun 8/26",
      "Reason(s)": "Fail to provide a readily accessible telephone, or such other means of contacting emergency assistance."
     },
     "maps": {
