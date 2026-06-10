@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1780934400,
+  "timestamp": 1781107200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -58,9 +58,10 @@ window.healthData = {
     "addr": "360 Colony Street Winnipeg, MB",
     "type": "Swimming Pool",
     "start": 1780444800,
-    "end": 4294967295,
+    "end": 1780963200,
     "info": {
      "Closure date": "Jun 3/26",
+     "Re-open date": "Jun 9/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
