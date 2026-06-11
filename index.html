@@ -105,6 +105,9 @@
             background-color: #e0e0e0;
             cursor: pointer;
         }
+        #items > p {
+            flex-grow: 1;
+        }
         #items > p > * {
             margin: 0px;
         }
@@ -156,12 +159,17 @@
     </noscript>
     <script type="text/python">
         from browser import document, html, window
+        old_direction = None
         def orientation (*_, switch = False):
+            global old_direction
             directions = (("column", "vertical"), ("row", "horizontal"))
             if switch:
                 config = directions [0 if document ["app"].style.flexDirection == "row" else 1]
             else:
                 config = directions [0 if window.innerWidth < window.innerHeight else 1]
+                if config [1] == old_direction:
+                    return
+                old_direction = config [1]
             document ["app"].style.flexDirection = config [0]
             for i in ("map", "settings"):
                 for j in ("width", "height"):
