@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1781107200,
+  "timestamp": 1781280000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "976-WEST KILDONAN",
+    "addr": "101 Ridgecrest Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1781136000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 11/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9544811,-97.0938469,2570a,13.1y/data=!4m2!3m1!1s0x52ea71b6ba35acef:0x3d157d67a246dde0",
+     "lat": 49.9544811,
+     "lon": -97.0938469
+    }
+   },
    {
     "name": "ARMADALE HOLLOWS",
     "addr": "1750 Pembina Highway Winnipeg, MB",
