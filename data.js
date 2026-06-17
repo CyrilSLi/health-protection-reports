@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1781280000,
+  "timestamp": 1781625600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "101 Ridgecrest Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1781136000,
-    "end": 4294967295,
+    "end": 1781222400,
     "info": {
      "Closure date": "Jun 11/26",
+     "Re-open date": "Jun 12/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions."
     },
     "maps": {
