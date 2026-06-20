@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1781625600,
+  "timestamp": 1781886600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -26,9 +26,10 @@ window.healthData = {
     "addr": "1750 Pembina Highway Winnipeg, MB",
     "type": "Semi-Public Whirlpool",
     "start": 1780531200,
-    "end": 4294967295,
+    "end": 1781222400,
     "info": {
      "Closure date": "Jun 4/26",
+     "Re-open date": "June 12/26",
      "Reason(s)": "Operate a whirlpool with inadequate water quality."
     },
     "maps": {
