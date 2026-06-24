@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1781886600,
+  "timestamp": 1782232200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -43,9 +43,10 @@ window.healthData = {
     "addr": "50 Howden Avenue Neepawa, MB",
     "type": "Swimming Pool",
     "start": 1780531200,
-    "end": 4294967295,
+    "end": 1782172800,
     "info": {
      "Closure date": "Jun 4/26",
+     "Re-open date": "Jun 23/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
