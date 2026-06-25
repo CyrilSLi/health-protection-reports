@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1782232200,
+  "timestamp": 1782379800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "BIMI JAPANESE RESTAURANT",
+    "addr": "1893 Grant Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1782259200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 24/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8579406,-97.2051938,2570a,13.1y/data=!4m2!3m1!1s0x52ea7492dab098bb:0x9f0c46f9ec6d6ee4",
+     "lat": 49.8579406,
+     "lon": -97.2051938
+    }
+   },
    {
     "name": "976-WEST KILDONAN",
     "addr": "101 Ridgecrest Avenue Winnipeg, MB",
