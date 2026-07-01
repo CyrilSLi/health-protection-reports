@@ -1,17 +1,34 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1782379800,
+  "timestamp": 1782837000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "FUSION WOK EXPRESS",
+    "addr": "899 Portage Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1782691200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 29/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8856563,-97.170085,2570a,13.1y/data=!4m2!3m1!1s0x52ea733120e5d935:0x83ba04bfa3f41e9c",
+     "lat": 49.8856563,
+     "lon": -97.170085
+    }
+   },
    {
     "name": "BIMI JAPANESE RESTAURANT",
     "addr": "1893 Grant Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1782259200,
-    "end": 4294967295,
+    "end": 1782691200,
     "info": {
      "Closure date": "Jun 24/26",
+     "Re-open date": "Jun 29/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
