@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1782837000,
+  "timestamp": 1783009800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SOUTHERN SPICES",
+    "addr": "754 St. Mary’s Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1782777600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jun 30/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.853915,-97.11229,2570a,13.1y/data=!4m2!3m1!1s0x52ea76ed324b58b7:0xaa9189f2fbe1a670",
+     "lat": 49.853915,
+     "lon": -97.11229
+    }
+   },
    {
     "name": "FUSION WOK EXPRESS",
     "addr": "899 Portage Avenue Winnipeg, MB",
