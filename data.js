@@ -1,17 +1,66 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1783009800,
+  "timestamp": 1783346400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "MULLIGANS RESTAURANT & LOUNGE",
+    "addr": "400-15th Street Winkler MB",
+    "type": "Food Service Establishment",
+    "start": 1783296000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 6/26",
+     "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.1824424,-97.9567903,2570a,13.1y/data=!4m2!3m1!1s0x52c249433addc8db:0x66ec06751f1f012e",
+     "lat": 49.1824424,
+     "lon": -97.9567903
+    }
+   },
+   {
+    "name": "TAMARACK SHACK AND TIPI",
+    "addr": "55050 Provincial Road 203 Box 173 Woodridge, MB,",
+    "type": "Food Service Establishment",
+    "start": 1783036800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 3/26",
+     "Reason(s)": "Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.2779844,-96.2076067,2570a,13.1y/data=!4m2!3m1!1s0x52c061454abb840f:0x5d73cc7ab21fa12f",
+     "lat": 49.2779844,
+     "lon": -96.2076067
+    }
+   },
+   {
+    "name": "TAMARACK SHACK AND TIPI",
+    "addr": "55050 Provincial Road 203 Box 173 Woodridge, MB,",
+    "type": "Swimming Pool",
+    "start": 1783036800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 3/26",
+     "Reason(s)": "Operate a swimming pool without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.2779844,-96.2076067,2570a,13.1y/data=!4m2!3m1!1s0x52c061454abb840f:0x5d73cc7ab21fa12f",
+     "lat": 49.2779844,
+     "lon": -96.2076067
+    }
+   },
    {
     "name": "SOUTHERN SPICES",
     "addr": "754 St. Mary’s Road Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1782777600,
-    "end": 4294967295,
+    "end": 1783296000,
     "info": {
      "Closure date": "Jun 30/26",
+     "Re-open date": "Jul 6/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
