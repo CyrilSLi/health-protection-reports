@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1783346400,
+  "timestamp": 1783503000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SUSHI GOZEN",
+    "addr": "24A-1225 St. Mary's Rd Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1783382400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 7/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8289793,-97.1116891,2570a,13.1y/data=!4m2!3m1!1s0x52ea7669a01f2f7b:0x123116cbdf6ef5a2",
+     "lat": 49.8289793,
+     "lon": -97.1116891
+    }
+   },
    {
     "name": "MULLIGANS RESTAURANT & LOUNGE",
     "addr": "400-15th Street Winkler MB",
