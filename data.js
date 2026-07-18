@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1783503000,
+  "timestamp": 1784367000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "RUBBER DUCKY RESORT & CAMPGROUND - WHIRLPOOL #1",
+    "addr": "1069 Road 76.5 Warren MB",
+    "type": "Whirlpool",
+    "start": 1784073600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul15/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.1314434,-97.4926898,2570a,13.1y/data=!4m2!3m1!1s0x52ea3d3e19f6f91d:0xf9b29b8dd79be470",
+     "lat": 50.1314434,
+     "lon": -97.4926898
+    }
+   },
+   {
+    "name": "RUBBER DUCKY RESORT WHIRLPOOL #2",
+    "addr": "1069 Road 76.5 Warren MB",
+    "type": "Whirlpool",
+    "start": 1784073600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 15/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.1314434,-97.4926898,2570a,13.1y/data=!4m2!3m1!1s0x52ea3d3e19f6f91d:0xf9b29b8dd79be470",
+     "lat": 50.1314434,
+     "lon": -97.4926898
+    }
+   },
    {
     "name": "SUSHI GOZEN",
     "addr": "24A-1225 St. Mary's Rd Winnipeg, MB",
