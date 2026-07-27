@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1784367000,
+  "timestamp": 1784890800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "BENGAL BITES BISTRO",
+    "addr": "H-230 Dalhousie Drive Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1784592000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 21/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.7964648,-97.1479144,2570a,13.1y/data=!4m2!3m1!1s0x52c1df007a9f316d:0x6c38253acde14253",
+     "lat": 49.7964648,
+     "lon": -97.1479144
+    }
+   },
    {
     "name": "RUBBER DUCKY RESORT & CAMPGROUND - WHIRLPOOL #1",
     "addr": "1069 Road 76.5 Warren MB",
@@ -37,14 +53,65 @@ window.healthData = {
     }
    },
    {
+    "name": "RUBBER DUCKY RESORT WHIRLPOOL 1 1069 RD 76.5",
+    "addr": "Warren, MB",
+    "type": "Whirlpool",
+    "start": 1784073600,
+    "end": 1784592000,
+    "info": {
+     "Closure date": "Jul 15/26",
+     "Re-open date": "Jul 21/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.1314434,-97.4926898,2570a,13.1y/data=!4m2!3m1!1s0x52ea3d3e19f6f91d:0xf9b29b8dd79be470",
+     "lat": 50.1314434,
+     "lon": -97.4926898
+    }
+   },
+   {
+    "name": "RUBBER DUCKY RESORT WHIRLPOOL 2 1069 RD 76.5",
+    "addr": "Warren, MB",
+    "type": "Whirlpool",
+    "start": 1784073600,
+    "end": 1784160000,
+    "info": {
+     "Closure date": "Jul 15/26",
+     "Re-open date": "Jul 16/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.1314434,-97.4926898,2570a,13.1y/data=!4m2!3m1!1s0x52ea3d3e19f6f91d:0xf9b29b8dd79be470",
+     "lat": 50.1314434,
+     "lon": -97.4926898
+    }
+   },
+   {
+    "name": "SPLASH REGIONAL AQUATIC CENTRE",
+    "addr": "940 James Avenue Beausejour, MB",
+    "type": "Whirlpool",
+    "start": 1784073600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 15/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@50.0538534,-96.5048016,2570a,13.1y/data=!4m2!3m1!1s0x52ea96452e24e55f:0x90ae698620acf9dc",
+     "lat": 50.0538534,
+     "lon": -96.5048016
+    }
+   },
+   {
     "name": "SUSHI GOZEN",
     "addr": "24A-1225 St. Mary's Rd Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1783382400,
-    "end": 4294967295,
+    "end": 1784160000,
     "info": {
      "Closure date": "Jul 7/26",
-     "Reason(s)": "As an operator, did prepare food under insanitary conditions. As an operator, fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+     "Re-open date": "Jul 16/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
      "url": "https://www.google.com/maps/preview/place/@49.8289793,-97.1116891,2570a,13.1y/data=!4m2!3m1!1s0x52ea7669a01f2f7b:0x123116cbdf6ef5a2",
@@ -66,6 +133,38 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@49.1824424,-97.9567903,2570a,13.1y/data=!4m2!3m1!1s0x52c249433addc8db:0x66ec06751f1f012e",
      "lat": 49.1824424,
      "lon": -97.9567903
+    }
+   },
+   {
+    "name": "TAMARACK SHACK & TIPI 55050 PR 203",
+    "addr": "Woodridge, MB",
+    "type": "Food Service Establishment",
+    "start": 1783036800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 3/26",
+     "Reason(s)": "Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.2779844,-96.2076067,2570a,13.1y/data=!4m2!3m1!1s0x52c061454abb840f:0x5d73cc7ab21fa12f",
+     "lat": 49.2779844,
+     "lon": -96.2076067
+    }
+   },
+   {
+    "name": "TAMARACK SHACK & TIPI 55050 PR 203",
+    "addr": "Woodridge, MB",
+    "type": "Swimming Pool",
+    "start": 1783036800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 3/26",
+     "Reason(s)": "Operate a swimming pool without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.2779844,-96.2076067,2570a,13.1y/data=!4m2!3m1!1s0x52c061454abb840f:0x5d73cc7ab21fa12f",
+     "lat": 49.2779844,
+     "lon": -96.2076067
     }
    },
    {
@@ -122,9 +221,10 @@ window.healthData = {
     "addr": "899 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1782691200,
-    "end": 4294967295,
+    "end": 1784505600,
     "info": {
      "Closure date": "Jun 29/26",
+     "Re-open date": "Jul 20/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -726,9 +826,10 @@ window.healthData = {
     "addr": "478 River Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773705600,
-    "end": 4294967295,
+    "end": 1783468800,
     "info": {
      "Closure date": "Mar 17/26",
+     "Re-open date": "Jul 8/26",
      "Reason(s)": "Operate a food handling establishment without a permit."
     },
     "maps": {

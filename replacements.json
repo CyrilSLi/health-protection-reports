@@ -11,6 +11,10 @@
             {
                 "old": "(?<=[a-zA-Z0-9])- (?=[a-zA-Z0-9])",
                 "new": ""
+            },
+            {
+                "old": "RUBBER DUCKY RESTORT",
+                "new": "RUBBER DUCKY RESORT"
             }
         ]
     }
