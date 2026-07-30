@@ -97,8 +97,13 @@
             opacity: 0;
             pointer-events: none;
         }
-        .settings-button, #items > p {
+        .settings-button {
             user-select: none;
+        }
+        #items {
+            outline: none;
+        }
+        .settings-button, #items > p {
             border: 2px solid black;
             padding: 5px 7px;
             border-radius: 5px;
@@ -110,6 +115,9 @@
         }
         #items > p > * {
             margin: 0px;
+        }
+        #items > p > span {
+            cursor: text;
         }
         #items > p.highlighted {
             background-color: #f0f090;
@@ -217,7 +225,10 @@
                     "className": f"health-icon {status}-icon",
                 })
 
-        Map = window.L.map ("map")
+        Map = window.L.map ("map", {
+            "fadeAnimation": False,
+            "markerZoomAnimation": False
+        })
         window.L.tileLayer ("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             "attribution": "&copy; <a href = 'https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
             "maxNativeZoom": 19,
@@ -254,6 +265,40 @@
             for el in (document.getElementById (i) for i in highlight_set):
                 if el:
                     el.classList.add ("highlighted")
+
+        def scroll_highlight (ev):
+            global highlight_set, visible
+            if not document.activeElement.id.startswith ("item"):
+                return
+            new_highlight = None
+            visible_ids = set (i [0] for i in visible)
+            min_id, max_id = min (visible_ids), max (visible_ids)
+
+            if ev.key == "ArrowDown":
+                new_highlight = int (document.activeElement.id.removeprefix ('item')) + 1
+                while (f"item{new_highlight}" in highlight_set or new_highlight not in visible_ids) and new_highlight <= max_id:
+                    new_highlight += 1
+            elif ev.key == "ArrowUp":
+                new_highlight = int (document.activeElement.id.removeprefix ('item')) - 1
+                while (f"item{new_highlight}" in highlight_set or new_highlight not in visible_ids) and new_highlight >= min_id:
+                    new_highlight -= 1
+            elif ev.key == "End":
+                new_highlight = max_id
+            elif ev.key == "Home":
+                new_highlight = min_id
+
+            new_el = document.getElementById (f"item{new_highlight}")
+            if new_el:
+                ev.preventDefault ()
+                ev.stopPropagation ()
+                new_el.scrollIntoView ({"block": "center", "inline": "center", "behavior": "instant"})
+                new_el.focus ()
+        document ["items"].bind ("keydown", scroll_highlight)
+
+        def tab_highlight (ev):
+            if ev.target.id.startswith ("item"):
+                ev.target.click ()
+        document ["items"].bind ("focus", tab_highlight, True)
 
         scroll_pos = [None, None] # [original position, list item position]
         def reset_scroll (*_):
@@ -383,11 +428,12 @@
             visible_count = 0 # Number of items visible in the list, may be smaller than len (visible) when a search filter is applied
             for j, (i, name) in items: # category name, e.g. "Closure"
                 item = html.P (Id = f"item{j}")
-                item.innerHTML = (f'<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>&nbsp; ' if "maps" in i else "") + "".join ((
+                item.tabIndex = 0
+                item.innerHTML = (f'<a href="{i ["maps"] ["url"]}" target="_blank">Maps</a>&nbsp; <span>' if "maps" in i else "<span>") + "".join ((
                     f'{name} - {i ["type"]}<br>',
                     f'{i ["name"]} {i ["addr"]}<br>',
                     ", ".join (f'{k}: {i ["info"] [k]}' for k in i ["info"])
-                ))
+                )) + "</span>"
                 if document ["search-items"].value and document ["search-items"].value.lower () not in item.textContent.lower ():
                     continue
                 if j in visible_ids:
