@@ -55,38 +55,6 @@ window.healthData = {
     }
    },
    {
-    "name": "RUBBER DUCKY RESORT & CAMPGROUND - WHIRLPOOL #1",
-    "addr": "1069 Road 76.5 Warren MB",
-    "type": "Whirlpool",
-    "start": 1784073600,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Jul15/26",
-     "Reason(s)": "Operate a pool with inadequate water quality."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@50.1314434,-97.4926898,2570a,13.1y/data=!4m2!3m1!1s0x52ea3d3e19f6f91d:0xf9b29b8dd79be470",
-     "lat": 50.1314434,
-     "lon": -97.4926898
-    }
-   },
-   {
-    "name": "RUBBER DUCKY RESORT WHIRLPOOL #2",
-    "addr": "1069 Road 76.5 Warren MB",
-    "type": "Whirlpool",
-    "start": 1784073600,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Jul 15/26",
-     "Reason(s)": "Operate a pool with inadequate water quality."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@50.1314434,-97.4926898,2570a,13.1y/data=!4m2!3m1!1s0x52ea3d3e19f6f91d:0xf9b29b8dd79be470",
-     "lat": 50.1314434,
-     "lon": -97.4926898
-    }
-   },
-   {
     "name": "RUBBER DUCKY RESORT WHIRLPOOL 1 1069 RD 76.5",
     "addr": "Warren, MB",
     "type": "Whirlpool",
@@ -190,38 +158,6 @@ window.healthData = {
    {
     "name": "TAMARACK SHACK & TIPI 55050 PR 203",
     "addr": "Woodridge, MB",
-    "type": "Swimming Pool",
-    "start": 1783036800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Jul 3/26",
-     "Reason(s)": "Operate a swimming pool without a permit."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.2779844,-96.2076067,2570a,13.1y/data=!4m2!3m1!1s0x52c061454abb840f:0x5d73cc7ab21fa12f",
-     "lat": 49.2779844,
-     "lon": -96.2076067
-    }
-   },
-   {
-    "name": "TAMARACK SHACK AND TIPI",
-    "addr": "55050 Provincial Road 203 Box 173 Woodridge, MB,",
-    "type": "Food Service Establishment",
-    "start": 1783036800,
-    "end": 4294967295,
-    "info": {
-     "Closure date": "Jul 3/26",
-     "Reason(s)": "Operate a food handling establishment without a permit."
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.2779844,-96.2076067,2570a,13.1y/data=!4m2!3m1!1s0x52c061454abb840f:0x5d73cc7ab21fa12f",
-     "lat": 49.2779844,
-     "lon": -96.2076067
-    }
-   },
-   {
-    "name": "TAMARACK SHACK AND TIPI",
-    "addr": "55050 Provincial Road 203 Box 173 Woodridge, MB,",
     "type": "Swimming Pool",
     "start": 1783036800,
     "end": 4294967295,
