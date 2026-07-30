@@ -1,17 +1,51 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1784890800,
+  "timestamp": 1785340800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "AURURA 2 CLUBHOUSE",
+    "addr": "145 Mira Gate Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1785110400,
+    "end": 1785196800,
+    "info": {
+     "Closure date": "Jul 27/26",
+     "Re-open date": "Jul 28/26",
+     "Reason(s)": "As an operator, fail to provide life saving equipment as required."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9642833,-97.1237001,2570a,13.1y/data=!4m2!3m1!1s0x52ea71d6259ac4e1:0x4220e9c740e49276",
+     "lat": 49.9642833,
+     "lon": -97.1237001
+    }
+   },
+   {
+    "name": "LOGAN EXPRESS",
+    "addr": "1440 Logan Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1784851200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Jul 24/26",
+     "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous foods. Fail to ensure potentially hazardous food is kept frozen."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.917776,-97.184066,2570a,13.1y/data=!4m2!3m1!1s0x52ea73de36fb0ce7:0x3ff5e60b9d387cf",
+     "lat": 49.917776,
+     "lon": -97.184066
+    }
+   },
    {
     "name": "BENGAL BITES BISTRO",
     "addr": "H-230 Dalhousie Drive Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1784592000,
-    "end": 4294967295,
+    "end": 1784678400,
     "info": {
      "Closure date": "Jul 21/26",
+     "Re-open date": "Jul 22/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents."
     },
     "maps": {
@@ -91,9 +125,10 @@ window.healthData = {
     "addr": "940 James Avenue Beausejour, MB",
     "type": "Whirlpool",
     "start": 1784073600,
-    "end": 4294967295,
+    "end": 1785196800,
     "info": {
      "Closure date": "Jul 15/26",
+     "Re-open date": "Jul 28/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -124,9 +159,10 @@ window.healthData = {
     "addr": "400-15th Street Winkler MB",
     "type": "Food Service Establishment",
     "start": 1783296000,
-    "end": 4294967295,
+    "end": 1783382400,
     "info": {
      "Closure date": "Jul 6/26",
+     "Re-open date": "Jul 7/26",
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes."
     },
     "maps": {
