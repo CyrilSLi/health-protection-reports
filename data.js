@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1785340800,
+  "timestamp": 1785511800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -849,9 +849,10 @@ window.healthData = {
     "addr": "1811 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773100800,
-    "end": 4294967295,
+    "end": 1785456000,
     "info": {
      "Closure date": "Mar 10/26",
+     "Re-open date": "Jul 31/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -865,9 +866,10 @@ window.healthData = {
     "addr": "1811 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773100800,
-    "end": 4294967295,
+    "end": 1785456000,
     "info": {
      "Closure date": "Mar 10/26",
+     "Re-open date": "Jul 31/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
