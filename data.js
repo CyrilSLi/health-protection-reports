@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1785511800,
+  "timestamp": 1786033800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -26,9 +26,10 @@ window.healthData = {
     "addr": "1440 Logan Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1784851200,
-    "end": 4294967295,
+    "end": 1785888000,
     "info": {
      "Closure date": "Jul 24/26",
+     "Re-open date": "Aug 5/26",
      "Reason(s)": "As an operator, fail to maintain safe internal temperature of potentially hazardous foods. Fail to ensure potentially hazardous food is kept frozen."
     },
     "maps": {
@@ -93,10 +94,9 @@ window.healthData = {
     "addr": "940 James Avenue Beausejour, MB",
     "type": "Whirlpool",
     "start": 1784073600,
-    "end": 1785196800,
+    "end": 4294967295,
     "info": {
      "Closure date": "Jul 15/26",
-     "Re-open date": "Jul 28/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -849,10 +849,9 @@ window.healthData = {
     "addr": "1811 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773100800,
-    "end": 1785456000,
+    "end": 4294967295,
     "info": {
      "Closure date": "Mar 10/26",
-     "Re-open date": "Jul 31/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -866,10 +865,9 @@ window.healthData = {
     "addr": "1811 Portage Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1773100800,
-    "end": 1785456000,
+    "end": 4294967295,
     "info": {
      "Closure date": "Mar 10/26",
-     "Re-open date": "Jul 31/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
