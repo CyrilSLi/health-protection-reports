@@ -21,7 +21,7 @@ def open_data ():
     try:
         with open ("data.js") as f:
             f.read (len (prefix))
-            return json.loads (f.read ())
+            return json.load (f)
     except FileNotFoundError:
         try:
             with open ("data.json") as f:
