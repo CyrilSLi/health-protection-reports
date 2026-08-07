@@ -94,9 +94,10 @@ window.healthData = {
     "addr": "940 James Avenue Beausejour, MB",
     "type": "Whirlpool",
     "start": 1784073600,
-    "end": 4294967295,
+    "end": 1785196800,
     "info": {
      "Closure date": "Jul 15/26",
+     "Re-open date": "Jul 28/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
