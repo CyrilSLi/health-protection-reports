@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1786033800,
+  "timestamp": 1786352400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "BOBA PAW",
+    "addr": "296 Madison Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1786060800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 7/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8838947,-97.2043398,2570a,13.1y/data=!4m2!3m1!1s0x52ea736730e40c97:0x333fd84cde18a1e3",
+     "lat": 49.8838947,
+     "lon": -97.2043398
+    }
+   },
    {
     "name": "AURURA 2 CLUBHOUSE",
     "addr": "145 Mira Gate Winnipeg, MB",
