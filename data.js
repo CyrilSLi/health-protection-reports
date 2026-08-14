@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1786352400,
+  "timestamp": 1786636800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "296 Madison Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1786060800,
-    "end": 4294967295,
+    "end": 1786579200,
     "info": {
      "Closure date": "Aug 7/26",
+     "Re-open date": "Aug 13/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
