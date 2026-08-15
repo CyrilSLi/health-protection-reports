@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1786636800,
+  "timestamp": 1786723200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SOUTHGATE PLAZA",
+    "addr": "50 Alpine Avenue Winnipeg, MB",
+    "type": "Swimming Pool",
+    "start": 1786665600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 14/26",
+     "Reason(s)": "Operate a pool where hazardous conditions exist and present risk of injury."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8567225,-97.0985294,2570a,13.1y/data=!4m2!3m1!1s0x52ea76e5b8ff714f:0xe25bba1b10eec7e9",
+     "lat": 49.8567225,
+     "lon": -97.0985294
+    }
+   },
+   {
+    "name": "BEDROCK FAMILY CAMPGROUND INC.",
+    "addr": "260 Rink Road Rennie, MB",
+    "type": "Swimming Pool",
+    "start": 1786579200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 13/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8645625,-95.5666875,2570a,13.1y/data=!4m2!3m1!1s0x52bfdfa3eaf51783:0xe7c7b0e0674fb4e2",
+     "lat": 49.8645625,
+     "lon": -95.5666875
+    }
+   },
    {
     "name": "BOBA PAW",
     "addr": "296 Madison Street Winnipeg, MB",
