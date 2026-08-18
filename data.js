@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1786723200,
+  "timestamp": 1787068800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "BISIKITCHEN & HADIORS RESTAURANT",
+    "addr": "720 Corydon Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1786924800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 17/26",
+     "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8709188,-97.152163,2570a,13.1y/data=!4m2!3m1!1s0x52ea75eb21c3fdef:0x124cc6e1427d56c2",
+     "lat": 49.8709188,
+     "lon": -97.152163
+    }
+   },
    {
     "name": "SOUTHGATE PLAZA",
     "addr": "50 Alpine Avenue Winnipeg, MB",
