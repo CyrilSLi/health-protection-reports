@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1787068800,
+  "timestamp": 1787155200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "720 Corydon Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1786924800,
-    "end": 4294967295,
+    "end": 1787097600,
     "info": {
      "Closure date": "Aug 17/26",
+     "Re-open date": "Aug 19/26",
      "Reason(s)": "Fail to ensure that the establishment is maintained in good repair and kept clean. Fail to ensure that an adequate supply of hot water at a temp of no less than 50°C is provided for cleaning purposes."
     },
     "maps": {
