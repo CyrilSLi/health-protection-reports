@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1787155200,
+  "timestamp": 1787563800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -42,9 +42,10 @@ window.healthData = {
     "addr": "260 Rink Road Rennie, MB",
     "type": "Swimming Pool",
     "start": 1786579200,
-    "end": 4294967295,
+    "end": 1787184000,
     "info": {
      "Closure date": "Aug 13/26",
+     "Re-open date": "Aug 20/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
