@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1787563800,
+  "timestamp": 1787846400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "JOY’S CONVENIENCE",
+    "addr": "248 River Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1787702400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 26/26",
+     "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8817274,-97.1380664,2570a,13.1y/data=!4m2!3m1!1s0x52ea715351bc2bd5:0x267c678dcad65a71",
+     "lat": 49.8817274,
+     "lon": -97.1380664
+    }
+   },
    {
     "name": "BISIKITCHEN & HADIORS RESTAURANT",
     "addr": "720 Corydon Avenue Winnipeg, MB",
