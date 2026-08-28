@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1787846400,
+  "timestamp": 1787932800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ROYAL CROWN RESTAURANT & SWEET HOUSE",
+    "addr": "1 Keewatin Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1787875200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Aug 28/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.9164301,-97.1945288,2570a,13.1y/data=!4m2!3m1!1s0x52ea73baf7e87ed7:0xb7f71b59b46f1897",
+     "lat": 49.9164301,
+     "lon": -97.1945288
+    }
+   },
    {
     "name": "JOY’S CONVENIENCE",
     "addr": "248 River Avenue Winnipeg, MB",
