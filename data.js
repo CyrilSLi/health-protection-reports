@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1787932800,
+  "timestamp": 1788969600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "1 Keewatin Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1787875200,
-    "end": 4294967295,
+    "end": 1788912000,
     "info": {
      "Closure date": "Aug 28/26",
+     "Re-open date": "Sep 9/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
