@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1788969600,
+  "timestamp": 1789117200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "ASIAN LOUNGE",
+    "addr": "4-145 Main Street Steinbach, MB",
+    "type": "Food Service Establishment",
+    "start": 1788998400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 10/26",
+     "Reason(s)": "As an operator, did prepare, handle and sell food under insanitary conditions."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.5298393,-96.6901425,2570a,13.1y/data=!4m2!3m1!1s0x52c035e8bfd54caf:0x90b89a2a85bc35b8",
+     "lat": 49.5298393,
+     "lon": -96.6901425
+    }
+   },
+   {
+    "name": "FORTUNE COOKING CHINESE RESTAURANT",
+    "addr": "C-1045 St. James Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1788998400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 10/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8949155,-97.1988995,2570a,13.1y/data=!4m2!3m1!1s0x52ea73f4ec5033ad:0x34c0f1fcf6d29e40",
+     "lat": 49.8949155,
+     "lon": -97.1988995
+    }
+   },
    {
     "name": "ROYAL CROWN RESTAURANT & SWEET HOUSE",
     "addr": "1 Keewatin Street Winnipeg, MB",
