@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1789117200,
+  "timestamp": 1789488000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "4-145 Main Street Steinbach, MB",
     "type": "Food Service Establishment",
     "start": 1788998400,
-    "end": 4294967295,
+    "end": 1789430400,
     "info": {
      "Closure date": "Sep 10/26",
+     "Re-open date": "Sep 15/26",
      "Reason(s)": "As an operator, did prepare, handle and sell food under insanitary conditions."
     },
     "maps": {
@@ -58,9 +59,10 @@ window.healthData = {
     "addr": "248 River Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1787702400,
-    "end": 4294967295,
+    "end": 1789084800,
     "info": {
      "Closure date": "Aug 26/26",
+     "Re-open date": "Sep 11/26",
      "Reason(s)": "Fail to register before commencing operation of a food handling establishment. Operate a food handling establishment without a permit."
     },
     "maps": {
