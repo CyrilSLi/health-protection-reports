@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1789488000,
+  "timestamp": 1789660800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SUSHI ACADEMY",
+    "addr": "545 Academy Road Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1789603200,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 17/26",
+     "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8745459,-97.1966675,2570a,13.1y/data=!4m2!3m1!1s0x52ea7480e5e63153:0x31daf87d6f613fdd",
+     "lat": 49.8745459,
+     "lon": -97.1966675
+    }
+   },
    {
     "name": "ASIAN LOUNGE",
     "addr": "4-145 Main Street Steinbach, MB",
