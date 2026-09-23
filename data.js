@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1789660800,
+  "timestamp": 1790092800,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "545 Academy Road Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1789603200,
-    "end": 4294967295,
+    "end": 1790035200,
     "info": {
      "Closure date": "Sep 17/26",
+     "Re-open date": "Sep 22/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of rodents. Fail to ensure foods are stored protected from contamination."
     },
     "maps": {
