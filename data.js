@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1790611200,
+  "timestamp": 1790847000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "FALCON TRAILS RESORT MERLIN WHIRLPOOL",
+    "addr": "100 Ridge Road Falcon Beach, MB",
+    "type": "Whirlpool",
+    "start": 1790553600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 28/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.7044071,-95.192987,2570a,13.1y/data=!4m2!3m1!1s0x52be32d0f2a20d01:0x4b2e4856b822c80",
+     "lat": 49.7044071,
+     "lon": -95.192987
+    }
+   },
+   {
+    "name": "FALCON TRAILS RESORT WHITE PINE WHIRLPOOL",
+    "addr": "100 Ridge Road Falcon Beach, MB",
+    "type": "Whirlpool",
+    "start": 1790553600,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Sep 28/26",
+     "Reason(s)": "Operate a pool with inadequate water quality."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.7044071,-95.192987,2570a,13.1y/data=!4m2!3m1!1s0x52be32d0f2a20d01:0x4b2e4856b822c80",
+     "lat": 49.7044071,
+     "lon": -95.192987
+    }
+   },
    {
     "name": "FALCON TRAILS RESORT OWL WING WHIRLPOOL",
     "addr": "100 Ridge Road Falcon Beach, MB",
