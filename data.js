@@ -1,9 +1,25 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1790847000,
+  "timestamp": 1791970200,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "SOUS SOL",
+    "addr": "22-222 Osborne Street Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1791504000,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 9/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. As an operator, did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.875739,-97.1423497,2570a,13.1y/data=!4m2!3m1!1s0x52ea76a9f3ea4b59:0x9751f5779d8ac4d6",
+     "lat": 49.875739,
+     "lon": -97.1423497
+    }
+   },
    {
     "name": "FALCON TRAILS RESORT MERLIN WHIRLPOOL",
     "addr": "100 Ridge Road Falcon Beach, MB",
