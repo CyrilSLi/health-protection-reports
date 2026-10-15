@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1791970200,
+  "timestamp": 1791993600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "22-222 Osborne Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1791504000,
-    "end": 4294967295,
+    "end": 1791849600,
     "info": {
      "Closure date": "Oct 9/26",
+     "Re-open date": "Oct 13/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
@@ -41,9 +42,10 @@ window.healthData = {
     "addr": "100 Ridge Road Falcon Beach, MB",
     "type": "Whirlpool",
     "start": 1790553600,
-    "end": 4294967295,
+    "end": 1791417600,
     "info": {
      "Closure date": "Sep 28/26",
+     "Re-open date": "Oct 8/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -57,9 +59,10 @@ window.healthData = {
     "addr": "100 Ridge Road Falcon Beach, MB",
     "type": "Whirlpool",
     "start": 1790553600,
-    "end": 4294967295,
+    "end": 1791417600,
     "info": {
      "Closure date": "Sep 28/26",
+     "Re-open date": "Oct 8/26",
      "Reason(s)": "Operate a pool with inadequate water quality."
     },
     "maps": {
@@ -73,9 +76,10 @@ window.healthData = {
     "addr": "100 Ridge Road Falcon Beach, MB",
     "type": "Whirlpool",
     "start": 1790294400,
-    "end": 4294967295,
+    "end": 1791417600,
     "info": {
      "Closure date": "Sep 25/26",
+     "Re-open date": "Oct 8/26",
      "Reason(s)": "Operate a pool with inadequate water recirculation or quality."
     },
     "maps": {
@@ -6080,24 +6084,6 @@ window.healthData = {
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/convictions.pdf",
   "items": [
    {
-    "name": "ALL NATURAL MEATS",
-    "addr": "192 Main Street Carman, MB",
-    "type": "Food Service Establishment",
-    "start": 1866672000,
-    "end": 1753315200,
-    "info": {
-     "Offense date": "Feb 29/25",
-     "Conviction date": "Jul 24/25",
-     "Reason(s)": "As an operator fail to take effective measures against the entry of pests.",
-     "Penalty": "$486.00"
-    },
-    "maps": {
-     "url": "https://www.google.com/maps/preview/place/@49.5151396,-98.0022363,2570a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
-     "lat": 49.5151396,
-     "lon": -98.0022363
-    }
-   },
-   {
     "name": "STYLES KITCHEN AFRICAN RESTAURANT",
     "addr": "403 13th Street Brandon, MB",
     "type": "Temporary Food Service Establishment",
@@ -6590,6 +6576,24 @@ window.healthData = {
      "url": "https://www.google.com/maps/preview/place/@50.6957938,-98.0406371,2570a,13.1y/data=!4m2!3m1!1s0x52e967025b6f081f:0x80758d7bbcfb21ab",
      "lat": 50.6957938,
      "lon": -98.0406371
+    }
+   },
+   {
+    "name": "ALL NATURAL MEATS",
+    "addr": "192 Main Street Carman, MB",
+    "type": "Food Service Establishment",
+    "start": 1740787200,
+    "end": 1753315200,
+    "info": {
+     "Offense date": "Feb 29/25",
+     "Conviction date": "Jul 24/25",
+     "Reason(s)": "As an operator fail to take effective measures against the entry of pests.",
+     "Penalty": "$486.00"
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.5151396,-98.0022363,2570a,13.1y/data=!4m2!3m1!1s0x52c26ceb6340b2c1:0x54fd88c2232d8f11",
+     "lat": 49.5151396,
+     "lon": -98.0022363
     }
    },
    {
