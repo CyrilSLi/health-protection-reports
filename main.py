@@ -240,6 +240,14 @@ def main ():
                                 nested_item [last_key] = replaced
                                 print (f"Replaced {j ['old']} with {j ['new']} in {item ['name']}[\"{'"]["'.join (key_list)}\"]")
 
+                                # Update maps URL or timestamps if necessary
+                                if last_key == "addr":
+                                    maps_url (item)
+                                elif last_key in ("Closure date", "Offense date"):
+                                    item ["start"] = default_ts (nested_item [last_key], "start")
+                                elif last_key in ("Re-open date", "Conviction date"):
+                                    item ["end"] = default_ts (nested_item [last_key], "end")
+
             if json.dumps (item, sort_keys = True) in prev_hash: # Identical
                 continue
             overwrite_res = overwrite (("name", "addr", "type", "start"), item, prev_items)

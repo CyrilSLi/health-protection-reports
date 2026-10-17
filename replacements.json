@@ -17,5 +17,17 @@
                 "new": "RUBBER DUCKY RESORT"
             }
         ]
+    },
+    {
+        "key": [
+            "info",
+            "Offense date"
+        ],
+        "replacements": [
+            {
+                "old": "Feb 29/25",
+                "new": "Mar 1/25"
+            }
+        ]
     }
 ]

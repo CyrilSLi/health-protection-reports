@@ -1,9 +1,41 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1791993600,
+  "timestamp": 1792166400,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
+   {
+    "name": "VARIETY TASTE",
+    "addr": "613 Sargent Avenue Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1792108800,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 16/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8966713,-97.1596121,2570a,13.1y/data=!4m2!3m1!1s0x52ea73e66901ae21:0xbb56daa48ec7e0e5",
+     "lat": 49.8966713,
+     "lon": -97.1596121
+    }
+   },
+   {
+    "name": "CAKE LAB",
+    "addr": "Z021A-1485 Portage Ave Winnipeg, MB",
+    "type": "Food Service Establishment",
+    "start": 1792022400,
+    "end": 4294967295,
+    "info": {
+     "Closure date": "Oct 15/26",
+     "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
+    },
+    "maps": {
+     "url": "https://www.google.com/maps/preview/place/@49.8830425,-97.1991409,2570a,13.1y/data=!4m2!3m1!1s0x52ea73278a5b00a9:0xa4efbc41a33c453f",
+     "lat": 49.8830425,
+     "lon": -97.1991409
+    }
+   },
    {
     "name": "SOUS SOL",
     "addr": "22-222 Osborne Street Winnipeg, MB",
@@ -6585,7 +6617,7 @@ window.healthData = {
     "start": 1740787200,
     "end": 1753315200,
     "info": {
-     "Offense date": "Feb 29/25",
+     "Offense date": "Mar 1/25",
      "Conviction date": "Jul 24/25",
      "Reason(s)": "As an operator fail to take effective measures against the entry of pests.",
      "Penalty": "$486.00"
