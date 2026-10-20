@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1792166400,
+  "timestamp": 1792569600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -25,9 +25,10 @@ window.healthData = {
     "addr": "Z021A-1485 Portage Ave Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1792022400,
-    "end": 4294967295,
+    "end": 1792368000,
     "info": {
      "Closure date": "Oct 15/26",
+     "Re-open date": "Oct 19/26",
      "Reason(s)": "Fail to ensure that an adequate supply of hot water at a temperature of no less than 50°C is provided for cleaning purposes."
     },
     "maps": {
