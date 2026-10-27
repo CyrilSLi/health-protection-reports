@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1792569600,
+  "timestamp": 1793088000,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -194,9 +194,10 @@ window.healthData = {
     "addr": "C-1045 St. James Street Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1788998400,
-    "end": 4294967295,
+    "end": 1792713600,
     "info": {
      "Closure date": "Sep 10/26",
+     "Re-open date": "Oct 23/26",
      "Reason(s)": "As an operator, did prepare food under insanitary conditions. Fail to take effective measures against the entry and presence of pests. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
