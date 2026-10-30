@@ -1,7 +1,7 @@
 window.healthData = {
  "closures": {
   "name": "Closure",
-  "timestamp": 1793088000,
+  "timestamp": 1793352600,
   "url": "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   "items": [
    {
@@ -9,9 +9,10 @@ window.healthData = {
     "addr": "613 Sargent Avenue Winnipeg, MB",
     "type": "Food Service Establishment",
     "start": 1792108800,
-    "end": 4294967295,
+    "end": 1793232000,
     "info": {
      "Closure date": "Oct 16/26",
+     "Re-open date": "Oct 29/26",
      "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure food contact surfaces are clean and sanitized and protected from contamination. Fail to ensure foods are stored protected from contamination. Fail to ensure that the establishment is maintained in good repair and kept clean."
     },
     "maps": {
