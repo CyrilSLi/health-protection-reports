@@ -2,3 +2,4 @@ dateparser
 pdfplumber
 requests
 selenium
+demjson3

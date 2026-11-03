@@ -6,7 +6,7 @@ from urllib.parse import quote_plus
 
 # Third-party modules
 from dateparser import parse as date_parse
-import pdfplumber
+import demjson3, pdfplumber
 import requests as r
 
 try:
@@ -20,8 +20,8 @@ def open_data ():
     prefix = "window.healthData = "
     try:
         with open ("data.js") as f:
-            f.read (len (prefix))
-            return json.load (f)
+            f.seek (len (prefix))
+            return demjson3.decode(f.read ()) # Add quotes to single-word keys (JS object minification)
     except FileNotFoundError:
         try:
             with open ("data.json") as f:
