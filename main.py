@@ -43,6 +43,7 @@ def save_data (write = True):
     for i in data.values ():
         i ["items"].sort (key = lambda x: (0 - x ["start"], x ["name"], x ["type"], json.dumps (x ["info"], sort_keys = True)))
     dump = json.dumps (data, indent = 1, ensure_ascii = False)
+    dump = re.sub(r'"(\w+)":', r"\1:", dump) # Remove quotes from single-word keys (JS object minification)
     if write:
         with open ("data.js", "w") as f:
             f.write ("window.healthData = ")
