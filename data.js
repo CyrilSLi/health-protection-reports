@@ -1,9 +1,25 @@
 window.healthData = {
  closures: {
   name: "Closure",
-  timestamp: 1793352600,
+  timestamp: 1793808000,
   url: "https://www.gov.mb.ca/health/publichealth/environmentalhealth/protection/docs/hpr/closures.pdf",
   items: [
+   {
+    name: "CHICKEN DELIGHT",
+    addr: "1349 Pembina Highway Winnipeg, MB",
+    type: "Food Service Establishment",
+    start: 1793750400,
+    end: 4294967295,
+    info: {
+     "Closure date": "Nov 4/26",
+     "Reason(s)": "As an operator, fail to take effective measures against the entry and presence of rodents. Did prepare food under insanitary conditions. Fail to ensure foods are stored protected from contamination."
+    },
+    maps: {
+     url: "https://www.google.com/maps/preview/place/@49.8396819,-97.1528168,2570a,13.1y/data=!4m2!3m1!1s0x52ea74334ea28591:0x174f44ada51b5e3b",
+     lat: 49.8396819,
+     lon: -97.1528168
+    }
+   },
    {
     name: "VARIETY TASTE",
     addr: "613 Sargent Avenue Winnipeg, MB",
